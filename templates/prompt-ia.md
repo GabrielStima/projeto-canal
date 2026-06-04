@@ -5,7 +5,6 @@ Use este template como base para criar prompts de revisão, prática e aprofunda
 ~~~markdown
 ## Prompt Para Estudar Com IA
 
-```text
 Estou estudando [ASSUNTO] em uma trilha de desenvolvimento fullstack JavaScript/TypeScript.
 
 Meu objetivo é entender o conceito, praticar e revisar sem receber respostas prontas cedo demais.
@@ -29,5 +28,4 @@ Regras:
 - Corrija minhas respostas com explicações.
 - Se eu errar, dê uma dica antes de revelar a solução.
 - Ao final, sugira o próximo assunto que devo estudar.
-```
 ~~~

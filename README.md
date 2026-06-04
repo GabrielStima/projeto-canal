@@ -1,4 +1,4 @@
-# Projeto Aulas
+# Projeto Canal
 
 Uma formação aberta, em português, para estudar desenvolvimento fullstack JavaScript/TypeScript do zero até tópicos avançados de engenharia de software.
 
