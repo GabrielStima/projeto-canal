@@ -10,10 +10,9 @@ Estou estudando [ASSUNTO] em uma trilha de desenvolvimento fullstack JavaScript/
 Meu objetivo é entender o conceito, praticar e revisar sem receber respostas prontas cedo demais.
 
 Contexto da aula:
-- Módulo: [NOME DO MÓDULO]
-- Aula: [NOME DA AULA]
-- Nível: [INICIANTE | INTERMEDIÁRIO | AVANÇADO]
-- Pré-requisitos: [LISTA DE PRÉ-REQUISITOS]
+- Descrição da aula: [PARAGRAFO CURTO EXPLICANDO O CONTEXTO DA AULA]
+- Descrição do modulo: [PARAGRAFO CURTO EXPLICANDO O CONTEXTO DO MODULO]
+- Itens já estudados: [CITAR CONTEUDOS JÁ ESTUDADOS]
 
 Crie uma sessão de estudo com:
 1. uma explicação curta do conceito;
