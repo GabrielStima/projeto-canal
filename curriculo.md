@@ -313,7 +313,6 @@ Assuntos:
 - SQL injection
 - Rate limiting
 - Segurança em APIs
-- Segurança em containers
 
 ### 13. Qualidade, Testes, Observabilidade e Performance
 
@@ -456,7 +455,7 @@ Assuntos:
 - Running containers
 - Docker CLI
 - Networking
-- Container security
+- Segurança em containers
 - Kubernetes
 - Configurando Kubernetes
 - Rodando aplicações
