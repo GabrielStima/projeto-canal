@@ -1,6 +1,6 @@
 # Currículo
 
-Este currículo organiza o mega curso em uma sequência única, indo do absoluto zero até tópicos avançados de desenvolvimento fullstack, arquitetura, infraestrutura e system design.
+Este currículo organiza o mega curso em uma sequência única, indo do absoluto zero até tópicos avançados de desenvolvimento fullstack, arquitetura, infraestrutura, system design e IA para desenvolvedores.
 
 A organização abaixo é uma matriz macro. Cada módulo tem uma pasta própria no repositório e poderá receber aulas, exercícios e prompts de estudo conforme o curso avançar.
 
@@ -154,7 +154,19 @@ Assuntos:
 - Documentação mínima de projeto
 - Code review
 
-### 06. Frontend Moderno
+### 06. Engenharia de Produto
+
+Objetivo: entender problema, contexto e entrega antes de transformar uma ideia em implementação.
+
+Assuntos:
+
+- Requisitos
+- Histórias de usuário
+- Critérios de aceite
+- Feature flags
+- Experimentos e A/B testing
+
+### 07. Frontend Moderno
 
 Objetivo: construir interfaces modernas com bibliotecas, frameworks e boas práticas.
 
@@ -177,7 +189,7 @@ Assuntos:
 - Module Federation
 - Micro-frontends
 
-### 07. Next.js e Aplicações Fullstack no Frontend
+### 08. Next.js e Aplicações Fullstack no Frontend
 
 Objetivo: usar Next.js como ponte entre frontend moderno, backend-for-frontend e renderização no servidor.
 
@@ -199,7 +211,7 @@ Assuntos:
 - Animações
 - Deploy de aplicações Next.js
 
-### 08. Bancos de Dados
+### 09. Bancos de Dados
 
 Objetivo: entender persistência, modelagem e uso prático de bancos relacionais e não relacionais.
 
@@ -230,7 +242,7 @@ Assuntos:
 - Scaling
 - Security
 
-### 09. Backend com Node.js
+### 10. Backend com Node.js
 
 Objetivo: criar serviços backend usando Node.js com fundamentos sólidos.
 
@@ -259,7 +271,27 @@ Assuntos:
 - Message brokers
 - Motores de busca
 
-### 10. Autenticação, Autorização e Segurança
+### 11. API Design Profissional
+
+Objetivo: sair de "criar endpoints" para desenhar APIs consistentes, evolutivas e fáceis de consumir.
+
+Assuntos:
+
+- Design de APIs
+- Versionamento de API
+- Paginação
+- Filtros
+- Ordenação
+- Erros padronizados
+- Idempotência
+- Webhooks
+- Contratos
+- OpenAPI na prática
+- Backward compatibility
+- API governance
+- Contract testing
+
+### 12. Autenticação, Autorização e Segurança
 
 Objetivo: construir aplicações mais seguras e entender riscos comuns da web.
 
@@ -283,16 +315,25 @@ Assuntos:
 - Segurança em APIs
 - Segurança em containers
 
-### 11. Qualidade, Testes, Observabilidade e Performance
+### 13. Qualidade, Testes, Observabilidade e Performance
 
-Objetivo: sair do "funciona na minha máquina" para software operável e confiável.
+Objetivo: sair do "funciona na minha máquina" para software testável, mensurável, operável e confiável.
 
 Assuntos:
 
-- Testes
+- Qualidade de software
+- Estratégia de testes
+- Pirâmide de testes
 - Testes unitários
 - Testes de integração
 - Testes end-to-end
+- Mocks, stubs e fakes
+- Contract tests
+- Testes de carga
+- Testes de regressão
+- Testes em CI
+- Flaky tests
+- Testabilidade de arquitetura
 - Análise e performance
 - Profiling
 - Logging
@@ -305,7 +346,7 @@ Assuntos:
 - Alertas
 - Failure modes
 
-### 12. Design de Software
+### 14. Design de Software
 
 Objetivo: entender como escrever código mais simples, legível e sustentável.
 
@@ -331,7 +372,7 @@ Assuntos:
 - GoF
 - PoSA
 
-### 13. Arquitetura de Software
+### 15. Arquitetura de Software
 
 Objetivo: organizar sistemas além de arquivos e classes.
 
@@ -362,7 +403,7 @@ Assuntos:
 - CQRS
 - Twelve-Factor Apps
 
-### 14. Dados em Tempo Real e Comunicação Assíncrona
+### 16. Dados em Tempo Real e Comunicação Assíncrona
 
 Objetivo: entender comunicação além do request/response tradicional.
 
@@ -380,16 +421,32 @@ Assuntos:
 - Background jobs
 - Operações idempotentes
 
-### 15. DevOps, Containers e Kubernetes
+### 17. Cloud Fundamentals
 
-Objetivo: entender como aplicações rodam, escalam e são operadas.
+Objetivo: entender os principais blocos de construção de cloud antes de entrar em containers, Kubernetes e arquiteturas maiores.
+
+Assuntos:
+
+- IAM
+- VPC/networking
+- Object storage
+- Managed databases
+- Filas gerenciadas
+- Serverless na prática
+- CDN
+- Secrets
+- Custos
+- Regiões e zonas
+- Backup e disaster recovery
+
+### 18. DevOps, Containers e Kubernetes
+
+Objetivo: entender como aplicações rodam, escalam e são entregues em ambientes modernos.
 
 Assuntos:
 
 - CI/CD
 - Deploy
-- Cloud básico
-- Custos e trade-offs de infraestrutura
 - Docker
 - Básico de containers
 - Persistência de dados
@@ -413,7 +470,59 @@ Assuntos:
 - Padrões de deployment
 - Tópicos avançados
 
-### 16. System Design
+### 19. SRE, Operação e Incidentes
+
+Objetivo: entender como sistemas reais são operados, acompanhados e recuperados quando estão em produção.
+
+Assuntos:
+
+- SLI, SLO e SLA
+- Incident response
+- Postmortems
+- Runbooks
+- On-call
+- Rollback
+- Degradação graciosa
+- Error budgets
+- Readiness e liveness
+- Capacidade e saturação
+
+### 20. Supply Chain Security e Secure SDLC
+
+Objetivo: entender a segurança do processo de desenvolvimento, das dependências, dos ambientes e dos artefatos de entrega.
+
+Assuntos:
+
+- Secrets management
+- Dependency scanning
+- SBOM
+- SAST
+- DAST
+- SCA
+- Threat modeling
+- Segurança em CI/CD
+- Permissões mínimas
+- Segurança de pacotes npm
+- Assinatura de artefatos
+- Ambientes e credenciais
+
+### 21. Privacidade e Governança de Dados
+
+Objetivo: aprender a lidar com dados de forma responsável, auditável e compatível com riscos legais e técnicos.
+
+Assuntos:
+
+- LGPD/GDPR básico para devs
+- Dados pessoais
+- Retenção
+- Consentimento
+- Anonimização
+- Auditoria
+- Logs com dados sensíveis
+- Dados enviados para IA
+- Políticas de acesso
+
+### 22. System Design
 
 Objetivo: aprender a pensar em sistemas maiores, escaláveis e confiáveis.
 
@@ -443,7 +552,39 @@ Assuntos:
 - Resiliência
 - Segurança
 
-### 17. Documentação Técnica
+### 23. IA para Desenvolvedores
+
+Objetivo: usar IA como ferramenta de trabalho e entender como projetar, integrar, avaliar e proteger aplicações com IA.
+
+Assuntos:
+
+- O que é IA generativa
+- LLMs, tokens, contexto e embeddings
+- Prompt engineering
+- Como usar IA para escrever código
+- Como revisar código gerado por IA
+- IA no debug
+- IA para testes
+- IA para documentação
+- Coding agents
+- Workflows com agentes
+- Limitações, alucinações e validação
+- Segurança em código gerado por IA
+- OWASP Top 10 para LLM Applications
+- OWASP Agentic AI Top 10
+- RAG
+- Embeddings
+- Vector databases
+- Function calling / tool calling
+- Agentes com ferramentas
+- Avaliação de respostas de IA
+- Evals
+- Guardrails
+- Privacidade, dados sensíveis e segredos
+- Custos e observabilidade em apps com IA
+- Projeto prático: assistente técnico com RAG ou agente simples
+
+### 24. Documentação Técnica
 
 Objetivo: registrar decisões e comunicar arquitetura com clareza.
 

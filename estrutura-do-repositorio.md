@@ -22,18 +22,25 @@ A V2 organiza o projeto em documentos principais, templates reutilizáveis e mó
     ├── 03-programacao-com-typescript/
     ├── 04-algoritmos-e-estruturas-de-dados/
     ├── 05-ferramentas-de-desenvolvimento/
-    ├── 06-frontend-moderno/
-    ├── 07-nextjs-e-aplicacoes-fullstack/
-    ├── 08-bancos-de-dados/
-    ├── 09-backend-com-nodejs/
-    ├── 10-autenticacao-autorizacao-e-seguranca/
-    ├── 11-qualidade-observabilidade-e-performance/
-    ├── 12-design-de-software/
-    ├── 13-arquitetura-de-software/
-    ├── 14-tempo-real-e-comunicacao-assincrona/
-    ├── 15-devops-containers-e-kubernetes/
-    ├── 16-system-design/
-    └── 17-documentacao-tecnica/
+    ├── 06-engenharia-de-produto/
+    ├── 07-frontend-moderno/
+    ├── 08-nextjs-e-aplicacoes-fullstack/
+    ├── 09-bancos-de-dados/
+    ├── 10-backend-com-nodejs/
+    ├── 11-api-design-profissional/
+    ├── 12-autenticacao-autorizacao-e-seguranca/
+    ├── 13-qualidade-observabilidade-e-performance/
+    ├── 14-design-de-software/
+    ├── 15-arquitetura-de-software/
+    ├── 16-tempo-real-e-comunicacao-assincrona/
+    ├── 17-cloud-fundamentals/
+    ├── 18-devops-containers-e-kubernetes/
+    ├── 19-sre-operacao-incidentes/
+    ├── 20-supply-chain-security-e-secure-sdlc/
+    ├── 21-privacidade-e-governanca-de-dados/
+    ├── 22-system-design/
+    ├── 23-ia-para-desenvolvedores/
+    └── 24-documentacao-tecnica/
 ```
 
 ## Responsabilidade de Cada Área
