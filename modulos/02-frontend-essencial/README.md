@@ -12,6 +12,8 @@ Ao final deste módulo, você deve ser capaz de:
 - escolher elementos HTML com intenção semântica;
 - criar formulários básicos;
 - aplicar CSS para aparência e organização visual;
+- entender como cascata, especificidade e herança resolvem conflitos entre regras;
+- usar convenções de nomenclatura para organizar classes CSS;
 - construir layouts simples e responsivos;
 - usar JavaScript no browser para interações pequenas;
 - entender o DOM como representação da página;
@@ -42,14 +44,16 @@ Este módulo prepara o terreno. Antes de React, Next.js, bundlers, validação a
 | 02.02 | [Semântica HTML](02.02-semantica-html.md) | Específica | Rascunho |
 | 02.03 | [Formulários HTML](02.03-formularios-html.md) | Específica | Rascunho |
 | 02.04 | [CSS](02.04-css.md) | Específica ampla | Rascunho |
-| 02.05 | [Layout com CSS](02.05-layout-com-css.md) | Específica | Rascunho |
-| 02.06 | [Responsividade](02.06-responsividade.md) | Específica | Rascunho |
-| 02.07 | [JavaScript no Browser](02.07-javascript-no-browser.md) | Específica ampla | Rascunho |
-| 02.08 | [DOM](02.08-dom.md) | Específica | Rascunho |
-| 02.09 | [Eventos](02.09-eventos.md) | Específica | Rascunho |
-| 02.10 | [Acessibilidade](02.10-acessibilidade.md) | Específica transversal | Rascunho |
-| 02.11 | [Browsers e Compatibilidade](02.11-browsers-e-compatibilidade.md) | Síntese | Rascunho |
-| 02.12 | [Projeto Prático: Página Interativa Essencial](02.12-projeto-pratico-pagina-interativa-essencial.md) | Síntese prática | Rascunho |
+| 02.05 | [Cascata, Especificidade e Herança](02.05-cascata-especificidade-e-heranca.md) | Específica | Rascunho |
+| 02.06 | [Convenções de Nomenclatura](02.06-convencoes-de-nomenclatura.md) | Específica | Rascunho |
+| 02.07 | [Layout com CSS](02.07-layout-com-css.md) | Específica | Rascunho |
+| 02.08 | [Responsividade](02.08-responsividade.md) | Específica | Rascunho |
+| 02.09 | [JavaScript no Browser](02.09-javascript-no-browser.md) | Específica ampla | Rascunho |
+| 02.10 | [DOM](02.10-dom.md) | Específica | Rascunho |
+| 02.11 | [Eventos](02.11-eventos.md) | Específica | Rascunho |
+| 02.12 | [Acessibilidade](02.12-acessibilidade.md) | Específica transversal | Rascunho |
+| 02.13 | [Browsers e Compatibilidade](02.13-browsers-e-compatibilidade.md) | Síntese | Rascunho |
+| 02.14 | [Projeto Prático: Página Interativa Essencial](02.14-projeto-pratico-pagina-interativa-essencial.md) | Síntese prática | Rascunho |
 
 ## Projeto ou Prática do Módulo
 
@@ -59,10 +63,12 @@ Construa uma página simples de cadastro de interesse para um produto fictício:
 2. Use elementos semânticos quando fizer sentido.
 3. Crie campos de nome, e-mail, área de interesse e aceite de termos.
 4. Estilize a página com CSS.
-5. Organize o layout para telas pequenas e grandes.
-6. Use JavaScript para validar interações simples no browser.
-7. Mostre mensagens de erro e sucesso sem recarregar a página.
-8. Revise acessibilidade básica: labels, foco, contraste e navegação por teclado.
+5. Use nomes de classes consistentes e orientados ao papel dos elementos.
+6. Revise conflitos de cascata e especificidade.
+7. Organize o layout para telas pequenas e grandes.
+8. Use JavaScript para validar interações simples no browser.
+9. Mostre mensagens de erro e sucesso sem recarregar a página.
+10. Revise acessibilidade básica: labels, foco, contraste e navegação por teclado.
 
 ## O Que Revisar Antes de Avançar
 
@@ -70,7 +76,9 @@ Construa uma página simples de cadastro de interesse para um produto fictício:
 - Diferença entre HTML estrutural e aparência visual.
 - Semântica HTML.
 - Formulários e labels.
-- Cascata, seletor e box model em CSS.
+- Seletores e box model em CSS.
+- Cascata, especificidade e herança.
+- Convenções de nomenclatura para classes CSS.
 - Layout e responsividade.
 - Papel do JavaScript no browser.
 - DOM e eventos.
@@ -92,6 +100,8 @@ Os assuntos estudados foram:
 - Semântica HTML
 - Formulários
 - CSS
+- Cascata, especificidade e herança
+- Convenções de nomenclatura
 - Layout
 - Responsividade
 - JavaScript no browser

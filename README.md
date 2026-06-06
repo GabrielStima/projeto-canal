@@ -42,7 +42,7 @@ O curso é sequencial, mas o repositório também serve como material de consult
 | --- | --- | --- |
 | 00 | [Introdução e Método de Estudo](modulos/00-introducao-e-metodo-de-estudo/) | Como usar o curso, estudar com consistência e aproveitar IA sem terceirizar o raciocínio |
 | 01 | [Fundamentos da Internet e da Web](modulos/01-fundamentos-da-internet-e-web/) | Internet, protocolos, DNS, HTTP, browsers e fluxo de uma aplicação web |
-| 02 | [Frontend Essencial](modulos/02-frontend-essencial/) | HTML, CSS, JavaScript no browser, DOM, eventos, responsividade e acessibilidade |
+| 02 | [Frontend Essencial](modulos/02-frontend-essencial/) | HTML, CSS, cascata, nomenclatura, layout, JavaScript no browser, acessibilidade e responsividade |
 | 03 | [Programação com TypeScript](modulos/03-programacao-com-typescript/) | JavaScript moderno, TypeScript, tipos, funções, classes, módulos e assincronismo |
 | 04 | [Algoritmos e Estruturas de Dados](modulos/04-algoritmos-e-estruturas-de-dados/) | Estruturas de dados, complexidade, busca, ordenação, árvores e raciocínio computacional |
 | 05 | [Ferramentas de Desenvolvimento](modulos/05-ferramentas-de-desenvolvimento/) | Terminal, Git, GitHub, pacotes, ambientes, linters, bundlers e code review |
@@ -53,18 +53,19 @@ O curso é sequencial, mas o repositório também serve como material de consult
 | 10 | [Backend com Node.js](modulos/10-backend-com-nodejs/) | Node.js, APIs, frameworks, banco de dados, ORMs, mensageria, busca e performance |
 | 11 | [API Design Profissional](modulos/11-api-design-profissional/) | Design de APIs, versionamento, paginação, filtros, erros, idempotência, contratos e OpenAPI |
 | 12 | [Autenticação, Autorização e Segurança](modulos/12-autenticacao-autorizacao-e-seguranca/) | Autenticação, autorização, sessões, JWT, OAuth, hashing, CORS, CSRF, XSS e segurança em APIs |
-| 13 | [Qualidade, Testes, Observabilidade e Performance](modulos/13-qualidade-observabilidade-e-performance/) | Estratégia de testes, pirâmide, mocks, contract tests, carga, profiling, logs, métricas e tracing |
+| 13 | [Qualidade, Testes, Observabilidade e Performance](modulos/13-qualidade-observabilidade-e-performance/) | Estratégia de testes, quality gates, carga, profiling, logs, métricas, tracing e observabilidade |
 | 14 | [Design de Software](modulos/14-design-de-software/) | Clean Code, paradigmas, POO, SOLID, DRY, YAGNI, padrões de design e princípios de design |
 | 15 | [Arquitetura de Software](modulos/15-arquitetura-de-software/) | Princípios arquiteturais, estilos, DDD, MVC, microserviços, SOA, serverless, CQRS e Clean Architecture |
 | 16 | [Dados em Tempo Real e Comunicação Assíncrona](modulos/16-tempo-real-e-comunicacao-assincrona/) | SSE, WebSocket, polling, filas, pub/sub, message brokers, background jobs e idempotência |
-| 17 | [Cloud Fundamentals](modulos/17-cloud-fundamentals/) | IAM, redes, storage, bancos gerenciados, filas, serverless, CDN, secrets, custos e disaster recovery |
-| 18 | [DevOps, Containers e Kubernetes](modulos/18-devops-containers-e-kubernetes/) | CI/CD, deploy, Docker, containers, registries, networking, segurança, Kubernetes e deployment |
-| 19 | [SRE, Operação e Incidentes](modulos/19-sre-operacao-incidentes/) | SLI, SLO, SLA, incident response, postmortems, runbooks, on-call, rollback e error budgets |
-| 20 | [Supply Chain Security e Secure SDLC](modulos/20-supply-chain-security-e-secure-sdlc/) | Secrets, dependency scanning, SBOM, SAST, DAST, SCA, threat modeling, CI/CD e pacotes npm |
-| 21 | [Privacidade e Governança de Dados](modulos/21-privacidade-e-governanca-de-dados/) | LGPD/GDPR, dados pessoais, retenção, consentimento, anonimização, auditoria, logs e políticas de acesso |
-| 22 | [System Design](modulos/22-system-design/) | Disponibilidade, consistência, CDN, load balancers, caching, assíncronismo, cloud patterns e resiliência |
-| 23 | [IA para Desenvolvedores](modulos/23-ia-para-desenvolvedores/) | IA generativa, LLMs, prompts, coding agents, RAG, embeddings, tool calling, evals, guardrails e segurança |
-| 24 | [Documentação Técnica](modulos/24-documentacao-tecnica/) | README, ADR, RFC, HLD, LLD, C4 Model, diagramas e comunicação técnica |
+| 17 | [Cloud Fundamentals](modulos/17-cloud-fundamentals/) | IAM, redes, storage, bancos gerenciados, filas, serverless, CDN, secrets, FinOps e disaster recovery |
+| 18 | [Infrastructure as Code](modulos/18-infrastructure-as-code/) | Infraestrutura declarativa, Terraform, state, drift, módulos, ambientes e segurança em IaC |
+| 19 | [DevOps, Containers e Kubernetes](modulos/19-devops-containers-e-kubernetes/) | CI/CD, IaC em pipelines, deploy, Docker, containers, segurança, Kubernetes e deployment |
+| 20 | [SRE, Operação e Incidentes](modulos/20-sre-operacao-incidentes/) | SLI, SLO, SLA, incident response, postmortems, runbooks, on-call, rollback e error budgets |
+| 21 | [Supply Chain Security e Secure SDLC](modulos/21-supply-chain-security-e-secure-sdlc/) | Secrets, dependency scanning, SBOM, SAST, DAST, SCA, threat modeling, CI/CD e pacotes npm |
+| 22 | [Privacidade e Governança de Dados](modulos/22-privacidade-e-governanca-de-dados/) | LGPD/GDPR, dados pessoais, retenção, consentimento, anonimização, auditoria, logs e políticas de acesso |
+| 23 | [System Design](modulos/23-system-design/) | Disponibilidade, consistência, CDN, load balancers, caching, assíncronismo, cloud patterns e resiliência |
+| 24 | [IA para Desenvolvedores](modulos/24-ia-para-desenvolvedores/) | IA generativa, LLMs, prompts, agentes, RAG, evals, guardrails, LLMOps, FinOps para IA e segurança |
+| 25 | [Documentação Técnica](modulos/25-documentacao-tecnica/) | README, ADR, RFC, HLD, LLD, C4 Model, diagramas e comunicação técnica |
 
 ## Como o Repositório Está Organizado
 

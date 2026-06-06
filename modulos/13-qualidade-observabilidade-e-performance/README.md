@@ -15,6 +15,7 @@ Ao final deste modulo, voce deve ser capaz de:
 - entender como testes entram no fluxo de CI;
 - reconhecer causas comuns de flaky tests;
 - avaliar como arquitetura afeta testabilidade;
+- interpretar analise estatica, metricas e quality gates sem confundi-los com qualidade real;
 - analisar performance com medicao, nao com palpite;
 - usar profiling para investigar gargalos;
 - diferenciar logging, metricas e tracing;
@@ -31,6 +32,7 @@ Nos modulos anteriores, voce aprendeu a criar interfaces, APIs, bancos, contrato
 - como descobrir se uma API esta lenta por causa de banco, rede, CPU ou dependencia externa?
 - quando um alerta deve acordar alguem?
 - como transformar falhas conhecidas em testes, logs, metricas e decisoes de design?
+- quais criterios de qualidade podem ser automatizados sem eliminar julgamento humano?
 
 Qualidade, observabilidade e performance aparecem juntas porque se reforcam. Testes reduzem regressao. Observabilidade reduz cegueira. Performance depende de medicao. Failure modes mostram onde o sistema precisa de cuidado.
 
@@ -61,19 +63,20 @@ Qualidade, observabilidade e performance aparecem juntas porque se reforcam. Tes
 | 13.10 | [Testes em CI](13.10-testes-em-ci.md) | Especifica pratica | Rascunho |
 | 13.11 | [Flaky Tests](13.11-flaky-tests.md) | Especifica | Rascunho |
 | 13.12 | [Testabilidade de Arquitetura](13.12-testabilidade-de-arquitetura.md) | Guarda-chuva curta | Rascunho |
-| 13.13 | [Analise e Performance](13.13-analise-e-performance.md) | Guarda-chuva curta | Rascunho |
-| 13.14 | [Profiling](13.14-profiling.md) | Especifica pratica | Rascunho |
-| 13.15 | [Testes de Carga](13.15-testes-de-carga.md) | Especifica pratica | Rascunho |
-| 13.16 | [Logging para Observabilidade](13.16-logging-para-observabilidade.md) | Especifica pratica | Rascunho |
-| 13.17 | [Observabilidade](13.17-observabilidade.md) | Guarda-chuva curta | Rascunho |
-| 13.18 | [Instrumentacao](13.18-instrumentacao.md) | Especifica pratica | Rascunho |
-| 13.19 | [Telemetria](13.19-telemetria.md) | Especifica | Rascunho |
-| 13.20 | [Metricas](13.20-metricas.md) | Especifica pratica | Rascunho |
-| 13.21 | [Tracing](13.21-tracing.md) | Especifica pratica | Rascunho |
-| 13.22 | [Monitoramento](13.22-monitoramento.md) | Especifica | Rascunho |
-| 13.23 | [Alertas](13.23-alertas.md) | Especifica | Rascunho |
-| 13.24 | [Failure Modes na Pratica](13.24-failure-modes-na-pratica.md) | Sintese conceitual/pratica | Rascunho |
-| 13.25 | [Projeto Pratico: Tornando uma API Testavel, Observavel e Mensuravel](13.25-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Sintese pratica | Rascunho |
+| 13.13 | [Analise Estatica, Metricas e Quality Gates](13.13-analise-estatica-metricas-e-quality-gates.md) | Especifica ampla | Rascunho |
+| 13.14 | [Analise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Rascunho |
+| 13.15 | [Profiling](13.15-profiling.md) | Especifica pratica | Rascunho |
+| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Especifica pratica | Rascunho |
+| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Especifica pratica | Rascunho |
+| 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Rascunho |
+| 13.19 | [Instrumentacao](13.19-instrumentacao.md) | Especifica pratica | Rascunho |
+| 13.20 | [Telemetria](13.20-telemetria.md) | Especifica | Rascunho |
+| 13.21 | [Metricas](13.21-metricas.md) | Especifica pratica | Rascunho |
+| 13.22 | [Tracing](13.22-tracing.md) | Especifica pratica | Rascunho |
+| 13.23 | [Monitoramento](13.23-monitoramento.md) | Especifica | Rascunho |
+| 13.24 | [Alertas](13.24-alertas.md) | Especifica | Rascunho |
+| 13.25 | [Failure Modes na Pratica](13.25-failure-modes-na-pratica.md) | Sintese conceitual/pratica | Rascunho |
+| 13.26 | [Projeto Pratico: Tornando uma API Testavel, Observavel e Mensuravel](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Sintese pratica | Rascunho |
 
 ## Projeto ou Pratica do Modulo
 
@@ -86,11 +89,12 @@ Evolua a API do painel de estudos criada nos modulos anteriores para uma aplicac
 5. Valide contratos principais da API.
 6. Defina pelo menos um fluxo end-to-end.
 7. Rode os testes em um fluxo de CI conceitual ou real.
-8. Investigue um gargalo simples com profiling.
-9. Crie logs estruturados com contexto de requisicao.
-10. Defina metricas de latencia, erros e volume.
-11. Desenhe traces para uma requisicao importante.
-12. Defina monitoramento e alertas para failure modes relevantes.
+8. Defina metricas e um quality gate para codigo novo.
+9. Investigue um gargalo simples com profiling.
+10. Crie logs estruturados com contexto de requisicao.
+11. Defina metricas de latencia, erros e volume.
+12. Desenhe traces para uma requisicao importante.
+13. Defina monitoramento e alertas para failure modes relevantes.
 
 ## O Que Revisar Antes de Avancar
 
@@ -106,7 +110,7 @@ Evolua a API do painel de estudos criada nos modulos anteriores para uma aplicac
 Estou finalizando o modulo Qualidade, Testes, Observabilidade e Performance de uma formacao fullstack JavaScript/TypeScript.
 
 Contexto do modulo:
-- Descricao do modulo: O modulo ensina qualidade de software, estrategia de testes, piramide, testes unitarios, integracao, E2E, contract tests, carga, regressao, CI, flaky tests, testabilidade, performance, profiling, logging, observabilidade, instrumentacao, telemetria, metricas, tracing, monitoramento, alertas e failure modes.
+- Descricao do modulo: O modulo ensina qualidade de software, estrategia de testes, piramide, testes unitarios, integracao, E2E, contract tests, carga, regressao, CI, flaky tests, testabilidade, analise estatica, quality gates, performance, profiling, logging, observabilidade, instrumentacao, telemetria, metricas, tracing, monitoramento, alertas e failure modes.
 - Objetivo do modulo: Quero sair do "funciona na minha maquina" para software testavel, mensuravel, operavel e confiavel.
 - Pre-requisitos: HTTP, TypeScript, frontend, backend com Node.js, bancos de dados, API design, seguranca, logging, failure modes e profiling introdutorio.
 

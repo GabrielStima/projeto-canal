@@ -34,13 +34,14 @@ A V2 organiza o projeto em documentos principais, templates reutilizáveis e mó
     ├── 15-arquitetura-de-software/
     ├── 16-tempo-real-e-comunicacao-assincrona/
     ├── 17-cloud-fundamentals/
-    ├── 18-devops-containers-e-kubernetes/
-    ├── 19-sre-operacao-incidentes/
-    ├── 20-supply-chain-security-e-secure-sdlc/
-    ├── 21-privacidade-e-governanca-de-dados/
-    ├── 22-system-design/
-    ├── 23-ia-para-desenvolvedores/
-    └── 24-documentacao-tecnica/
+    ├── 18-infrastructure-as-code/
+    ├── 19-devops-containers-e-kubernetes/
+    ├── 20-sre-operacao-incidentes/
+    ├── 21-supply-chain-security-e-secure-sdlc/
+    ├── 22-privacidade-e-governanca-de-dados/
+    ├── 23-system-design/
+    ├── 24-ia-para-desenvolvedores/
+    └── 25-documentacao-tecnica/
 ```
 
 ## Responsabilidade de Cada Área

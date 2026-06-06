@@ -65,6 +65,8 @@ Assuntos:
 - Semântica HTML
 - Formulários
 - CSS
+- Cascata, especificidade e herança
+- Convenções de nomenclatura
 - Layout
 - Responsividade
 - JavaScript no browser
@@ -333,6 +335,7 @@ Assuntos:
 - Testes em CI
 - Flaky tests
 - Testabilidade de arquitetura
+- Análise estática, métricas e quality gates
 - Análise e performance
 - Profiling
 - Logging
@@ -435,10 +438,45 @@ Assuntos:
 - CDN
 - Secrets
 - Custos
+- Fundamentos de FinOps
 - Regiões e zonas
 - Backup e disaster recovery
 
-### 18. DevOps, Containers e Kubernetes
+### 18. Infrastructure as Code
+
+Objetivo: aprender a definir, versionar, reutilizar e administrar infraestrutura como código, usando Terraform como ferramenta principal.
+
+Assuntos:
+
+- Infrastructure as Code
+- Infraestrutura declarativa vs imperativa
+- Idempotência em infraestrutura
+- Benefícios e trade-offs de IaC
+- Terraform e panorama de ferramentas IaC
+- HCL
+- Providers
+- Resources
+- Data sources
+- Dependências e grafo de recursos
+- Variables
+- Local values
+- Outputs
+- Terraform init, plan, apply e destroy
+- State
+- Remote state
+- Locking de state
+- Dados sensíveis no state
+- Drift
+- Importação de recursos existentes
+- Ciclo de vida dos recursos
+- Modules
+- Composição e reutilização de módulos
+- Organização por ambientes
+- Workspaces e suas limitações
+- Segurança e segredos em IaC
+- Projeto prático: provisionar a infraestrutura de uma aplicação
+
+### 19. DevOps, Containers e Kubernetes
 
 Objetivo: entender como aplicações rodam, escalam e são entregues em ambientes modernos.
 
@@ -446,6 +484,12 @@ Assuntos:
 
 - CI/CD
 - Deploy
+- Infrastructure as Code em CI/CD
+- Geração e revisão de planos de infraestrutura
+- Aprovação e aplicação automatizada de mudanças
+- Credenciais temporárias para automação
+- Policy as Code
+- Detecção automatizada de drift
 - Docker
 - Básico de containers
 - Persistência de dados
@@ -469,7 +513,7 @@ Assuntos:
 - Padrões de deployment
 - Tópicos avançados
 
-### 19. SRE, Operação e Incidentes
+### 20. SRE, Operação e Incidentes
 
 Objetivo: entender como sistemas reais são operados, acompanhados e recuperados quando estão em produção.
 
@@ -486,7 +530,7 @@ Assuntos:
 - Readiness e liveness
 - Capacidade e saturação
 
-### 20. Supply Chain Security e Secure SDLC
+### 21. Supply Chain Security e Secure SDLC
 
 Objetivo: entender a segurança do processo de desenvolvimento, das dependências, dos ambientes e dos artefatos de entrega.
 
@@ -499,13 +543,14 @@ Assuntos:
 - DAST
 - SCA
 - Threat modeling
+- Quality gates de segurança e bloqueio de merge
 - Segurança em CI/CD
 - Permissões mínimas
 - Segurança de pacotes npm
 - Assinatura de artefatos
 - Ambientes e credenciais
 
-### 21. Privacidade e Governança de Dados
+### 22. Privacidade e Governança de Dados
 
 Objetivo: aprender a lidar com dados de forma responsável, auditável e compatível com riscos legais e técnicos.
 
@@ -521,7 +566,7 @@ Assuntos:
 - Dados enviados para IA
 - Políticas de acesso
 
-### 22. System Design
+### 23. System Design
 
 Objetivo: aprender a pensar em sistemas maiores, escaláveis e confiáveis.
 
@@ -551,7 +596,7 @@ Assuntos:
 - Resiliência
 - Segurança
 
-### 23. IA para Desenvolvedores
+### 24. IA para Desenvolvedores
 
 Objetivo: usar IA como ferramenta de trabalho e entender como projetar, integrar, avaliar e proteger aplicações com IA.
 
@@ -562,6 +607,7 @@ Assuntos:
 - Prompt engineering
 - Como usar IA para escrever código
 - Como revisar código gerado por IA
+- Quality gates para código gerado por IA
 - IA no debug
 - IA para testes
 - IA para documentação
@@ -579,11 +625,13 @@ Assuntos:
 - Avaliação de respostas de IA
 - Evals
 - Guardrails
+- LLMOps
+- FinOps para IA
 - Privacidade, dados sensíveis e segredos
 - Custos e observabilidade em apps com IA
 - Projeto prático: assistente técnico com RAG ou agente simples
 
-### 24. Documentação Técnica
+### 25. Documentação Técnica
 
 Objetivo: registrar decisões e comunicar arquitetura com clareza.
 
