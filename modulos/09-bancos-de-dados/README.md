@@ -2,7 +2,7 @@
 
 Este módulo apresenta bancos de dados como a base de persistência das aplicações. Até aqui, você já construiu telas, formulários, chamadas de API, rotas e aplicações Next.js pequenas. Agora a pergunta muda: onde os dados vivem quando a aplicação fecha, quando outro usuário acessa, ou quando o sistema precisa crescer?
 
-A ideia não é decorar comandos isolados. O objetivo é entender como modelar dados, consultar informações, proteger consistência, evoluir estruturas e comparar bancos relacionais e não relacionais com bom senso.
+A ideia não é decorar comandos isolados. O objetivo é entender como modelar dados, consultar informações, proteger a consistência, evoluir estruturas e comparar bancos relacionais e não relacionais com bom senso.
 
 ## Objetivo do Módulo
 
@@ -23,7 +23,7 @@ Ao final deste módulo, você deve ser capaz de:
 
 Nos módulos anteriores, muitos dados podiam ser simulados em memória, arquivos locais ou respostas falsas de API. Isso é suficiente para aprender interface, fluxo e validação, mas aplicações reais precisam lembrar informações, compartilhar dados entre usuários, proteger operações importantes e recuperar estados depois de falhas.
 
-Bancos de dados entram nesse ponto da trilha porque conectam frontend, backend, segurança, produto e operação. Uma escolha ruim de modelagem pode complicar uma API. Uma query lenta pode derrubar uma tela. Uma migration mal feita pode quebrar produção. Um backup inexistente pode transformar erro pequeno em desastre.
+Bancos de dados entram nesse ponto da trilha porque conectam frontend, backend, segurança, produto e operação. Uma escolha ruim de modelagem pode complicar uma API. Uma query lenta pode derrubar uma tela. Uma migration mal feita pode quebrar produção. Um backup inexistente pode transformar um erro pequeno em desastre.
 
 Este módulo prepara o caminho para backend com Node.js, ORMs, autenticação, autorização, segurança, observabilidade, performance e system design.
 

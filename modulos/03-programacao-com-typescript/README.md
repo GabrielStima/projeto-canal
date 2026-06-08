@@ -1,137 +1,136 @@
-# Programacao com TypeScript
+# Programação com TypeScript
 
-Este modulo aprofunda a programacao com JavaScript moderno e TypeScript. Depois de usar JavaScript no browser para pequenas interacoes, agora o foco passa a ser a linguagem em si: como representar dados, controlar fluxo, criar funcoes, lidar com erros, trabalhar com assincronismo e usar tipos para escrever codigo mais claro e seguro.
+Este módulo aprofunda a programação com JavaScript moderno e TypeScript. Depois de usar JavaScript no browser para pequenas interações, agora o foco passa a ser a linguagem em si: como representar dados, controlar fluxo, criar funções, lidar com erros, trabalhar com assincronismo e usar tipos para escrever código mais claro e seguro.
 
-TypeScript nao substitui JavaScript. Ele adiciona uma camada de checagem estatica e ferramentas melhores sobre o JavaScript que continua rodando no browser, no Node.js e em outros ambientes.
+TypeScript não substitui JavaScript. Ele adiciona uma camada de checagem estática e ferramentas melhores sobre o JavaScript que continua rodando no browser, no Node.js e em outros ambientes.
 
-## Objetivo do Modulo
+## Objetivo do Módulo
 
-Ao final deste modulo, voce deve ser capaz de:
+Ao final deste módulo, você deve ser capaz de:
 
-- escrever codigo JavaScript moderno com clareza;
-- explicar valores, variaveis, funcoes, objetos e estruturas de controle;
+- escrever código JavaScript moderno com clareza;
+- explicar valores, variáveis, funções, objetos e estruturas de controle;
 - entender assincronismo, event loop, Promises e `async/await`;
 - diferenciar erro de sintaxe, erro de tipo e erro em runtime;
-- usar TypeScript para modelar dados e funcoes;
-- aproveitar inferencia sem anotar tipos em excesso;
-- usar unions, narrowing, interfaces, type aliases, classes e modulos;
-- reconhecer quando generics, utility types e tipos avancados ajudam;
-- preparar codigo tipado para os modulos de ferramentas, frontend moderno, Next.js e backend.
+- usar TypeScript para modelar dados e funções;
+- aproveitar inferência sem anotar tipos em excesso;
+- usar unions, narrowing, interfaces, type aliases, classes e módulos;
+- reconhecer quando generics, utility types e tipos avançados ajudam;
+- preparar código tipado para os módulos de ferramentas, frontend moderno, Next.js e backend.
 
-## Por Que Este Modulo Existe
+## Por Que Este Módulo Existe
 
-Nos modulos anteriores, JavaScript apareceu como ferramenta para dar comportamento a uma pagina. Isso e suficiente para criar interacoes pequenas, mas nao basta para sustentar projetos maiores.
+Nos módulos anteriores, JavaScript apareceu como ferramenta para dar comportamento a uma página. Isso é suficiente para criar interações pequenas, mas não basta para sustentar projetos maiores.
 
-Aplicacoes reais precisam de funcoes reutilizaveis, dados bem definidos, tratamento de erros, codigo assincrono e arquivos organizados. TypeScript entra para tornar essas relacoes mais explicitas: ele ajuda a perceber problemas durante o desenvolvimento, melhora autocomplete, documenta intencoes e reduz erros comuns antes de o codigo chegar ao usuario.
+Aplicações reais precisam de funções reutilizáveis, dados bem definidos, tratamento de erros, código assíncrono e arquivos organizados. TypeScript entra para tornar essas relações mais explícitas: ele ajuda a perceber problemas durante o desenvolvimento, melhora autocomplete, documenta intenções e reduz erros comuns antes de o código chegar ao usuário.
 
-Este modulo cria a base de linguagem para todo o restante da formacao.
+Este módulo cria a base de linguagem para todo o restante da formação.
 
-## Pre-requisitos
+## Pré-requisitos
 
-- Entender HTML, CSS, DOM e eventos em nivel introdutorio.
+- Entender HTML, CSS, DOM e eventos em nível introdutório.
 - Saber o papel do JavaScript no browser.
-- Conseguir criar uma pequena interacao com JavaScript puro.
-- Entender cliente, servidor, request e response em alto nivel.
-- Nao e necessario conhecer Node.js, npm, bundlers ou frameworks.
+- Conseguir criar uma pequena interação com JavaScript puro.
+- Entender cliente, servidor, request e response em alto nível.
+- Não é necessário conhecer Node.js, npm, bundlers ou frameworks.
 
 ## Aulas
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 03.00 | Programacao com TypeScript | Guarda-chuva | Rascunho |
-| 03.01 | [JavaScript moderno](03.01-javascript-moderno.md) | Especifica ampla | Rascunho |
-| 03.02 | [Sintaxe, valores e variaveis](03.02-sintaxe-valores-e-variaveis.md) | Especifica | Rascunho |
-| 03.03 | [Tipos primitivos e estruturas basicas](03.03-tipos-primitivos-e-estruturas-basicas.md) | Especifica | Rascunho |
-| 03.04 | [Estruturas de controle](03.04-estruturas-de-controle.md) | Especifica | Rascunho |
-| 03.05 | [Funcoes](03.05-funcoes.md) | Especifica | Rascunho |
-| 03.06 | [Tratamento de erros](03.06-tratamento-de-erros.md) | Especifica | Rascunho |
-| 03.07 | [Assincronismo em JavaScript](03.07-assincronismo-em-javascript.md) | Especifica ampla | Rascunho |
-| 03.08 | [Event loop](03.08-event-loop.md) | Especifica conceitual | Rascunho |
-| 03.09 | [Promises e async/await](03.09-promises-e-async-await.md) | Especifica | Rascunho |
-| 03.10 | [TypeScript: o que e e como pensar em tipos](03.10-typescript-o-que-e-e-como-pensar-em-tipos.md) | Guarda-chuva curta | Rascunho |
-| 03.11 | [Inferencia de tipos](03.11-inferencia-de-tipos.md) | Especifica | Rascunho |
-| 03.12 | [Anotacoes de tipos e tipos em funcoes](03.12-anotacoes-de-tipos-e-tipos-em-funcoes.md) | Especifica | Rascunho |
-| 03.13 | [Compatibilidade de tipos](03.13-compatibilidade-de-tipos.md) | Especifica | Rascunho |
-| 03.14 | [Narrowing](03.14-narrowing.md) | Especifica | Rascunho |
-| 03.15 | [Type aliases e interfaces](03.15-type-aliases-e-interfaces.md) | Especifica comparativa | Rascunho |
-| 03.16 | [Modulos](03.16-modulos.md) | Especifica | Rascunho |
-| 03.17 | [Classes e POO basica](03.17-classes-e-poo-basica.md) | Especifica ampla | Rascunho |
-| 03.18 | [Generics](03.18-generics.md) | Especifica | Rascunho |
-| 03.19 | [Utility types](03.19-utility-types.md) | Especifica | Rascunho |
-| 03.20 | [Tipos avancados](03.20-tipos-avancados.md) | Especifica ampla | Rascunho |
-| 03.21 | [Decorators](03.21-decorators.md) | Especifica introdutoria | Rascunho |
-| 03.22 | [Projeto pratico: mini aplicacao tipada](03.22-projeto-pratico-mini-aplicacao-tipada.md) | Sintese pratica | Rascunho |
+| 03.00 | Programação com TypeScript | Guarda-chuva | Rascunho |
+| 03.01 | [JavaScript moderno](03.01-javascript-moderno.md) | Específica ampla | Rascunho |
+| 03.02 | [Sintaxe, valores e variáveis](03.02-sintaxe-valores-e-variaveis.md) | Específica | Rascunho |
+| 03.03 | [Tipos primitivos e estruturas básicas](03.03-tipos-primitivos-e-estruturas-basicas.md) | Específica | Rascunho |
+| 03.04 | [Estruturas de controle](03.04-estruturas-de-controle.md) | Específica | Rascunho |
+| 03.05 | [Funções](03.05-funcoes.md) | Específica | Rascunho |
+| 03.06 | [Tratamento de erros](03.06-tratamento-de-erros.md) | Específica | Rascunho |
+| 03.07 | [Assincronismo em JavaScript](03.07-assincronismo-em-javascript.md) | Específica ampla | Rascunho |
+| 03.08 | [Event loop](03.08-event-loop.md) | Específica conceitual | Rascunho |
+| 03.09 | [Promises e async/await](03.09-promises-e-async-await.md) | Específica | Rascunho |
+| 03.10 | [TypeScript: o que é e como pensar em tipos](03.10-typescript-o-que-e-e-como-pensar-em-tipos.md) | Guarda-chuva curta | Rascunho |
+| 03.11 | [Inferência de tipos](03.11-inferencia-de-tipos.md) | Específica | Rascunho |
+| 03.12 | [Anotações de tipos e tipos em funções](03.12-anotacoes-de-tipos-e-tipos-em-funcoes.md) | Específica | Rascunho |
+| 03.13 | [Compatibilidade de tipos](03.13-compatibilidade-de-tipos.md) | Específica | Rascunho |
+| 03.14 | [Narrowing](03.14-narrowing.md) | Específica | Rascunho |
+| 03.15 | [Type aliases e interfaces](03.15-type-aliases-e-interfaces.md) | Específica comparativa | Rascunho |
+| 03.16 | [Módulos](03.16-modulos.md) | Específica | Rascunho |
+| 03.17 | [Classes e POO básica](03.17-classes-e-poo-basica.md) | Específica ampla | Rascunho |
+| 03.18 | [Generics](03.18-generics.md) | Específica | Rascunho |
+| 03.19 | [Utility types](03.19-utility-types.md) | Específica | Rascunho |
+| 03.20 | [Tipos avançados](03.20-tipos-avancados.md) | Específica ampla | Rascunho |
+| 03.21 | [Decorators](03.21-decorators.md) | Específica introdutória | Rascunho |
+| 03.22 | [Projeto prático: mini aplicação tipada](03.22-projeto-pratico-mini-aplicacao-tipada.md) | Síntese prática | Rascunho |
 
-## Projeto ou Pratica do Modulo
+## Projeto ou Prática do Módulo
 
-Construa uma mini aplicacao de tarefas em TypeScript puro:
+Construa uma mini aplicação de tarefas em TypeScript puro:
 
-1. Modele uma tarefa com titulo, status, prioridade e data opcional.
-2. Crie funcoes para adicionar, concluir, listar e filtrar tarefas.
-3. Use tratamento de erros para entradas invalidas.
-4. Simule uma operacao assincrona com `Promise` e `async/await`.
-5. Organize o codigo em modulos.
+1. Modele uma tarefa com título, status, prioridade e data opcional.
+2. Crie funções para adicionar, concluir, listar e filtrar tarefas.
+3. Use tratamento de erros para entradas inválidas.
+4. Simule uma operação assíncrona com `Promise` e `async/await`.
+5. Organize o código em módulos.
 6. Use types, interfaces, narrowing e utility types quando fizer sentido.
-7. Evite usar framework: o foco e linguagem.
+7. Evite usar framework: o foco é a linguagem.
 
-## O Que Revisar Antes de Avancar
+## O Que Revisar Antes de Avançar
 
 - JavaScript moderno.
-- Valores, variaveis, objetos, arrays e funcoes.
+- Valores, variáveis, objetos, arrays e funções.
 - Estruturas de controle.
 - Tratamento de erros.
 - Assincronismo, event loop, Promises e `async/await`.
-- TypeScript como checagem estatica sobre JavaScript.
-- Inferencia e anotacao de tipos.
-- Unions, narrowing, aliases, interfaces, classes e modulos.
-- Generics, utility types e tipos avancados em nivel introdutorio.
+- TypeScript como checagem estática sobre JavaScript.
+- Inferência e anotação de tipos.
+- Unions, narrowing, aliases, interfaces, classes e módulos.
+- Generics, utility types e tipos avançados em nível introdutório.
 
-## Prompt de Revisao do Modulo
+## Prompt de Revisão do Módulo
 
 ```text
-Estou finalizando o modulo Programacao com TypeScript de uma formacao fullstack JavaScript/TypeScript.
+Estou finalizando o módulo Programação com TypeScript de uma formação fullstack JavaScript/TypeScript.
 
-Contexto do modulo:
-- Descricao do modulo: O modulo aprofunda JavaScript moderno e TypeScript como base de linguagem para o restante da formacao.
-- Objetivo do modulo: Ao final, devo conseguir escrever codigo JavaScript moderno, entender assincronismo e usar TypeScript para modelar dados, funcoes e modulos com seguranca.
-- Pre-requisitos: fundamentos de Web, HTML, CSS, JavaScript no browser, DOM e eventos.
+Contexto do módulo:
+- Descrição do módulo: O módulo aprofunda JavaScript moderno e TypeScript como base de linguagem para o restante da formação.
+- Objetivo do módulo: Ao final, devo conseguir escrever código JavaScript moderno, entender assincronismo e usar TypeScript para modelar dados, funções e módulos com segurança.
+- Pré-requisitos: fundamentos de Web, HTML, CSS, JavaScript no browser, DOM e eventos.
 
 Os assuntos estudados foram:
 - JavaScript moderno
-- Sintaxe, valores e variaveis
-- Tipos primitivos e estruturas basicas
+- Sintaxe, valores e variáveis
+- Tipos primitivos e estruturas básicas
 - Estruturas de controle
-- Funcoes
+- Funções
 - Tratamento de erros
 - Assincronismo em JavaScript
 - Event loop
 - Promises e async/await
 - TypeScript e tipos
-- Inferencia
-- Anotacoes de tipos
+- Inferência
+- Anotações de tipos
 - Compatibilidade de tipos
 - Narrowing
 - Type aliases e interfaces
-- Modulos
-- Classes e POO basica
+- Módulos
+- Classes e POO básica
 - Generics
 - Utility types
-- Tipos avancados
+- Tipos avançados
 - Decorators
 
-Crie uma revisao guiada com:
+Crie uma revisão guiada com:
 1. perguntas conceituais;
-2. exercicios praticos em JavaScript e TypeScript;
+2. exercícios práticos em JavaScript e TypeScript;
 3. perguntas de entrevista para iniciante;
-4. exemplos de aplicacao em projetos reais;
-5. uma avaliacao final com criterios claros.
+4. exemplos de aplicação em projetos reais;
+5. uma avaliação final com critérios claros.
 
-Nao entregue respostas completas antes de eu tentar responder.
+Não entregue respostas completas antes de eu tentar responder.
 ```
 
-## Referencias Gerais
+## Referências Gerais
 
-- Documentacao oficial do TypeScript.
-- Documentacao da MDN sobre JavaScript.
-- Documentacao da MDN sobre Promises e assincronismo.
-
+- Documentação oficial do TypeScript.
+- Documentação da MDN sobre JavaScript.
+- Documentação da MDN sobre Promises e assincronismo.

@@ -45,16 +45,16 @@ Supply chain security existe para proteger a cadeia de produção do software. S
 | 21.03 | [Secrets Management](21.03-secrets-management.md) | Específica prática | Rascunho |
 | 21.04 | [Ambientes e Credenciais](21.04-ambientes-e-credenciais.md) | Específica | Rascunho |
 | 21.05 | [Permissões Mínimas](21.05-permissoes-minimas.md) | Específica | Rascunho |
-| 21.06 | [Segurança em CI/CD](21.06-seguranca-em-ci-cd.md) | Específica ampla | Rascunho |
-| 21.07 | [Quality Gates de Segurança e Bloqueio de Merge](21.07-quality-gates-de-seguranca-e-bloqueio-de-merge.md) | Específica prática | Rascunho |
+| 21.06 | [Segurança em CI/CD](21.06-segurança-em-ci-cd.md) | Específica ampla | Rascunho |
+| 21.07 | [Quality Gates de Segurança e Bloqueio de Merge](21.07-quality-gates-de-segurança-e-bloqueio-de-merge.md) | Específica prática | Rascunho |
 | 21.08 | [SAST](21.08-sast.md) | Específica prática | Rascunho |
 | 21.09 | [Dependency Scanning](21.09-dependency-scanning.md) | Específica prática | Rascunho |
 | 21.10 | [SCA](21.10-sca.md) | Específica ampla | Rascunho |
 | 21.11 | [SBOM](21.11-sbom.md) | Específica | Rascunho |
-| 21.12 | [Segurança de Pacotes npm](21.12-seguranca-de-pacotes-npm.md) | Específica prática | Rascunho |
+| 21.12 | [Segurança de Pacotes npm](21.12-segurança-de-pacotes-npm.md) | Específica prática | Rascunho |
 | 21.13 | [Assinatura de Artefatos](21.13-assinatura-de-artefatos.md) | Específica | Rascunho |
 | 21.14 | [DAST](21.14-dast.md) | Específica prática | Rascunho |
-| 21.15 | [Projeto Prático: Pipeline Seguro de Build, Validação e Entrega](21.15-projeto-pratico-pipeline-seguro-de-build-validacao-e-entrega.md) | Síntese prática | Rascunho |
+| 21.15 | [Projeto Prático: Pipeline Seguro de Build, Validação e Entrega](21.15-projeto-prático-pipeline-seguro-de-build-validação-e-entrega.md) | Síntese prática | Rascunho |
 
 ## Projeto ou Prática do Módulo
 
@@ -65,7 +65,7 @@ Evolua um projeto Node.js/TypeScript usado nos módulos anteriores para um fluxo
 3. defina ambientes e acesso mínimo para automação;
 4. configure validações de segurança no fluxo de CI/CD;
 5. defina quality gates proporcionais ao risco;
-6. gere e analise sinais de SAST, dependency scanning e SCA;
+6. gere e análise sinais de SAST, dependency scanning e SCA;
 7. gere um SBOM do projeto;
 8. revise riscos do ecossistema npm no projeto;
 9. defina uma estratégia para assinatura ou proveniência de artefatos;

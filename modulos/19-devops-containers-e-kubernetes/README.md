@@ -36,12 +36,12 @@ DevOps, containers e Kubernetes entram para reduzir essa distância entre códig
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
 | 19.00 | [DevOps, Containers e Kubernetes](19.00-devops-containers-e-kubernetes.md) | Guarda-chuva | Rascunho |
-| 19.01 | [O que é DevOps na Prática](19.01-o-que-e-devops-na-pratica.md) | Específica ampla | Rascunho |
+| 19.01 | [O que é DevOps na Prática](19.01-o-que-e-devops-na-prática.md) | Específica ampla | Rascunho |
 | 19.02 | [CI/CD](19.02-ci-cd.md) | Específica | Rascunho |
 | 19.03 | [Deploy](19.03-deploy.md) | Específica | Rascunho |
 | 19.04 | [Infrastructure as Code em CI/CD](19.04-infrastructure-as-code-em-ci-cd.md) | Específica | Rascunho |
 | 19.05 | [Geração e Revisão de Planos de Infraestrutura](19.05-geracao-e-revisao-de-planos-de-infraestrutura.md) | Específica prática | Rascunho |
-| 19.06 | [Aprovação e Aplicação Automatizada de Mudanças](19.06-aprovacao-e-aplicacao-automatizada-de-mudancas.md) | Específica prática | Rascunho |
+| 19.06 | [Aprovação e Aplicação Automatizada de Mudanças](19.06-aprovacao-e-aplicação-automatizada-de-mudanças.md) | Específica prática | Rascunho |
 | 19.07 | [Credenciais Temporárias para Automação](19.07-credenciais-temporarias-para-automacao.md) | Específica | Rascunho |
 | 19.08 | [Policy as Code](19.08-policy-as-code.md) | Específica ampla | Rascunho |
 | 19.09 | [Detecção Automatizada de Drift](19.09-deteccao-automatizada-de-drift.md) | Específica | Rascunho |
@@ -54,20 +54,20 @@ DevOps, containers e Kubernetes entram para reduzir essa distância entre códig
 | 19.16 | [Bancos em Containers](19.16-bancos-em-containers.md) | Específica prática | Rascunho |
 | 19.17 | [Networking em Containers](19.17-networking-em-containers.md) | Específica | Rascunho |
 | 19.18 | [Container Registries](19.18-container-registries.md) | Específica | Rascunho |
-| 19.19 | [Segurança em Containers](19.19-seguranca-em-containers.md) | Específica ampla | Rascunho |
+| 19.19 | [Segurança em Containers](19.19-segurança-em-containers.md) | Específica ampla | Rascunho |
 | 19.20 | [Kubernetes](19.20-kubernetes.md) | Guarda-chuva curta | Rascunho |
 | 19.21 | [Configurando Kubernetes](19.21-configurando-kubernetes.md) | Específica prática | Rascunho |
-| 19.22 | [Rodando Aplicações no Kubernetes](19.22-rodando-aplicacoes-no-kubernetes.md) | Específica prática | Rascunho |
+| 19.22 | [Rodando Aplicações no Kubernetes](19.22-rodando-aplicações-no-kubernetes.md) | Específica prática | Rascunho |
 | 19.23 | [Serviços e Conectividade](19.23-servicos-e-conectividade.md) | Específica | Rascunho |
-| 19.24 | [Configuração e Gerenciamento](19.24-configuracao-e-gerenciamento.md) | Específica | Rascunho |
+| 19.24 | [Configuração e Gerenciamento](19.24-configuração-e-gerenciamento.md) | Específica | Rascunho |
 | 19.25 | [Gerenciamento de Recursos](19.25-gerenciamento-de-recursos.md) | Específica | Rascunho |
 | 19.26 | [Storage and Volumes](19.26-storage-and-volumes.md) | Específica | Rascunho |
-| 19.27 | [Segurança no Kubernetes](19.27-seguranca-no-kubernetes.md) | Específica ampla | Rascunho |
+| 19.27 | [Segurança no Kubernetes](19.27-segurança-no-kubernetes.md) | Específica ampla | Rascunho |
 | 19.28 | [Monitoramento e Logging no Kubernetes](19.28-monitoramento-e-logging-no-kubernetes.md) | Específica | Rascunho |
 | 19.29 | [Autoscaling](19.29-autoscaling.md) | Específica | Rascunho |
-| 19.30 | [Padrões de Deployment](19.30-padroes-de-deployment.md) | Específica | Rascunho |
+| 19.30 | [Padrões de Deployment](19.30-padrões-de-deployment.md) | Específica | Rascunho |
 | 19.31 | [Tópicos Avançados de Kubernetes](19.31-topicos-avancados-de-kubernetes.md) | Guarda-chuva de fechamento | Rascunho |
-| 19.32 | [Projeto Prático: Pipeline de Build, Registry e Deploy em Kubernetes](19.32-projeto-pratico-pipeline-de-build-registry-e-deploy-em-kubernetes.md) | Síntese prática | Rascunho |
+| 19.32 | [Projeto Prático: Pipeline de Build, Registry e Deploy em Kubernetes](19.32-projeto-prático-pipeline-de-build-registry-e-deploy-em-kubernetes.md) | Síntese prática | Rascunho |
 
 ## Projeto ou Prática do Módulo
 

@@ -1,134 +1,134 @@
-# Qualidade, Testes, Observabilidade e Performance
+# Qualidade, Testes, Observabilidade é Performance
 
-Este modulo marca a passagem de "a aplicacao funciona" para "a aplicacao pode ser testada, medida, investigada e sustentada quando cresce". Ate aqui, voce construiu bases de frontend, backend, bancos de dados, API design, autenticacao, autorizacao e seguranca.
+Este módulo marca a passagem de "a aplicação funciona" para "a aplicação pode ser testada, medida, investigada e sustentada quando cresce". Até aqui, você construiu bases de frontend, backend, bancos de dados, API design, autenticação, autorização e segurança.
 
-Agora o foco muda para confianca. Um software profissional precisa ter criterios de qualidade, estrategia de testes, sinais de observabilidade, medicao de performance e formas previsiveis de investigar falhas.
+Agora o foco muda para confiança. Um software profissional precisa ter critérios de qualidade, estratégia de testes, sinais de observabilidade, medição de performance e formas previsíveis de investigar falhas.
 
-## Objetivo do Modulo
+## Objetivo do Módulo
 
-Ao final deste modulo, voce deve ser capaz de:
+Ao final deste módulo, você deve ser capaz de:
 
-- explicar qualidade de software em termos praticos;
-- montar uma estrategia de testes proporcional ao risco;
-- diferenciar testes unitarios, de integracao, end-to-end, contrato, carga e regressao;
+- explicar qualidade de software em termos práticos;
+- montar uma estratégia de testes proporcional ao risco;
+- diferenciar testes unitários, de integração, end-to-end, contrato, carga e regressão;
 - usar mocks, stubs e fakes sem esconder problemas importantes;
 - entender como testes entram no fluxo de CI;
 - reconhecer causas comuns de flaky tests;
 - avaliar como arquitetura afeta testabilidade;
-- interpretar analise estatica, metricas e quality gates sem confundi-los com qualidade real;
-- analisar performance com medicao, nao com palpite;
+- interpretar análise estática, métricas e quality gates sem confundi-los com qualidade real;
+- analisar performance com medição, não com palpite;
 - usar profiling para investigar gargalos;
-- diferenciar logging, metricas e tracing;
-- entender instrumentacao, telemetria, monitoramento e alertas;
+- diferenciar logging, métricas e tracing;
+- entender instrumentação, telemetria, monitoramento e alertas;
 - relacionar failure modes com testes, observabilidade e performance.
 
-## Por Que Este Modulo Existe
+## Por Que Este Módulo Existe
 
-Nos modulos anteriores, voce aprendeu a criar interfaces, APIs, bancos, contratos, autenticacao e protecoes basicas de seguranca. Isso permite construir sistemas uteis, mas ainda nao responde a perguntas comuns em projetos reais:
+Nos módulos anteriores, você aprendeu a criar interfaces, APIs, bancos, contratos, autenticação e proteções básicas de segurança. Isso permite construir sistemas úteis, mas ainda não responde a perguntas comuns em projetos reais:
 
-- como saber se uma mudanca quebrou algo?
+- como saber se uma mudança quebrou algo?
 - que testes valem o custo de manter?
-- como investigar um erro que so acontece em producao?
-- como descobrir se uma API esta lenta por causa de banco, rede, CPU ou dependencia externa?
-- quando um alerta deve acordar alguem?
-- como transformar falhas conhecidas em testes, logs, metricas e decisoes de design?
-- quais criterios de qualidade podem ser automatizados sem eliminar julgamento humano?
+- como investigar um erro que só acontece em produção?
+- como descobrir se uma API está lenta por causa de banco, rede, CPU ou dependência externa?
+- quando um alerta deve acordar alguém?
+- como transformar falhas conhecidas em testes, logs, métricas e decisões de design?
+- quais critérios de qualidade podem ser automatizados sem eliminar julgamento humano?
 
-Qualidade, observabilidade e performance aparecem juntas porque se reforcam. Testes reduzem regressao. Observabilidade reduz cegueira. Performance depende de medicao. Failure modes mostram onde o sistema precisa de cuidado.
+Qualidade, observabilidade e performance aparecem juntas porque se reforçam. Testes reduzem regressão. Observabilidade reduz cegueira. Performance depende de medição. Failure modes mostram onde o sistema precisa de cuidado.
 
-## Pre-requisitos
+## Pré-requisitos
 
 - Entender HTTP, headers, status codes, request, response, cache e estado.
 - Saber escrever JavaScript moderno e TypeScript.
-- Ter estudado frontend moderno, chamadas de API, formularios, validacao, testes e performance em nivel introdutorio.
-- Entender bancos de dados, queries, indexes, transactions e performance basica.
+- Ter estudado frontend moderno, chamadas de API, formulários, validação, testes e performance em nível introdutório.
+- Entender bancos de dados, queries, indexes, transactions e performance básica.
 - Saber criar APIs backend com Node.js e lidar com erros, logs, banco, ORMs e failure modes.
-- Ter estudado API design, contratos, OpenAPI, erros padronizados, idempotencia, governance e contract testing introdutorio.
-- Ter estudado autenticacao, autorizacao, seguranca em APIs e rate limiting.
+- Ter estudado API design, contratos, OpenAPI, erros padronizados, idempotência, governance e contract testing introdutório.
+- Ter estudado autenticação, autorização, segurança em APIs e rate limiting.
 
 ## Aulas
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 13.00 | [Qualidade, Testes, Observabilidade e Performance](13.00-qualidade-testes-observabilidade-e-performance.md) | Guarda-chuva | Rascunho |
+| 13.00 | [Qualidade, Testes, Observabilidade é Performance](13.00-qualidade-testes-observabilidade-e-performance.md) | Guarda-chuva | Rascunho |
 | 13.01 | [Qualidade de Software](13.01-qualidade-de-software.md) | Guarda-chuva curta | Rascunho |
-| 13.02 | [Estrategia de Testes](13.02-estrategia-de-testes.md) | Especifica ampla | Rascunho |
-| 13.03 | [Piramide de Testes](13.03-piramide-de-testes.md) | Especifica | Rascunho |
-| 13.04 | [Testes Unitarios](13.04-testes-unitarios.md) | Especifica pratica | Rascunho |
-| 13.05 | [Mocks, Stubs e Fakes](13.05-mocks-stubs-e-fakes.md) | Especifica | Rascunho |
-| 13.06 | [Testes de Integracao](13.06-testes-de-integracao.md) | Especifica pratica | Rascunho |
-| 13.07 | [Contract Tests](13.07-contract-tests.md) | Especifica pratica | Rascunho |
-| 13.08 | [Testes End-to-End](13.08-testes-end-to-end.md) | Especifica pratica | Rascunho |
-| 13.09 | [Testes de Regressao](13.09-testes-de-regressao.md) | Especifica | Rascunho |
-| 13.10 | [Testes em CI](13.10-testes-em-ci.md) | Especifica pratica | Rascunho |
-| 13.11 | [Flaky Tests](13.11-flaky-tests.md) | Especifica | Rascunho |
+| 13.02 | [Estratégia de Testes](13.02-estrategia-de-testes.md) | Específica ampla | Rascunho |
+| 13.03 | [Pirâmide de Testes](13.03-piramide-de-testes.md) | Específica | Rascunho |
+| 13.04 | [Testes Unitários](13.04-testes-unitarios.md) | Específica prática | Rascunho |
+| 13.05 | [Mocks, Stubs e Fakes](13.05-mocks-stubs-e-fakes.md) | Específica | Rascunho |
+| 13.06 | [Testes de Integração](13.06-testes-de-integracao.md) | Específica prática | Rascunho |
+| 13.07 | [Contract Tests](13.07-contract-tests.md) | Específica prática | Rascunho |
+| 13.08 | [Testes End-to-End](13.08-testes-end-to-end.md) | Específica prática | Rascunho |
+| 13.09 | [Testes de Regressão](13.09-testes-de-regressao.md) | Específica | Rascunho |
+| 13.10 | [Testes em CI](13.10-testes-em-ci.md) | Específica prática | Rascunho |
+| 13.11 | [Flaky Tests](13.11-flaky-tests.md) | Específica | Rascunho |
 | 13.12 | [Testabilidade de Arquitetura](13.12-testabilidade-de-arquitetura.md) | Guarda-chuva curta | Rascunho |
-| 13.13 | [Analise Estatica, Metricas e Quality Gates](13.13-analise-estatica-metricas-e-quality-gates.md) | Especifica ampla | Rascunho |
-| 13.14 | [Analise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Rascunho |
-| 13.15 | [Profiling](13.15-profiling.md) | Especifica pratica | Rascunho |
-| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Especifica pratica | Rascunho |
-| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Especifica pratica | Rascunho |
+| 13.13 | [Análise Estática, Métricas e Quality Gates](13.13-analise-estatica-metricas-e-quality-gates.md) | Específica ampla | Rascunho |
+| 13.14 | [Análise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Rascunho |
+| 13.15 | [Profiling](13.15-profiling.md) | Específica prática | Rascunho |
+| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Específica prática | Rascunho |
+| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Específica prática | Rascunho |
 | 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Rascunho |
-| 13.19 | [Instrumentacao](13.19-instrumentacao.md) | Especifica pratica | Rascunho |
-| 13.20 | [Telemetria](13.20-telemetria.md) | Especifica | Rascunho |
-| 13.21 | [Metricas](13.21-metricas.md) | Especifica pratica | Rascunho |
-| 13.22 | [Tracing](13.22-tracing.md) | Especifica pratica | Rascunho |
-| 13.23 | [Monitoramento](13.23-monitoramento.md) | Especifica | Rascunho |
-| 13.24 | [Alertas](13.24-alertas.md) | Especifica | Rascunho |
-| 13.25 | [Failure Modes na Pratica](13.25-failure-modes-na-pratica.md) | Sintese conceitual/pratica | Rascunho |
-| 13.26 | [Projeto Pratico: Tornando uma API Testavel, Observavel e Mensuravel](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Sintese pratica | Rascunho |
+| 13.19 | [Instrumentação](13.19-instrumentacao.md) | Específica prática | Rascunho |
+| 13.20 | [Telemetria](13.20-telemetria.md) | Específica | Rascunho |
+| 13.21 | [Métricas](13.21-metricas.md) | Específica prática | Rascunho |
+| 13.22 | [Tracing](13.22-tracing.md) | Específica prática | Rascunho |
+| 13.23 | [Monitoramento](13.23-monitoramento.md) | Específica | Rascunho |
+| 13.24 | [Alertas](13.24-alertas.md) | Específica | Rascunho |
+| 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Rascunho |
+| 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Rascunho |
 
-## Projeto ou Pratica do Modulo
+## Projeto ou Prática do Módulo
 
-Evolua a API do painel de estudos criada nos modulos anteriores para uma aplicacao mais confiavel:
+Evolua a API do painel de estudos criada nos módulos anteriores para uma aplicação mais confiável:
 
-1. Escolha fluxos criticos da API.
-2. Escreva uma estrategia de testes para esses fluxos.
-3. Crie testes unitarios para regras pequenas.
-4. Crie testes de integracao para endpoints e banco.
+1. Escolha fluxos críticos da API.
+2. Escreva uma estratégia de testes para esses fluxos.
+3. Crie testes unitários para regras pequenas.
+4. Crie testes de integração para endpoints e banco.
 5. Valide contratos principais da API.
 6. Defina pelo menos um fluxo end-to-end.
 7. Rode os testes em um fluxo de CI conceitual ou real.
-8. Defina metricas e um quality gate para codigo novo.
+8. Defina métricas e um quality gate para código novo.
 9. Investigue um gargalo simples com profiling.
-10. Crie logs estruturados com contexto de requisicao.
-11. Defina metricas de latencia, erros e volume.
-12. Desenhe traces para uma requisicao importante.
+10. Crie logs estruturados com contexto de requisição.
+11. Defina métricas de latência, erros e volume.
+12. Desenhe traces para uma requisição importante.
 13. Defina monitoramento e alertas para failure modes relevantes.
 
-## O Que Revisar Antes de Avancar
+## O Que Revisar Antes de Avançar
 
-- Testes em frontend e comportamento observavel.
+- Testes em frontend e comportamento observável.
 - Performance no frontend, performance em SQL e profiling no backend.
-- Logging, failure modes, idempotencia e rate limiting.
+- Logging, failure modes, idempotência e rate limiting.
 - Contratos de API, OpenAPI, erros padronizados e contract testing.
-- Autenticacao, autorizacao e seguranca em APIs.
+- Autenticação, autorização e segurança em APIs.
 
-## Prompt de Revisao do Modulo
+## Prompt de Revisão do Módulo
 
 ```text
-Estou finalizando o modulo Qualidade, Testes, Observabilidade e Performance de uma formacao fullstack JavaScript/TypeScript.
+Estou finalizando o módulo Qualidade, Testes, Observabilidade é Performance de uma formação fullstack JavaScript/TypeScript.
 
-Contexto do modulo:
-- Descricao do modulo: O modulo ensina qualidade de software, estrategia de testes, piramide, testes unitarios, integracao, E2E, contract tests, carga, regressao, CI, flaky tests, testabilidade, analise estatica, quality gates, performance, profiling, logging, observabilidade, instrumentacao, telemetria, metricas, tracing, monitoramento, alertas e failure modes.
-- Objetivo do modulo: Quero sair do "funciona na minha maquina" para software testavel, mensuravel, operavel e confiavel.
-- Pre-requisitos: HTTP, TypeScript, frontend, backend com Node.js, bancos de dados, API design, seguranca, logging, failure modes e profiling introdutorio.
+Contexto do módulo:
+- Descrição do módulo: O módulo ensina qualidade de software, estratégia de testes, pirâmide, testes unitários, integração, E2E, contract tests, carga, regressão, CI, flaky tests, testabilidade, análise estática, quality gates, performance, profiling, logging, observabilidade, instrumentação, telemetria, métricas, tracing, monitoramento, alertas e failure modes.
+- Objetivo do módulo: Quero sair do "funciona na minha máquina" para software testável, mensurável, operável e confiável.
+- Pré-requisitos: HTTP, TypeScript, frontend, backend com Node.js, bancos de dados, API design, segurança, logging, failure modes e profiling introdutório.
 
-Crie uma revisao guiada com:
+Crie uma revisão guiada com:
 1. perguntas conceituais;
-2. exercicios praticos de estrategia de testes;
-3. exercicios de observabilidade e performance;
-4. perguntas de entrevista para backend/fullstack iniciante-intermediario;
-5. exemplos de aplicacao em projetos reais;
-6. uma avaliacao final com criterios claros.
+2. exercícios práticos de estratégia de testes;
+3. exercícios de observabilidade e performance;
+4. perguntas de entrevista para backend/fullstack iniciante-intermediário;
+5. exemplos de aplicação em projetos reais;
+6. uma avaliação final com critérios claros.
 
-Nao entregue respostas completas antes de eu tentar responder.
+Não entregue respostas completas antes de eu tentar responder.
 ```
 
-## Referencias Gerais
+## Referências Gerais
 
-- Documentacao oficial das ferramentas de teste escolhidas para pratica.
-- Documentacao oficial do framework backend escolhido para pratica.
-- Documentacao oficial do banco de dados e ORM escolhidos para pratica.
-- Guias conceituais sobre observabilidade, metricas, logs e tracing.
-- Materiais de boas praticas sobre CI, testes e engenharia de confiabilidade.
+- Documentação oficial das ferramentas de teste escolhidas para prática.
+- Documentação oficial do framework backend escolhido para prática.
+- Documentação oficial do banco de dados e ORM escolhidos para prática.
+- Guias conceituais sobre observabilidade, métricas, logs e tracing.
+- Materiais de boas práticas sobre CI, testes e engenharia de confiabilidade.
