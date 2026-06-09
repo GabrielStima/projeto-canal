@@ -71,7 +71,7 @@ DevOps, containers e Kubernetes entram para reduzir essa distância entre códig
 
 ## Projeto ou Prática do Módulo
 
-Construir um fluxo pequeno de entrega para uma aplicação já estudada no curso:
+Construir um fluxo pequeno de entrega para uma aplicação já estudada na formação:
 
 1. escolher uma API Node.js simples com endpoint de saúde;
 2. definir pipeline com validação, testes e build;

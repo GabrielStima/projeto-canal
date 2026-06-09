@@ -54,7 +54,7 @@ SRE, operação e incidentes existem para transformar confiabilidade em prática
 
 Operar uma API simples como se ela estivesse em produção:
 
-1. escolher uma API já usada no curso;
+1. escolher uma API já usada na formação;
 2. definir SLIs de disponibilidade, latência, erros e saturação;
 3. propor SLOs realistas para os fluxos principais;
 4. desenhar alertas acionáveis;

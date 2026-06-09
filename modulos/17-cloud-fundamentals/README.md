@@ -51,7 +51,7 @@ Sem essa base, ferramentas como Terraform, Docker e Kubernetes viram uma pilha d
 
 ## Projeto ou Prática do Módulo
 
-Desenhe a infraestrutura cloud de uma aplicação fullstack já estudada no curso:
+Desenhe a infraestrutura cloud de uma aplicação fullstack já estudada na formação:
 
 1. escolha uma aplicação com frontend, API, banco e uploads;
 2. defina região e estratégia básica de disponibilidade;

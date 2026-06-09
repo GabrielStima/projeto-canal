@@ -51,7 +51,7 @@ Depois de system design e IA para desenvolvedores, o aluno já tem repertório p
 
 ## Projeto ou Prática do Módulo
 
-Escolha uma aplicação ou arquitetura já estudada no curso e produza um pacote de documentação técnica:
+Escolha uma aplicação ou arquitetura já estudada na formação e produza um pacote de documentação técnica:
 
 1. README com objetivo, setup, comandos, configuração e limites;
 2. documentação interna para onboarding e manutenção;

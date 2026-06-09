@@ -1,6 +1,6 @@
 # Template de Módulo
 
-Use este template quando um módulo do curso for criado.
+Use este template quando um módulo da formação for criado.
 
 O módulo deve apresentar o papel daquele grupo de aulas dentro da jornada completa.
 
@@ -13,7 +13,7 @@ Explique o que o aluno deve conquistar ao terminar este módulo.
 
 ## Por Que Este Módulo Existe
 
-Explique por que estes assuntos aparecem nesta parte do curso e como eles preparam os próximos passos.
+Explique por que estes assuntos aparecem nesta parte da formação e como eles preparam os próximos passos.
 
 ## Pré-requisitos
 

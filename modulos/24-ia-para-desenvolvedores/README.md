@@ -68,7 +68,7 @@ Este módulo entra depois de system design porque IA deixa de ser apenas "um cha
 
 ## Projeto ou Prática do Módulo
 
-Construa um assistente técnico para consultar materiais do curso ou ajudar na manutenção de um projeto TypeScript:
+Construa um assistente técnico para consultar materiais da formação ou ajudar na manutenção de um projeto TypeScript:
 
 1. defina o problema, o usuário e os limites do assistente;
 2. classifique os dados que podem ou não entrar no contexto;

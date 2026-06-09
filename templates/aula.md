@@ -16,7 +16,7 @@ Ao final desta aula, você deve ser capaz de:
 - aplicar o conceito em um exemplo simples;
 - saber o que estudar em seguida.
 
-## Onde Esta Aula Entra no Curso
+## Onde Esta Aula Entra na Formação
 
 - Módulo:
 - Aula anterior:

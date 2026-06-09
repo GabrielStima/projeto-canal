@@ -1,10 +1,10 @@
-# 🐾 PetCare OS — Desafio Geral do Curso
+# 🐾 PetCare OS — Desafio Geral da Formação
 
-Bem-vindo ao repositório central do **PetCare OS**, o projeto prático de portfólio que servirá como o principal **fio condutor** de toda a sua jornada de aprendizado neste curso. 
+Bem-vindo ao repositório central do **PetCare OS**, o projeto prático de portfólio que servirá como o principal **fio condutor** de toda a sua jornada de aprendizado nesta formação. 
 
 Em vez de criar pequenos projetos isolados a cada módulo, você construirá um ecossistema de software completo e real do zero absoluto, aplicando gradualmente cada conceito estudado — desde os fundamentos de HTML/CSS até arquitetura de software, infraestrutura como código (IaC), observabilidade, conformidade com a LGPD e inteligência artificial generativa.
 
-Ao final do curso, você terá um projeto extremamente robusto, documentado e em nível de produção para destacar no seu portfólio de engenharia de software.
+Ao final da formação, você terá um projeto extremamente robusto, documentado e em nível de produção para destacar no seu portfólio de engenharia de software.
 
 ---
 
@@ -64,7 +64,7 @@ graph TD
 
 ## 🗺️ O Fio Condutor: Mapa de Evolução do Projeto
 
-Ao longo dos **26 módulos do curso**, você construirá o PetCare OS passo a passo. Abaixo está o mapeamento de como cada parte do currículo se conecta ao projeto prático:
+Ao longo dos **26 módulos da formação**, você construirá o PetCare OS passo a passo. Abaixo está o mapeamento de como cada parte do currículo se conecta ao projeto prático:
 
 | Módulos | Tema do Módulo | O Que Você Implementará no PetCare OS |
 | :---: | :--- | :--- |

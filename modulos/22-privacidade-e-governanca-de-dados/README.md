@@ -54,7 +54,7 @@ Privacidade não é apenas uma camada jurídica depois que o sistema fica pronto
 
 ## Projeto ou Prática do Módulo
 
-Revise uma aplicação fullstack já usada no curso:
+Revise uma aplicação fullstack já usada na formação:
 
 1. liste dados coletados no frontend, API, banco, logs, analytics, suporte e IA;
 2. classifique dados pessoais, sensíveis, técnicos, públicos e anonimizados;

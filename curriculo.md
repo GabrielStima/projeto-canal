@@ -1,12 +1,12 @@
-# Currículo
+# 🎓 Currículo — Formação Engenharia FullStack Gratuita
 
-Este currículo organiza o mega curso em uma sequência única, indo do absoluto zero até tópicos avançados de desenvolvimento fullstack, arquitetura, infraestrutura, system design e IA para desenvolvedores.
+Este currículo organiza a mega formação em uma sequência única, indo do absoluto zero até tópicos avançados de desenvolvimento fullstack, arquitetura, infraestrutura, system design e IA para desenvolvedores.
 
-A organização abaixo é uma matriz macro. Cada módulo tem uma pasta própria no repositório e poderá receber aulas, exercícios e prompts de estudo conforme o curso avançar.
+A organização abaixo é uma matriz macro. Cada módulo tem uma pasta própria no repositório e poderá receber aulas, exercícios e prompts de estudo conforme a formação avançar.
 
 ## Modelo Pedagógico
 
-O curso usa dois tipos de aula:
+A formação usa dois tipos de aula:
 
 - **Aula guarda-chuva:** apresenta um tema amplo, sua importância, vocabulário, relações e mapa mental.
 - **Aula específica:** aprofunda um assunto isolado, com exemplos, casos de uso e exercícios.
@@ -27,11 +27,93 @@ A aula guarda-chuva prepara o terreno. As aulas específicas viram material de c
 
 ## Matriz Curricular Macro
 
+```mermaid
+graph TD
+    classDef default fill:#1e1e24,stroke:#3178C6,stroke-width:2px,color:#fff;
+    classDef phase1 fill:#2b1d3a,stroke:#a154ff,stroke-width:2px,color:#fff;
+    classDef phase2 fill:#14301d,stroke:#3cd070,stroke-width:2px,color:#fff;
+    classDef phase3 fill:#113a4a,stroke:#3ba7d0,stroke-width:2px,color:#fff;
+    classDef phase4 fill:#4a3211,stroke:#d08f3b,stroke-width:2px,color:#fff;
+    classDef phase5 fill:#5c2542,stroke:#d03b88,stroke-width:2px,color:#fff;
+    classDef phase6 fill:#1c1e3a,stroke:#5c54ff,stroke-width:2px,color:#fff;
+    classDef phase7 fill:#3a1c2d,stroke:#ff548b,stroke-width:2px,color:#fff;
+    classDef phase8 fill:#24586d,stroke:#5ad5ff,stroke-width:2px,color:#fff;
+
+    subgraph F1[Fase 1: Fundamentos & Frontend Base]
+        M00[00. Introdução & Estudo] --> M01[01. Fundamentos da Internet]
+        M01 --> M02[02. Frontend Essencial]
+    end
+
+    subgraph F2[Fase 2: Lógica & Ferramental]
+        M03[03. Programação com TypeScript] --> M04[04. Algoritmos & Estruturas]
+        M04 --> M05[05. Ferramental Dev]
+        M05 --> M06[06. Engenharia de Produto]
+    end
+
+    subgraph F3[Fase 3: Frontend Moderno & Next.js]
+        M07[07. Frontend Moderno - React] --> M08[08. Next.js Fullstack]
+    end
+
+    subgraph F4[Fase 4: Backend, Bancos & Segurança]
+        M09[09. Bancos de Dados] --> M10[10. Node.js Backend]
+        M10 --> M11[11. API Design Profissional]
+        M11 --> M12[12. Segurança & Autenticação]
+    end
+
+    subgraph F5[Fase 5: Qualidade & Arquitetura]
+        M13[13. Qualidade & Testes] --> M14[14. Design de Software]
+        M14 --> M15[15. Arquitetura de Software]
+        M15 --> M16[16. Tempo Real & Mensageria]
+    end
+
+    subgraph F6[Fase 6: Cloud, DevOps & SRE]
+        M17[17. Cloud Fundamentals] --> M18[18. IaC - Terraform]
+        M18 --> M19[19. DevOps, Containers & K8s]
+        M19 --> M20[20. SRE & Operações]
+    end
+
+    subgraph F7[Fase 7: Segurança, LGPD & IA]
+        M21[21. Supply Chain Security] --> M22[22. Privacidade & LGPD]
+        M22 --> M23[23. System Design]
+        M23 --> M24[24. IA para Desenvolvedores]
+    end
+
+    subgraph F8[Fase 8: Documentação]
+        M25[25. Documentação Técnica]
+    end
+
+    M02 --> M03
+    M06 --> M07
+    M08 --> M09
+    M12 --> M13
+    M16 --> M17
+    M20 --> M21
+    M24 --> M25
+
+    class M00,M01,M02 phase1;
+    class M03,M04,M05,M06 phase2;
+    class M07,M08 phase3;
+    class M09,M10,M11,M12 phase4;
+    class M13,M14,M15,M16 phase5;
+    class M17,M18,M19,M20 phase6;
+    class M21,M22,M23,M24 phase7;
+    class M25 phase8;
+```
+
+
+---
+
+
+## 🚀 Fase 1: Fundamentos & Frontend Base
+
+
 ### 00. Introdução e Método de Estudo
 
-Objetivo: apresentar o projeto, alinhar expectativas e ensinar a estudar com aulas, documentação, prática e IA.
+> **Objetivo:** apresentar o projeto, alinhar expectativas e ensinar a estudar com aulas, documentação, prática e IA.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Contexto do projeto
 - Como estudar com as aulas
@@ -39,11 +121,16 @@ Assuntos:
 - Como montar caderno de estudo, revisão e prática
 - Como usar este repositório
 
+</details>
+
+
 ### 01. Fundamentos da Internet e da Web
 
-Objetivo: entender o ambiente onde aplicações web existem.
+> **Objetivo:** entender o ambiente onde aplicações web existem.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Internet
 - Protocolos
@@ -55,11 +142,16 @@ Assuntos:
 - Frontend e backend como papéis na web
 - Cliente, servidor, request, response e estado
 
+</details>
+
+
 ### 02. Frontend Essencial
 
-Objetivo: construir a base visual e interativa da web antes de frameworks.
+> **Objetivo:** construir a base visual e interativa da web antes de frameworks.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - HTML
 - Semântica HTML
@@ -75,11 +167,19 @@ Assuntos:
 - Acessibilidade
 - Browsers e compatibilidade
 
+</details>
+
+
+## ⚙️ Fase 2: Lógica, TypeScript & Ferramental
+
+
 ### 03. Programação com TypeScript
 
-Objetivo: usar TypeScript como base de linguagem para o restante do curso.
+> **Objetivo:** usar TypeScript como base de linguagem para o restante da formação.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - JavaScript moderno
 - Assincronismo em JavaScript
@@ -104,11 +204,16 @@ Assuntos:
 - Programação orientada a objetos básica
 - Promises e async/await
 
+</details>
+
+
 ### 04. Algoritmos e Estruturas de Dados
 
-Objetivo: desenvolver raciocínio computacional e vocabulário técnico para resolver problemas.
+> **Objetivo:** desenvolver raciocínio computacional e vocabulário técnico para resolver problemas.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Estruturas de dados
 - Arrays
@@ -133,11 +238,16 @@ Assuntos:
 - Árvore binária
 - Árvore de busca binária
 
+</details>
+
+
 ### 05. Ferramentas de Desenvolvimento
 
-Objetivo: dominar o fluxo básico de trabalho de um desenvolvedor profissional.
+> **Objetivo:** dominar o fluxo básico de trabalho de um desenvolvedor profissional.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Editor/IDE e produtividade
 - Terminal e linha de comando
@@ -156,11 +266,16 @@ Assuntos:
 - Documentação mínima de projeto
 - Code review
 
+</details>
+
+
 ### 06. Engenharia de Produto
 
-Objetivo: entender problema, contexto e entrega antes de transformar uma ideia em implementação.
+> **Objetivo:** entender problema, contexto e entrega antes de transformar uma ideia em implementação.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Requisitos
 - Histórias de usuário
@@ -168,11 +283,19 @@ Assuntos:
 - Feature flags
 - Experimentos e A/B testing
 
+</details>
+
+
+## ⚛️ Fase 3: Frontend Moderno & Next.js
+
+
 ### 07. Frontend Moderno
 
-Objetivo: construir interfaces modernas com bibliotecas, frameworks e boas práticas.
+> **Objetivo:** construir interfaces modernas com bibliotecas, frameworks e boas práticas.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Frameworks e libs frontend
 - React
@@ -191,11 +314,16 @@ Assuntos:
 - Module Federation
 - Micro-frontends
 
+</details>
+
+
 ### 08. Next.js e Aplicações Fullstack no Frontend
 
-Objetivo: usar Next.js como ponte entre frontend moderno, backend-for-frontend e renderização no servidor.
+> **Objetivo:** usar Next.js como ponte entre frontend moderno, backend-for-frontend e renderização no servidor.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Next.js
 - Estratégias de renderização
@@ -213,11 +341,19 @@ Assuntos:
 - Animações
 - Deploy de aplicações Next.js
 
+</details>
+
+
+## 🟢 Fase 4: Backend, Bancos & Segurança
+
+
 ### 09. Bancos de Dados
 
-Objetivo: entender persistência, modelagem e uso prático de bancos relacionais e não relacionais.
+> **Objetivo:** entender persistência, modelagem e uso prático de bancos relacionais e não relacionais.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - SQL e NoSQL
 - Modelagem de dados
@@ -244,11 +380,16 @@ Assuntos:
 - Scaling
 - Security
 
+</details>
+
+
 ### 10. Backend com Node.js
 
-Objetivo: criar serviços backend usando Node.js com fundamentos sólidos.
+> **Objetivo:** criar serviços backend usando Node.js com fundamentos sólidos.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Node.js
 - Runtime
@@ -273,11 +414,16 @@ Assuntos:
 - Message brokers
 - Motores de busca
 
+</details>
+
+
 ### 11. API Design Profissional
 
-Objetivo: sair de "criar endpoints" para desenhar APIs consistentes, evolutivas e fáceis de consumir.
+> **Objetivo:** sair de "criar endpoints" para desenhar APIs consistentes, evolutivas e fáceis de consumir.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Design de APIs
 - Versionamento de API
@@ -293,11 +439,16 @@ Assuntos:
 - API governance
 - Contract testing
 
+</details>
+
+
 ### 12. Autenticação, Autorização e Segurança
 
-Objetivo: construir aplicações mais seguras e entender riscos comuns da web.
+> **Objetivo:** construir aplicações mais seguras e entender riscos comuns da web.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Segurança na web
 - Autenticação básica
@@ -316,11 +467,19 @@ Assuntos:
 - Rate limiting
 - Segurança em APIs
 
+</details>
+
+
+## 🏗️ Fase 5: Qualidade & Arquitetura de Software
+
+
 ### 13. Qualidade, Testes, Observabilidade e Performance
 
-Objetivo: sair do "funciona na minha máquina" para software testável, mensurável, operável e confiável.
+> **Objetivo:** sair do "funciona na minha máquina" para software testável, mensurável, operável e confiável.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Qualidade de software
 - Estratégia de testes
@@ -348,11 +507,16 @@ Assuntos:
 - Alertas
 - Failure modes
 
+</details>
+
+
 ### 14. Design de Software
 
-Objetivo: entender como escrever código mais simples, legível e sustentável.
+> **Objetivo:** entender como escrever código mais simples, legível e sustentável.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Princípios do Clean Code
 - Paradigmas da programação
@@ -374,11 +538,16 @@ Assuntos:
 - GoF
 - PoSA
 
+</details>
+
+
 ### 15. Arquitetura de Software
 
-Objetivo: organizar sistemas além de arquivos e classes.
+> **Objetivo:** organizar sistemas além de arquivos e classes.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Princípios arquiteturais
 - Princípios de componentes
@@ -405,11 +574,16 @@ Assuntos:
 - CQRS
 - Twelve-Factor Apps
 
+</details>
+
+
 ### 16. Dados em Tempo Real e Comunicação Assíncrona
 
-Objetivo: entender comunicação além do request/response tradicional.
+> **Objetivo:** entender comunicação além do request/response tradicional.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Dados em tempo real
 - SSE
@@ -423,11 +597,19 @@ Assuntos:
 - Background jobs
 - Operações idempotentes
 
+</details>
+
+
+## ☁️ Fase 6: Cloud, DevOps & SRE
+
+
 ### 17. Cloud Fundamentals
 
-Objetivo: entender os principais blocos de construção de cloud antes de entrar em containers, Kubernetes e arquiteturas maiores.
+> **Objetivo:** entender os principais blocos de construção de cloud antes de entrar em containers, Kubernetes e arquiteturas maiores.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - IAM
 - VPC/networking
@@ -442,11 +624,16 @@ Assuntos:
 - Regiões e zonas
 - Backup e disaster recovery
 
+</details>
+
+
 ### 18. Infrastructure as Code
 
-Objetivo: aprender a definir, versionar, reutilizar e administrar infraestrutura como código, usando Terraform como ferramenta principal.
+> **Objetivo:** aprender a definir, versionar, reutilizar e administrar infraestrutura como código, usando Terraform como ferramenta principal.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Infrastructure as Code
 - Infraestrutura declarativa vs imperativa
@@ -476,11 +663,16 @@ Assuntos:
 - Segurança e segredos em IaC
 - Projeto prático: provisionar a infraestrutura de uma aplicação
 
+</details>
+
+
 ### 19. DevOps, Containers e Kubernetes
 
-Objetivo: entender como aplicações rodam, escalam e são entregues em ambientes modernos.
+> **Objetivo:** entender como aplicações rodam, escalam e são entregues em ambientes modernos.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - CI/CD
 - Deploy
@@ -513,11 +705,16 @@ Assuntos:
 - Padrões de deployment
 - Tópicos avançados
 
+</details>
+
+
 ### 20. SRE, Operação e Incidentes
 
-Objetivo: entender como sistemas reais são operados, acompanhados e recuperados quando estão em produção.
+> **Objetivo:** entender como sistemas reais são operados, acompanhados e recuperados quando estão em produção.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - SLI, SLO e SLA
 - Incident response
@@ -530,11 +727,19 @@ Assuntos:
 - Readiness e liveness
 - Capacidade e saturação
 
+</details>
+
+
+## 🛡️ Fase 7: Segurança, LGPD & IA
+
+
 ### 21. Supply Chain Security e Secure SDLC
 
-Objetivo: entender a segurança do processo de desenvolvimento, das dependências, dos ambientes e dos artefatos de entrega.
+> **Objetivo:** entender a segurança do processo de desenvolvimento, das dependências, dos ambientes e dos artefatos de entrega.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Secrets management
 - Dependency scanning
@@ -550,11 +755,16 @@ Assuntos:
 - Assinatura de artefatos
 - Ambientes e credenciais
 
+</details>
+
+
 ### 22. Privacidade e Governança de Dados
 
-Objetivo: aprender a lidar com dados de forma responsável, auditável e compatível com riscos legais e técnicos.
+> **Objetivo:** aprender a lidar com dados de forma responsável, auditável e compatível com riscos legais e técnicos.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - LGPD/GDPR básico para devs
 - Dados pessoais
@@ -566,11 +776,16 @@ Assuntos:
 - Dados enviados para IA
 - Políticas de acesso
 
+</details>
+
+
 ### 23. System Design
 
-Objetivo: aprender a pensar em sistemas maiores, escaláveis e confiáveis.
+> **Objetivo:** aprender a pensar em sistemas maiores, escaláveis e confiáveis.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Design de sistemas
 - Disponibilidade vs consistência
@@ -596,11 +811,16 @@ Assuntos:
 - Resiliência
 - Segurança
 
+</details>
+
+
 ### 24. IA para Desenvolvedores
 
-Objetivo: usar IA como ferramenta de trabalho e entender como projetar, integrar, avaliar e proteger aplicações com IA.
+> **Objetivo:** usar IA como ferramenta de trabalho e entender como projetar, integrar, avaliar e proteger aplicações com IA.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - O que é IA generativa
 - LLMs, tokens, contexto e embeddings
@@ -631,11 +851,19 @@ Assuntos:
 - Custos e observabilidade em apps com IA
 - Projeto prático: assistente técnico com RAG ou agente simples
 
+</details>
+
+
+## 📝 Fase 8: Documentação Técnica
+
+
 ### 25. Documentação Técnica
 
-Objetivo: registrar decisões e comunicar arquitetura com clareza.
+> **Objetivo:** registrar decisões e comunicar arquitetura com clareza.
 
-Assuntos:
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
 - Documentações
 - README
@@ -648,3 +876,5 @@ Assuntos:
 - Comunicação técnica
 - Documentação para times
 - Documentação para público externo
+
+</details>

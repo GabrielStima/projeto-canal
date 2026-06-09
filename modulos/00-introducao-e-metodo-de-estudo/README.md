@@ -1,6 +1,6 @@
 # Introdução e Método de Estudo
 
-Este módulo abre o curso e apresenta a proposta da trilha: estudar desenvolvimento fullstack JavaScript/TypeScript do zero até tópicos avançados, usando aulas, prática, documentação e IA como ferramentas de aprendizado.
+Este módulo abre a formação e apresenta a proposta da trilha: estudar desenvolvimento fullstack JavaScript/TypeScript do zero até tópicos avançados, usando aulas, prática, documentação e IA como ferramentas de aprendizado.
 
 Ele não é um módulo técnico no sentido tradicional. A ideia aqui é alinhar contexto, expectativas e método antes de entrar nos fundamentos da web.
 
@@ -10,7 +10,7 @@ Ao final deste módulo, você deve ser capaz de:
 
 - entender a proposta do projeto;
 - navegar pelo repositório;
-- entender como a sequência do curso está organizada;
+- entender como a sequência da formação está organizada;
 - escolher uma forma prática de estudar com as aulas;
 - usar IA como apoio sem terceirizar seu raciocínio.
 
@@ -18,9 +18,9 @@ Ao final deste módulo, você deve ser capaz de:
 
 Cursos técnicos costumam começar direto pela ferramenta: HTML, JavaScript, terminal, Git ou qualquer outro assunto de entrada.
 
-Aqui, antes disso, existe uma etapa de alinhamento. Como este é um curso longo, a forma de estudar importa tanto quanto a ordem dos conteúdos. Sem método, uma trilha grande vira uma lista infinita de vídeos. Com método, ela vira um caminho.
+Aqui, antes disso, existe uma etapa de alinhamento. Como esta é uma formação longo, a forma de estudar importa tanto quanto a ordem dos conteúdos. Sem método, uma trilha grande vira uma lista infinita de vídeos. Com método, ela vira um caminho.
 
-Este módulo também explica como o repositório deve ser usado. Ele não é apenas um lugar para guardar arquivos: ele funciona como mapa do curso, material de revisão e guia para estudo independente.
+Este módulo também explica como o repositório deve ser usado. Ele não é apenas um lugar para guardar arquivos: ele funciona como mapa da formação, material de revisão e guia para estudo independente.
 
 ## Como Este Repositório Está Organizado
 
@@ -30,9 +30,10 @@ A estrutura principal do projeto é composta por:
 - `curriculo.md`: matriz curricular macro;
 - `estrutura-do-repositorio.md`: explicação da organização do repositório;
 - `templates/`: modelos usados para criar aulas, módulos e prompts;
-- `modulos/`: pastas com os módulos e aulas do curso.
+- `desafio/`: projeto "fio-condutor" para ser usado durante a formação;
+- `modulos/`: pastas com os módulos e aulas da formação.
 
-Cada módulo tem uma pasta própria. Conforme o curso avançar, as aulas serão adicionadas em arquivos Markdown numerados.
+Cada módulo tem uma pasta própria. Conforme a formação avançar, as aulas serão adicionadas em arquivos Markdown numerados.
 
 Exemplo:
 
@@ -64,7 +65,7 @@ Antes de avançar para o próximo módulo, vale definir:
 
 ## O Que Revisar Antes de Avançar
 
-- A proposta geral do curso
+- A proposta geral da formação
 - A estrutura do repositório
 - A diferença entre assistir aula e estudar de verdade
 - O papel da prática no aprendizado técnico
@@ -75,7 +76,7 @@ Antes de avançar para o próximo módulo, vale definir:
 ```text
 Estou começando uma formação fullstack JavaScript/TypeScript e acabei de estudar o módulo de introdução e método de estudo.
 
-Quero montar um plano realista para acompanhar o curso.
+Quero montar um plano realista para acompanhar a formação.
 
 Me ajude a:
 1. definir uma rotina semanal de estudo;

@@ -33,7 +33,7 @@ Este módulo prepara a base para responder essas perguntas sem depender de decor
 
 ## Pré-requisitos
 
-- Entender a proposta do curso.
+- Entender a proposta da formação.
 - Saber navegar pelo repositório.
 - Ter uma rotina mínima de estudo e revisão.
 - Não é necessário saber programar.

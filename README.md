@@ -1,106 +1,139 @@
-# Projeto Canal
+<div align="center">
 
-Uma formação aberta, em português, para estudar desenvolvimento fullstack JavaScript/TypeScript do zero até tópicos avançados de engenharia de software, arquitetura, infraestrutura, system design e IA para desenvolvedores.
+![Formação Engenharia FullStack Gratuita Banner](assets/banner.png)
 
-Este repositório é o mapa público do curso. Ele organiza a sequência de estudos, os módulos, os roteiros de aula e os prompts de prática com IA.
+# 🚀 Formação Engenharia FullStack Gratuita
 
-## O Que É
+### Uma formação aberta, gratuita e de nível de produção para dominar desenvolvimento de software.
 
-O Projeto Canal nasce da ideia de estudar ensinando.
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![React / Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
 
-A proposta é criar uma trilha longa, sequencial e prática, em que cada aula transforma um assunto em um material claro, consultável e útil tanto para quem acompanha o curso completo quanto para quem chega procurando um tema específico.
+</div>
 
-O foco não é apenas aprender ferramentas. A ideia é construir maturidade: entender fundamentos, escrever código melhor, projetar sistemas, operar aplicações reais, lidar com segurança, usar IA com critério e comunicar decisões técnicas.
+---
 
-## Para Quem É
+> [!NOTE]
+> **A Formação Engenharia FullStack Gratuita nasce da ideia de estudar ensinando.** 
+> A proposta é criar uma trilha longa, sequencial e 100% prática, em que cada aula transforma um assunto complexo em um material claro, consultável e útil tanto para quem acompanha a formação completa quanto para quem busca um tema específico.
 
-Este projeto pode ajudar quem:
+---
 
-- está começando em desenvolvimento web;
-- quer seguir uma trilha fullstack JavaScript/TypeScript;
-- já programa, mas sente lacunas em fundamentos;
-- quer revisar assuntos técnicos com mais profundidade;
-- quer estudar para crescer de júnior para pleno ou de pleno para sênior;
-- quer usar IA como apoio sem terceirizar o raciocínio.
+## 🧠 Foco em Maturidade Técnica
 
-## Como Estudar
+O foco deste repositório não é apenas ensinar ferramentas. A ideia é construir maturidade no desenvolvimento de software de ponta a ponta:
+- **Fundamentos Sólidos:** Entender como a internet funciona sob o capô, da infraestrutura física aos protocolos.
+- **Engenharia de Qualidade:** Código limpo, testes automáticos de ponta a ponta e observabilidade real de produção.
+- **System Design:** Resolver gargalos de latência, disponibilidade, segurança e escalabilidade em nuvem.
+- **Inteligência Artificial:** Usar IAs generativas e agentes de forma criteriosa para acelerar o aprendizado e a produtividade, sem terceirizar o raciocínio clínico.
 
-Uma forma simples de usar este repositório:
+---
 
-1. Comece pelo [currículo](curriculo.md).
-2. Siga os módulos em ordem.
-3. Leia o roteiro da aula antes ou depois do vídeo.
-4. Faça a prática recomendada.
-5. Use os prompts de IA para revisar, criar exercícios e testar seu entendimento.
-6. Volte aos módulos anteriores sempre que encontrar uma lacuna.
+## 🗺️ A Jornada do Aprendizado
 
-O curso é sequencial, mas o repositório também serve como material de consulta.
+A formação foi estruturado para ser uma jornada lógica, que guia você do zero absoluto até a operação de sistemas complexos:
 
-## Trilha do Curso
+```mermaid
+flowchart TD
+    A[01. Fundamentos & Internet] --> B[02. Frontend Essencial]
+    B --> C[03. TypeScript & Lógica]
+    C --> D[04. Algoritmos & Estruturas]
+    D --> E[07. Frontend Moderno]
+    E --> F[09. Bancos de Dados]
+    F --> G[10. Node.js Backend]
+    G --> H[12. Segurança & Autenticação]
+    H --> I[15. Arquitetura & DDD]
+    I --> J[16. Mensageria & Tempo Real]
+    J --> K[18. Infraestrutura como Código]
+    K --> L[20. SRE & Observabilidade]
+    L --> M[24. IA para Desenvolvedores]
+    M --> N[25. Documentação Técnica]
 
-| Módulo | Tema | Foco |
-| --- | --- | --- |
-| 00 | [Introdução e Método de Estudo](modulos/00-introducao-e-metodo-de-estudo/) | Como usar o curso, estudar com consistência e aproveitar IA sem terceirizar o raciocínio |
-| 01 | [Fundamentos da Internet e da Web](modulos/01-fundamentos-da-internet-e-web/) | Internet, protocolos, DNS, HTTP, browsers e fluxo de uma aplicação web |
-| 02 | [Frontend Essencial](modulos/02-frontend-essencial/) | HTML, CSS, cascata, nomenclatura, layout, JavaScript no browser, acessibilidade e responsividade |
-| 03 | [Programação com TypeScript](modulos/03-programacao-com-typescript/) | JavaScript moderno, TypeScript, tipos, funções, classes, módulos e assincronismo |
-| 04 | [Algoritmos e Estruturas de Dados](modulos/04-algoritmos-e-estruturas-de-dados/) | Estruturas de dados, complexidade, busca, ordenação, árvores e raciocínio computacional |
-| 05 | [Ferramentas de Desenvolvimento](modulos/05-ferramentas-de-desenvolvimento/) | Terminal, Git, GitHub, pacotes, ambientes, linters, bundlers e code review |
-| 06 | [Engenharia de Produto](modulos/06-engenharia-de-produto/) | Requisitos, histórias de usuário, critérios de aceite, feature flags e experimentos |
-| 07 | [Frontend Moderno](modulos/07-frontend-moderno/) | React, componentes, hooks, rotas, estado, chamadas de API, testes e performance |
-| 08 | [Next.js e Aplicações Fullstack](modulos/08-nextjs-e-aplicacoes-fullstack/) | App Router, renderização, Server Components, formulários, APIs, autenticação e deploy |
-| 09 | [Bancos de Dados](modulos/09-bancos-de-dados/) | SQL, NoSQL, modelagem, transações, índices, migrations, backup, MongoDB e performance |
-| 10 | [Backend com Node.js](modulos/10-backend-com-nodejs/) | Node.js, APIs, frameworks, banco de dados, ORMs, mensageria, busca e performance |
-| 11 | [API Design Profissional](modulos/11-api-design-profissional/) | Design de APIs, versionamento, paginação, filtros, erros, idempotência, contratos e OpenAPI |
-| 12 | [Autenticação, Autorização e Segurança](modulos/12-autenticacao-autorizacao-e-seguranca/) | Autenticação, autorização, sessões, JWT, OAuth, hashing, CORS, CSRF, XSS e segurança em APIs |
-| 13 | [Qualidade, Testes, Observabilidade e Performance](modulos/13-qualidade-observabilidade-e-performance/) | Estratégia de testes, quality gates, carga, profiling, logs, métricas, tracing e observabilidade |
-| 14 | [Design de Software](modulos/14-design-de-software/) | Clean Code, paradigmas, POO, SOLID, DRY, YAGNI, padrões de design e princípios de design |
-| 15 | [Arquitetura de Software](modulos/15-arquitetura-de-software/) | Princípios arquiteturais, estilos, DDD, MVC, microserviços, SOA, serverless, CQRS e Clean Architecture |
-| 16 | [Dados em Tempo Real e Comunicação Assíncrona](modulos/16-tempo-real-e-comunicacao-assincrona/) | SSE, WebSocket, polling, filas, pub/sub, message brokers, background jobs e idempotência |
-| 17 | [Cloud Fundamentals](modulos/17-cloud-fundamentals/) | IAM, redes, storage, bancos gerenciados, filas, serverless, CDN, secrets, FinOps e disaster recovery |
-| 18 | [Infrastructure as Code](modulos/18-infrastructure-as-code/) | Infraestrutura declarativa, Terraform, state, drift, módulos, ambientes e segurança em IaC |
-| 19 | [DevOps, Containers e Kubernetes](modulos/19-devops-containers-e-kubernetes/) | CI/CD, IaC em pipelines, deploy, Docker, containers, segurança, Kubernetes e deployment |
-| 20 | [SRE, Operação e Incidentes](modulos/20-sre-operacao-incidentes/) | SLI, SLO, SLA, incident response, postmortems, runbooks, on-call, rollback e error budgets |
-| 21 | [Supply Chain Security e Secure SDLC](modulos/21-supply-chain-security-e-secure-sdlc/) | Secrets, dependency scanning, SBOM, SAST, DAST, SCA, threat modeling, CI/CD e pacotes npm |
-| 22 | [Privacidade e Governança de Dados](modulos/22-privacidade-e-governanca-de-dados/) | LGPD/GDPR, dados pessoais, retenção, consentimento, anonimização, auditoria, logs e políticas de acesso |
-| 23 | [System Design](modulos/23-system-design/) | Disponibilidade, consistência, CDN, load balancers, caching, assíncronismo, cloud patterns e resiliência |
-| 24 | [IA para Desenvolvedores](modulos/24-ia-para-desenvolvedores/) | IA generativa, LLMs, prompts, agentes, RAG, evals, guardrails, LLMOps, FinOps para IA e segurança |
-| 25 | [Documentação Técnica](modulos/25-documentacao-tecnica/) | README, ADR, RFC, HLD, LLD, C4 Model, diagramas e comunicação técnica |
+    style A fill:#3c1e5a,stroke:#c490ff,stroke-width:2px,color:#fff
+    style G fill:#114a1e,stroke:#39c35d,stroke-width:2px,color:#fff
+    style K fill:#4c2b73,stroke:#9a54ff,stroke-width:2px,color:#fff
+    style N fill:#24586d,stroke:#5ad5ff,stroke-width:2px,color:#fff
+```
 
-## Como o Repositório Está Organizado
+---
+
+## 🚀 Trilha da Formação
+
+Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diretório contém os roteiros, resumos e prompts de estudo guiados por inteligência artificial.
+
+| Módulo | Tema | Foco de Aprendizado | Status |
+| :---: | :--- | :--- | :---: |
+| **00** | [☕ Introdução](modulos/00-introducao-e-metodo-de-estudo/) | Como usar a formação, ter consistência de estudos e aproveitar a IA para aprender. | `Pronto` |
+| **01** | [🌐 Fundamentos Web](modulos/01-fundamentos-da-internet-e-web/) | Internet, protocolos HTTP/HTTPS, roteamento, DNS, browsers e fluxo de requisição. | `Rascunho` |
+| **02** | [🎨 Frontend Essencial](modulos/02-frontend-essencial/) | HTML5, CSS3 sem frameworks, cascata, layout (Flex/Grid), acessibilidade e responsividade. | `Rascunho` |
+| **03** | [📘 TypeScript](modulos/03-programacao-com-typescript/) | JavaScript moderno, TypeScript, tipagem estática, interfaces, generics e assincronismo. | `Rascunho` |
+| **04** | [📐 Algoritmos](modulos/04-algoritmos-e-estruturas-de-dados/) | Complexidade de algoritmos (Big-O), estruturas de dados essenciais e árvores. | `Rascunho` |
+| **05** | [🛠️ Ferramental Dev](modulos/05-ferramentas-de-desenvolvimento/) | Terminal Linux/Mac, Git, GitHub, packages NPM, linters, formatadores e code review. | `Rascunho` |
+| **06** | [📦 Engenharia de Produto](modulos/06-engenharia-de-produto/) | Levantamento de requisitos, histórias de usuário, critérios de aceite e feature flags. | `Rascunho` |
+| **07** | [⚛️ Frontend Moderno](modulos/07-frontend-moderno/) | React, gerenciamento de estado, hooks, rotas, testes e otimização de performance. | `Rascunho` |
+| **08** | [⚡ Next.js Fullstack](modulos/08-nextjs-e-aplicacoes-fullstack/) | App Router, Server Components, SSR, formulários, APIs e deploy na Vercel. | `Rascunho` |
+| **09** | [🗄️ Bancos de Dados](modulos/09-bancos-de-dados/) | SQL vs NoSQL, modelagem de dados, transações ACID, índices, backups e migrations. | `Rascunho` |
+| **10** | [🟢 Node.js Backend](modulos/10-backend-com-nodejs/) | Express/Fastify, bancos de dados relacionais, ORMs (Prisma), mensageria e performance. | `Rascunho` |
+| **11** | [🔌 API Design](modulos/11-api-design-profissional/) | Design profissional de APIs REST, paginação, filtros, erros padronizados e idempotência. | `Rascunho` |
+| **12** | [🔒 Segurança e Auth](modulos/12-autenticacao-autorizacao-e-seguranca/) | JWT, OAuth, hashing de senhas, CORS, CSRF, XSS, SQL Injection e OWASP Top 10. | `Rascunho` |
+| **13** | [🧪 Qualidade e Testes](modulos/13-qualidade-observabilidade-e-performance/) | Testes unitários/integração, mocks, testes de carga com k6, logs e métricas. | `Rascunho` |
+| **14** | [📐 Design de Software](modulos/14-design-de-software/) | Clean Code, SOLID, DRY, YAGNI, Padrões GoF (Criacionais, Estruturais e Comportamentais). | `Rascunho` |
+| **15** | [🏗️ Arquitetura](modulos/15-arquitetura-de-software/) | Clean Architecture, DDD, MVC, SOA, Monólitos, Microsserviços e Serverless. | `Rascunho` |
+| **16** | [📡 Tempo Real e Filas](modulos/16-tempo-real-e-comunicacao-assincrona/) | WebSocket, SSE, Message Brokers (RabbitMQ/Kafka), BullMQ e processamento assíncrono. | `Rascunho` |
+| **17** | [☁️ Cloud Fundamentals](modulos/17-cloud-fundamentals/) | VPCs, redes, IAM, storages, bancos gerenciados, CDNs, FinOps e disaster recovery. | `Rascunho` |
+| **18** | [⚙️ IaC (Terraform)](modulos/18-infrastructure-as-code/) | Infraestrutura declarativa, gerência de estado no Terraform, drift e variáveis. | `Rascunho` |
+| **19** | [🐳 DevOps & Kubernetes](modulos/19-devops-containers-e-kubernetes/) | Pipelines de CI/CD, Docker, conteinerização segura e orquestração com Kubernetes. | `Rascunho` |
+| **20** | [🚨 SRE & Operação](modulos/20-sre-operacao-incidentes/) | Monitoramento, SLI/SLO/SLA, incident response, postmortems, runbooks e rollbacks. | `Rascunho` |
+| **21** | [🛡️ Supply Chain Security](modulos/21-supply-chain-security-e-secure-sdlc/) | Varreduras SAST/DAST, auditoria de dependências, SBOM e assinaturas de artefatos. | `Rascunho` |
+| **22** | [🔐 Privacidade & LGPD](modulos/22-privacidade-e-governanca-de-dados/) | LGPD/GDPR para desenvolvedores, anonimização, logs de auditoria e exclusão de dados. | `Rascunho` |
+| **23** | [🏛️ System Design](modulos/23-system-design/) | Padrões de consistência/disponibilidade, Caching distribuído, resiliência e circuit breakers. | `Rascunho` |
+| **24** | [🤖 IA para Devs](modulos/24-ia-para-desenvolvedores/) | IA Generativa, engenharia de prompt, Agentes autônomos, RAG, Evals e LLMOps. | `Rascunho` |
+| **25** | [📝 Documentação](modulos/25-documentacao-tecnica/) | Escrita técnica, ADRs, RFCs, HLD, LLD, modelagem visual com C4 Model e diagramação. | `Rascunho` |
+
+---
+
+## 🐾 O Projeto Prático: PetCare OS
+
+Toda a sua evolução será aplicada na construção do **[PetCare OS](desafio/README.md)**. O projeto evolui com você: 
+Começaremos escrevendo telas em HTML/CSS estático, passaremos por lógica em TypeScript, API estruturada em Clean Architecture com Nest.js, persistência dupla (PostgreSQL + MongoDB), filas BullMQ, WebSockets, implantação em Kubernetes usando Terraform e integração de IA generativa com RAG.
+
+> [!TIP]
+> Confira os detalhes completos e o mapa de evolução do projeto na **[página de especificação do desafio](desafio/README.md)**.
+
+---
+
+## 📂 Organização do Repositório
 
 ```text
 .
-├── README.md
-├── curriculo.md
-├── estrutura-do-repositorio.md
+├── README.md               # Este arquivo (visão geral)
+├── curriculo.md            # Matriz curricular completa
+├── estrutura-do-repositorio.md # Organização editorial planejada
+├── desafio/
+│   └── README.md           # Desafio prático do PetCare OS
 ├── templates/
-│   ├── aula.md
-│   ├── modulo.md
-│   └── prompt-ia.md
+│   ├── aula.md             # Modelo de roteiro de aula
+│   ├── modulo.md           # Modelo de descrição de módulo
+│   └── prompt-ia.md        # Modelo de prompt de revisão
 └── modulos/
-    └── ...
+    └── [00-25]-...         # Diretórios de conteúdo
 ```
 
-Arquivos principais:
+---
 
-- [curriculo.md](curriculo.md): matriz curricular completa.
-- [estrutura-do-repositorio.md](estrutura-do-repositorio.md): organização planejada do repositório.
-- [templates/aula.md](templates/aula.md): modelo usado para criar aulas.
-- [templates/modulo.md](templates/modulo.md): modelo usado para criar módulos.
-- [templates/prompt-ia.md](templates/prompt-ia.md): modelo de prompt para estudo com IA.
+## 🛡️ Princípios Editoriais
 
-## Status
+- **Direto ao Ponto:** Sem rodeios ou excesso de texto desnecessário.
+- **Estrutura de Consulta:** Cada aula foi desenhada como um manual individual simples de acessar no futuro.
+- **Exercícios e Práticas:** Toda aula acompanha sugestões de testes manuais e prompts de IA estruturados para fixação de conhecimento.
 
-Este projeto está em construção.
+---
 
-A estrutura editorial e a matriz curricular já estão definidas. Os módulos e aulas serão preenchidos progressivamente conforme o curso avançar.
-
-## Princípios
-
-- Uma aula por assunto sempre que isso ajudar a consulta futura.
-- Aulas guarda-chuva antes de assuntos muito específicos.
-- Conteúdo direto, sem excesso de texto.
-- Roteiros pensados para vídeo, mas úteis como material de estudo.
-- Exercícios e prompts de IA ao final das aulas para reforçar o aprendizado.
-- Sequência única do zero ao avançado, mesmo que o repositório seja modular.
+<div align="center">
+Desenvolvido com 💜 para a comunidade de tecnologia.
+</div>

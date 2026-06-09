@@ -1,8 +1,6 @@
 # Estrutura do Repositório
 
-Este documento descreve a estrutura definitiva do repositório para a V2.
-
-A V2 organiza o projeto em documentos principais, templates reutilizáveis e módulos do curso.
+Este documento descreve a estrutura definitiva do repositório.
 
 ## Estrutura Atual
 
@@ -15,6 +13,8 @@ A V2 organiza o projeto em documentos principais, templates reutilizáveis e mó
 │   ├── aula.md
 │   ├── modulo.md
 │   └── prompt-ia.md
+├── assets/
+├── desafio/
 └── modulos/
     ├── 00-introducao-e-metodo-de-estudo/
     ├── 01-fundamentos-da-internet-e-web/
@@ -66,9 +66,17 @@ Modelos reutilizáveis para aulas, módulos e prompts de estudo com IA.
 - `modulo.md`: estrutura padrão para a página de um módulo.
 - `prompt-ia.md`: estrutura base para prompts reutilizáveis de estudo.
 
+### `assets/`
+
+Pasta com algumas imagens usadas nos READMEs quando necessário.
+
+### `desafio/`
+
+Projeto prático de portfólio que servirá como o principal **fio condutor** de toda a sua jornada de aprendizado nesta formação.
+
 ### `modulos/`
 
-Conteúdo real do curso. Cada módulo deve ter um `README.md` próprio e arquivos de aula numerados quando começar a receber conteúdo.
+Conteúdo real da formação. Cada módulo deve ter um `README.md` próprio e arquivos de aula numerados quando começar a receber conteúdo.
 
 Enquanto um módulo ainda não tiver aulas, ele pode conter apenas um arquivo `.gitkeep` para preservar a pasta no Git.
 
@@ -95,6 +103,6 @@ Exemplo:
 
 ## Regra Sobre Ordem das Aulas
 
-A ordem oficial do curso deve ficar documentada no currículo e refletida na numeração dos arquivos.
+A ordem oficial da formação deve ficar documentada no currículo e refletida na numeração dos arquivos.
 
 O repositório pode ser navegável por módulo, mas o aluno sempre deve conseguir identificar qual é a próxima aula da sequência.
