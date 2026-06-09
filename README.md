@@ -64,7 +64,7 @@ flowchart TD
 
 ## 🚀 Trilha da Formação
 
-Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diretório contém os roteiros, resumos e prompts de estudo guiados por inteligência artificial.
+Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diretório contém os roteiros, resumos e prompts de estudo guiados por inteligência artificial. Para ver de forma detalhada veja o **[Currículo](curriculo.md)**
 
 | Módulo | Tema | Foco de Aprendizado | Status |
 | :---: | :--- | :--- | :---: |
