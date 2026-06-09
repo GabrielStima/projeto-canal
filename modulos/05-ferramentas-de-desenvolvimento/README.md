@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Ferramentas de Desenvolvimento
+
+</div>
 
 Este módulo organiza o fluxo básico de trabalho de uma pessoa desenvolvedora. Depois de aprender fundamentos de web, frontend, TypeScript, algoritmos e estruturas de dados, agora o foco passa a ser como trabalhar em projetos reais com editor, terminal, Git, GitHub, pacotes, qualidade de código e documentação mínima.
 

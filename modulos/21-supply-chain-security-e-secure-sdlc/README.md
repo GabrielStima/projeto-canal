@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Supply Chain Security e Secure SDLC
+
+</div>
 
 Este módulo mostra como proteger o caminho entre a ideia, o código, as dependências, o pipeline, os artefatos e os ambientes onde a aplicação roda.
 

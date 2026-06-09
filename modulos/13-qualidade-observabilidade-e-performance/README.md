@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Qualidade, Testes, Observabilidade é Performance
+
+</div>
 
 Este módulo marca a passagem de "a aplicação funciona" para "a aplicação pode ser testada, medida, investigada e sustentada quando cresce". Até aqui, você construiu bases de frontend, backend, bancos de dados, API design, autenticação, autorização e segurança.
 

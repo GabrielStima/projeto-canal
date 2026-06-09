@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # API Design Profissional
+
+</div>
 
 Este módulo marca a passagem de "eu sei criar endpoints" para "eu sei desenhar APIs que outras pessoas conseguem consumir, manter e evoluir". Até aqui, você estudou HTTP, frontend consumindo APIs, bancos de dados, backend com Node.js, REST, JSON APIs, GraphQL e OpenAPI em nível introdutório.
 

@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Fundamentos da Internet e da Web
+
+</div>
 
 Este módulo apresenta o ambiente onde aplicações web existem. Antes de escrever HTML, CSS, JavaScript, APIs ou usar frameworks, é importante entender o caminho básico entre uma pessoa usando um navegador e uma aplicação respondendo do outro lado.
 

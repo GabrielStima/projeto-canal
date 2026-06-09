@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # System Design
+
+</div>
 
 Este módulo mostra como pensar em sistemas maiores, escaláveis, confiáveis, seguros e operáveis. Até aqui, você já estudou web, backend, bancos de dados, APIs, segurança, observabilidade, arquitetura, comunicação assíncrona, cloud, IaC, containers, Kubernetes, SRE, Secure SDLC e governança de dados. Agora o foco é juntar essas peças para tomar decisões de desenho.
 

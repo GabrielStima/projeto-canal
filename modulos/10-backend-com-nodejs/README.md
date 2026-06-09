@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Backend com Node.js
+
+</div>
 
 Este módulo apresenta backend com Node.js como a transição entre consumir APIs e construir serviços próprios. Até aqui, você já estudou Web, TypeScript, ferramentas, frontend moderno, Next.js e bancos de dados. Agora a pergunta muda: como criar uma aplicação que recebe requisições, executa regras, conversa com bancos e devolve respostas confiáveis?
 

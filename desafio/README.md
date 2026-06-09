@@ -1,4 +1,11 @@
+<div align="center">
+
+![PetCare OS Banner](../assets/banner-desafio.png)
+
 # 🐾 PetCare OS — Desafio Geral da Formação
+
+</div>
+
 
 Bem-vindo ao repositório central do **PetCare OS**, o projeto prático de portfólio que servirá como o principal **fio condutor** de toda a sua jornada de aprendizado nesta formação. 
 

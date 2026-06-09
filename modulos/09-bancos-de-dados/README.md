@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Bancos de Dados
+
+</div>
 
 Este módulo apresenta bancos de dados como a base de persistência das aplicações. Até aqui, você já construiu telas, formulários, chamadas de API, rotas e aplicações Next.js pequenas. Agora a pergunta muda: onde os dados vivem quando a aplicação fecha, quando outro usuário acessa, ou quando o sistema precisa crescer?
 

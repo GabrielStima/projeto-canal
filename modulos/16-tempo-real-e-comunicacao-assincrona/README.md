@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Dados em Tempo Real e Comunicação Assíncrona
+
+</div>
 
 Este módulo marca a passagem do modelo tradicional de request/response para formas de comunicação em que o sistema precisa reagir, esperar, empurrar atualizações, processar trabalho depois ou coordenar partes independentes.
 

@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Frontend Essencial
+
+</div>
 
 Este módulo apresenta a base visual e interativa da Web antes de frameworks. A ideia é entender como uma página é estruturada com HTML, apresentada com CSS e transformada em interface interativa com JavaScript no browser.
 

@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Privacidade e Governança de Dados
+
+</div>
 
 Este módulo mostra como lidar com dados pessoais, dados sensíveis, logs, acesso, retenção, auditoria e uso de IA de forma responsável.
 

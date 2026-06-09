@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Documentação Técnica
+
+</div>
 
 Este módulo mostra como registrar decisões, comunicar arquitetura e manter conhecimento técnico acessível para pessoas, times e públicos externos.
 

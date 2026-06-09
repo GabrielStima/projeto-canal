@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Cloud Fundamentals
+
+</div>
 
 Este módulo apresenta os principais blocos de construção de cloud antes de entrar em Infrastructure as Code, containers, Kubernetes, SRE e system design.
 

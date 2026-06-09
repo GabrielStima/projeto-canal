@@ -1,4 +1,11 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Introdução e Método de Estudo
+
+</div>
+
 
 Este módulo abre a formação e apresenta a proposta da trilha: estudar desenvolvimento fullstack JavaScript/TypeScript do zero até tópicos avançados, usando aulas, prática, documentação e IA como ferramentas de aprendizado.
 

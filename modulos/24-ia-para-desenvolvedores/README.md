@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # IA para Desenvolvedores
+
+</div>
 
 Este módulo mostra como usar IA como ferramenta de trabalho sem terceirizar o raciocínio técnico, e como projetar, integrar, avaliar, proteger e operar aplicações que usam IA.
 

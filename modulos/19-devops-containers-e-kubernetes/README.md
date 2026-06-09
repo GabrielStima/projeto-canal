@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # DevOps, Containers e Kubernetes
+
+</div>
 
 Este módulo mostra como aplicações saem do repositório, viram artefatos executáveis, rodam em containers e passam a ser orquestradas em Kubernetes.
 

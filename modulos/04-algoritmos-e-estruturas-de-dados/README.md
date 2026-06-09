@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Algoritmos e Estruturas de Dados
+
+</div>
 
 Este módulo desenvolve raciocínio computacional para resolver problemas com mais critério. A ideia não é decorar nomes de algoritmos, mas aprender a escolher representações de dados, comparar soluções e entender o custo de cada escolha.
 

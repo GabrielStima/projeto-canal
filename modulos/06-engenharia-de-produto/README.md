@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Engenharia de Produto
+
+</div>
 
 Este módulo apresenta a ponte entre uma ideia e uma entrega de software. Antes de escolher componente, rota, banco de dados ou framework, uma pessoa desenvolvedora precisa entender qual problema está tentando resolver, para quem, com quais restrições e como saber se a entrega funcionou.
 

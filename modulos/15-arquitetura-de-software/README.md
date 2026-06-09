@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Arquitetura de Software
+
+</div>
 
 Este módulo marca a passagem do design interno do código para a organização de sistemas inteiros. Até aqui, você já estudou frontend, backend, bancos de dados, APIs, segurança, qualidade, testes, observabilidade, performance e design de software.
 

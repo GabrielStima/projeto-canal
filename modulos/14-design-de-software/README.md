@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Design de Software
+
+</div>
 
 Este módulo marca a passagem de "código que funciona" para "código que continua simples de entender, testar e mudar". Até aqui, você já estudou TypeScript, estruturas de dados, produto, frontend, backend, bancos de dados, APIs, segurança, qualidade, testes, observabilidade e performance.
 

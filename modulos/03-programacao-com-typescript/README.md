@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Programação com TypeScript
+
+</div>
 
 Este módulo aprofunda a programação com JavaScript moderno e TypeScript. Depois de usar JavaScript no browser para pequenas interações, agora o foco passa a ser a linguagem em si: como representar dados, controlar fluxo, criar funções, lidar com erros, trabalhar com assincronismo e usar tipos para escrever código mais claro e seguro.
 

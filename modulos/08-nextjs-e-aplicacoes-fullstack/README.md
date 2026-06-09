@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Next.js e Aplicações Fullstack no Frontend
+
+</div>
 
 Este módulo apresenta o Next.js como ponte entre frontend moderno, renderização no servidor, backend-for-frontend e deploy de aplicações React.
 

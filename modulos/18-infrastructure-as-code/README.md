@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Infrastructure as Code
+
+</div>
 
 Este módulo ensina como transformar infraestrutura em código versionado, revisável e reproduzível, usando Terraform como ferramenta principal.
 

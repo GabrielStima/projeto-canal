@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Autenticação, Autorização e Segurança
+
+</div>
 
 Este módulo organiza os fundamentos de segurança que aparecem quando uma aplicação deixa de ser apenas uma API funcionando e passa a lidar com identidade, permissão, dados sensíveis, sessões, tokens, browsers, banco de dados e abuso.
 

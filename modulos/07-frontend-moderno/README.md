@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # Frontend Moderno
+
+</div>
 
 Este módulo apresenta a transição entre páginas feitas com HTML, CSS e JavaScript solto e aplicações frontend modernas baseadas em componentes, estado, rotas, chamadas de API, formulários, validação, testes e performance.
 

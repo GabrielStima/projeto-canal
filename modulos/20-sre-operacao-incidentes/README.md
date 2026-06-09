@@ -1,4 +1,10 @@
+<div align="center">
+
+![Readme Banner](../../assets/banner-introducao.png)
+
 # SRE, Operação e Incidentes
+
+</div>
 
 Este módulo mostra como sistemas reais são operados depois que chegam em produção. Até aqui, você já estudou observabilidade, performance, cloud, Infrastructure as Code, CI/CD, containers e Kubernetes. Agora o foco muda para confiabilidade, resposta a falhas e tomada de decisão operacional.
 
