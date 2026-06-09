@@ -68,7 +68,7 @@ Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diret
 
 | Módulo | Tema | Foco de Aprendizado | Status |
 | :---: | :--- | :--- | :---: |
-| **00** | [☕ Introdução](modulos/00-introducao-e-metodo-de-estudo/) | Como usar a formação, ter consistência de estudos e aproveitar a IA para aprender. | `Pronto` |
+| **00** | [☕ Introdução](modulos/00-introducao-e-metodo-de-estudo/) | Como usar a formação, ter consistência de estudos e aproveitar a IA para aprender. | `Rascunho` |
 | **01** | [🌐 Fundamentos Web](modulos/01-fundamentos-da-internet-e-web/) | Internet, protocolos HTTP/HTTPS, roteamento, DNS, browsers e fluxo de requisição. | `Rascunho` |
 | **02** | [🎨 Frontend Essencial](modulos/02-frontend-essencial/) | HTML5, CSS3 sem frameworks, cascata, layout (Flex/Grid), acessibilidade e responsividade. | `Rascunho` |
 | **03** | [📘 TypeScript](modulos/03-programacao-com-typescript/) | JavaScript moderno, TypeScript, tipagem estática, interfaces, generics e assincronismo. | `Rascunho` |
