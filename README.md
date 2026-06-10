@@ -34,34 +34,6 @@ O foco deste repositório não é apenas ensinar ferramentas. A ideia é constru
 
 ---
 
-## 🗺️ A Jornada do Aprendizado
-
-A formação foi estruturado para ser uma jornada lógica, que guia você do zero absoluto até a operação de sistemas complexos:
-
-```mermaid
-flowchart TD
-    A[01. Fundamentos & Internet] --> B[02. Frontend Essencial]
-    B --> C[03. TypeScript & Lógica]
-    C --> D[04. Algoritmos & Estruturas]
-    D --> E[07. Frontend Moderno]
-    E --> F[09. Bancos de Dados]
-    F --> G[10. Node.js Backend]
-    G --> H[12. Segurança & Autenticação]
-    H --> I[15. Arquitetura & DDD]
-    I --> J[16. Mensageria & Tempo Real]
-    J --> K[18. Infraestrutura como Código]
-    K --> L[20. SRE & Observabilidade]
-    L --> M[24. IA para Desenvolvedores]
-    M --> N[25. Documentação Técnica]
-
-    style A fill:#3c1e5a,stroke:#c490ff,stroke-width:2px,color:#fff
-    style G fill:#114a1e,stroke:#39c35d,stroke-width:2px,color:#fff
-    style K fill:#4c2b73,stroke:#9a54ff,stroke-width:2px,color:#fff
-    style N fill:#24586d,stroke:#5ad5ff,stroke-width:2px,color:#fff
-```
-
----
-
 ## 🚀 Trilha da Formação
 
 Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diretório contém os roteiros, resumos e prompts de estudo guiados por inteligência artificial. Para ver de forma detalhada veja o **[Currículo](curriculo.md)**

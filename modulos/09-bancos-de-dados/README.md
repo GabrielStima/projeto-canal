@@ -46,7 +46,7 @@ Este módulo prepara o caminho para backend com Node.js, ORMs, autenticação, a
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 09.00 | Bancos de Dados | Guarda-chuva | Rascunho |
+| 09.00 | [Bancos de Dados](09.00-bancos-de-dados.md) | Guarda-chuva | Rascunho |
 | 09.01 | [SQL e NoSQL](09.01-sql-e-nosql.md) | Guarda-chuva curta | Rascunho |
 | 09.02 | [Modelagem de Dados](09.02-modelagem-de-dados.md) | Específica ampla | Rascunho |
 | 09.03 | [SQL Básico](09.03-sql-basico.md) | Específica | Rascunho |
@@ -72,6 +72,25 @@ Este módulo prepara o caminho para backend com Node.js, ORMs, autenticação, a
 | 09.23 | [Scaling em Bancos de Dados](09.23-scaling-em-bancos-de-dados.md) | Guarda-chuva curta | Rascunho |
 | 09.24 | [Security em NoSQL e MongoDB](09.24-security-em-nosql-e-mongodb.md) | Específica | Rascunho |
 | 09.25 | [Projeto Prático: Persistência de Dados em uma Aplicação Fullstack](09.25-projeto-pratico-persistencia-de-dados-em-uma-aplicacao-fullstack.md) | Síntese prática | Rascunho |
+
+## Trilha de Estudo
+
+Este módulo está organizado em dois blocos principais precedidos por uma aula de contexto. Estude o Bloco A primeiro; o Bloco B pode começar após 09.01.
+
+**Aula de Contexto** · 09.01
+SQL e NoSQL: panorama comparativo dos dois mundos. Leia antes de entrar em qualquer bloco.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco A — SQL e Bancos Relacionais** · aulas 09.02–09.16
+Modelagem relacional, SQL básico, integridade, JOINs, subqueries, funções avançadas, views, transactions, indexes, performance, SQL avançado, stored procedures, migrations, backup e segurança.
+Pré-requisito: 09.01.
+
+**Bloco B — NoSQL e MongoDB** · aulas 09.17–09.24
+Fundamentos de NoSQL, MongoDB, conceitos essenciais, operadores de query, aggregation, transactions no MongoDB, scaling e segurança em NoSQL.
+Pré-requisito: 09.01. Pode ser estudado em paralelo com o Bloco A, mas ter base em modelagem de dados (09.02) ajuda.
+
+> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+
 
 ## Projeto ou Prática do Módulo
 

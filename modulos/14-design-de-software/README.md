@@ -73,6 +73,29 @@ Design de software existe para lidar com esse crescimento sem depender apenas de
 | 14.28 | [POSA e Padrões Além do GoF](14.28-posa-e-padroes-alem-do-gof.md) | Especifica conceitual | Rascunho |
 | 14.29 | [Projeto Prático: Refatorando uma API para Melhor Design](14.29-projeto-pratico-refatorando-uma-api-para-melhor-design.md) | Sintese pratica | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos progressivos. Cada bloco constrói sobre o anterior — não pule a sequência.
+
+**Bloco A — Código Limpo e Legibilidade** · aulas 14.01–14.03
+O que torna código difícil de manter, princípios do Clean Code e como melhorar nomes, funções e clareza de intenção.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Paradigmas e POO** · aulas 14.04–14.10
+Paradigmas da programação, features de paradigmas, POO no design, princípios primários, encapsulamento, acoplamento e coesão, e model-driven design.
+Pré-requisito: Bloco A.
+
+**Bloco C — Princípios de Design** · aulas 14.11–14.25
+Princípios de design de software: DRY, YAGNI, SOLID (cinco princípios individuais), abstrações, composição, encapsulamento do que varia, tell don't ask, Law of Demeter e Princípio de Hollywood.
+Pré-requisito: Bloco B.
+
+**Bloco D — Padrões de Design** · aulas 14.26–14.28
+Padrões GoF (criacionais, estruturais e comportamentais) e padrões além do GoF.
+Pré-requisito: Bloco C (padrões fazem mais sentido quando os princípios estão claros).
+
+> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+
+
 ## Projeto ou Prática do Módulo
 
 Refatore uma pequena API criada nos módulos anteriores:

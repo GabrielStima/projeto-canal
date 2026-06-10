@@ -45,7 +45,7 @@ Este módulo prepara o caminho para Next.js e aplicações fullstack no frontend
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 07.00 | Frontend Moderno | Guarda-chuva | Rascunho |
+| 07.00 | [Frontend Moderno](07.00-frontend-moderno.md) | Guarda-chuva | Rascunho |
 | 07.01 | [Frameworks e libs frontend](07.01-frameworks-e-libs-frontend.md) | Guarda-chuva curta | Rascunho |
 | 07.02 | [React](07.02-react.md) | Específica ampla | Rascunho |
 | 07.03 | [Componentes](07.03-componentes.md) | Específica | Rascunho |

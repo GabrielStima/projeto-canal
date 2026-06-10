@@ -45,7 +45,7 @@ API design profissional aparece antes de autenticação, segurança, qualidade, 
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 11.00 | API Design Profissional | Guarda-chuva | Rascunho |
+| 11.00 | [API Design Profissional](11.00-api-design-profissional.md) | Guarda-chuva | Rascunho |
 | 11.01 | [Design de APIs](11.01-design-de-apis.md) | Específica ampla | Rascunho |
 | 11.02 | [Contratos de API](11.02-contratos-de-api.md) | Específica | Rascunho |
 | 11.03 | [OpenAPI na Prática](11.03-openapi-na-pratica.md) | Específica prática | Rascunho |

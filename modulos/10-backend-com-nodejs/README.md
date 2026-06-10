@@ -45,7 +45,7 @@ Backend com Node.js aparece aqui para consolidar fundamentos antes de entrar em 
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 10.00 | Backend com Node.js | Guarda-chuva | Rascunho |
+| 10.00 | [Backend com Node.js](10.00-backend-com-nodejs.md) | Guarda-chuva | Rascunho |
 | 10.01 | [Node.js](10.01-nodejs.md) | Específica ampla | Rascunho |
 | 10.02 | [Runtime](10.02-runtime.md) | Específica conceitual | Rascunho |
 | 10.03 | [Event Loop no Node.js](10.03-event-loop-no-nodejs.md) | Específica | Rascunho |

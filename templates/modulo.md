@@ -28,6 +28,27 @@ Explique por que estes assuntos aparecem nesta parte da formação e como eles p
 | 01 | Nome da aula | Guarda-chuva | Planejada |
 | 02 | Nome da aula | Específica | Planejada |
 
+## Trilha de Estudo
+
+> Use esta seção em módulos com 15 ou mais aulas, ou quando o módulo tiver sub-trilhas com dependências não óbvias entre grupos de aulas.
+> Em módulos pequenos e lineares, esta seção pode ser omitida.
+
+Este módulo está organizado em [N] blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — [Nome do bloco]** · aulas [XX.01–XX.0N]
+[Descrição em uma linha do que este bloco cobre.]
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — [Nome do bloco]** · aulas [XX.0N–XX.0M]
+[Descrição em uma linha do que este bloco cobre.]
+Pré-requisito: Bloco A.
+
+**Bloco C — [Nome do bloco]** · aulas [XX.0M–XX.0P]
+[Descrição em uma linha do que este bloco cobre.]
+Pré-requisito: Bloco B.
+
+> Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
+
 ## Projeto ou Prática do Módulo
 
 Descreva uma prática integradora para consolidar as aulas.

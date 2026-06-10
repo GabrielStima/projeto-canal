@@ -48,7 +48,7 @@ Este módulo prepara a base para responder essas perguntas sem depender de decor
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 01.00 | Fundamentos da Internet e da Web | Guarda-chuva | Rascunho |
+| 01.00 | [Fundamentos da Internet e da Web](01.00-fundamentos-da-internet-e-da-web.md) | Guarda-chuva | Rascunho |
 | 01.01 | [Internet vs Web](01.01-internet-vs-web.md) | Específica | Rascunho |
 | 01.02 | [Cliente, servidor, request, response e estado](01.02-cliente-servidor-request-response-e-estado.md) | Específica | Rascunho |
 | 01.03 | [Protocolos](01.03-protocolos.md) | Específica ampla | Rascunho |

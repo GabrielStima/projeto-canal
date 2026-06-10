@@ -43,7 +43,7 @@ Este módulo também prepara assuntos futuros como bancos de dados, performance,
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 04.00 | Algoritmos e Estruturas de Dados | Guarda-chuva | Rascunho |
+| 04.00 | [Algoritmos e Estruturas de Dados](04.00-algoritmos-e-estruturas-de-dados.md) | Guarda-chuva | Rascunho |
 | 04.01 | [Estruturas de dados: dados, operações e escolhas](04.01-estruturas-de-dados-dados-operacoes-e-escolhas.md) | Guarda-chuva curta | Rascunho |
 | 04.02 | [Arrays](04.02-arrays.md) | Específica | Rascunho |
 | 04.03 | [Complexidade de algoritmos](04.03-complexidade-de-algoritmos.md) | Guarda-chuva conceitual | Rascunho |
@@ -69,6 +69,33 @@ Este módulo também prepara assuntos futuros como bancos de dados, performance,
 | 04.23 | [Heaps](04.23-heaps.md) | Aula de suporte | Rascunho |
 | 04.24 | [Heap Sort](04.24-heap-sort.md) | Específica | Rascunho |
 | 04.25 | [Projeto prático: analisador de estruturas e algoritmos](04.25-projeto-pratico-analisador-de-estruturas-e-algoritmos.md) | Síntese prática | Rascunho |
+
+## Trilha de Estudo
+
+Este módulo está organizado em cinco blocos. Os blocos A e B podem ser estudados em paralelo, mas ambos devem ser concluídos antes de C. D depende de B. E depende de D.
+
+**Bloco A — Estruturas de Dados** · aulas 04.01–04.09
+O que são estruturas de dados, como arrays funcionam, e depois as estruturas lineares: linked lists, stacks, queues e hash tables.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Complexidade de Algoritmos** · aulas 04.03–04.05
+Como medir e calcular a eficiência de um algoritmo em tempo e espaço. Ler após 04.01 para ter contexto, mas pode ser estudado em paralelo com as estruturas lineares.
+Pré-requisito: 04.01 (fundamentos de estruturas de dados).
+
+**Bloco C — Algoritmos de Busca** · aulas 04.10–04.12
+Busca linear e busca binária com análise de complexidade. Requer entender arrays (Bloco A) e complexidade (Bloco B).
+Pré-requisito: Blocos A e B.
+
+**Bloco D — Algoritmos de Ordenação** · aulas 04.13–04.19
+Comparação de algoritmos de ordenação, com recursão como aula de suporte antes de merge sort e quick sort.
+Pré-requisito: Blocos A e B.
+
+**Bloco E — Árvores e Heaps** · aulas 04.20–04.24
+Estruturas hierárquicas: árvore binária, árvore de busca binária, heaps e heap sort.
+Pré-requisito: Bloco A (estruturas de dados) e Bloco D (recursão e ordenação).
+
+> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+
 
 ## Projeto ou Prática do Módulo
 

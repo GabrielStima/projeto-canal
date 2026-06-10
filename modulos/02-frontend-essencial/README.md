@@ -45,7 +45,7 @@ Este módulo prepara o terreno. Antes de React, Next.js, bundlers, validação a
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 02.00 | Frontend Essencial | Guarda-chuva | Rascunho |
+| 02.00 | [Frontend Essencial](02.00-frontend-essencial.md) | Guarda-chuva | Rascunho |
 | 02.01 | [HTML](02.01-html.md) | Específica ampla | Rascunho |
 | 02.02 | [Semântica HTML](02.02-semantica-html.md) | Específica | Rascunho |
 | 02.03 | [Formulários HTML](02.03-formularios-html.md) | Específica | Rascunho |

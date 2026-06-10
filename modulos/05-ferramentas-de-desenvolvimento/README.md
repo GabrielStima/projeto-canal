@@ -46,7 +46,7 @@ Este módulo prepara os próximos passos da formação: frontend moderno, Next.j
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 05.00 | Ferramentas de Desenvolvimento | Guarda-chuva | Rascunho |
+| 05.00 | [Ferramentas de Desenvolvimento](05.00-ferramentas-de-desenvolvimento.md) | Guarda-chuva | Rascunho |
 | 05.01 | [Editor/IDE e produtividade](05.01-editor-ide-e-produtividade.md) | Específica ampla | Rascunho |
 | 05.02 | [Terminal e linha de comando](05.02-terminal-e-linha-de-comando.md) | Guarda-chuva curta | Rascunho |
 | 05.03 | [Shell básico](05.03-shell-basico.md) | Específica prática | Rascunho |

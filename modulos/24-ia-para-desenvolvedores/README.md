@@ -72,6 +72,29 @@ Este módulo entra depois de system design porque IA deixa de ser apenas "um cha
 | 24.27 | [FinOps Para IA](24.27-finops-para-ia.md) | Específica prática | Rascunho |
 | 24.28 | [Projeto Prático: Assistente Técnico com RAG ou Agente Simples](24.28-projeto-pratico-assistente-tecnico-com-rag-ou-agente-simples.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos. Os blocos A e B formam a base conceitual; C e D são aplicações avançadas que dependem de A e B.
+
+**Bloco A — Fundamentos de IA Generativa** · aulas 24.01–24.04
+O que é IA generativa, como LLMs funcionam (tokens, contexto, embeddings), limitações e alucinações, e como lidar com privacidade e dados sensíveis.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — IA no Fluxo de Desenvolvimento** · aulas 24.05–24.14
+Prompt engineering, uso de IA para escrever código, revisar código, segurança em código gerado, quality gates, debug, testes, documentação, coding agents e workflows com agentes.
+Pré-requisito: Bloco A.
+
+**Bloco C — Segurança e Avaliação** · aulas 24.15–24.24
+Function calling e tool calling, agentes com ferramentas, OWASP Top 10 para LLMs, OWASP Agentic AI, embeddings, vector databases, RAG, avaliação de respostas, evals e guardrails. Pode ser estudado em paralelo com o final do Bloco B após 24.13.
+Pré-requisito: Blocos A e B.
+
+**Bloco D — Operação e Custos** · aulas 24.25–24.27
+Custos e observabilidade em aplicações com IA, LLMOps e FinOps para IA.
+Pré-requisito: Bloco C (só faz sentido operar e medir o que você já sabe construir).
+
+> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+
+
 ## Projeto ou Prática do Módulo
 
 Construa um assistente técnico para consultar materiais da formação ou ajudar na manutenção de um projeto TypeScript:

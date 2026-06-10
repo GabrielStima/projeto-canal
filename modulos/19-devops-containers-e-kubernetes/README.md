@@ -75,6 +75,25 @@ DevOps, containers e Kubernetes entram para reduzir essa distância entre códig
 | 19.31 | [Tópicos Avançados de Kubernetes](19.31-topicos-avancados-de-kubernetes.md) | Guarda-chuva de fechamento | Rascunho |
 | 19.32 | [Projeto Prático: Pipeline de Build, Registry e Deploy em Kubernetes](19.32-projeto-prático-pipeline-de-build-registry-e-deploy-em-kubernetes.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em três blocos que devem ser estudados nesta ordem. Dentro de cada bloco, siga a sequência da tabela.
+
+**Bloco A — CI/CD e DevOps** · aulas 19.01–19.09
+O ciclo de entrega de software: o que é DevOps na prática, como pipelines de CI/CD funcionam, como o deploy é modelado, como Infrastructure as Code entra em automação e como garantir revisão, aprovação, credenciais seguras, compliance e detecção de drift em pipelines.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Docker e Containers** · aulas 19.10–19.19
+Empacotamento de aplicações: conceitos de containers, build de imagens, Docker CLI, execução, persistência de dados, bancos em containers, networking, registries e segurança em containers.
+Pré-requisito: Bloco A (entender o contexto de entrega antes de empacotar a aplicação).
+
+**Bloco C — Kubernetes** · aulas 19.20–19.31
+Orquestração: configuração do cluster, execução de workloads, serviços e conectividade, configuração com ConfigMaps e Secrets, gerenciamento de recursos, storage, segurança, monitoramento, autoscaling, padrões de deployment e tópicos avançados.
+Pré-requisito: Bloco B (Kubernetes orquestra containers; sem entender containers, o Kubernetes não faz sentido).
+
+> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+
+
 ## Projeto ou Prática do Módulo
 
 Construir um fluxo pequeno de entrega para uma aplicação já estudada na formação:

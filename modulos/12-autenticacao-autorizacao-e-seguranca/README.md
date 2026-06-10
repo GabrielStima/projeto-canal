@@ -52,7 +52,7 @@ Segurança aparece aqui porque depende de tudo que veio antes: HTTP, headers, co
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 12.00 | Autenticação, Autorização e Segurança | Guarda-chuva | Rascunho |
+| 12.00 | [Autenticação, Autorização e Segurança](12.00-autenticacao-autorizacao-e-seguranca.md) | Guarda-chuva | Rascunho |
 | 12.01 | [Segurança na Web](12.01-seguranca-na-web.md) | Guarda-chuva curta | Rascunho |
 | 12.02 | [Hashing de Senhas](12.02-hashing-de-senhas.md) | Específica | Rascunho |
 | 12.03 | [Algoritmos de Hashing](12.03-algoritmos-de-hashing.md) | Específica conceitual | Rascunho |

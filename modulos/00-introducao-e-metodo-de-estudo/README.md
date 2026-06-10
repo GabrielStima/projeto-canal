@@ -55,7 +55,7 @@ modulos/
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 00 | Introdução e visão geral do projeto | Guarda-chuva | Rascunho |
+| 00.00 | [Introdução e visão geral do projeto](00.00-introducao-e-visao-geral-do-projeto.md) | Guarda-chuva | Rascunho |
 | 00.01 | [Método de estudo](00.01-metodo-de-estudo.md) | Específica | Rascunho |
 
 ## Como Usar Este Módulo

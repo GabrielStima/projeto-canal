@@ -44,7 +44,7 @@ Este módulo cria a base de linguagem para todo o restante da formação.
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 03.00 | Programação com TypeScript | Guarda-chuva | Rascunho |
+| 03.00 | [Programação com TypeScript](03.00-programacao-com-typescript.md) | Guarda-chuva | Rascunho |
 | 03.01 | [JavaScript moderno](03.01-javascript-moderno.md) | Específica ampla | Rascunho |
 | 03.02 | [Sintaxe, valores e variáveis](03.02-sintaxe-valores-e-variaveis.md) | Específica | Rascunho |
 | 03.03 | [Tipos primitivos e estruturas básicas](03.03-tipos-primitivos-e-estruturas-basicas.md) | Específica | Rascunho |

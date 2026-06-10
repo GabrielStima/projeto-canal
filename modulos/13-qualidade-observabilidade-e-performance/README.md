@@ -84,6 +84,25 @@ Qualidade, observabilidade e performance aparecem juntas porque se reforçam. Te
 | 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Rascunho |
 | 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em três blocos que se reforçam. Siga a ordem: testes dão vocabulário para observabilidade; observabilidade contextualiza performance.
+
+**Bloco A — Qualidade e Testes** · aulas 13.01–13.13
+Qualidade de software, estratégia de testes, pirâmide, testes unitários, mocks, integração, contract tests, end-to-end, regressão, testes em CI, flaky tests, testabilidade e quality gates.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Performance e Análise** · aulas 13.14–13.16
+Análise de performance, profiling e testes de carga. Pode ser estudado em paralelo com o final do Bloco A, mas requer entender testes (13.01–13.03) para ter contexto.
+Pré-requisito: 13.01–13.03 (qualidade e estratégia de testes).
+
+**Bloco C — Observabilidade** · aulas 13.17–13.25
+Logging, observabilidade, instrumentação, telemetria, métricas, tracing, monitoramento, alertas e failure modes na prática.
+Pré-requisito: Bloco A (entender o que observar exige saber o que testar).
+
+> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+
+
 ## Projeto ou Prática do Módulo
 
 Evolua a API do painel de estudos criada nos módulos anteriores para uma aplicação mais confiável:
