@@ -19,7 +19,9 @@ Ao final deste módulo, você deve ser capaz de:
 - navegar pelo repositório;
 - entender como a sequência da formação está organizada;
 - escolher uma forma prática de estudar com as aulas;
-- usar IA como apoio sem terceirizar seu raciocínio.
+- usar IA como apoio sem terceirizar seu raciocínio;
+- aplicar revisão espaçada para reter conceitos ao longo de uma formação longa;
+- reconhecer a ilusão de competência e testar o próprio entendimento antes de avançar.
 
 ## Por Que Este Módulo Existe
 
@@ -57,6 +59,8 @@ modulos/
 | --- | --- | --- | --- |
 | 00.00 | [Introdução e visão geral do projeto](00.00-introducao-e-visao-geral-do-projeto.md) | Guarda-chuva | Rascunho |
 | 00.01 | [Método de estudo](00.01-metodo-de-estudo.md) | Específica | Rascunho |
+| 00.02 | [Revisão Espaçada e Retenção de Longo Prazo](00.02-revisao-espacada-e-retencao-de-longo-prazo.md) | Específica | Rascunho |
+| 00.03 | [Metacognição e Ilusão de Competência](00.03-metacognicao-e-ilusao-de-competencia.md) | Específica | Rascunho |
 
 ## Como Usar Este Módulo
 
