@@ -62,16 +62,18 @@ Design de software existe para lidar com esse crescimento sem depender apenas de
 | 14.17 | [Liskov Substitution Principle](14.17-liskov-substitution-principle.md) | Especifica | Rascunho |
 | 14.18 | [Interface Segregation Principle](14.18-interface-segregation-principle.md) | Especifica | Rascunho |
 | 14.19 | [Dependency Inversion Principle](14.19-dependency-inversion-principle.md) | Especifica | Rascunho |
-| 14.20 | [Program Against Abstractions](14.20-program-against-abstractions.md) | Especifica pratica | Rascunho |
-| 14.21 | [Composition Over Inheritance](14.21-composition-over-inheritance.md) | Especifica pratica | Rascunho |
-| 14.22 | [Encapsulate What Varies](14.22-encapsulate-what-varies.md) | Especifica pratica | Rascunho |
-| 14.23 | [Tell, Don't Ask](14.23-tell-dont-ask.md) | Especifica | Rascunho |
-| 14.24 | [Law of Demeter](14.24-law-of-demeter.md) | Especifica | Rascunho |
-| 14.25 | [Princípio de Hollywood](14.25-principio-de-hollywood.md) | Especifica | Rascunho |
-| 14.26 | [Padrões de Design](14.26-padroes-de-design.md) | Guarda-chuva | Rascunho |
-| 14.27 | [GoF: Padrões Criacionais, Estruturais e Comportamentais](14.27-gof-padroes-criacionais-estruturais-e-comportamentais.md) | Guarda-chuva curta | Rascunho |
-| 14.28 | [POSA e Padrões Além do GoF](14.28-posa-e-padroes-alem-do-gof.md) | Especifica conceitual | Rascunho |
-| 14.29 | [Projeto Prático: Refatorando uma API para Melhor Design](14.29-projeto-pratico-refatorando-uma-api-para-melhor-design.md) | Sintese pratica | Rascunho |
+| 14.20 | [Desafio: Aplicando SOLID no PetCare OS](14.20-desafio-aplicando-solid-no-petcare-os.md) | Desafio intermediário | Rascunho |
+| 14.21 | [Program Against Abstractions](14.21-program-against-abstractions.md) | Especifica pratica | Rascunho |
+| 14.22 | [Composition Over Inheritance](14.22-composition-over-inheritance.md) | Especifica pratica | Rascunho |
+| 14.23 | [Encapsulate What Varies](14.23-encapsulate-what-varies.md) | Especifica pratica | Rascunho |
+| 14.24 | [Tell, Don't Ask](14.24-tell-dont-ask.md) | Especifica | Rascunho |
+| 14.25 | [Law of Demeter](14.25-law-of-demeter.md) | Especifica | Rascunho |
+| 14.26 | [Princípio de Hollywood](14.26-principio-de-hollywood.md) | Especifica | Rascunho |
+| 14.27 | [Padrões de Design](14.27-padroes-de-design.md) | Guarda-chuva | Rascunho |
+| 14.28 | [GoF: Padrões Criacionais, Estruturais e Comportamentais](14.28-gof-padroes-criacionais-estruturais-e-comportamentais.md) | Guarda-chuva curta | Rascunho |
+| 14.29 | [POSA e Padrões Além do GoF](14.29-posa-e-padroes-alem-do-gof.md) | Especifica conceitual | Rascunho |
+| 14.30 | [Desafio: Escolhendo Padrões de Design](14.30-desafio-escolhendo-padroes-de-design.md) | Desafio intermediário | Rascunho |
+| 14.31 | [Projeto Prático: Refatorando uma API para Melhor Design](14.31-projeto-pratico-refatorando-uma-api-para-melhor-design.md) | Sintese pratica | Rascunho |
 
 ## Trilha de Estudo
 
@@ -89,9 +91,13 @@ Pré-requisito: Bloco A.
 Princípios de design de software: DRY, YAGNI, SOLID (cinco princípios individuais), abstrações, composição, encapsulamento do que varia, tell don't ask, Law of Demeter e Princípio de Hollywood.
 Pré-requisito: Bloco B.
 
-**Bloco D — Padrões de Design** · aulas 14.26–14.28
+> **✦ Desafio de bloco — aula 14.20:** antes de avançar para 14.21, complete o [Desafio: Aplicando SOLID no PetCare OS](14.20-desafio-aplicando-solid-no-petcare-os.md). O desafio converte o que você leu sobre SOLID em diagnóstico e refatoração sobre código real. É a diferença entre reconhecer o princípio e saber usá-lo.
+
+**Bloco D — Padrões de Design** · aulas 14.27–14.29
 Padrões GoF (criacionais, estruturais e comportamentais) e padrões além do GoF.
 Pré-requisito: Bloco C (padrões fazem mais sentido quando os princípios estão claros).
+
+> **✦ Desafio de bloco — aula 14.30:** antes de ir para o projeto final, complete o [Desafio: Escolhendo Padrões de Design](14.30-desafio-escolhendo-padroes-de-design.md). O desafio apresenta três cenários reais do PetCare OS onde mais de um padrão funcionaria — você precisa escolher, implementar e justificar a rejeição das alternativas.
 
 > As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
 
