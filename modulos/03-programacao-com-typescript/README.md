@@ -68,6 +68,24 @@ Este módulo cria a base de linguagem para todo o restante da formação.
 | 03.21 | [Decorators](03.21-decorators.md) | Específica introdutória | Rascunho |
 | 03.22 | [Projeto prático: mini aplicação tipada](03.22-projeto-pratico-mini-aplicacao-tipada.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em dois blocos progressivos. Cada bloco constrói sobre o anterior — não pule a sequência.
+
+**Bloco A — JavaScript Moderno** · aulas 03.01–03.09
+Sintaxe, valores, variáveis, tipos primitivos, estruturas de controle, funções, tratamento de erros, assincronismo, event loop, Promises e `async/await`.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+> **Importante:** o Bloco B pressupõe que você já escreveu código JavaScript moderno com fluidez. Se ainda hesitar em criar funções, manipular arrays ou usar `async/await`, revise o Bloco A antes de avançar.
+
+**Bloco B — TypeScript** · aulas 03.10–03.21
+O que é TypeScript, inferência, anotações, compatibilidade de tipos, narrowing, aliases, interfaces, módulos, classes, generics, utility types, tipos avançados e decorators.
+Pré-requisito: Bloco A consolidado.
+
+> **✦ Projeto de síntese — aula 03.22:** ao final do módulo, complete o [Projeto Prático: mini aplicação tipada](03.22-projeto-pratico-mini-aplicacao-tipada.md). O projeto integra JavaScript moderno e TypeScript em um único programa: você precisará de assincronismo, tratamento de erros, funções, tipos, narrowing e organização em módulos.
+
+> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+
 ## Projeto ou Prática do Módulo
 
 Construa uma mini aplicação de tarefas em TypeScript puro:
