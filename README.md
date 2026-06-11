@@ -53,7 +53,8 @@ Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diret
 | **10** | [🟢 Node.js Backend](modulos/10-backend-com-nodejs/) | Express/Fastify, bancos de dados relacionais, ORMs (Prisma), mensageria e performance. | `Rascunho` |
 | **11** | [🔌 API Design](modulos/11-api-design-profissional/) | Design profissional de APIs REST, paginação, filtros, erros padronizados e idempotência. | `Rascunho` |
 | **12** | [🔒 Segurança e Auth](modulos/12-autenticacao-autorizacao-e-seguranca/) | JWT, OAuth, hashing de senhas, CORS, CSRF, XSS, SQL Injection e OWASP Top 10. | `Rascunho` |
-| **13** | [🧪 Qualidade e Testes](modulos/13-qualidade-observabilidade-e-performance/) | Testes unitários/integração, mocks, testes de carga com k6, logs e métricas. | `Rascunho` |
+| **13A** | [🧪 Qualidade e Testes](modulos/13a-qualidade-e-testes/) | Testes unitários/integração, mocks, contract tests, flaky tests, CI e quality gates. | `Rascunho` |
+| **13B** | [📊 Observabilidade, Performance e Operação](modulos/13b-observabilidade-performance-e-operacao/) | Profiling, testes de carga, logging, métricas, tracing, monitoramento e alertas. | `Rascunho` |
 | **14** | [📐 Design de Software](modulos/14-design-de-software/) | Clean Code, SOLID, DRY, YAGNI, Padrões GoF (Criacionais, Estruturais e Comportamentais). | `Rascunho` |
 | **15** | [🏗️ Arquitetura](modulos/15-arquitetura-de-software/) | Clean Architecture, DDD, MVC, SOA, Monólitos, Microsserviços e Serverless. | `Rascunho` |
 | **16** | [📡 Tempo Real e Filas](modulos/16-tempo-real-e-comunicacao-assincrona/) | WebSocket, SSE, Message Brokers (RabbitMQ/Kafka), BullMQ e processamento assíncrono. | `Rascunho` |

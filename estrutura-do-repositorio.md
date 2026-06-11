@@ -29,7 +29,8 @@ Este documento descreve a estrutura definitiva do repositório.
     ├── 10-backend-com-nodejs/
     ├── 11-api-design-profissional/
     ├── 12-autenticacao-autorizacao-e-seguranca/
-    ├── 13-qualidade-observabilidade-e-performance/
+    ├── 13a-qualidade-e-testes/
+    ├── 13b-observabilidade-performance-e-operacao/
     ├── 14-design-de-software/
     ├── 15-arquitetura-de-software/
     ├── 16-tempo-real-e-comunicacao-assincrona/

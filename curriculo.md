@@ -397,9 +397,9 @@ A aula guarda-chuva prepara o terreno. As aulas específicas viram material de c
 ## 🏗️ Fase 5: Qualidade & Arquitetura de Software
 
 
-### 13. Qualidade, Testes, Observabilidade e Performance
+### 13A. Qualidade e Testes
 
-> **Objetivo:** sair do "funciona na minha máquina" para software testável, mensurável, operável e confiável.
+> **Objetivo:** sair do "funciona na minha máquina" para software testável e confiável.
 
 
 <details>
@@ -413,21 +413,33 @@ A aula guarda-chuva prepara o terreno. As aulas específicas viram material de c
 - Testes end-to-end
 - Mocks, stubs e fakes
 - Contract tests
-- Testes de carga
 - Testes de regressão
 - Testes em CI
 - Flaky tests
 - Testabilidade de arquitetura
 - Análise estática, métricas e quality gates
+
+</details>
+
+
+### 13B. Observabilidade, Performance e Operação
+
+> **Objetivo:** tornar software mensurável, operável e investigável em produção.
+
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
+
 - Análise e performance
 - Profiling
-- Logging
+- Testes de carga
+- Logging para observabilidade
 - Observabilidade
 - Instrumentação
-- Monitoramento
 - Telemetria
 - Métricas
 - Tracing
+- Monitoramento
 - Alertas
 - Failure modes
 
