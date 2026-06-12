@@ -34,6 +34,24 @@ Você também precisa abrir o projeto, instalar dependências, rodar comandos, c
 
 Este módulo prepara os próximos passos da formação: frontend moderno, Next.js, backend, bancos de dados, testes, deploy, DevOps e arquitetura. Todos esses temas dependem de um ambiente de desenvolvimento minimamente organizado.
 
+## Artefato Recebido do Módulo Anterior
+
+O módulo 04 deixou você com prática em algoritmos e estruturas de dados, incluindo a fila de prioridade de triagem do PetCare OS. Não altere esse trabalho aqui. O foco deste módulo é criar a base de ferramentas que permitirá evoluir qualquer código com segurança.
+
+## Artefato Produzido Neste Módulo
+
+Ao final, você terá um repositório base do PetCare OS chamado `petcare-os-base`, com:
+
+- estrutura de pastas clara;
+- `package.json` com scripts `dev`, `build`, `check` e `format`;
+- `.env.example` documentando variáveis de ambiente;
+- `.gitignore` protegendo arquivos sensíveis e gerados;
+- `README.md` com instruções mínimas;
+- histórico Git com commits bem descritos;
+- branch `feature/readme-inicial` criada e mergeada.
+
+Esse repositório será retomado nos próximos módulos.
+
 ## Pré-requisitos
 
 - Saber criar e editar arquivos de código.
@@ -63,21 +81,52 @@ Este módulo prepara os próximos passos da formação: frontend moderno, Next.j
 | 05.14 | [Module bundlers](05.14-module-bundlers.md) | Guarda-chuva curta | Rascunho |
 | 05.15 | [Documentação mínima de projeto](05.15-documentacao-minima-de-projeto.md) | Específica prática | Rascunho |
 | 05.16 | [Code review](05.16-code-review.md) | Específica prática | Rascunho |
-| 05.17 | [Projeto prático: fluxo profissional de desenvolvimento](05.17-projeto-prático-fluxo-profissional-de-desenvolvimento.md) | Síntese prática | Rascunho |
+| 05.17 | [Projeto prático: fluxo profissional de desenvolvimento](05.17-projeto-pratico-fluxo-profissional-de-desenvolvimento.md) | Síntese prática | Rascunho |
+
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — Ambiente de trabalho** · aulas 05.00–05.03
+Editor, terminal e shell como pontapé do fluxo profissional.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Configuração e dependências** · aulas 05.04–05.08
+Ambientes, variáveis de ambiente, versionamento semântico e gerenciadores de pacote.
+Pré-requisito: Bloco A.
+
+**Bloco C — Versionamento e colaboração** · aulas 05.09–05.12
+Git local, hospedagem de repositórios e fluxo de colaboração no GitHub.
+Pré-requisito: Bloco B.
+
+**Bloco D — Qualidade, documentação e revisão** · aulas 05.13–05.17
+Linters, formatters, bundlers, README e code review, culminando no repositório base do PetCare OS.
+Pré-requisito: Bloco C.
+
+Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
+
+## Exercícios
+
+Use nomes simples e previsíveis dentro da pasta `exercicios/`:
+
+- [Exercício 01 — Variáveis e ambiente do PetCare OS](exercicios/01-variaveis-e-ambiente.md)
+- [Exercício 02 — Versionando uma mudança do PetCare OS](exercicios/02-versionando-com-git.md)
+- [Exercício 03 — Revisando uma mudança no PetCare OS](exercicios/03-revisando-uma-mudanca.md)
+- [Exercício 04 — Scripts de qualidade do PetCare OS](exercicios/04-scripts-de-qualidade.md)
+- [Atividade Final do Módulo — Repositório base do PetCare OS](exercicios/atividade-final-modulo.md)
+
+Cada exercício está ligado à aula que ensina o conhecimento necessário. A atividade final combina habilidades já praticadas, sem introduzir uma dificuldade nova.
+
+Cada arquivo termina com `## Corrija Sua Atividade Com IA` e um prompt copiável que:
+
+- explica o cenário e a tarefa sem depender de arquivos externos;
+- apresenta critérios específicos de correção;
+- contém o marcador `[COLE SUA RESPOSTA AQUI]`;
+- pede acertos, imprecisões e dicas antes de qualquer resposta completa.
 
 ## Projeto ou Prática do Módulo
 
-Transforme uma mini aplicação TypeScript em um projeto com fluxo profissional:
-
-1. Organize a pasta do projeto.
-2. Crie um `README.md` com instruções mínimas.
-3. Inicialize o projeto com um gerenciador de pacote.
-4. Configure scripts para rodar, formatar e validar código.
-5. Crie um arquivo de exemplo para variáveis de ambiente.
-6. Inicialize Git e faça commits pequenos.
-7. Publique o repositório em um serviço de VCS hosting.
-8. Abra uma branch, faça uma mudança e simule um pull request.
-9. Revise o próprio código antes de mergear.
+A prática integradora deste módulo é a [Atividade Final — Repositório base do PetCare OS](exercicios/atividade-final-modulo.md). Nela, você transforma o que aprendeu em um repositório organizado, versionado e documentado, que será a base evolutiva do projeto nos próximos módulos.
 
 ## O Que Revisar Antes de Avançar
 
