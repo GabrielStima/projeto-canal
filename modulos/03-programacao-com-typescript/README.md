@@ -6,9 +6,11 @@
 
 </div>
 
-Este módulo aprofunda a programação com JavaScript moderno e TypeScript. Depois de usar JavaScript no browser para pequenas interações, agora o foco passa a ser a linguagem em si: como representar dados, controlar fluxo, criar funções, lidar com erros, trabalhar com assincronismo e usar tipos para escrever código mais claro e seguro.
+Este módulo aprofunda a programação com JavaScript moderno e TypeScript. Depois de usar JavaScript no browser para pequenas interações no Portal do Tutor, agora o foco passa a ser a linguagem em si: como representar dados, controlar fluxo, criar funções, lidar com erros, trabalhar com assincronismo e usar tipos para escrever código mais claro e seguro.
 
 TypeScript não substitui JavaScript. Ele adiciona uma camada de checagem estática e ferramentas melhores sobre o JavaScript que continua rodando no browser, no Node.js e em outros ambientes.
+
+Ao longo das aulas, você vai usar o PetCare OS como pano de fundo recorrente. Alguns exemplos e exercícios usam dados de pets, tutores, atendimentos, orçamentos e itens de estoque para tornar os conceitos mais concretos. Nem toda aula menciona o projeto: quando um exemplo independente ensina melhor, usamos outro contexto.
 
 ## Objetivo do Módulo
 
@@ -30,6 +32,8 @@ Nos módulos anteriores, JavaScript apareceu como ferramenta para dar comportame
 
 Aplicações reais precisam de funções reutilizáveis, dados bem definidos, tratamento de erros, código assíncrono e arquivos organizados. TypeScript entra para tornar essas relações mais explícitas: ele ajuda a perceber problemas durante o desenvolvimento, melhora autocomplete, documenta intenções e reduz erros comuns antes de o código chegar ao usuário.
 
+No contexto do PetCare OS, este módulo produz o primeiro núcleo de regras e tipos do sistema. Em vez de continuar com páginas estáticas, você vai modelar entidades como Pet, Tutor, Atendimento e Orçamento, e escrever funções tipadas para manipulá-las. Esse núcleo será revisitado e evoluído nos módulos de algoritmos, frontend moderno, Next.js e backend.
+
 Este módulo cria a base de linguagem para todo o restante da formação.
 
 ## Pré-requisitos
@@ -38,6 +42,7 @@ Este módulo cria a base de linguagem para todo o restante da formação.
 - Saber o papel do JavaScript no browser.
 - Conseguir criar uma pequena interação com JavaScript puro.
 - Entender cliente, servidor, request e response em alto nível.
+- Ter concluído o módulo 02 — Frontend Essencial, especialmente o projeto prático do Portal do Tutor.
 - Não é necessário conhecer Node.js, npm, bundlers ou frameworks.
 
 ## Aulas
@@ -66,7 +71,7 @@ Este módulo cria a base de linguagem para todo o restante da formação.
 | 03.19 | [Utility types](03.19-utility-types.md) | Específica | Rascunho |
 | 03.20 | [Tipos avançados](03.20-tipos-avancados.md) | Específica ampla | Rascunho |
 | 03.21 | [Decorators](03.21-decorators.md) | Específica introdutória | Rascunho |
-| 03.22 | [Projeto prático: mini aplicação tipada](03.22-projeto-pratico-mini-aplicacao-tipada.md) | Síntese prática | Rascunho |
+| 03.22 | [Projeto prático: núcleo TypeScript do PetCare OS](03.22-projeto-pratico-mini-aplicacao-tipada.md) | Síntese prática | Rascunho |
 
 ## Trilha de Estudo
 
@@ -78,25 +83,40 @@ Pré-requisito: nenhum (ponto de entrada do módulo).
 
 > **Importante:** o Bloco B pressupõe que você já escreveu código JavaScript moderno com fluidez. Se ainda hesitar em criar funções, manipular arrays ou usar `async/await`, revise o Bloco A antes de avançar.
 
+> **✦ Desafio intermediário — aula 03.09:** ao terminar o Bloco A, complete o [Exercício 01 — Consulta Assíncrona de Dados](exercicios/01-consulta-assincrona-de-dados.md). Ele consolida Promises, `async/await` e tratamento de erros.
+
 **Bloco B — TypeScript** · aulas 03.10–03.21
 O que é TypeScript, inferência, anotações, compatibilidade de tipos, narrowing, aliases, interfaces, módulos, classes, generics, utility types, tipos avançados e decorators.
 Pré-requisito: Bloco A consolidado.
 
-> **✦ Projeto de síntese — aula 03.22:** ao final do módulo, complete o [Projeto Prático: mini aplicação tipada](03.22-projeto-pratico-mini-aplicacao-tipada.md). O projeto integra JavaScript moderno e TypeScript em um único programa: você precisará de assincronismo, tratamento de erros, funções, tipos, narrowing e organização em módulos.
+> **✦ Desafio intermediário — aula 03.21:** ao terminar o Bloco B, complete o [Exercício 02 — Modelando Tipos do PetCare OS](exercicios/02-modelando-tipos-do-petcare-os.md). Ele consolida modelagem de entidades, unions, narrowing e organização em módulos.
+
+> **✦ Projeto de síntese — aula 03.22:** ao final do módulo, complete a [Atividade Final do Módulo — Núcleo TypeScript do PetCare OS](exercicios/atividade-final-modulo.md). O projeto integra JavaScript moderno e TypeScript em um único programa: você precisará de assincronismo, tratamento de erros, funções, tipos, narrowing e organização em módulos.
 
 > As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
 
+## Exercícios
+
+Use os exercícios para praticar habilidades isoladas antes de juntar tudo na atividade final:
+
+- [Exercício 01 — Consulta Assíncrona de Dados](exercicios/01-consulta-assincrona-de-dados.md)
+- [Exercício 02 — Modelando Tipos do PetCare OS](exercicios/02-modelando-tipos-do-petcare-os.md)
+- [Atividade Final do Módulo — Núcleo TypeScript do PetCare OS](exercicios/atividade-final-modulo.md)
+
 ## Projeto ou Prática do Módulo
 
-Construa uma mini aplicação de tarefas em TypeScript puro:
+Construa o núcleo TypeScript do PetCare OS em TypeScript puro:
 
-1. Modele uma tarefa com título, status, prioridade e data opcional.
-2. Crie funções para adicionar, concluir, listar e filtrar tarefas.
-3. Use tratamento de erros para entradas inválidas.
-4. Simule uma operação assíncrona com `Promise` e `async/await`.
-5. Organize o código em módulos.
-6. Use types, interfaces, narrowing e utility types quando fizer sentido.
-7. Evite usar framework: o foco é a linguagem.
+1. Modele as entidades `Pet`, `Tutor`, `Atendimento` e `ItemOrcamento`.
+2. Crie um type `StatusAtendimento` com os valores do ciclo de atendimento.
+3. Crie funções para criar atendimento, atualizar status e calcular total de orçamento.
+4. Use tratamento de erros para entradas inválidas.
+5. Simule uma busca assíncrona de pet com `Promise` e `async/await`.
+6. Organize o código em módulos (`tipos.ts`, `atendimento.ts`, `orcamento.ts`, `busca.ts`, `app.ts`).
+7. Use types, interfaces, narrowing e utility types quando fizer sentido.
+8. Evite usar framework: o foco é a linguagem.
+
+Esse trabalho será retomado no módulo de Algoritmos e Estruturas de Dados, quando você implementará a fila de prioridade da triagem, e nos módulos futuros de frontend moderno, Next.js e backend.
 
 ## O Que Revisar Antes de Avançar
 
