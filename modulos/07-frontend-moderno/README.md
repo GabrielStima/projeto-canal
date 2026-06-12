@@ -1,3 +1,5 @@
+# Frontend Moderno
+
 <div align="center">
 
 ![Readme Banner](../../assets/banner-introducao.png)
@@ -64,9 +66,54 @@ Este módulo prepara o caminho para Next.js e aplicações fullstack no frontend
 | 07.16 | [Micro-frontends](07.16-micro-frontends.md) | Guarda-chuva curta | Rascunho |
 | 07.17 | [Projeto prático: aplicação frontend moderna](07.17-projeto-pratico-aplicacao-frontend-moderna.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em 4 blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — Fundamentos do Frontend Moderno** · aulas [07.00–07.05]
+Introdução ao modelo mental de componentes, estado e renderização com React.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Navegação e Comunicação** · aulas [07.06–07.09]
+Gerenciamento de estado, rotas, SPA vs PWA e chamadas de API.
+Pré-requisito: Bloco A.
+
+**Bloco C — Formulários, Qualidade e Cuidados** · aulas [07.10–07.13]
+Formulários controlados, validação, testes e performance no frontend.
+Pré-requisito: Bloco B.
+
+**Bloco D — Tecnologias Avançadas e Integração** · aulas [07.14–07.17]
+Web Components, Module Federation, micro-frontends e projeto prático integrador.
+Pré-requisito: Bloco C.
+
+> Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
+
+## Exercícios
+
+Use nomes simples e previsíveis dentro da pasta `exercicios/`:
+
+- [Exercício 01 — Componentes reutilizáveis](exercicios/01-componentes-reutilizaveis.md)
+- [Exercício 02 — Estado e filtros](exercicios/02-estado-e-filtros.md)
+- [Exercício 03 — Rotas e navegação](exercicios/03-rotas-e-navegacao.md)
+- [Exercício 04 — Chamadas de API](exercicios/04-chamadas-de-api.md)
+- [Exercício 05 — Formulários e validação](exercicios/05-formularios-e-validacao.md)
+- [Exercício 06 — Testes de componentes](exercicios/06-testes-de-componentes.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
+
+Cada exercício deve ser ligado à aula que ensina o conhecimento necessário. A atividade final deve combinar habilidades já praticadas, sem introduzir uma dificuldade nova.
+
+Cada arquivo deve terminar com `## Corrija Sua Atividade Com IA` e um prompt copiável que:
+
+- explique o cenário e a tarefa sem depender de arquivos externos;
+- apresente critérios específicos de correção;
+- contenha o marcador `[COLE SUA RESPOSTA AQUI]`;
+- peça acertos, imprecisões e dicas antes de qualquer resposta completa.
+
+Esse prompt pode reproduzir o contexto usado no exercício. Ele não substitui nem altera o `Prompt Para Estudar Com IA` das aulas.
+
 ## Projeto ou Prática do Módulo
 
-Construa uma pequena aplicação de catálogo com React e TypeScript:
+Construa uma pequena aplicação React com TypeScript:
 
 1. Separe a interface em componentes.
 2. Mostre uma lista de itens com filtros simples.
@@ -77,6 +124,29 @@ Construa uma pequena aplicação de catálogo com React e TypeScript:
 7. Valide campos obrigatórios e mensagens de erro.
 8. Escreva testes para componentes e fluxos principais.
 9. Revise acessibilidade e performance básica.
+
+## O Que Entra e O Que Sai Deste Módulo
+
+**O que entra do módulo anterior:**
+
+- Visão de produto e jornadas do PetCare OS definidas no módulo 06.
+- Regras e tipos das entidades do domínio (pets, tutores, atendimentos, orçamentos) modelados nos módulos 03 e 04.
+- Interfaces navegáveis e semânticas construídas no módulo 02 com HTML, CSS e JavaScript.
+- Repositório padronizado com scripts, lint e format do módulo 05.
+
+**O que sai deste módulo:**
+
+- Uma aplicação React com TypeScript que simula o **Portal do Tutor** do PetCare OS.
+- Componentes reutilizáveis (`PetCard`, `StatusBadge`, `PetList`) mantidos para reutilização.
+- Configuração de rotas para dashboard, listagem, detalhes, cadastro e orçamento.
+- Padrão de chamada de API com estados de carregamento, erro e sucesso.
+- Formulário controlado de cadastro de pet com validação.
+- Testes de comportamento para fluxos críticos da interface.
+
+**Onde isso será retomado:**
+
+- No módulo 08 — Next.js, esses componentes e telas serão migrados para o App Router, separando Server Components de Client Components e adicionando renderização no servidor.
+- Os componentes visuais criados aqui (`PetCard`, `StatusBadge`, formulários) serão reutilizados, e a estrutura de rotas servirá de base para as rotas dinâmicas do Next.js.
 
 ## O Que Revisar Antes de Avançar
 
