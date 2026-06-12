@@ -8,6 +8,8 @@
 
 Este módulo apresenta a base visual e interativa da Web antes de frameworks. A ideia é entender como uma página é estruturada com HTML, apresentada com CSS e transformada em interface interativa com JavaScript no browser.
 
+Ao longo das aulas, você vai usar o PetCare OS como pano de fundo recorrente. Alguns exemplos e exercícios usam telas do Portal do Tutor, do painel de atendimentos e da agenda da clínica para tornar os conceitos mais concretos. Nem toda aula menciona o projeto: quando um exemplo independente ensina melhor, usamos outro contexto.
+
 O foco não é decorar todas as tags, propriedades ou APIs. O objetivo é construir repertório suficiente para criar páginas simples, entender exemplos reais, evitar erros comuns e chegar melhor preparado aos módulos de TypeScript, ferramentas e frontend moderno.
 
 ## Objetivo do Módulo
@@ -16,7 +18,7 @@ Ao final deste módulo, você deve ser capaz de:
 
 - estruturar uma página HTML simples;
 - escolher elementos HTML com intenção semântica;
-- criar formulários básicos;
+- criar formulários básicos e acessíveis;
 - aplicar CSS para aparência e organização visual;
 - entender como cascata, especificidade e herança resolvem conflitos entre regras;
 - usar convenções de nomenclatura para organizar classes CSS;
@@ -31,7 +33,9 @@ Ao final deste módulo, você deve ser capaz de:
 
 Muita gente começa frontend por frameworks. Isso pode funcionar por um tempo, mas cria buracos importantes: a pessoa usa componentes sem entender HTML, estiliza sem entender layout, manipula estado sem saber o que é evento e corrige bugs sem entender o browser.
 
-Este módulo prepara o terreno. Antes de React, Next.js, bundlers, validação avançada ou testes de interface, você precisa saber o que o browser recebe, interpreta, renderiza e expõe para interação.
+Este módulo prepara o terreno. Antes de frameworks, bundlers, validação avançada ou testes de interface, você precisa saber o que o browser recebe, interpreta, renderiza e expõe para interação.
+
+No contexto do PetCare OS, este módulo produz a primeira versão navegável do Portal do Tutor, ainda sem framework. Essa base será revisitada e evoluída em módulos futuros de frontend moderno.
 
 ## Pré-requisitos
 
@@ -59,22 +63,50 @@ Este módulo prepara o terreno. Antes de React, Next.js, bundlers, validação a
 | 02.11 | [Eventos](02.11-eventos.md) | Específica | Rascunho |
 | 02.12 | [Acessibilidade](02.12-acessibilidade.md) | Específica transversal | Rascunho |
 | 02.13 | [Browsers e Compatibilidade](02.13-browsers-e-compatibilidade.md) | Síntese | Rascunho |
-| 02.14 | [Projeto Prático: Página Interativa Essencial](02.14-projeto-pratico-pagina-interativa-essencial.md) | Síntese prática | Rascunho |
+| 02.14 | [Projeto Prático: Portal do Tutor Navegável](02.14-projeto-pratico-portal-do-tutor-navegavel.md) | Síntese prática | Rascunho |
+
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco 1 — Estrutura e semântica** · aulas 02.00–02.03
+HTML, semântica e formulários. Aqui você começa a dar forma ao conteúdo que será exibido no Portal do Tutor.
+Pré-requisito: nenhum dentro do módulo.
+
+**Bloco 2 — Estilo e layout** · aulas 02.04–02.08
+CSS, cascata, nomenclatura, layout e responsividade. Você vai aprender a apresentar o conteúdo de forma organizada e adaptável.
+Pré-requisito: Bloco 1.
+
+**Bloco 3 — Interatividade** · aulas 02.09–02.11
+JavaScript no browser, DOM e eventos. Você vai dar comportamento às páginas, como aprovar um orçamento ou atualizar um status.
+Pré-requisito: Bloco 2.
+
+**Bloco 4 — Qualidade e projeto final** · aulas 02.12–02.14
+Acessibilidade, compatibilidade e o projeto prático integrador. Você vai construir a primeira versão navegável do Portal do Tutor.
+Pré-requisito: Blocos 1, 2 e 3.
+
+## Exercícios
+
+Use os exercícios para praticar habilidades isoladas antes de juntar tudo na atividade final:
+
+- [Exercício 01 — Card de Status do Pet](exercicios/01-card-de-status-do-pet.md)
+- [Exercício 02 — Formulário de Triagem](exercicios/02-formulario-de-triagem.md)
+- [Exercício 03 — Lista de Atendimentos](exercicios/03-lista-de-atendimentos.md)
+- [Atividade Final do Módulo — Portal do Tutor Navegável](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Construa uma página simples de cadastro de interesse para um produto fictício:
+A atividade final integra todo o módulo. Você vai construir a primeira versão navegável do Portal do Tutor do PetCare OS, ainda sem framework.
 
-1. Crie uma estrutura HTML com cabeçalho, conteúdo principal, formulário e rodapé.
-2. Use elementos semânticos quando fizer sentido.
-3. Crie campos de nome, e-mail, área de interesse e aceite de termos.
-4. Estilize a página com CSS.
-5. Use nomes de classes consistentes e orientados ao papel dos elementos.
-6. Revise conflitos de cascata e especificidade.
-7. Organize o layout para telas pequenas e grandes.
-8. Use JavaScript para validar interações simples no browser.
-9. Mostre mensagens de erro e sucesso sem recarregar a página.
-10. Revise acessibilidade básica: labels, foco, contraste e navegação por teclado.
+Essa versão deve conter:
+
+1. Uma tela com o status do pet (nome, espécie, tutor, status atual, previsão de alta e linha do tempo resumida).
+2. Uma segunda tela com orçamento pendente ou histórico resumido.
+3. Navegação entre as telas usando JavaScript, sem recarregar a página.
+4. HTML semântico, CSS responsivo e acessibilidade básica.
+5. Três arquivos: `index.html`, `styles.css` e `script.js`.
+
+Este trabalho será retomado em módulos futuros de frontend moderno, quando você reconstruirá essa ideia com componentes reutilizáveis e rotas.
 
 ## O Que Revisar Antes de Avançar
 
