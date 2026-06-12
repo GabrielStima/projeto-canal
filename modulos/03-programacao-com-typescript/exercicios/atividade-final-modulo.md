@@ -35,10 +35,10 @@ type StatusAtendimento =
   | "Pronto para Alta"
   | "Finalizado";
 
-interface Pet { id, nome, especie, tutorId }
-interface Tutor { id, nome, email }
-interface Atendimento { id, petId, status: StatusAtendimento, motivo?: string }
-interface ItemOrcamento { descricao, preco, quantidade }
+interface Pet { id: number; nome: string; especie: string; tutorId: number }
+interface Tutor { id: number; nome: string; email: string }
+interface Atendimento { id: number; petId: number; status: StatusAtendimento; motivo?: string }
+interface ItemOrcamento { descricao: string; preco: number; quantidade: number }
 ```
 
 ### 2. `atendimento.ts`
@@ -59,9 +59,9 @@ Importe `ItemOrcamento` de `tipos.ts` e exporte:
 
 ### 4. `busca.ts`
 
-Exporte uma função `buscarPetPorId(id: string): Promise<Pet>` que simula uma busca assíncrona. Após 300ms:
+Exporte uma função `buscarPetPorId(id: number): Promise<Pet>` que simula uma busca assíncrona. Após 300ms:
 
-- Se o id for `"pet-001"`, resolva com `{ id: "pet-001", nome: "Thor", especie: "cachorro", tutorId: "tutor-001" }`.
+- Se o id for `1`, resolva com `{ id: 1, nome: "Thor", especie: "cachorro", tutorId: 1 }`.
 - Caso contrário, rejeite com `new Error("Pet não encontrado.")`.
 
 ### 5. `app.ts`

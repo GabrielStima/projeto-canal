@@ -18,8 +18,8 @@ Você vai simular uma função que busca o resumo de um pet no PetCare OS. A fun
 
 1. Crie uma função `buscarResumoDoPet(id)` que retorna uma `Promise`.
 2. Dentro da Promise, use `setTimeout` para simular um atraso de 500ms.
-3. Se o `id` for `"pet-001"`, resolva com `{ id: "pet-001", nome: "Thor", status: "Em Triagem" }`.
-4. Se o `id` for `"pet-002"`, resolva com `{ id: "pet-002", nome: "Luna", status: "Aguardando Aprovação" }`.
+3. Se o `id` for `1`, resolva com `{ id: 1, nome: "Thor", status: "Em Triagem" }`.
+4. Se o `id` for `2`, resolva com `{ id: 2, nome: "Luna", status: "Aguardando Aprovação" }`.
 5. Para qualquer outro `id`, rejeite com `new Error("Pet não encontrado.")`.
 6. Crie uma função `mostrarStatusDoPet(id)` usando `async/await`.
 7. Trate o erro com `try/catch` e exiba uma mensagem amigável.
@@ -42,14 +42,14 @@ Funções assíncronas como essa serão usadas no projeto final deste módulo e 
 ```text
 Estou estudando Promises e async/await em JavaScript. Fiz um exercício e quero correção.
 
-Cenário: estou simulando uma consulta ao PetCare OS. A função `buscarResumoDoPet(id)` deve retornar uma Promise que, após 500ms, resolve com dados de um pet para os ids "pet-001" e "pet-002", e rejeita com erro para qualquer outro id. A função `mostrarStatusDoPet(id)` consome essa Promise com async/await e trata erros.
+Cenário: estou simulando uma consulta ao PetCare OS. A função `buscarResumoDoPet(id)` deve retornar uma Promise que, após 500ms, resolve com dados de um pet para os ids `1` e `2`, e rejeita com erro para qualquer outro id. A função `mostrarStatusDoPet(id)` consome essa Promise com async/await e trata erros.
 
 Tarefa: avalie o código que eu escrevi para esse exercício.
 
 Critérios de correção:
 1. A função `buscarResumoDoPet` retorna uma Promise?
 2. O atraso de 500ms está simulado?
-3. Os ids "pet-001" e "pet-002" retornam os dados corretos?
+3. Os ids `1` e `2` retornam os dados corretos?
 4. Outros ids rejeitam com mensagem clara?
 5. A função `mostrarStatusDoPet` usa async/await e try/catch?
 6. As mensagens de saída são claras?

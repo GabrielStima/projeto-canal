@@ -10,6 +10,8 @@ Este módulo desenvolve raciocínio computacional para resolver problemas com ma
 
 Aqui, TypeScript aparece como ferramenta de expressão: vamos escrever exemplos pequenos, tipados e diretos, usando arrays, objetos, classes e funções para enxergar como as estruturas funcionam.
 
+Ao longo das aulas, você vai usar o PetCare OS como pano de fundo recorrente. Alguns exemplos e exercícios usam dados de atendimentos, prontuários, estoque e triagem para tornar os conceitos mais concretos. Nem toda aula menciona o projeto: quando um exemplo independente ensina melhor, usamos outro contexto.
+
 ## Objetivo do Módulo
 
 Ao final deste módulo, você deve ser capaz de:
@@ -28,6 +30,8 @@ Ao final deste módulo, você deve ser capaz de:
 Nos módulos anteriores, você aprendeu a escrever código com JavaScript e TypeScript. Agora o foco muda: em vez de perguntar apenas "como escrevo isso?", vamos perguntar "qual solução faz sentido para este problema?".
 
 Essa mudança importa em quase todo projeto real. Listar itens, buscar registros, ordenar resultados, evitar duplicidade, montar histórico de navegação, processar filas de tarefas e representar hierarquias são problemas comuns. Algoritmos e estruturas de dados dão vocabulário para conversar sobre essas decisões.
+
+No contexto do PetCare OS, este módulo aplica estruturas e algoritmos a problemas reais do domínio: fila de atendimentos, busca de prontuários, mapeamento de medicamentos, ordenação de triagem e fila de prioridade. Esses exemplos preparam o terreno para bancos de dados, backend, frontend moderno e system design.
 
 Este módulo também prepara assuntos futuros como bancos de dados, performance, arquitetura, backend, filas, caches, índices e system design.
 
@@ -78,6 +82,10 @@ Este módulo está organizado em cinco blocos. Os blocos A e B podem ser estudad
 O que são estruturas de dados, como arrays funcionam, e depois as estruturas lineares: linked lists, stacks, queues e hash tables.
 Pré-requisito: nenhum (ponto de entrada do módulo).
 
+> **✦ Desafio intermediário — aula 04.08:** ao terminar a aula sobre queues, complete o [Exercício 01 — Fila de Atendimentos](exercicios/01-fila-de-atendimentos.md). Ele consolida o conceito de FIFO usando atendimentos de uma clínica veterinária.
+
+> **✦ Desafio intermediário — aula 04.09:** ao terminar a aula sobre hash tables, complete o [Exercício 02 — Mapeamento Rápido de Medicamentos](exercicios/02-mapeamento-rapido-de-medicamentos.md). Ele consolida o uso de `Map` e `Set` para lookups rápidos.
+
 **Bloco B — Complexidade de Algoritmos** · aulas 04.03–04.05
 Como medir e calcular a eficiência de um algoritmo em tempo e espaço. Ler após 04.01 para ter contexto, mas pode ser estudado em paralelo com as estruturas lineares.
 Pré-requisito: 04.01 (fundamentos de estruturas de dados).
@@ -86,28 +94,49 @@ Pré-requisito: 04.01 (fundamentos de estruturas de dados).
 Busca linear e busca binária com análise de complexidade. Requer entender arrays (Bloco A) e complexidade (Bloco B).
 Pré-requisito: Blocos A e B.
 
+> **✦ Desafio intermediário — aula 04.12:** ao terminar a aula sobre busca binária, complete o [Exercício 03 — Buscando Prontuários](exercicios/03-buscando-prontuarios.md). Ele compara busca linear e binária em prontuários ordenados.
+
 **Bloco D — Algoritmos de Ordenação** · aulas 04.13–04.19
 Comparação de algoritmos de ordenação, com recursão como aula de suporte antes de merge sort e quick sort.
 Pré-requisito: Blocos A e B.
+
+> **✦ Desafio intermediário — aula 04.19:** ao terminar a aula sobre Quick Sort, complete o [Exercício 04 — Ordenando Atendimentos](exercicios/04-ordenando-atendimentos.md). Ele compara três algoritmos de ordenação usando atendimentos por urgência.
 
 **Bloco E — Árvores e Heaps** · aulas 04.20–04.24
 Estruturas hierárquicas: árvore binária, árvore de busca binária, heaps e heap sort.
 Pré-requisito: Bloco A (estruturas de dados) e Bloco D (recursão e ordenação).
 
+> **✦ Desafio intermediário — aula 04.23:** ao terminar a aula sobre heaps, complete o [Exercício 05 — Fila de Prioridade de Triagem](exercicios/05-fila-de-prioridade-de-triagem.md). É o incremento persistente do módulo: uma fila de prioridade de triagem que pode ser evoluída nos módulos futuros.
+
+> **✦ Projeto de síntese — aula 04.25:** ao final do módulo, complete a [Atividade Final do Módulo — Analisador de Estruturas e Algoritmos](exercicios/atividade-final-modulo.md). O projeto integra as estruturas e algoritmos estudados em um programa TypeScript autocontido.
+
 > As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
 
+## Exercícios
+
+Use os exercícios para praticar habilidades isoladas antes de juntar tudo na atividade final:
+
+- [Exercício 01 — Fila de Atendimentos](exercicios/01-fila-de-atendimentos.md)
+- [Exercício 02 — Mapeamento Rápido de Medicamentos](exercicios/02-mapeamento-rapido-de-medicamentos.md)
+- [Exercício 03 — Buscando Prontuários](exercicios/03-buscando-prontuarios.md)
+- [Exercício 04 — Ordenando Atendimentos](exercicios/04-ordenando-atendimentos.md)
+- [Exercício 05 — Fila de Prioridade de Triagem](exercicios/05-fila-de-prioridade-de-triagem.md)
+- [Atividade Final do Módulo — Analisador de Estruturas e Algoritmos](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Construa um pequeno analisador de estruturas e algoritmos em TypeScript:
+Construa um analisador de estruturas e algoritmos em TypeScript puro:
 
-1. Crie uma lista de números e objetos de exemplo.
-2. Implemente busca linear e busca binária.
-3. Implemente pelo menos três algoritmos de ordenação.
-4. Modele pilha, fila, tabela hash simples e árvore de busca binária.
-5. Registre o número de passos principais de cada operação.
-6. Compare tempo, espaço e clareza de implementação.
-7. Escreva uma conclusão curta explicando quando você usaria cada abordagem.
+1. Crie tipos para atendimentos, prontuários e medicamentos.
+2. Crie conjuntos de dados de exemplo para cada tipo.
+3. Implemente busca linear e busca binária com contador de passos.
+4. Implemente pelo menos três algoritmos de ordenação.
+5. Modele stack, queue, hash table simples e árvore de busca binária.
+6. Registre o número de passos principais de cada operação.
+7. Compare tempo, espaço e clareza de implementação.
+8. Escreva uma conclusão curta explicando quando você usaria cada abordagem.
+
+Esse trabalho será retomado nos módulos de bancos de dados, backend, frontend moderno e system design, onde você encontrará novamente filas, índices, ordenações e estruturas hierárquicas em contextos mais complexos.
 
 ## O Que Revisar Antes de Avançar
 
