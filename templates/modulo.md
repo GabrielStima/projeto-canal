@@ -49,6 +49,25 @@ Pré-requisito: Bloco B.
 
 > Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
 
+## Exercícios
+
+Use nomes simples e previsíveis dentro da pasta `exercicios/`:
+
+- [Exercício 01 — Nome claro](exercicios/01-nome-claro.md)
+- [Exercício 02 — Nome claro](exercicios/02-nome-claro.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
+
+Cada exercício deve ser ligado à aula que ensina o conhecimento necessário. A atividade final deve combinar habilidades já praticadas, sem introduzir uma dificuldade nova.
+
+Cada arquivo deve terminar com `## Corrija Sua Atividade Com IA` e um prompt copiável que:
+
+- explique o cenário e a tarefa sem depender de arquivos externos;
+- apresente critérios específicos de correção;
+- contenha o marcador `[COLE SUA RESPOSTA AQUI]`;
+- peça acertos, imprecisões e dicas antes de qualquer resposta completa.
+
+Esse prompt pode reproduzir o contexto usado no exercício. Ele não substitui nem altera o `Prompt Para Estudar Com IA` das aulas.
+
 ## Projeto ou Prática do Módulo
 
 Descreva uma prática integradora para consolidar as aulas.

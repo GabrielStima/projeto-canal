@@ -8,6 +8,8 @@
 
 Este módulo apresenta o ambiente onde aplicações web existem. Antes de escrever HTML, CSS, JavaScript, APIs ou usar frameworks, é importante entender o caminho básico entre uma pessoa usando um navegador e uma aplicação respondendo do outro lado.
 
+Ao longo do módulo, você acompanhará situações do **PetCare OS**, como um tutor acessando pelo celular o portal onde consulta o status do pet. Esse cenário ajudará a conectar os conceitos sem substituir exemplos cotidianos quando eles forem mais claros.
+
 Aqui o foco não é virar especialista em redes. O objetivo é construir vocabulário e intuição suficientes para entender o restante da formação fullstack.
 
 ## Objetivo do Módulo
@@ -22,7 +24,8 @@ Ao final deste módulo, você deve ser capaz de:
 - entender a estrutura básica de uma troca HTTP;
 - explicar por que cache HTTP existe;
 - diferenciar frontend e backend como papéis dentro da Web;
-- narrar o caminho completo de uma requisição web simples.
+- narrar o caminho completo de uma requisição web simples;
+- produzir um mapa simples do caminho de uma requisição no portal do tutor.
 
 ## Por Que Este Módulo Existe
 
@@ -60,20 +63,36 @@ Este módulo prepara a base para responder essas perguntas sem depender de decor
 | 01.09 | [Frontend e backend como papéis na Web](01.09-frontend-e-backend-como-papeis-na-web.md) | Específica | Rascunho |
 | 01.10 | [O caminho completo de uma requisição Web](01.10-caminho-completo-de-uma-requisicao-web.md) | Síntese | Rascunho |
 
-## Projeto ou Prática do Módulo
+## Trilha de Estudo
 
-Desenhe o caminho de uma requisição web simples:
+Este módulo está organizado em três blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
 
-1. Uma pessoa digita uma URL no browser.
-2. O browser precisa descobrir para onde enviar a requisição.
-3. O DNS ajuda a encontrar o destino.
-4. O browser envia uma request HTTP.
-5. Um servidor recebe e processa a request.
-6. O servidor devolve uma response HTTP.
-7. O browser interpreta a response.
-8. O cache pode guardar partes dessa resposta para acessos futuros.
+**Bloco 1 — O que é a Web e quem participa da conversa** · aulas 01.00–01.03
+Apresenta a diferença entre Internet e Web, o modelo cliente-servidor e a ideia de protocolos.
+Pré-requisito: nenhum (ponto de entrada do módulo).
 
-Não precisa escrever código. O objetivo é conseguir explicar o fluxo com suas palavras.
+**Bloco 2 — Endereçamento, servidores e browsers** · aulas 01.04–01.06
+Explica como nomes viram endereços, o que são servidores e o papel do browser como cliente.
+Pré-requisito: Bloco 1.
+
+**Bloco 3 — HTTP, cache e o caminho completo** · aulas 01.07–01.10
+Aprofunda o protocolo HTTP, o mecanismo de cache e conecta todos os conceitos no desafio final.
+Pré-requisito: Bloco 2.
+
+## Exercícios
+
+Durante o módulo, você encontrará exercícios curtos que preparam a atividade final:
+
+1. [Identificando a Comunicação](exercicios/01-identificando-a-comunicacao.md)
+2. [Encontrando o Destino](exercicios/02-encontrando-o-destino.md)
+3. [Lendo Uma Troca HTTP](exercicios/03-lendo-uma-troca-http.md)
+4. [Separando Responsabilidades](exercicios/04-separando-responsabilidades.md)
+
+## Atividade Final do Módulo
+
+Depois dos exercícios, conclua a [Atividade Final do Módulo 01](exercicios/atividade-final-modulo.md).
+
+Não é necessário escrever código. Você vai organizar o caminho de uma requisição, explicar o papel de cada participante, criar um mapa simples e investigar onde uma falha poderia acontecer.
 
 ## O Que Revisar Antes de Avançar
 
@@ -87,6 +106,7 @@ Não precisa escrever código. O objetivo é conseguir explicar o fluxo com suas
 - O papel de um servidor.
 - Estrutura básica de HTTP.
 - Diferença entre frontend e backend.
+- O caminho completo de uma requisição usando o portal do tutor como exemplo.
 
 ## Prompt de Revisão do Módulo
 

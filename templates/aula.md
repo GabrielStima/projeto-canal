@@ -76,6 +76,7 @@ Antes de seguir, a pessoa deve conseguir responder:
 - Exercício 1
 - Exercício 2
 - Exercício 3
+- Quando existir um exercício separado, use um link simples: `[Nome do Exercício](exercicios/01-nome-do-exercicio.md)`.
 
 ## Prompt Para Estudar Com IA
 
@@ -93,4 +94,6 @@ Crie:
 
 Depois, corrija minhas respostas com explicações e pergunte antes de revelar qualquer solução completa.
 ```
+
+O prompt deve funcionar em qualquer IA sem depender de contexto externo sobre o projeto prático. Não inclua referências ao PetCare OS nessa seção.
 ~~~
