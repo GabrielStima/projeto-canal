@@ -22,6 +22,7 @@ Ao final deste módulo, você deve ser capaz de:
 - comparar REST, SOAP e GraphQL em alto nível;
 - entender o papel de especificações OpenAPI;
 - conectar um backend a bancos de dados com e sem ORM;
+- construir um fluxo persistente que reutiliza schema, migrations e consultas do módulo anterior;
 - reconhecer falhas comuns em serviços backend;
 - usar logging, workers e profiling em nível introdutório;
 - entender quando message brokers e motores de busca entram em uma arquitetura.
@@ -71,22 +72,90 @@ Backend com Node.js aparece aqui para consolidar fundamentos antes de entrar em 
 | 10.23 | [Motores de Busca](10.23-motores-de-busca.md) | Específica introdutória | Rascunho |
 | 10.24 | [Projeto Prático: API Backend com Node.js](10.24-projeto-pratico-api-backend-com-nodejs.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos. Siga a ordem para evoluir uma única API sem concentrar toda a implementação no encerramento.
+
+**Bloco A — Runtime e servidor** · aulas 10.00–10.06
+Node.js, runtime, event loop, módulos, CLI e servidor HTTP nativo.
+Pré-requisito: TypeScript, HTTP e a camada de dados do módulo 09.
+
+Depois do servidor HTTP, faça o [Exercício 01 — Base do Serviço Node.js](exercicios/01-base-do-servico.md).
+
+**Bloco B — Framework e formatos de API** · aulas 10.07–10.13
+Frameworks backend, APIs JSON, REST e comparação introdutória com SOAP, GraphQL e OpenAPI.
+Pré-requisito: Bloco A.
+
+Ao concluir OpenAPI, faça o [Exercício 02 — API JSON Inicial](exercicios/02-api-json.md).
+
+**Bloco C — Persistência e comportamento diante de falhas** · aulas 10.14–10.19
+Logging, acesso a banco, ACID, normalização, ORMs e failure modes.
+Pré-requisito: Bloco B e diretório `database/` produzido no módulo 09.
+
+Depois de ORMs, faça o [Exercício 03 — Banco e Consistência](exercicios/03-banco-e-consistencia.md). Ao concluir failure modes, faça o [Exercício 04 — Logs e Falhas](exercicios/04-logs-e-falhas.md).
+
+**Bloco D — Trabalho pesado e integrações opcionais** · aulas 10.20–10.23
+Workers, profiling, message brokers e motores de busca.
+Pré-requisito: Bloco C.
+
+Faça o [Exercício 05 — Worker e Medição](exercicios/05-worker-e-medicao.md) como prática recomendada. Finalize o bloco com o [Exercício 06 — Decisões de Integração](exercicios/06-decisoes-de-integracao.md).
+
+## Exercícios
+
+- [Exercício 01 — Base do Serviço Node.js](exercicios/01-base-do-servico.md)
+- [Exercício 02 — API JSON Inicial](exercicios/02-api-json.md)
+- [Exercício 03 — Banco e Consistência](exercicios/03-banco-e-consistencia.md)
+- [Exercício 04 — Logs e Falhas](exercicios/04-logs-e-falhas.md)
+- [Exercício 05 — Worker e Medição](exercicios/05-worker-e-medicao.md)
+- [Exercício 06 — Decisões de Integração](exercicios/06-decisoes-de-integracao.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
+
 ## Projeto ou Prática do Módulo
 
-Construa uma API backend para o painel de estudos usado nos módulos anteriores:
+Evolua o PetCare OS construindo uma API Node.js para consultar pets e atendimentos e aprovar um orçamento de forma persistente:
 
-1. Crie um projeto Node.js com TypeScript.
-2. Crie uma CLI pequena para validar ambiente e dados iniciais.
-3. Suba um servidor HTTP e depois evolua para um framework backend.
-4. Crie endpoints JSON para aulas, tags, usuários e progresso.
-5. Documente uma parte da API com OpenAPI em nível introdutório.
-6. Conecte a API a um banco de dados.
-7. Use transactions onde houver mudança crítica de estado.
-8. Compare acesso direto ao banco com uso de ORM.
-9. Adicione logs estruturados básicos.
-10. Liste failure modes e testes manuais de resiliência.
-11. Simule uma tarefa pesada com worker.
-12. Analise um gargalo simples de performance.
+1. Preserve e use o diretório `database/` produzido no módulo 09.
+2. Crie configuração, CLI e health check.
+3. Comece com `node:http` e depois adote um framework backend proporcional.
+4. Implemente endpoints JSON para pets, atendimentos e orçamentos.
+5. Documente os endpoints com OpenAPI em nível introdutório.
+6. Conecte a API ao banco relacional.
+7. Proteja a aprovação de orçamento com transaction.
+8. Compare SQL direto com ORM sem exigir uma migração completa.
+9. Adicione logs estruturados e analise failure modes.
+10. Meça um trabalho CPU-bound com e sem worker.
+11. Decida se broker e motor de busca são necessários para a primeira versão.
+
+A [Atividade Final do Módulo](exercicios/atividade-final-modulo.md) demonstra o fluxo completo e prepara a mesma API para o módulo 11.
+
+## O Que Entra e O Que Sai Deste Módulo
+
+**O que entra do módulo anterior:**
+
+- schema, seed, queries, transaction, índices e migrations no diretório `database/`;
+- decisão de persistência e regras de acesso;
+- Portal do Tutor e seus dados simulados;
+- tipos e regras de domínio acumulados na formação.
+
+**O que sai deste módulo:**
+
+- projeto `petcare-api` em Node.js e TypeScript;
+- configuração e CLI de verificação;
+- servidor, framework e health check;
+- endpoints persistentes para um fluxo vertical;
+- OpenAPI introdutória;
+- transaction de aprovação de orçamento;
+- logs estruturados e análise de falhas;
+- medição opcional com worker;
+- decisões proporcionais sobre ORM, broker e busca;
+- README que permite executar e demonstrar a API.
+
+**Onde isso será retomado:**
+
+- no módulo 11, o contrato será refinado com erros padronizados, paginação, filtros, compatibilidade e testes de contrato;
+- no módulo 12, a API receberá autenticação e autorização reais;
+- nos módulos 13A e 13B, o fluxo ganhará testes, métricas e observabilidade;
+- no módulo 16, notificações e processamento assíncrono poderão ser implementados com maior profundidade.
 
 ## O Que Revisar Antes de Avançar
 
