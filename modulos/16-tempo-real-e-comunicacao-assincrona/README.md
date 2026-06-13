@@ -59,17 +59,26 @@ Este módulo existe para ensinar essas escolhas sem transformar toda aplicação
 | 16.12 | [Operações Idempotentes em Fluxos Assíncronos](16.12-operacoes-idempotentes-em-fluxos-assincronos.md) | Específica | Rascunho |
 | 16.13 | [Projeto Prático: Notificações e Jobs Assíncronos em uma API](16.13-projeto-pratico-notificacoes-e-jobs-assincronos-em-uma-api.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — Mapeando a Necessidade de Tempo Real](exercicios/01-necessidade-tempo-real.md)
+- [Exercício 02 — Desenhando o Short Polling](exercicios/02-short-polling.md)
+- [Exercício 03 — A Diferença do Protocolo WS](exercicios/03-diferenca-websocket.md)
+- [Exercício 04 — Sincronismo de Desconexões](exercicios/04-reconexao-estado.md)
+- [Exercício 05 — Modelando uma Fila de Workers](exercicios/05-filas-workers.md)
+- [Exercício 06 — Pub/Sub e Broadcast de Eventos](exercicios/06-pub-sub.md)
+- [Exercício 07 — Chaves de Idempotência](exercicios/07-idempotencia.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-mensageria.md)
+
 ## Projeto ou Prática do Módulo
 
-Evolua uma API criada em módulos anteriores para suportar notificações e processamento assíncrono:
+Neste módulo, você aplicará o **Marco de Sincronismo N7** no PetCare OS. Essa etapa desconecta as operações dependentes e acelera drasticamente a percepção de performance para o usuário final:
 
-1. escolha um fluxo que tenha resposta imediata ao usuário;
-2. separe o que precisa acontecer no request e o que pode acontecer depois;
-3. modele uma notificação em tempo real;
-4. crie um job de background;
-5. desenhe uma fila e um consumidor;
-6. defina chaves de idempotência;
-7. liste métricas, logs e alertas mínimos para operar o fluxo.
+1. Transforme o fluxo de Cadastro Massivo (Lotes) para uma rota de resposta imediata HTTP `202 Accepted`.
+2. Encaminhe o Payload pesado para uma Fila (Message Broker/Queue local) que será consumida num processo isolado.
+3. Elabore e proteja a persistência bancária do PetCare com Chaves de Idempotência, blindando seu banco contra *retries* suicidas do servidor de mensageria.
+4. Crie uma linha unidirecional (`SSE` ou `Short Polling` com cache forte) ou Bidirecional (`WebSockets` via Socket.io) para avisar os Médicos em tempo real sem precisar forçar "F5" no frontend de acompanhamento.
 
 ## O Que Revisar Antes de Avançar
 
