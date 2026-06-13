@@ -10,7 +10,7 @@ Qual a desvantagem do 'Fat Controller' (Controller Gordo) e do 'Fat Model' (Mode
 Cenário: Migrando MVC web-based para Layered Architecture de APIs.
 
 Tarefa: Avalie minha resposta:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Entendi por que o model não deve acumular acesso a banco e regra pesada?

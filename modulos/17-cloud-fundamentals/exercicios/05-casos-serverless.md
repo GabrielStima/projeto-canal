@@ -10,7 +10,7 @@ Qual a desvantagem arquitetural e de performance (especialmente a Latência de "
 Cenário: Trade-offs de adoção de FaaS (Function-as-a-Service).
 
 Tarefa: Minha avaliação:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Entendi que subir um container do zero a cada vez que o médico clica causa lag irritante (Cold Start)?

@@ -10,7 +10,7 @@ Você tem um banco com Nome e CEP do Tutor anonimizados (Apenas com "Estrelinhas
 Cenário: Pseudo-Anonimização Incorreta e Data Deanonymization.
 
 Tarefa: Eis a resposta detalhada justificando o ataque:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Apontei que a triangulação combinatória (Ex: Profissão 'Veterinária' + Gênero 'F' + CEP Específico = Revela perfeitamente a única moradora mulher com essa profissão da rua) é mortal?

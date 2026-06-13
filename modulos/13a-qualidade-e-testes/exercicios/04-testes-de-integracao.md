@@ -22,7 +22,7 @@ Cenário: Planejamento de Testes de Integração para inserção de Pets na API.
 
 Tarefa: Avalie minha abordagem abaixo em relação a teardown e asserções no banco de dados.
 
-[COLE SEU TEXTO AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A limpeza de banco garante que execuções assíncronas concorrentes não quebrarão os testes?

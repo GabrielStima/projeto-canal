@@ -73,7 +73,7 @@ Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diret
 ## 🐾 O Projeto Prático: PetCare OS
 
 Toda a sua evolução será aplicada na construção do **[PetCare OS](desafio/README.md)**. O projeto evolui com você: 
-Começaremos escrevendo telas em HTML/CSS estático, passaremos por lógica em TypeScript, API estruturada em Clean Architecture com Nest.js, persistência dupla (PostgreSQL + MongoDB), filas BullMQ, WebSockets, implantação em Kubernetes usando Terraform e integração de IA generativa com RAG.
+Começaremos escrevendo telas em HTML/CSS estático e passaremos por lógica em TypeScript, APIs estruturadas, bancos de dados, filas, comunicação em tempo real, infraestrutura em nuvem e integração de IA. As tecnologias específicas — como Nest.js, PostgreSQL, MongoDB, BullMQ, WebSockets, Kubernetes, Terraform ou RAG — serão apresentadas como opções e laboratórios, não como destinos inevitáveis. Cada decisão dependerá do contexto, custo e trade-offs do momento.
 
 > [!TIP]
 > Confira os detalhes completos e o mapa de evolução do projeto na **[página de especificação do desafio](desafio/README.md)**.

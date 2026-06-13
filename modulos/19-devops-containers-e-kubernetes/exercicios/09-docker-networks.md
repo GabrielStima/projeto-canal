@@ -10,7 +10,7 @@ Em um arquivo `docker-compose.yml`, se ambos os serviços (`api` e `postgres`) c
 Cenário: Firewall, Mapeamento em Camada 4 OSI e Abertura em Containers.
 
 Tarefa: Meu entendimento teórico das sintaxes de rede HCL (e Docker Yaml):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Abordei que o `expose` atua somente como flag mental/interconectividade entre os próprios blocos e fecha as conexões ao OS?

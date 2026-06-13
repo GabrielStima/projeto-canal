@@ -13,6 +13,8 @@ Cenário: Diagnóstico de acoplamento e quebra de Princípios.
 Tarefa: Descrevi a seguinte dor na manutenção da minha base:
 [COLE AQUI SUA DESCRIÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Qual princípio eu estou quebrando? SRP? DRY? Ou apenas sofrendo de Alto Acoplamento?
 2. Qual a técnica de refatoração correta para curar essa dor específica?

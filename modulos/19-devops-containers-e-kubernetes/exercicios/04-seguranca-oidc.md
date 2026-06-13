@@ -10,7 +10,7 @@ Pesquise. Qual o mecanismo prático de criptografia que permite que Provedores d
 Cenário: Autenticação Segura OIDC.
 
 Tarefa: Minha explicação simplificada de OpenID Connect:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Entendi o conceito de Trust Roles e Thumbprints injetados na Cloud provedora?

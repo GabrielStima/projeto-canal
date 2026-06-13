@@ -10,7 +10,7 @@ Por que o método HTTP `POST` não é idempotente por natureza, enquanto o méto
 Cenário: Curando duplicação de pacotes e Side-effects com Idempotência.
 
 Tarefa: Minha explicação:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A diferença clássica entre criar novos recursos (POST não-idempotente) vs manipular recursos baseados em IDs (PUT) foi demonstrada?

@@ -10,7 +10,7 @@ Vá além do básico do Docker. Qual a diferença técnica entre a funcionalidad
 Cenário: A base do Kernel do SO que ergue a tecnologia de Container.
 
 Tarefa: Segue meu detalhamento técnico:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Cgroups trata de Cotas Financiadas por Hardware e Limites Rígidos. Namespaces trata da invisibilidade da estrutura de diretório. Esta lógica foi explicitada?

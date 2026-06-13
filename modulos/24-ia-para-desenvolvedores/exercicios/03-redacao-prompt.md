@@ -10,7 +10,7 @@ A Petcare quer treinar um Agente com os PDFs de Recibos Médicos para ajudar pac
 Cenário: Privacidade, GDPR/LGPD compliance x Modelos de Fundamentos (Foundation Models).
 
 Tarefa: Segue a arquitetura da minha barreira defensiva antes da conversão de strings:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expliquei que o LLM engole o CPF sem perguntar e numa possível injeção futura vaza abertamente "Paciente Gabriel Doença Tal" pra todos do ChatBot?

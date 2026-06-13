@@ -13,7 +13,7 @@ Mostre como ficaria o teste unitário dele agora.
 Cenário: Aplicando DIP (Dependency Inversion Principle).
 
 Tarefa: Veja o construtor da minha classe e o teste:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O alto nível parou de depender de um arquivo físico no baixo nível?

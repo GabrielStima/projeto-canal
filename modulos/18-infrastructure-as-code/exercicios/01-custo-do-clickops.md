@@ -10,7 +10,7 @@ Liste 3 riscos inaceitáveis para um hospital (PetCare OS) caso a infraestrutura
 Cenário: Migração Cultural do ClickOps para Infrastructure as Code.
 
 Tarefa: Avalie minha lista de desastres:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu foquei na impossibilidade moral do Disaster Recovery sem um mapa da infra?

@@ -11,7 +11,7 @@ Qual a gravidade gerencial de uma crise onde o próprio Incident Commander come�
 Cenário: Desvirtuamento do Incident Command System (ICS).
 
 Tarefa: Avalie minha resposta sobre falhas hierárquicas na resposta de crise:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Mostrei como perder o comandante no meio do terminal significa perder a visão global "helicopter view"?

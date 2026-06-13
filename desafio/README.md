@@ -9,7 +9,7 @@
 
 Bem-vindo ao repositório central do **PetCare OS**, o projeto prático de portfólio que servirá como o principal **fio condutor** de toda a sua jornada de aprendizado nesta formação. 
 
-Em vez de criar pequenos projetos isolados a cada módulo, você construirá um ecossistema de software completo e real do zero absoluto, aplicando gradualmente cada conceito estudado — desde os fundamentos de HTML/CSS até arquitetura de software, infraestrutura como código (IaC), observabilidade, conformidade com a LGPD e inteligência artificial generativa.
+Em vez de criar pequenos projetos isolados a cada módulo, você construirá um ecossistema de software completo aplicando gradualmente cada conceito estudado — desde os fundamentos de HTML/CSS até arquitetura de software, infraestrutura como código (IaC), observabilidade, conformidade com a LGPD e inteligência artificial generativa. As tecnologias citadas são opções de laboratório; em cada módulo você avaliará se fazem sentido para o contexto do projeto.
 
 Ao final da formação, você terá um projeto extremamente robusto, documentado e em nível de produção para destacar no seu portfólio de engenharia de software.
 

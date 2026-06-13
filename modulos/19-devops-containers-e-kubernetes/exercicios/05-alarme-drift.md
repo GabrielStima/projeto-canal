@@ -10,7 +10,7 @@ Explique teoricamente por que permitir Drift contínuo e não-monitorado (Altera
 Cenário: Compliance, Segurança Passiva e Entropia.
 
 Tarefa: Aqui está minha tese de alerta de segurança:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Evidenciei que portas de Firewall expostas (como a famosa e temida porta 22 para SSH em IP público) criadas manualmente por "Desespero/Incidente" são sempre esquecidas abertas?

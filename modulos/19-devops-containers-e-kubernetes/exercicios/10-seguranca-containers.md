@@ -10,7 +10,7 @@ Descreva em texto ou bullet points a sequência nativa das etapas do Scanner do 
 Cenário: Automação DevSecOps com Escâner de Vulnerabilidades CVEs de O.S.
 
 Tarefa: Minha sequência:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expliquei o processo cruzado entre as Layers congeladas (Binárias) da imagem enviada e a Database do CVE Global?

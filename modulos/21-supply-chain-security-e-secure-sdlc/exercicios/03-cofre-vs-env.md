@@ -10,7 +10,7 @@ Uma empresa guarda todas as credenciais ultra-secretas do BD Produtivo num arqui
 Cenário: Vazamentos Nativos de Arquivos e Gestão de Segredos via Vault/Cloud.
 
 Tarefa: Aqui está a diferença de expor o '.env' para o uso inteligente de Injeção em Memória/Cofres Secretos:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expliquei que no Path Traversal o atacante dá um `GET /download?file=../../../../.env` e puxa o arquivo em texto claro direto pra casa dele?

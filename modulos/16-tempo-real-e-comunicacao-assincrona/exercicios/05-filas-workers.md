@@ -11,7 +11,7 @@ O que acontece com a API do PetCare que o médico usa para agendar consultas? El
 Cenário: Desacoplamento assíncrono e Load Spikes (Picos de Carga).
 
 Tarefa: Veja minha análise sobre a API durante o pico na Fila:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu compreendi que a API que *Envia* (Producer) não é travada pelo limite do *Consumidor* (Worker)?

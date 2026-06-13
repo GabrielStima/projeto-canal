@@ -10,7 +10,7 @@
 Cenário: Purging em Cold Storage e a Dissonância do Disaster Recovery vs Direito a Deleção.
 
 Tarefa: Minha resposta sobre a complexidade infinita de Purgas em Backups (Right to be Forgotten):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expliquei a dor técnica de tentar Descompactar `pg_dumps` em lote, limpar linha a linha e Re-Compactar (Algo computacionalmente Inviável)?

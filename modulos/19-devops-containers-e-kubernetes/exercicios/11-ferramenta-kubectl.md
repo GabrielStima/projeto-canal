@@ -10,7 +10,7 @@ Qual a diferença caótica entre a geração "Imperativa" (Ex: Forçar o comando
 Cenário: ClickOps e BashOps vs O Desired State da Infraestrutura.
 
 Tarefa: Veja minha argumentação contra Imperativos no K8s:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Foi apontada a perda gigantesca do histórico, já que comandos bash evaporam num `history -c` e o `Yaml` vive protegido no controle do `git push`?

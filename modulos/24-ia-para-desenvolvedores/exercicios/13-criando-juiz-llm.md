@@ -10,7 +10,7 @@ Sua API manda RAG. E como eu sei se meu Prompt RAG foi bom pro cliente e não su
 Cenário: Evals, Automated Feedback Loop e Unit-Testing de Semântica Probabilística (RAG-Evals).
 
 Tarefa: Meu framework simples e System Prompt Rígido que usarei para avaliar outras IAs sem intervenção humana de forma barata (LLM as a judge framework):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu gerei um prompt do tipo: "Você é um Juiz rigoroso da ANS. Retorne apenas JSON com `{"passou": false, "motivo": "Prescreveu remédio"}`"?

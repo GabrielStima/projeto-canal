@@ -10,7 +10,7 @@
 Cenário: O Calcanhar de Aquiles do RAG Básico: Context Window Flood & Chunking Strategies.
 
 Tarefa: Minha resposta atacando o Desperdício de Tokens e a Recuperação Inútil (Noise) de mandar PDFs inteiros:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Demonstrei que ao quebrar em parágrafos semânticos, o VectorDB devolveria APENAS os 3 parágrafos específicos que falam "Gengiva/Anestesia" para a API do ChatGpt, mandando um contexto minúsculo de 1000 tokens perfeitamente focado?

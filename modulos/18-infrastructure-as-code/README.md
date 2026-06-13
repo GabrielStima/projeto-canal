@@ -45,12 +45,12 @@ Infrastructure as Code resolve parte desse problema ao tratar infraestrutura com
 | 18.00 | [Infrastructure as Code](18.00-infrastructure-as-code.md) | Guarda-chuva | Rascunho |
 | 18.01 | [Infraestrutura Declarativa vs Imperativa](18.01-infraestrutura-declarativa-vs-imperativa.md) | Específica | Rascunho |
 | 18.02 | [Idempotência em Infraestrutura](18.02-idempotencia-em-infraestrutura.md) | Específica | Rascunho |
-| 18.03 | [Benefícios e Trade-offs de IaC](18.03-benefícios-e-trade-offs-de-iac.md) | Específica | Rascunho |
+| 18.03 | [Benefícios e Trade-offs de IaC](18.03-beneficios-e-trade-offs-de-iac.md) | Específica | Rascunho |
 | 18.04 | [Terraform e Panorama de Ferramentas IaC](18.04-terraform-e-panorama-de-ferramentas-iac.md) | Específica ampla | Rascunho |
-| 18.05 | [HCL: A Linguagem de Configuração do Terraform](18.05-hcl-a-linguagem-de-configuração-do-terraform.md) | Específica | Rascunho |
+| 18.05 | [HCL: A Linguagem de Configuração do Terraform](18.05-hcl-a-linguagem-de-configuracao-do-terraform.md) | Específica | Rascunho |
 | 18.06 | [Providers](18.06-providers.md) | Específica | Rascunho |
 | 18.07 | [Resources e Data Sources](18.07-resources-e-data-sources.md) | Específica | Rascunho |
-| 18.08 | [Dependências e Grafo de Recursos](18.08-dependências-e-grafo-de-recursos.md) | Específica | Rascunho |
+| 18.08 | [Dependências e Grafo de Recursos](18.08-dependencias-e-grafo-de-recursos.md) | Específica | Rascunho |
 | 18.09 | [Variables, Local Values e Outputs](18.09-variables-local-values-e-outputs.md) | Específica | Rascunho |
 | 18.10 | [Workflow do Terraform: Init, Plan, Apply e Destroy](18.10-workflow-do-terraform-init-plan-apply-e-destroy.md) | Específica prática | Rascunho |
 | 18.11 | [State no Terraform](18.11-state-no-terraform.md) | Específica | Rascunho |
@@ -59,12 +59,38 @@ Infrastructure as Code resolve parte desse problema ao tratar infraestrutura com
 | 18.14 | [Drift e Importação de Recursos Existentes](18.14-drift-e-importacao-de-recursos-existentes.md) | Específica prática | Rascunho |
 | 18.15 | [Ciclo de Vida dos Recursos](18.15-ciclo-de-vida-dos-recursos.md) | Específica | Rascunho |
 | 18.16 | [Modules](18.16-modules.md) | Específica | Rascunho |
-| 18.17 | [Composição e Reutilização de Módulos](18.17-composicao-e-reutilizacao-de-módulos.md) | Específica prática | Rascunho |
-| 18.18 | [Organização por Ambientes](18.18-organização-por-ambientes.md) | Específica ampla | Rascunho |
+| 18.17 | [Composição e Reutilização de Módulos](18.17-composicao-e-reutilizacao-de-modulos.md) | Específica prática | Rascunho |
+| 18.18 | [Organização por Ambientes](18.18-organizacao-por-ambientes.md) | Específica ampla | Rascunho |
 | 18.19 | [Workspaces e Suas Limitações](18.19-workspaces-e-suas-limitacoes.md) | Específica | Rascunho |
-| 18.20 | [Segurança e Segredos em IaC](18.20-segurança-e-segredos-em-iac.md) | Específica | Rascunho |
-| 18.21 | [Projeto Prático: Provisionando a Infraestrutura de uma Aplicação](18.21-projeto-prático-provisionando-a-infraestrutura-de-uma-aplicação.md) | Síntese prática | Rascunho |
+| 18.20 | [Segurança e Segredos em IaC](18.20-seguranca-e-segredos-em-iac.md) | Específica | Rascunho |
+| 18.21 | [Projeto Prático: Provisionando a Infraestrutura de uma Aplicação](18.21-projeto-pratico-provisionando-a-infraestrutura-de-uma-aplicacao.md) | Síntese prática | Rascunho |
 
+
+## Trilha de Estudo
+
+Este módulo está organizado em 5 blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — Fundamentos de IaC** · aulas [18.00–18.04]
+O que é IaC, declarativo vs imperativo, idempotência, trade-offs e panorama de ferramentas.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — HCL, providers e recursos** · aulas [18.05–18.08]
+Linguagem HCL, providers, resources, data sources e dependências.
+Pré-requisito: Bloco A.
+
+**Bloco C — Workflow e state** · aulas [18.09–18.13]
+Variables, outputs, workflow init/plan/apply/destroy, state, remote state e dados sensíveis.
+Pré-requisito: Bloco B.
+
+**Bloco D — Ciclo de vida e módulos** · aulas [18.14–18.17]
+Drift, importação, lifecycle, modules, composição e reutilização.
+Pré-requisito: Bloco C.
+
+**Bloco E — Ambientes, segurança e prática** · aulas [18.18–18.21]
+Organização por ambientes, workspaces, segurança, segredos e projeto prático.
+Pré-requisito: Bloco D.
+
+> Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
 
 ## Exercícios
 
@@ -77,11 +103,11 @@ Infrastructure as Code resolve parte desse problema ao tratar infraestrutura com
 - [Exercício 07 — Resolvendo Drifts no Terraform](exercicios/07-drifts.md)
 - [Exercício 08 — Modularizando a Clínica](exercicios/08-modulos-terraform.md)
 - [Exercício 09 — Isolamento Físico x Lógico](exercicios/09-workspaces-limitacoes.md)
-- [Atividade Final do Módulo](exercicios/atividade-final-iac.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você atinge o **Marco de IaC N9**. A arquitetura da clínica não mais pertencerá à AWS de forma cega; ela passará a ser propriedade versionada em seu Github através de HCL (HashiCorp Configuration Language):
+Neste módulo, você atinge o **marco de IaC**. A arquitetura da clínica não mais pertencerá à AWS de forma cega; ela passará a ser propriedade versionada em seu Github através de HCL (HashiCorp Configuration Language):
 
 1. Crie os arquivos mestres (`main.tf`, `variables.tf`, `outputs.tf`) estabelecendo a malha base do PetCare OS.
 2. Defina os Providers e estabeleça Segurança Máxima transferindo o "State" de sua máquina para um bucket S3/Blob Remoto, com proteção contra concorrência e Lock via DB.

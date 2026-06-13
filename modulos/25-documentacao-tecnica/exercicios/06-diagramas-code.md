@@ -12,6 +12,8 @@ Cenário: Docs-as-Code. Renderização em Markdown Nativo Github de PlantUML/Mer
 Tarefa: Segue meu bloco de código Mermaid que desenha a Orquestração Assíncrona do Petcare:
 [COLE AQUI O SEU CÓDIGO DO MERMAID]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. A sintaxe de texto do Mermaid (`graph TD; A-->B;` ou similar) está válida e pronta para o compilador do GitHub gerar as caixinhas azuis SVG na tela?
 2. Representei corretamente as direções das setas com sentido no Back-End / Queue / Worker Worker/BD?

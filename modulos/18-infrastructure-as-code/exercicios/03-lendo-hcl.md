@@ -10,7 +10,7 @@ Escreva um bloco abstrato em sintaxe HCL criando um recurso fantasioso chamado `
 Cenário: Escrita abstrata de HashiCorp Configuration Language (HCL).
 
 Tarefa: Segue meu bloco HCL:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O bloco segue a estrutura correta: `resource "provider_tipo" "nome_interno" { ... }`?

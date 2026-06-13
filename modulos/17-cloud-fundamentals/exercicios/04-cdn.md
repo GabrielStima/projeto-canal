@@ -10,7 +10,7 @@ Descreva a diferença abissal de arquitetura (e as falhas) de colocar todo o Rea
 Cenário: Uso de CDNs e Invalidação de Cache.
 
 Tarefa: Avalie minha resposta sobre o perigo de cachear conteúdo volátil:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Foi evidenciado que assets estáticos não mudam e a CDN espalha geograficamente reduzindo custo de banda?

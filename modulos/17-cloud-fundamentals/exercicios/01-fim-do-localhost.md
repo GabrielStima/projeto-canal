@@ -10,7 +10,7 @@ Liste 3 coisas no PetCare OS que funcionavam perfeitamente no seu computador (vi
 Cenário: Identificando anti-patterns locais que não sobrevivem à Nuvem.
 
 Tarefa: Avalie minhas três funcionalidades listadas abaixo:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu citei corretamente questões de estado na memória (uploads de disco e sessões ativas)?

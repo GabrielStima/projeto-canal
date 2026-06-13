@@ -6,7 +6,7 @@ Uma API de PetCare OS conectada ao banco, com regras de negócio, contratos e su
 
 ## A Tarefa
 
-Nesta atividade, você aplicará o **Marco Operacional N4**.
+Nesta atividade, você aplicará o **marco operacional**.
 
 Siga as etapas práticas na sua API local:
 1. **Instrumentação Básica:** Crie um Middleware que envolva todas as requisições, calculando os milissegundos desde a entrada até a saída da rota.
@@ -23,11 +23,11 @@ Siga as etapas práticas na sua API local:
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Finalização do Marco N4 Operacional no PetCare OS.
+Cenário: Finalização do marco operacional no projeto.
 
 Tarefa: Eu implementei Instrumentação simples de tempo, injeção de TraceID (Correlação), log estruturado JSON e criei meu script K6. Segue o output gerado por um Log de erro simulado e as métricas reportadas no terminal pelo K6:
 
-[COLE SEU LOG JSON E O SUMÁRIO DO K6 AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Avalie meu Log: Ele contem as chaves essenciais para ser exportado a um indexador?

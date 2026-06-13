@@ -10,7 +10,7 @@ Seja frio na análise. A clínica PetCare possui dados cruzados. Liste 2 campos/
 Cenário: Dados Tóxicos em Modelos Relacionais Básicos.
 
 Tarefa: Avalie as colunas que escolhi apontar como letais para o tutor (LGPD Exposure):
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Pensei apenas em Senha de Login, ou citei informações contextuais graves (Ex: Endereços Físicos + Histórico de Compras de itens caros atraindo sequestros)?

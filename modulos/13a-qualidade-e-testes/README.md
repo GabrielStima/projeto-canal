@@ -73,7 +73,7 @@ Qualidade e testes são a base da confiança. Sem eles, observabilidade e perfor
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você evoluirá a API do **PetCare OS** criando a sua rede de segurança (Marco de Integração N4).
+Neste módulo, você evoluirá a API do **PetCare OS** criando a sua rede de segurança (marco de integração).
 
 1. Escolha fluxos críticos da API (ex: Cadastro de Pet, Agendamento de Consulta).
 2. Escreva uma estratégia de testes para esses fluxos.

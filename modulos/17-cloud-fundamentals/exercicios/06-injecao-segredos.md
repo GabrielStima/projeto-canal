@@ -10,7 +10,7 @@ Descreva os passos lógicos de como sua API Node leria e decifraria a senha do B
 Cenário: Gerenciamento seguro de configuração usando Serviços Gerenciados de Secretos.
 
 Tarefa: Segue meu fluxo:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O Node.js se autentica no IAM via Role embarcada em vez de usar senhas hardcoded para buscar senhas?

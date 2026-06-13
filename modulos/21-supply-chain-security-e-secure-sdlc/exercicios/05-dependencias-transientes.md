@@ -10,7 +10,7 @@ A equipe de segurança corporativa manda você atualizar o seu pacote raiz `reac
 Cenário: Dependency Scanning e as Raízes Invisíveis do Node Modules.
 
 Tarefa: Segue a resposta justificando o pesadelo de atualizar a 'Lodash' na unha:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Evidenciei que dependências Transientes (Lib A chama a Lib B, que chama a Lib C Vulnerável) forçam você a depender do autor da Lib A consertar as chamadas ou você terá que forçar `Resolutions/Overrides` no seu `package.json` amarrando código que pode quebrar funções subjacentes?

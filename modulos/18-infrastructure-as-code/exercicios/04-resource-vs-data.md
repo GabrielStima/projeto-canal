@@ -11,7 +11,7 @@ Para o Terraform encontrar o ID da rede desse banco velho, você escreveria um b
 Cenário: Intersecção do Terraform com recursos estáticos antigos.
 
 Tarefa: Minha resposta justificando a decisão do bloco:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Escolhi a diretiva `data` e entendi seu comportamento de apenas-leitura?

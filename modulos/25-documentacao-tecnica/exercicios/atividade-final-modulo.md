@@ -8,7 +8,7 @@
 
 ## A Tarefa
 
-O **Marco N17 Documental Supremo**. A Clínica Petcare será comprada pelo conglomerado Friboi e precisa passar pela *Technical Due Diligence*. Reúna em um texto Mestre os 3 pilares da auditoria do seu Repo Mestre:
+O **marco de documentação técnica**. A Clínica Petcare será comprada pelo conglomerado Friboi e precisa passar pela *Technical Due Diligence*. Reúna em um texto Mestre os 3 pilares da auditoria do seu Repo Mestre:
 1. **Pilar 1 (Contexto C4):** Descreva textualmente como seria desenhado o Diagrama C4 "Nível 2 (Container)" do seu aplicativo, focando nas grandes peças (Front React, API Rest Node, Database Postgres, Redis Cache). O que chama O Quê?
 2. **Pilar 2 (ADR de Orquestração):** Escreva o ADR da Virada de Chave Justificando pro Auditor por que você conteinerizou (`Docker`) tudo e botou num Orquestrador do Módulo 19 (`K8s`) em vez de deixar num EC2 Solto na unha. (Especifique os ganhos de Escalabilidade).
 3. **Pilar 3 (README Operacional SRE):** Escreva a "Runbook Section" que fica no final do seu README alertando: "Em caso do Banco Caiu às 3 da Madrugada, siga os passos X e Y no Datadog/AWS".
@@ -26,6 +26,8 @@ Tarefa: Aqui vai meu dossiê final. O Esqueleto do C4 Container, O ADR históric
 
 [COLE AQUI A SUA OBRA DE ARTE FINAL ESCRITA COM SEÇÕES BEM DEFINIDAS]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O Modelo C4 escrito foi respeitoso ignorando Micro-Classes internas e focando nos Componentes independentes interagindo entre si?
 2. O ADR do Docker/K8s conteve 'Decisão', e as 'Consequências Cruéis' (Ex: Aumento da Barreira de Entrada de Juniores em K8s)?

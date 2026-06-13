@@ -10,7 +10,7 @@ Se a Clínica Petcare utiliza "Máquinas Poderosíssimas na AWS / GPU Enormes pa
 Cenário: Escalabilidade Avançada via Taints, Tolerations e NodeAffinity de Scheduling no motor Core K8s.
 
 Tarefa: Defesa das Regras Rigorosas:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Explorei que "Taints" atua como um spray de pimenta ou choque no cluster de máquina grande que joga qualquer Pod novo indesejado pra longe da máquina se ele for lançado?

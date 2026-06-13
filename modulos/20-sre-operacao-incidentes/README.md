@@ -65,11 +65,11 @@ SRE, operação e incidentes existem para transformar confiabilidade em prática
 - [Exercício 04 — Arquitetura de Degradação](exercicios/04-degradacao.md)
 - [Exercício 05 — Rollback Letal de Banco](exercicios/05-rollback-banco.md)
 - [Exercício 06 — Papéis no Incidente](exercicios/06-papeis-incidente.md)
-- [Atividade Final Prática: Simulacro de Incidente](exercicios/atividade-final-sre.md)
+- [Atividade Final Prática: Simulacro de Incidente](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-No ecossistema produtivo vivo da PetCare, você adotará o **Marco Operacional N12**. Não há mais novas 'Features'. É sobrevivência de infraestrutura em alta tensão:
+No ecossistema produtivo vivo da PetCare, você adotará o **marco operacional**. Não há mais novas 'Features'. É sobrevivência de infraestrutura em alta tensão:
 
 1. Adapte a API Node que você criou usando Endpoints mandatórios para o Cluster: `/health/liveness` e `/health/readiness`.
 2. Escreva o balanço matemático formal do "Error Budget" que o dono do hospital assinará sobre sua infra.

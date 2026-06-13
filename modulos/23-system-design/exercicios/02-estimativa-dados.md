@@ -12,6 +12,8 @@ Cenário: Provisionamento de Elasticidade, Scale-Out Limites de Latência.
 Tarefa: Aqui está a minha tese provando por que picos esmagam a estatística cega da Média nas contas Cloud:
 [COLE AQUI A EXPLICAÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Expliquei o conceito simples que "Um servidor aguentar 1 milhão de requisições / 24h não significa que ele aguente 500.000 requisições despencando no primeiro segundo das 24h"?
 2. Utilizei palavras chave como Throttling, Buffering ou Message Queuing para defender a absorção de "Rajadas HTTP"?

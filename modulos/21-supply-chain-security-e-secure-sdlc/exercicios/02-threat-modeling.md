@@ -12,6 +12,8 @@ Cenário: Prática de Desenho Defensivo Antes de Codar (Threat Modeling - DoS).
 Tarefa: Eis a ameaça modelada e a defesa que propus:
 [COLE AQUI A EXPLICAÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Provei que um ForLoop agressivo de remarcações (Ou um Bot Fuzzer batendo na API) consumiria as conexões do meu Banco/CPU?
 2. Implementei arquitetura clássica (Ex: Rate Limiting / WAF / Filas) para blindar passivamente este golpe no modelo?

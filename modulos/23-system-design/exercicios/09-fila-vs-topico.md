@@ -10,7 +10,7 @@ Dentro do panteão da Mensageria Assíncrona no System Design de Eventos, qual a
 Cenário: Acoplamento e Fanning-out via Streaming e Tópicos (Kinesis/Kafka/SNS) X Workload Processing Padrão.
 
 Tarefa: Meu entendimento teórico de Filas Simples x Hub de Eventos Complexo:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Pressionei no detalhe que "Point to Point/Fila Comum" apaga a mensagem assim que 1 Consumer consome, resolvendo processamento paralelo de PDFs sem duplicar tarefas pra outros containers da aplicação?

@@ -10,7 +10,7 @@ Escreva em texto puro a sintaxe bruta/estrutura visual de um YAML nativo de K8s.
 Cenário: Estruturação Básica do Orquestrador (Pod Scaling Pattern).
 
 Tarefa: Meu YAML (Pseudo ou original):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O manifesto amarrou as Labels de template sob um "matchLabels" perfeitamente funcional para que a abstração de ReplicaSet rastreie as pods geradas?

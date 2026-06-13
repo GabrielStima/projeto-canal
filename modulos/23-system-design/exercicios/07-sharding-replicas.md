@@ -10,7 +10,7 @@ Dividimos nosso monstruoso banco PostgreSQL Vertical quebrando ele brutalmente u
 Cenário: Hotspots em Chaves de Partição Pobres Num Sharded Environment Massivo (MongoDB/SQL).
 
 Tarefa: Minha resposta justificando a falha fatal da Key de divisão baseada em Letras em vez do poder da divisão Hashing (Shard Key de Hash):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Provei que todo o volume dos 2 milhões de cliques sobrecarregariam estritamente um único Servidor Pobre Beta, enquanto o Alfa dorme entediado (Gargalo Fatal Lógico)?

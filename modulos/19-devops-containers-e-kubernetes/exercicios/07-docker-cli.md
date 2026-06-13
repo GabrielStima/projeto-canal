@@ -10,7 +10,7 @@ Por que o uso desesperado do comando de depuração nativo `docker exec -it <id_
 Cenário: Prática de Depuração, Ephemeralidade e Shell Interativo.
 
 Tarefa: Minha resposta justificando:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Explicitei que se o container pifar logo depois, eu perdi todos os scripts ou pacotes `.apk` baixados dentro dele que eu fiz via terminal de mão?

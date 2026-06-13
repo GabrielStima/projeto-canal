@@ -6,7 +6,7 @@ Sua API do PetCare OS funciona. Ela tem testes E2E e Integração passando (Mód
 
 ## A Tarefa
 
-O **Marco de Design N5** exige a Refatoração Arquitetural Tática da sua aplicação.
+O **marco de design** exige a Refatoração Arquitetural Tática da sua aplicação.
 
 Siga as etapas:
 1. **Model-Driven Design**: Identifique as entidades vitais do seu PetCare (Ex: Agendamento, Fatura, Pet). Crie classes puras de TypeScript para elas.
@@ -31,6 +31,8 @@ Tarefa: Enviei abaixo a minha Interface de Repository, o meu UseCase com injeç�
 
 [COLE AQUI SEUS 3 ARQUIVOS]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O Princípio da Inversão de Dependência foi perfeitamente aplicado (O UseCase não conhece infra)?
 2. As variáveis possuem nomes que refletem a Linguagem Ubíqua (MDD)?

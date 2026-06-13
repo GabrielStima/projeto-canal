@@ -42,12 +42,12 @@ DevOps, containers e Kubernetes entram para reduzir essa distância entre códig
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
 | 19.00 | [DevOps, Containers e Kubernetes](19.00-devops-containers-e-kubernetes.md) | Guarda-chuva | Rascunho |
-| 19.01 | [O que é DevOps na Prática](19.01-o-que-e-devops-na-prática.md) | Específica ampla | Rascunho |
+| 19.01 | [O que é DevOps na Prática](19.01-o-que-e-devops-na-pratica.md) | Específica ampla | Rascunho |
 | 19.02 | [CI/CD](19.02-ci-cd.md) | Específica | Rascunho |
 | 19.03 | [Deploy](19.03-deploy.md) | Específica | Rascunho |
 | 19.04 | [Infrastructure as Code em CI/CD](19.04-infrastructure-as-code-em-ci-cd.md) | Específica | Rascunho |
 | 19.05 | [Geração e Revisão de Planos de Infraestrutura](19.05-geracao-e-revisao-de-planos-de-infraestrutura.md) | Específica prática | Rascunho |
-| 19.06 | [Aprovação e Aplicação Automatizada de Mudanças](19.06-aprovacao-e-aplicação-automatizada-de-mudancas.md) | Específica prática | Rascunho |
+| 19.06 | [Aprovação e Aplicação Automatizada de Mudanças](19.06-aprovacao-e-aplicacao-automatizada-de-mudancas.md) | Específica prática | Rascunho |
 | 19.07 | [Credenciais Temporárias para Automação](19.07-credenciais-temporarias-para-automacao.md) | Específica | Rascunho |
 | 19.08 | [Policy as Code](19.08-policy-as-code.md) | Específica ampla | Rascunho |
 | 19.09 | [Detecção Automatizada de Drift](19.09-deteccao-automatizada-de-drift.md) | Específica | Rascunho |
@@ -64,17 +64,17 @@ DevOps, containers e Kubernetes entram para reduzir essa distância entre códig
 | 19.20 | [Desafio: Containerizando o PetCare OS](19.20-desafio-containerizando-o-petcare-os.md) | Desafio intermediário | Rascunho |
 | 19.21 | [Kubernetes](19.21-kubernetes.md) | Guarda-chuva curta | Rascunho |
 | 19.22 | [Configurando Kubernetes](19.22-configurando-kubernetes.md) | Específica prática | Rascunho |
-| 19.23 | [Rodando Aplicações no Kubernetes](19.23-rodando-aplicações-no-kubernetes.md) | Específica prática | Rascunho |
+| 19.23 | [Rodando Aplicações no Kubernetes](19.23-rodando-aplicacoes-no-kubernetes.md) | Específica prática | Rascunho |
 | 19.24 | [Serviços e Conectividade](19.24-servicos-e-conectividade.md) | Específica | Rascunho |
-| 19.25 | [Configuração e Gerenciamento](19.25-configuração-e-gerenciamento.md) | Específica | Rascunho |
+| 19.25 | [Configuração e Gerenciamento](19.25-configuracao-e-gerenciamento.md) | Específica | Rascunho |
 | 19.26 | [Gerenciamento de Recursos](19.26-gerenciamento-de-recursos.md) | Específica | Rascunho |
 | 19.27 | [Storage and Volumes](19.27-storage-and-volumes.md) | Específica | Rascunho |
 | 19.28 | [Segurança no Kubernetes](19.28-seguranca-no-kubernetes.md) | Específica ampla | Rascunho |
 | 19.29 | [Monitoramento e Logging no Kubernetes](19.29-monitoramento-e-logging-no-kubernetes.md) | Específica | Rascunho |
 | 19.30 | [Autoscaling](19.30-autoscaling.md) | Específica | Rascunho |
-| 19.31 | [Padrões de Deployment](19.31-padrões-de-deployment.md) | Específica | Rascunho |
+| 19.31 | [Padrões de Deployment](19.31-padroes-de-deployment.md) | Específica | Rascunho |
 | 19.32 | [Tópicos Avançados de Kubernetes](19.32-topicos-avancados-de-kubernetes.md) | Guarda-chuva de fechamento | Rascunho |
-| 19.33 | [Projeto Prático: Pipeline de Build, Registry e Deploy em Kubernetes](19.33-projeto-prático-pipeline-de-build-registry-e-deploy-em-kubernetes.md) | Síntese prática | Rascunho |
+| 19.33 | [Projeto Prático: Pipeline de Build, Registry e Deploy em Kubernetes](19.33-projeto-pratico-pipeline-de-build-registry-e-deploy-em-kubernetes.md) | Síntese prática | Rascunho |
 
 ## Trilha de Estudo
 
@@ -118,11 +118,11 @@ Pré-requisito: Bloco B + Desafio 19.20 (Kubernetes orquestra containers; sem en
 
 **Atividades Formativas Intermediárias e de Fim de Ciclo:**
 - [Atividade Final de Bloco: Dockerização Prática](exercicios/atividade-docker-petcare.md)
-- [Atividade Final Completa: O Sistema Inteiro](exercicios/atividade-final-devops-k8s.md)
+- [Atividade Final Completa: O Sistema Inteiro](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo magistral de **Marco N10 e N11 de DevOps e K8s**, você finaliza o controle da Infraestrutura Nuvem injetando código auto-gerenciável num pipeline industrial corporativo para o PetCare OS:
+Neste módulo magistral de **marco de DevOps e Kubernetes**, você finaliza o controle da Infraestrutura Nuvem injetando código auto-gerenciável num pipeline industrial corporativo para o PetCare OS:
 
 1. Elabore o Workflow Inteiriço `.yml` para Github Actions e configure as credenciais efêmeras blindadas `OIDC/Vault`. O Deploy falha nativamente se Testes de Qualidade Code Coverage caírem no Linter.
 2. Redija a fundação hermética de imagens (Dockerfile Limpo de Caching `node:alpine`) travando os limites `USER` Linux não-root escapando contra ataques nativos O.S. Cve's Scans.

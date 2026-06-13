@@ -17,6 +17,8 @@ Tarefa: Montei a proposta de 4 métricas baseadas na metodologia RED, e criei um
 
 [COLE SEUS 4 GRÁFICOS E A REGRA DO ALERTA]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Os 4 gráficos são úteis na hora do desespero ou contêm "Métricas de Vaidade"?
 2. A regra de alerta contempla "Janela de Tempo" adequada para evitar flakiness/flapping de rede?

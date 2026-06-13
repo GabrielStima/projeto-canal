@@ -10,7 +10,7 @@ Um Cientista de Dados da empresa ganha acesso ao *Replica Read-Only* do Banco de
 Cenário: Vazamentos Inter-Departamentais e Shadow IT de Analytcs sem Governança.
 
 Tarefa: Segue a violação descrita na minha visão arquitetural:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Demonstrei que o Cientista passa a ter acesso global irrestrito a CPFs, E-mails e senhas criptografadas apenas para saber 'Quantas vacinas vendemos'?

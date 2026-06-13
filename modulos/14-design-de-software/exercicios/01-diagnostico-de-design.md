@@ -12,7 +12,7 @@ Responda: Como você testaria a regra de negócio central dele hoje sem subir o 
 Cenário: Estou praticando Diagnóstico de Design isolando responsabilidades em um código legado do PetCare OS.
 
 Tarefa: Avalie meu diagnóstico abaixo:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu identifiquei corretamente o que é domínio (regra pura) e o que é infraestrutura (HTTP/BD)?

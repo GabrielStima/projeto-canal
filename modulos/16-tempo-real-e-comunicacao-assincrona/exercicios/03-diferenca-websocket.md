@@ -12,6 +12,8 @@ Cenário: Entendendo o TCP/Handshake do WebSocket.
 Tarefa: Avalie minha explicação:
 [COLE AQUI A EXPLICAÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Eu demonstrei entendimento que após o handshake a comunicação flui sem overhead de HTTP headers?
 2. Mencionei full-duplex / comunicação bidirecional livre?

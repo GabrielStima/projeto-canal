@@ -10,7 +10,7 @@ Faça uma prova de fogo de IA gerando Alucinações úteis. Peça para o ChatGPT
 Cenário: Geração de Interfaces Documentais cegas e Alucinações Determinísticas.
 
 Tarefa: Minha observação sobre a IA 'Adivinhando' a interface completa do banco de dados na Doc gerada:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Notei que a IA criará descrições falsas do contrato (Ex: `A API retorna { date_of_sale: string }`) e clientes futuros da API construirão telas quebrando em cima de documentações falsificadas?

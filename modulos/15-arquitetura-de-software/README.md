@@ -70,6 +70,32 @@ Arquitetura de software existe para tornar essas decisões explícitas. Ela ajud
 | 15.25 | [Projeto Prático: Arquitetando uma API para Evolução](15.25-projeto-pratico-arquitetando-uma-api-para-evolucao.md) | Síntese prática | Rascunho |
 
 
+## Trilha de Estudo
+
+Este módulo está organizado em 5 blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — Do código ao sistema** · aulas [15.00–15.02]
+Transição do design de software para arquitetura e princípios arquiteturais.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Componentes e limites** · aulas [15.03–15.06]
+Acoplamento, coesão, boundaries, princípios de componentes e policy vs detail.
+Pré-requisito: Bloco A.
+
+**Bloco C — Estilos arquiteturais clássicos** · aulas [15.07–15.12]
+Camadas, MVC, monólito, Clean Architecture e DDD.
+Pré-requisito: Bloco B.
+
+**Bloco D — Distribuição e comunicação** · aulas [15.13–15.19]
+SOA, microsserviços, sistemas distribuídos, messaging, CQRS e Event Sourcing.
+Pré-requisito: Bloco C.
+
+**Bloco E — Operação, trade-offs e prática** · aulas [15.20–15.25]
+Serverless, Twelve-Factor Apps, service mesh, blackboard, microkernel e projeto prático.
+Pré-requisito: Bloco D.
+
+> Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
+
 ## Exercícios
 
 - [Exercício 01 — Diagnóstico Arquitetural](exercicios/01-diagnostico-arquitetural.md)
@@ -81,11 +107,11 @@ Arquitetura de software existe para tornar essas decisões explícitas. Ela ajud
 - [Exercício 07 — Messaging no Módulo Clínico](exercicios/07-messaging.md)
 - [Exercício 08 — Estilos Serverless vs Containers](exercicios/08-serverless.md)
 - [Exercício 09 — Arquitetura Orientada a Eventos e Microkernel](exercicios/09-event-driven-microkernel.md)
-- [Atividade Final do Módulo](exercicios/atividade-final-arquitetura.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você aplicará o **Marco Arquitetural N6** no PetCare OS. Agora que o código interno tem bom design (N5), o foco expande para a resiliência e escala do ambiente em nuvem:
+Neste módulo, você aplicará o **marco arquitetural** no PetCare OS. Agora que o código interno tem bom design de design, o foco expande para a resiliência e escala do ambiente em nuvem:
 
 1. Elabore e crie seu primeiro **ADR** (Architecture Decision Record) detalhando o porquê adotar arquiteturas baseadas em Mensageria na clínica.
 2. Isole as rotinas pesadas (Disparos em Massa, Relatórios e Processamento em Background) tirando do Loop do Controller/Express.

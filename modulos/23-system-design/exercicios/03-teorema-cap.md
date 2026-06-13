@@ -10,7 +10,7 @@ Explique como se eu tivesse 15 anos a tríade da morte de Bancos Distribuídos. 
 Cenário: Partição de Redes Inerente da Física vs Trade-Off Matemático de Banco de Dados.
 
 Tarefa: Segue minha explicação sobre a imposição do CAP na Física da Internet entre Continentes e Bancos:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Simplifiquei na minha tese que se 2 servidores são incapazes de "trocar fofocas de dados (Sincronismo)" durante a queda, eles sofreriam de 'Split-Brain' se fossem deixados Disponíveis (Escrevendo lixo independente)?

@@ -10,7 +10,7 @@ Seja específico e elabore as regras (Baseadas em Strings Genéricas). Liste 4 P
 Cenário: Regras Físicas de Data Masking em Infraestruturas de Observabilidade (FluentD/Pino).
 
 Tarefa: Segue as minhas 4 regras de censura de chaves baseadas em Regex/Keys JSON:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Listei Cartões de Crédito (Luhn Algorithm / 16 dígitos)? E-mails padronizados? JWT Tokens (EyJ...)?

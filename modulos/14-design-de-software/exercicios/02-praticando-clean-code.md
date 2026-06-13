@@ -12,7 +12,7 @@ Escreva o nome Antes e o nome Depois, justificando.
 Cenário: Aplicando princípios de Nomes Significativos do Clean Code.
 
 Tarefa: Veja minhas renomeações abaixo:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O novo nome revela a intenção do negócio?

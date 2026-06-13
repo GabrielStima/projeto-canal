@@ -12,7 +12,7 @@ Proponha uma arquitetura de eventos mais coesa onde a Triagem não importa e nã
 Cenário: Reduzindo o acoplamento arquitetural com Eventos e Filas.
 
 Tarefa: Avalie minha re-arquitetura:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A Triagem emite o evento e continua seu fluxo sem se importar com a Notificação?

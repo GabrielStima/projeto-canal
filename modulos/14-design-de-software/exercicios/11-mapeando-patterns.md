@@ -11,7 +11,7 @@ Esboce como você aplicaria o Padrão Strategy (Behavioral) para resolver esse p
 Cenário: Aplicação do Padrão Strategy (GoF).
 
 Tarefa: Veja minha estrutura de classes Strategy para notificações.
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O Padrão Strategy foi aplicado corretamente (Uma interface comum de envio)?

@@ -10,7 +10,7 @@ Descreva em tópicos como ficaria a emissão de um evento abstrato `CirurgiaAgen
 Cenário: Roteamento de tópicos (Pub/Sub) no hospital.
 
 Tarefa: Segue meu desenho do Pub/Sub:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu separei corretamente o Publicador (ex: Recepção) dos múltiplos Assinantes (ex: Estoque, Calendário Cirúrgico)?

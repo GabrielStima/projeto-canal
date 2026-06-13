@@ -6,7 +6,7 @@ Um sistema assíncrono bem montado rodando em containers no seu computador. Mas 
 
 ## A Tarefa
 
-O **Marco da Nuvem N8** formaliza seu ingresso no mundo enterprise de nuvem.
+O **marco de cloud** formaliza seu ingresso no mundo enterprise de nuvem.
 
 1. Escolha a sua plataforma provedora imaginária (AWS, Azure ou GCP).
 2. Você deve redigir a Documentação de Topologia da rede.
@@ -23,12 +23,14 @@ O **Marco da Nuvem N8** formaliza seu ingresso no mundo enterprise de nuvem.
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Revisão Profissional Cloud Architecture (Marco N8).
+Cenário: Revisão Profissional Cloud Architecture (marco de cloud).
 
 Tarefa: Entreguei abaixo a topologia, as regras de IAM, minha estratégia de VPC e o ciclo de vida FinOps do PetCare.
 
 [COLE AQUI SUA REDAÇÃO ARQUITETURAL]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O banco está perigosamente exposto na Web ou elegantemente isolado em Subnet Privada?
 2. O princípio do Menor Privilégio (IAM) está coeso e a escolha do gerenciamento DaaS/PaaS do Cloud confere economia contra operações do time?

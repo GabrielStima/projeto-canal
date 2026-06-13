@@ -10,7 +10,7 @@ O Orquestrador mascara e alivia a perda dolorosa e transiente dos endereços de 
 Cenário: Routing Abstrato Layer 4 e Roteamento DNS K8s.
 
 Tarefa: Minha análise da proteção base do Cluster:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Pontuei o encapsulamento hermético propiciado pela rede fechada do `ClusterIP` contra port-scans que a AWS recebe todo dia no Ingress Web?

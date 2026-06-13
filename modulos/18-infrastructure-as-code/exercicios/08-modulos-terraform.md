@@ -13,6 +13,8 @@ Cenário: Arquitetura e organização de árvores de diretório no Terraform Cor
 Tarefa: Veja a estrutura da minha pasta e meus imports `source = ...`:
 [COLE AQUI A ESTRUTURA]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Há Separação perfeita garantindo que o Root só chame módulos parametrizáveis?
 2. Evitou a armadilha monstruosa de hardcodar variáveis AWS dentro da pasta abstrata Modules?

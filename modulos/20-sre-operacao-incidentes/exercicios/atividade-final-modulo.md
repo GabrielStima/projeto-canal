@@ -6,7 +6,7 @@ Sua API com banco tem endpoints. Você aprendeu a diferença dolorosa entre esta
 
 ## A Tarefa
 
-Neste **Marco Operacional N12**, redija a vida real SRE:
+Neste **marco operacional**, redija a vida real SRE:
 1. Descreva a Rota `GET /health/liveness` e explique na folha como seu Node responde `200` apenas checando sua sanidade própria.
 2. Descreva a Rota `GET /health/readiness` provando na folha que ela falha (retorna `503`) se o banco principal MySQL estiver fora (Não serve pro LoadBalancer!).
 3. Escolha uma crise fatal fictícia e desenhe um **Postmortem Blameless**.
@@ -26,6 +26,8 @@ Tarefa: Segue meu Pseudo-código de Healthchecks de K8S, e meu texto do Postmort
 
 [COLE AQUI SEU CÓDIGO HEALTH E SEU POSTMORTEM (RESUMIDO) MOLDADOS NA CLÍNICA PETCARE]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O readiness probe prova consultar dependências pesadas externas (Banco)? (O liveness ficou leve pra evitar reinícios burros de contêineres)?
 2. A análise do PostMortem cometeu o anti-pattern tóxico e imperdoável de culpar o nome de uma pessoa, ou assumiu as defesas como falhas do Processo?

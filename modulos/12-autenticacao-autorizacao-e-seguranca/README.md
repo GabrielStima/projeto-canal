@@ -71,6 +71,32 @@ Segurança aparece aqui porque depende de tudo que veio antes: HTTP, headers, co
 | 12.16 | [Segurança em APIs](12.16-seguranca-em-apis.md) | Guarda-chuva curta | Revisada |
 | 12.17 | [Projeto Prático: Autenticação, Autorização e Segurança em uma API](12.17-projeto-pratico-autenticacao-autorizacao-e-seguranca-em-uma-api.md) | Síntese prática | Revisada |
 
+## Trilha de Estudo
+
+Este módulo está organizado em 5 blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — Visão geral da segurança** · aulas [12.00–12.01]
+Introdução aos conceitos de autenticação, autorização e segurança na web.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Identidade e sessão** · aulas [12.02–12.06]
+Hashing de senhas, algoritmos, autenticação básica, sessões e cookies seguros.
+Pré-requisito: Bloco A.
+
+**Bloco C — Tokens e permissões** · aulas [12.08–12.11]
+Autenticação via token, JWT, autorização e OAuth.
+Pré-requisito: Bloco B.
+
+**Bloco D — Riscos e proteções da web** · aulas [12.07, 12.12–12.16]
+CSRF, CORS, XSS, SQL injection, rate limiting e segurança em APIs.
+Pré-requisito: Blocos B e C.
+
+**Bloco E — Síntese prática** · aula [12.17]
+Projeto prático que integra autenticação, autorização e controles de segurança na API.
+Pré-requisito: Blocos A a D.
+
+> Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
+
 ## Exercícios
 
 - [Exercício 01 — Cadastro e Hashing](exercicios/01-cadastro-hashing.md)
@@ -80,7 +106,7 @@ Segurança aparece aqui porque depende de tudo que veio antes: HTTP, headers, co
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você evoluirá a API do **PetCare OS** para transformá-la em uma aplicação com controles reais de segurança (Marco de Integração N4).
+Neste módulo, você evoluirá a API do **PetCare OS** para transformá-la em uma aplicação com controles reais de segurança (marco de integração).
 
 1. Modele usuários e credenciais para o Módulo Clínico e Portal do Tutor.
 2. Implemente cadastro e login com hash de senha seguro.

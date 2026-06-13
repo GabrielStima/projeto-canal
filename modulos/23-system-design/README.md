@@ -45,28 +45,58 @@ System design existe para organizar esse raciocínio. Ele não é uma lista de r
 | 23.00 | [System Design](23.00-system-design.md) | Guarda-chuva | Rascunho |
 | 23.01 | [Como Pensar em Design de Sistemas](23.01-como-pensar-em-design-de-sistemas.md) | Específica ampla | Rascunho |
 | 23.02 | [Requisitos, Carga e Estimativas](23.02-requisitos-carga-e-estimativas.md) | Específica prática | Rascunho |
-| 23.03 | [Disponibilidade vs Consistência](23.03-disponibilidade-vs-consistência.md) | Específica | Rascunho |
-| 23.04 | [Padrões de Consistência](23.04-padrões-de-consistência.md) | Específica | Rascunho |
-| 23.05 | [Padrões de Disponibilidade](23.05-padrões-de-disponibilidade.md) | Específica | Rascunho |
+| 23.03 | [Disponibilidade vs Consistência](23.03-disponibilidade-vs-consistencia.md) | Específica | Rascunho |
+| 23.04 | [Padrões de Consistência](23.04-padroes-de-consistencia.md) | Específica | Rascunho |
+| 23.05 | [Padrões de Disponibilidade](23.05-padroes-de-disponibilidade.md) | Específica | Rascunho |
 | 23.06 | [DNS no System Design](23.06-dns-no-system-design.md) | Específica | Rascunho |
 | 23.07 | [CDN](23.07-cdn.md) | Específica | Rascunho |
 | 23.08 | [Load Balancers](23.08-load-balancers.md) | Específica | Rascunho |
-| 23.09 | [Camada de Aplicação](23.09-camada-de-aplicação.md) | Específica | Rascunho |
+| 23.09 | [Camada de Aplicação](23.09-camada-de-aplicacao.md) | Específica | Rascunho |
 | 23.10 | [Database no System Design](23.10-database-no-system-design.md) | Específica ampla | Rascunho |
 | 23.11 | [Gerenciamento de Dados em Cloud](23.11-gerenciamento-de-dados-em-cloud.md) | Específica | Rascunho |
 | 23.12 | [Caching](23.12-caching.md) | Específica prática | Rascunho |
 | 23.13 | [Assincronismo em System Design](23.13-assincronismo-em-system-design.md) | Específica | Rascunho |
 | 23.14 | [Mensageria em Cloud](23.14-mensageria-em-cloud.md) | Específica prática | Rascunho |
-| 23.15 | [Operações Idempotentes](23.15-operações-idempotentes.md) | Específica prática | Rascunho |
+| 23.15 | [Operações Idempotentes](23.15-operacoes-idempotentes.md) | Específica prática | Rascunho |
 | 23.16 | [Performance Antipatterns](23.16-performance-antipatterns.md) | Específica | Rascunho |
 | 23.17 | [Monitoramento Para System Design](23.17-monitoramento-para-system-design.md) | Específica | Rascunho |
 | 23.18 | [Reliability Patterns](23.18-reliability-patterns.md) | Específica ampla | Rascunho |
 | 23.19 | [Disponibilidade, Alta Disponibilidade e Resiliência](23.19-disponibilidade-alta-disponibilidade-e-resiliencia.md) | Específica ampla | Rascunho |
-| 23.20 | [Padrões de Design em Cloud](23.20-padrões-de-design-em-cloud.md) | Específica ampla | Rascunho |
-| 23.21 | [Design e Implementação em Cloud](23.21-design-e-implementação-em-cloud.md) | Específica prática | Rascunho |
-| 23.22 | [Segurança em System Design](23.22-segurança-em-system-design.md) | Específica ampla | Rascunho |
-| 23.23 | [Projeto Prático: Desenhando um Sistema Escalável e Confiável](23.23-projeto-prático-desenhando-um-sistema-escalavel-e-confiavel.md) | Síntese prática | Rascunho |
+| 23.20 | [Padrões de Design em Cloud](23.20-padroes-de-design-em-cloud.md) | Específica ampla | Rascunho |
+| 23.21 | [Design e Implementação em Cloud](23.21-design-e-implementacao-em-cloud.md) | Específica prática | Rascunho |
+| 23.22 | [Segurança em System Design](23.22-seguranca-em-system-design.md) | Específica ampla | Rascunho |
+| 23.23 | [Projeto Prático: Desenhando um Sistema Escalável e Confiável](23.23-projeto-pratico-desenhando-um-sistema-escalavel-e-confiavel.md) | Síntese prática | Rascunho |
 
+
+## Trilha de Estudo
+
+Este módulo está organizado em 6 blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — Fundamentos e requisitos** · aulas [23.00–23.02]
+Como pensar em system design, requisitos, carga e estimativas.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Disponibilidade e consistência** · aulas [23.03–23.05]
+Disponibilidade vs consistência, padrões de consistência e padrões de disponibilidade.
+Pré-requisito: Bloco A.
+
+**Bloco C — Componentes de infraestrutura** · aulas [23.06–23.09]
+DNS, CDN, load balancers e camada de aplicação.
+Pré-requisito: Bloco B.
+
+**Bloco D — Dados, cache e assincronismo** · aulas [23.10–23.15]
+Database, gerenciamento de dados em cloud, caching, assincronismo, mensageria e idempotência.
+Pré-requisito: Bloco C.
+
+**Bloco E — Resiliência e operações** · aulas [23.16–23.19]
+Performance antipatterns, monitoramento, reliability patterns, disponibilidade e resiliência.
+Pré-requisito: Bloco D.
+
+**Bloco F — Cloud, segurança e prática** · aulas [23.20–23.23]
+Padrões de design em cloud, design e implementação em cloud, segurança e projeto prático.
+Pré-requisito: Bloco E.
+
+> Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
 
 ## Exercícios
 
@@ -81,11 +111,11 @@ System design existe para organizar esse raciocínio. Ele não é uma lista de r
 - [Exercício 09 — Fila ou Tópico?](exercicios/09-fila-vs-topico.md)
 - [Exercício 10 — Os Quatro Sinais Dourados](exercicios/10-four-golden-signals.md)
 - [Exercício 11 — Segurança na Arquitetura](exercicios/11-sec-design.md)
-- [Atividade Final Teórica: A Lousa da Escala Massiva](exercicios/atividade-final-systemdesign.md)
+- [Atividade Final Teórica: A Lousa da Escala Massiva](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Elevação final para Senioridade Executiva: O **Marco de System Design N15**. Esqueça as IDEs. Use blocos conceituais (LucidChart / Excalidraw) para projetar uma rede descentralizada mundial do ecossistema PetCare absorvendo picos da "Black Friday Vet" lidando com milhões de Writes/Reads sem ruir.
+Elevação final para Senioridade Executiva: O **marco de system design**. Esqueça as IDEs. Use blocos conceituais (LucidChart / Excalidraw) para projetar uma rede descentralizada mundial do ecossistema PetCare absorvendo picos da "Black Friday Vet" lidando com milhões de Writes/Reads sem ruir.
 
 1. Modele o Tráfego na Borda da Internet: Integre Load Balancers HTTP Dinâmicos com Redes Estáticas Geograficamente roteáveis (DNS e CDNs) e blinde via WAF L7 mitigando DDoS e descargas prematuras.
 2. Esmague o Gargalo Relacional com Segregação (Polyglot e CQRS): Adicione Componentes Intermediários In-Memory velozes (Caches/Redis) interceptando Read/Queries e envie Writes pesadas para Tópicos Massivos e Filas Paralelas (Kafka e SQS), preservando as Entidades Rígidas de Concorrência sem Travar Bloqueios de Tabela SQL.

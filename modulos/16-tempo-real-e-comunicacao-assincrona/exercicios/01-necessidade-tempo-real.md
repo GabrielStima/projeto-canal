@@ -10,7 +10,7 @@ Liste 3 telas do PetCare OS que podem continuar usando Request/Response clássic
 Cenário: Distinguindo UX síncrona de reativa.
 
 Tarefa: Avalie minhas respostas abaixo:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. As telas que usam Request/Response justificam não terem real-time? (Ex: Relatórios Estáticos).

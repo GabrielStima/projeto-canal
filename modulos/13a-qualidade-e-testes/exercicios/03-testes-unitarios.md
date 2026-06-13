@@ -19,7 +19,7 @@ Cenário: Criei uma suíte de Testes Unitários para a validação de datas no a
 
 Tarefa: Avalie meu código abaixo (focado apenas no comportamento e asserções):
 
-[COLE SEU TESTE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O padrão AAA está nítido no layout do código?

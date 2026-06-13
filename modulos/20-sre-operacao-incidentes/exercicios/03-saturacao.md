@@ -10,7 +10,7 @@ Com suas palavras, faça a diferença clássica: Qual a distinção na Observabi
 Cenário: Diagnóstico Rápido de SRE sob degradação.
 
 Tarefa: Segue a distinção sintomática de gargalo:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expliquei que a saturação afeta o ecossistema inteiro debaixo do mesmo gargalo físico e a falha de código é localizada?

@@ -10,7 +10,7 @@ Faça uma pesquisa nos anais de Segurança do NPM e liste 2 Casos Absurdamente F
 Cenário: O Perigo Absoluto da Cadeia de Suprimentos Terceirizada (Software Supply Chain Security).
 
 Tarefa: Avalie os dois casos que citei como exemplos históricos do caos no NPM:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu citei casos mortais como o do 'event-stream', o 'colors.js / faker.js' ou o 'left-pad'?

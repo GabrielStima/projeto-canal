@@ -10,7 +10,7 @@ Descreva a tragédia suprema que acontece se uma equipe de DevOps júnior insist
 Cenário: Mapeamento de Estado e perigos de Vazamento do tfstate.
 
 Tarefa: Avalie meus alertas trágicos:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Abordei as Colisões de Pull Requests caso dois membros rodem "apply" na mesma branch gerando merges corrompidos?

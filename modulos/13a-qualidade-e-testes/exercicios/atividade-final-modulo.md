@@ -6,7 +6,7 @@ Sua API do PetCare OS funciona, possui regras de autenticação e contratos. Mas
 
 ## A Tarefa
 
-O **Marco de Integração N4** exige o estabelecimento de uma rede de segurança de software contínua.
+O **marco de integração** exige o estabelecimento de uma rede de segurança de software contínua.
 Nesta atividade prática, você integrará ferramentas de teste na API.
 
 Siga as etapas:
@@ -38,7 +38,7 @@ Critérios de correção:
 2. A configuração de CI está aproveitando o cache para ser rápida? O tempo esperado parece ideal para o padrão da ferramenta (ex: Github Actions)?
 3. O limite da asserção garante segurança do software ou as asserções estão triviais?
 
-[COLE SEU CI.YML E TRECHO DE TESTE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Por favor, atue como um Engenheiro Sênior de Qualidade: o que falta para meus testes brilharem mais, ficarem mais estáveis (menos flaky) e aprovarem a qualidade total?
 ```

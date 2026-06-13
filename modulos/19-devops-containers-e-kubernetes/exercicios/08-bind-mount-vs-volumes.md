@@ -10,7 +10,7 @@ No desenvolvimento local, mapear `v /c/minha_pasta_windows:/app/src` num contêi
 Cenário: Persistência Eficaz de Discos Locais vs Abstratos.
 
 Tarefa: Minha comparação e ataque ao "Bind Mount em Prod":
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Ataquei o problema de portabilidade (ex: Tentar rodar num Windows de Produção depois do Linux) quando uso atrelamentos rústicos do SO?

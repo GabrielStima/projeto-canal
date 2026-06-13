@@ -10,7 +10,7 @@ Esboce uma justificativa. Por que a etapa crítica `terraform apply` deve ser a 
 Cenário: Automação Segura de Infraestrutura.
 
 Tarefa: Minha resposta justificando a esteira:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O texto esclarece que testar lint e formatação em Pull Requests e só rodar apply com aprovação é o padrão de ouro da indústria?

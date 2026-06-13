@@ -10,7 +10,7 @@ Imagine que a clínica ligou um `Coding Agent` para ler o WhatsApp. O modelo é 
 Cenário: OWASP Agentic Vulnerabilities, Tool Calling Autoritário e Manipulação Indireta (RCE por Chat).
 
 Tarefa: Minha crítica brutal à liberação da API nativa para ser manipulada 100% pelo julgamento alucinado da rede neural e as travas HITL:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Provei que a engenharia social contra o bot aciona perfeitamente o Payload JSON malicioso e o banco obedece porque o Token do Agente é válido (Ele tem a permissão)?

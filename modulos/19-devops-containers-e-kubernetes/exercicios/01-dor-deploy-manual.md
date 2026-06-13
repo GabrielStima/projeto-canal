@@ -10,7 +10,7 @@ Liste 3 falhas ou riscos catastróficos que acontecem num negócio com clientes 
 Cenário: Justificativa de Cultura DevOps.
 
 Tarefa: Avalie minhas justificativas abaixo:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu tracei que deploys dependentes de uma pessoa ('Bus Factor') param a empresa se a pessoa sumir/adoecer?

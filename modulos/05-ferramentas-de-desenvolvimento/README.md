@@ -34,11 +34,11 @@ Você também precisa abrir o projeto, instalar dependências, rodar comandos, c
 
 Este módulo prepara os próximos passos da formação: frontend moderno, Next.js, backend, bancos de dados, testes, deploy, DevOps e arquitetura. Todos esses temas dependem de um ambiente de desenvolvimento minimamente organizado.
 
-## Artefato Recebido do Módulo Anterior
+## O que você já tem
 
 O módulo 04 deixou você com prática em algoritmos e estruturas de dados, incluindo a fila de prioridade de triagem do PetCare OS. Não altere esse trabalho aqui. O foco deste módulo é criar a base de ferramentas que permitirá evoluir qualquer código com segurança.
 
-## Artefato Produzido Neste Módulo
+## O que você vai produzir
 
 Ao final, você terá um repositório base do PetCare OS chamado `petcare-os-base`, com:
 
@@ -174,7 +174,7 @@ Crie uma revisão guiada com:
 Não entregue respostas completas antes de eu tentar responder.
 ```
 
-## Referencias Gerais
+## Referências Gerais
 
 - Documentação oficial do Git.
 - Documentação oficial do GitHub.

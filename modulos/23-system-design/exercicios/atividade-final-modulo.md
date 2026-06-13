@@ -6,7 +6,7 @@ Carga Sênior. Você sabe montar aplicações web em React (Client) / TSX Server
 
 ## A Tarefa
 
-O **Marco N15 Supremo de System Design**. Sua Clínica de Bichos estourou para `10.000` Lojas e você assumiu a Startup pra vender Agendamentos numa cópia bizarra de Uber + Instagram global. Projete esse caos na lousa teórica:
+O **marco de system design**. Sua Clínica de Bichos estourou para `10.000` Lojas e você assumiu a Startup pra vender Agendamentos numa cópia bizarra de Uber + Instagram global. Projete esse caos na lousa teórica:
 1. **Borda e Gateway:** Descreva no texto como a foto da nova cirurgia (Pesada 5MB) é jogada pelo Upload e chega pro usuário usando a magia do CloudFront CDN na frente pra desonerar Latência Oceânica Lenta.
 2. **Back-end Massivo:** Explique os Nodes Escaláveis sob um Ingress Load Balancer (ALB) da Camada 7 (Application Stateless). Justifique a falta de memória interna guardando imagens.
 3. **Escrita Ininterrupta e Caching Ligeiro:** Descreva como as Postagens de "Me ajudem/Like do bicho doente" da rede social entram via API Write e batem no Cluster RabbitMQ/KafKa Fila pra engolir o Tráfego Brutal de uma vez (Assincronismo Mágico) antes de irem pro Banco. E mostre de onde as Leituras velozes dos 15 milhões de espectadores sem conta sacam esses dados num Flash de memória sem nunca ler o PostgreSQL/RDS nativo Lento (MemCache/Redis).
@@ -24,6 +24,8 @@ Tarefa: A planta Teórica Completa e Minuciosa das Peças distribuídas conectad
 
 [COLE AQUI A SUA ARQUITETURA DETALHADA - SEJA VERBOSO E CÍNICO SOBRE QUEDAS DE PARTES DA SUA ESTRUTURA E SEUS CUIDADOS]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O CDN da borda bloqueou a pesada distribuição global ou o app quebra e a foto demora minutos de buffering em outros continentes pra clientes da gringa?
 2. Entendi o Event-Driven assíncrono? Usei Fila Pesada para desacoplar e salvar os likes massivos aliviando Banco da contenção/Lock e Timeout do usuário de web?

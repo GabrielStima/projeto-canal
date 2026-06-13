@@ -69,11 +69,11 @@ Este módulo existe para ensinar essas escolhas sem transformar toda aplicação
 - [Exercício 05 — Modelando uma Fila de Workers](exercicios/05-filas-workers.md)
 - [Exercício 06 — Pub/Sub e Broadcast de Eventos](exercicios/06-pub-sub.md)
 - [Exercício 07 — Chaves de Idempotência](exercicios/07-idempotencia.md)
-- [Atividade Final do Módulo](exercicios/atividade-final-mensageria.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você aplicará o **Marco de Sincronismo N7** no PetCare OS. Essa etapa desconecta as operações dependentes e acelera drasticamente a percepção de performance para o usuário final:
+Neste módulo, você aplicará o **marco de comunicação assíncrona** no PetCare OS. Essa etapa desconecta as operações dependentes e acelera drasticamente a percepção de performance para o usuário final:
 
 1. Transforme o fluxo de Cadastro Massivo (Lotes) para uma rota de resposta imediata HTTP `202 Accepted`.
 2. Encaminhe o Payload pesado para uma Fila (Message Broker/Queue local) que será consumida num processo isolado.

@@ -25,6 +25,8 @@ Cenário: Entrega Tática Dockerfile + Compose e Caching Inception.
 Tarefa: Mostro o arquivo e defendo o meu Caching e meu Rootless:
 [COLE AQUI O DOCKERFILE]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Meu Dockerfile rodou o famigerado erro crasso de copiar TUDO (`COPY . .`) antes do Download enorme do NPM sem respeitar camadas?
 2. Executei os processos como superusuários absolutos do hospedeiro, falhando miseravelmente na parte de `USER node` por esquecimento ou imperícia?

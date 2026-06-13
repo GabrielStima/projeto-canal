@@ -12,6 +12,8 @@ Cenário: Idempotência de APIs escalada para a Cloud.
 Tarefa: Aqui está minha correlação:
 [COLE AQUI A EXPLICAÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Deixei claro que POST é aditivo (imperativo) e PUT é substitutivo (estado/declarativo)?
 2. A importância disso na infraestrutura ficou explicada para evitar a duplicação insana de bancos e custos?

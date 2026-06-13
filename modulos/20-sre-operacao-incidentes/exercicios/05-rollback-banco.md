@@ -10,7 +10,7 @@ Seja incisivo: Por que aplicar um comando de `Rollback` cego via Orquestrador (D
 Cenário: Abuso de Rollbacks em ambientes Stateful X Stateless.
 
 Tarefa: Aqui ataco a periculosidade de reverter bancos:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Evidenciei que imagens efêmeras (`Stateless`) não guardam lógicas históricas dos últimos 10 minutos, mas bancos guardam as novas assinaturas de pagamento?

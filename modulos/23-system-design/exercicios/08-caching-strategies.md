@@ -10,7 +10,7 @@ O padrão *Cache-Aside* é perfeito (O aplicativo procura a Info no Redis, não 
 Cenário: TTL Eviction, Multithreading Concorrido do Node.js, Banco Afogado (Thundering Herd).
 
 Tarefa: A minha descrição da Avalanche do Stampede no Redis/DB:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Abordei que nos milisegundos que a "Cache venceu", os exatos próximos 10.000 usuários paralelos perceberão o "Cache Vazio" de uma vez na borda?

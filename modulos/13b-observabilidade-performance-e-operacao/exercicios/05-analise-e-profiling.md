@@ -18,7 +18,7 @@ Cenário: Estou praticando análise de performance levantando hipóteses de lent
 
 Tarefa: Avalie minhas hipóteses e minha proposta de validação.
 
-[COLE SUA TAREFA COMPLETA AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. As hipóteses propostas são tecnicamente possíveis no ecossistema Node.js / SQL?

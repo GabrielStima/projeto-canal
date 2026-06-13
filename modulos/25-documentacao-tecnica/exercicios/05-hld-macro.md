@@ -10,7 +10,7 @@ Muitos Engenheiros tentam botar Interfaces Typescript (`.ts`) num fluxograma do 
 Cenário: HLD, Escalabilidade Abstrata e Audiência Executiva.
 
 Tarefa: Minha resposta justificando a falta intencional de Linhas de Código em reuniões Diretorias/Arquitetura Cloud HLD:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expliquei que o HLD desenha fluxos de rede e integrações "Caixa Preta" para comprovar que o sistema é resiliente globalmente na Nuvem?

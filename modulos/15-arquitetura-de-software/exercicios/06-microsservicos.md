@@ -11,7 +11,7 @@ Se o MS de faturamento falhou *depois* que o MS da clínica agendou a consulta, 
 Cenário: Lidando com Falhas Distribuídas em Microservices (SAGA Pattern / Compensações).
 
 Tarefa: Aqui está minha proposta para lidar com o problema da consulta de graça:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A solução proposta lida com a assincronicidade?

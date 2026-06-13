@@ -12,6 +12,8 @@ Cenário: Carga de Short Polling em infraestrutura REST.
 Tarefa: Veja meu cálculo matemático e análise de impacto:
 [COLE AQUI O RESULTADO DO CÁLCULO E ANÁLISE DE IMPACTO NO BANCO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O cálculo RPM está correto (50 clinicas * 20 req/min)?
 2. Avalie minha análise sobre como isso machuca o banco de dados (mesmo retornando array vazio).

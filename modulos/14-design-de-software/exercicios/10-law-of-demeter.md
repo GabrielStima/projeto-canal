@@ -14,6 +14,8 @@ Cenário: Reduzindo acoplamento estrutural (Law of Demeter).
 Tarefa: Refatorei a linha perigosa para:
 [COLE AQUI O NOVO CÓDIGO / MÉTODO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Eu eliminei a necessidade do Controller conhecer a hierarquia profunda de Rules?
 2. O novo método encapsula a pergunta com sentido de domínio?

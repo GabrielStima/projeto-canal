@@ -10,7 +10,7 @@ Uma conexão com a AWS não funciona, o Node.js cospe um erro de Timeout ou Aute
 Cenário: Vazamento Lateral em Sessões de Troubleshooting Não Corporativas.
 
 Tarefa: Minha reflexão sobre vazar o castelo pela janela do socorro:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Comentei explicitamente que planos gratuitos (Ou Opt-In de Data Training) ingerem as Strings de Secrets como pesos de rede e podem escoar para outros em queries futuras?

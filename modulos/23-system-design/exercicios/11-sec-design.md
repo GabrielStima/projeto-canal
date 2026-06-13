@@ -10,7 +10,7 @@ Seja um Sênior projetando Camadas ISO-OSI contra invasões em massa e terrorism
 Cenário: Engenharia Ofensiva Camada 7 / Volumetria, Defesa Perimetral WAF (Rate Limits + IP Reputations).
 
 Tarefa: Aqui ataco a periculosidade de falhas não impedidas na borda (Edge) e protejo com WAF na Planta do Sistema (Diagrama Cloud):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Pontuei perfeitamente que o Load Balancer e AWS Shield enxergam apenas Tráfego Lícito e Legal e não bloqueiam (Pois é porta 443)?

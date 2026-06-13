@@ -88,7 +88,7 @@ Durante o módulo, você encontrará exercícios curtos que preparam a atividade
 3. [Lendo Uma Troca HTTP](exercicios/03-lendo-uma-troca-http.md)
 4. [Separando Responsabilidades](exercicios/04-separando-responsabilidades.md)
 
-## Atividade Final do Módulo
+## Projeto ou Prática do Módulo
 
 Depois dos exercícios, conclua a [Atividade Final do Módulo 01](exercicios/atividade-final-modulo.md).
 

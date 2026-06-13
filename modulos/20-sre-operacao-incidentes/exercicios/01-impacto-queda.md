@@ -10,7 +10,7 @@ Liste 3 sistemas abstratos que operam juntos dentro do ecossistema PetCare OS. D
 Cenário: Matriz de Criticidade em Confiabilidade SRE.
 
 Tarefa: Avalie minha lista e as severidades estipuladas:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Fui coerente em perdoar módulos assíncronos (Ex: Relatórios Mansais) e focar a criticidade no painel Heartbeat/Emergência?

@@ -6,7 +6,7 @@ Os requisitos de banco, filas e servidores que a nuvem do PetCare precisa levant
 
 ## A Tarefa
 
-O **Marco de IaC N9** consolida a automatização total do ambiente.
+O **marco de IaC** consolida a automatização total do ambiente.
 
 1. Escreva 3 arquivos Terraform locais reais (Instale o binário do TF para validar sintaxe, se possível).
 2. Arquivo `main.tf`: Defina o Provider da AWS e estabeleça um State Remoto atrelado a um Bucket S3 fictício.
@@ -22,12 +22,14 @@ O **Marco de IaC N9** consolida a automatização total do ambiente.
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Projeto Final - Provisionamento N9.
+Cenário: Projeto Final - provisionamento.
 
 Tarefa: Enviei abaixo minha modelagem base dos arquivos `main.tf` com backend S3 + DynamoDB e o `network.tf` chamando Modules Oficiais da Cloud. E minha defesa financeira de redução de custos.
 
 [COLE AQUI O CODIGO DOS SEUS ARQUIVOS HCL E SUA REDAÇÃO SOBRE DESTROY]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O bloco Remote State contém suporte para State Locking no DynamoDB previnindo atropelamento de deploys entre devs?
 2. O uso do Módulo Público no `network.tf` economizou mais de 100 linhas inúteis de código declarativo manual?

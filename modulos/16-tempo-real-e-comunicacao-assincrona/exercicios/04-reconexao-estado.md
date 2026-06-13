@@ -10,7 +10,7 @@ Descreva por que o uso de bibliotecas como Socket.io mascaram e resolvem problem
 Cenário: Desconexões e Heartbeats em Real-Time.
 
 Tarefa: Avalie minha resposta sobre WebSockets nativos vs Socket.io:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu citei o fallback transparente que bibliotecas maiores fazem caso a rede bloqueie a porta do WS?

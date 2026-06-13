@@ -10,7 +10,7 @@ Portais da equipe da Clínica no Notion/Confluence (Documentação Interna Exter
 Cenário: A Crise Institucional da Documentação Falsa/Defasada no Notion.
 
 Tarefa: Eis a resposta sobre os perigos da Base de Conhecimentos sem Gestão Vitalícia:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Provei que "Documentação desatualizada e Mentira técnica documentada é PIOR do que Nenhuma Documentação" pois leva o Júnior a destruir infraestruturas ativas achando que o comando Bash do Tutorial Velho é seguro?

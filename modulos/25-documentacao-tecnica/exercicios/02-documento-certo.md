@@ -16,6 +16,8 @@ Cenário: Taxonomia de Documentos em Projetos Nível Enterprise.
 Tarefa: Minha seleção (ADR, Comunicação Técnica Executiva, RFC, etc):
 [COLE AQUI A EXPLICAÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Fui certeiro ao dizer que o CEO quer o "Business Pitch/Technical Communication" focado em ROI (Return on Investment) não em YAMLs?
 2. Escolhi ADR (Architecture Decision Record) Histórico para cimentar a decisão banindo o `Moment.js`?

@@ -12,6 +12,8 @@ Cenário: Proteção da Arquitetura em Nível de Rede Cloud.
 Tarefa: Avalie minha justificativa:
 [COLE AQUI A EXPLICAÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Compreendi o conceito de que IP Público significa que a porta 5432 recebe ping de qualquer roteador do planeta?
 2. Compreendi que o isolamento via Subnet Privada na VPC anula as conexões, deixando o banco "invisível" e inalcançável para escaneamento externo?

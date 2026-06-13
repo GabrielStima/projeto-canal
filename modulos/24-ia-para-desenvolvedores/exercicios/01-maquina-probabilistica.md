@@ -10,7 +10,7 @@ IAs Generativas são bestas matemáticas lidando com pesos probabilísticos. Se 
 Cenário: Estocasticidade x APIs Críticas Determinísticas.
 
 Tarefa: Avalie minha crítica sobre amarrar lógicas finas dentro de LLMs puros:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu provei que o LLM não computa matemática, mas sim apenas prevê estatisticamente as letras que compõem o número, logo ele pode "alucinar" um centavo a menos?

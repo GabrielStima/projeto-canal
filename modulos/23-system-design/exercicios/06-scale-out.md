@@ -10,7 +10,7 @@ Seja direto na dor: Você provisionou 10 Contêineres rodando debaixo do mesmo L
 Cenário: Aplicações Nativas da Nuvem (12-Factor Apps, Statelessness).
 
 Tarefa: Minha explicação da ruína de não externalizar arquivos para o S3 Object Storage ou Redis do cluster:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Clarifiquei perfeitamente que o Load Balancer distribui os requests? (Ex: Request 1 joga o Exame no Node A e o Request 2 na hora de baixar a imagem cai no Node C que está estéril e retorna 404 Not Found)?

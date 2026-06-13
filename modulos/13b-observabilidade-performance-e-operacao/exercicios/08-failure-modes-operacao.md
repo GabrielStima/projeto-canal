@@ -16,7 +16,7 @@ Cenário: Planejamento arquitetural para mitigação de Falhas (Failure Modes) c
 
 Tarefa: Abaixo descrevo como lido com a queda de uma API síncrona terceirizada num ambiente presencial da clínica.
 
-[COLE SUA DESCRIÇÃO AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O plano de ação é condizente com a vida real de um hospital / clínica veterinária?

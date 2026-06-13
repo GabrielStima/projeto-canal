@@ -10,7 +10,7 @@ Liste 3 regras no PetCare OS que são puramente Políticas de Negócio (ex: Desc
 Cenário: Separando as camadas de domínio da infraestrutura.
 
 Tarefa: Aqui estão minhas listas:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Há alguma infraestrutura na lista de políticas?

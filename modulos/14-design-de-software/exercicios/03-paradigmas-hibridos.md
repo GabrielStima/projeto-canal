@@ -12,6 +12,8 @@ Cenário: Praticando uso híbrido de POO e Funcional no TypeScript.
 Tarefa: Avalie meu código:
 [COLE AQUI O CÓDIGO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. A classe encapsula bem o comportamento e estado?
 2. Os métodos funcionais foram usados sem causar efeitos colaterais globais?

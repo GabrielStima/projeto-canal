@@ -20,6 +20,8 @@ Cenário: Estou classificando testes da funcionalidade "Pagamento de Consulta" n
 Tarefa: Mapeei os 5 cenários abaixo:
 [COLE AQUI OS 5 CENÁRIOS, NÍVEIS E JUSTIFICATIVAS]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Eu deixei de fora a verificação de regras puramente matemáticas que cabem no Teste Unitário?
 2. Abusei de testes E2E para comportamentos que poderiam ser garantidos com integração do banco?

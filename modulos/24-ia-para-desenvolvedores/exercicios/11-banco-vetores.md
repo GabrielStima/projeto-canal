@@ -10,7 +10,7 @@ Você importou os Manuais Jurídicos em Vetores no Banco. Um vetor é 1.500 núm
 Cenário: ANN (Approximate Nearest Neighbors), Complexidade Algorítmica KNN vs HNSW no Pinecone/pgvector.
 
 Tarefa: A magia teórica do pulo de grafos do HNSW (Small Worlds):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Discorri rapidamente que ele não busca mais exato (Ele busca Aproximado para pular continentes de vetores errados rapidamente até cair na zona certa)?

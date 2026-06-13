@@ -10,7 +10,7 @@ Quando o Governo dos EUA assinou a Executive Order obrigando Softwares Críticos
 Cenário: Rastreabilidade, Transparência Absoluta e Automação de Vulnerabilidades com SBOM.
 
 Tarefa: Segue minha tese de compliance corporativo exigindo o SBOM dos Vendors:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Expus o fato de que um Software proprietário Fechado pode conter bibliotecas russas ou iranianas escondidas na engine de rede (Backdoors latentes)?

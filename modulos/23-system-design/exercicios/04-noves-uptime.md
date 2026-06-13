@@ -10,7 +10,7 @@ A equipe C-Level pediu que a startup atinja "*Cinco Noves*" `99.999%` de Disponi
 Cenário: Resiliência Financeira Cloud e Escalada de Complexidade Uptime (Nines).
 
 Tarefa: Minha resposta justificando a loucura do 'Active-Active':
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Demonstrei que o Active-Active exige roteamento milimétrico para evitar Conflict Resolutions e gera custo obsceno pagando AWS dupla 24/7 de forma pesada?

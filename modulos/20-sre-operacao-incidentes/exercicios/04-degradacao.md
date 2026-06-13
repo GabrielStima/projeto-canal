@@ -10,7 +10,7 @@ Baseado no conceito de "Degradação Graciosa" no e-commerce da clínica (onde a
 Cenário: Protegendo o sistema via Corta-Carga (Circuit Breaker) e Degradation.
 
 Tarefa: Minha explicação da utilidade do disjuntor de APIs:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O papel central de parar de forçar timeouts lerdos contra o sistema parceiro falho foi explicitado?

@@ -10,7 +10,7 @@ A equipe original da Clínica do Módulo 1 demitiu-se inteira de uma vez e você
 Cenário: A Maldição do Código sem Continuidade e Falência Silenciosa.
 
 Tarefa: Minha avaliação sombria sobre Onboarding em repositórios Orfãos:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Argumentei que passarei dias lutando contra `npm installs` falhos e conexões bloqueadas no banco tentando adivinhar as senhas e portas locais da arquitetura?

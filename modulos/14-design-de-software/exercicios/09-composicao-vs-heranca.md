@@ -12,7 +12,7 @@ Use Composição: Crie comportamentos isolados (`Autenticavel`, `RegistraPonto`)
 Cenário: Mudando de Herança para Composição no TypeScript.
 
 Tarefa: Veja minha refatoração de classes baseada em propriedades injetadas.
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O problema do 'Gorilla Banana' da herança profunda foi eliminado?

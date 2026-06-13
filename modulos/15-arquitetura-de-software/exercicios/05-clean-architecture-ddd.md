@@ -11,7 +11,7 @@ Onde mora a biblioteca de PDF (`pdfkit`) e como o caso de uso interage com ela s
 Cenário: Isolamento de frameworks em Clean Architecture.
 
 Tarefa: Veja meu fluxo de injeção da geração de PDF:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O Use Case enxerga a lib de pdfkit? (Dica: não deveria).

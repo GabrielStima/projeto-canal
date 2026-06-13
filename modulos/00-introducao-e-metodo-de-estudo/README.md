@@ -31,6 +31,12 @@ Aqui, antes disso, existe uma etapa de alinhamento. Como esta é uma formação 
 
 Este módulo também explica como o repositório deve ser usado. Ele não é apenas um lugar para guardar arquivos: ele funciona como mapa da formação, material de revisão e guia para estudo independente.
 
+## Pré-requisitos
+
+- Interesse em aprender desenvolvimento web.
+- Disposição para estudar de forma ativa, fazendo anotações e praticando.
+- Não é necessário saber programar.
+
 ## Como Este Repositório Está Organizado
 
 A estrutura principal do projeto é composta por:
@@ -73,6 +79,26 @@ Antes de avançar para o próximo módulo, vale definir:
 - como vai revisar assuntos antigos;
 - como vai usar IA durante os estudos;
 - quanto tempo real você consegue dedicar por semana.
+
+## Exercícios
+
+Este módulo não possui exercícios técnicos separados. A prática acontece na definição do seu método de estudo, na escolha de ferramentas de anotação e na elaboração de um plano pessoal de revisão.
+
+## Projeto ou Prática do Módulo
+
+A prática deste módulo é pessoal e organizacional:
+
+1. Configure o seu ambiente de estudos (editor de texto, navegador, ferramentas de anotação).
+2. Decida onde você vai registrar dúvidas, resumos e exercícios ao longo da formação.
+3. Estabeleça uma rotina mínima semanal de estudo e revisão.
+4. Use o prompt de revisão do módulo para construir, com a IA, um plano de estudos realista para a sua situação.
+
+## Referências Gerais
+
+- `README.md` e `curriculo.md` do repositório.
+- `estrutura-do-repositorio.md` para entender a organização dos arquivos.
+- Materiais sobre aprendizado ativo, revisão espaçada e metacognição.
+- Documentação das ferramentas que você escolher para anotações e revisão.
 
 ## O Que Revisar Antes de Avançar
 

@@ -12,6 +12,8 @@ Cenário: FinOps em IA e Desperdício Obsceno em Context Windows Sujas.
 Tarefa: Minha avaliação do gargalo financeiro de não filtrar tokens:
 [COLE AQUI A EXPLICAÇÃO]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. Calculei pelo menos de forma bruta que milhões de tokens horas após hora escalarão a milhares de dólares mensais inúteis?
 2. Sugeri o caminho Sênior (Ex: Fazer queries curtas nos logs com SQL de fato via Function Calling ou VectorDB e NÃO mandar o lixo pro LLM ler na unha)?

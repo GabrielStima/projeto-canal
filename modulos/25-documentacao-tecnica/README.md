@@ -64,11 +64,11 @@ Depois de system design e IA para desenvolvedores, o aluno já tem repertório p
 - [Exercício 04 — Escrevendo um ADR](exercicios/04-escrevendo-adr.md)
 - [Exercício 05 — O Desenho Macro](exercicios/05-hld-macro.md)
 - [Exercício 06 — O Código Renderizado](exercicios/06-diagramas-code.md)
-- [Atividade Final Prática: A Biblioteca de Alexandria](exercicios/atividade-final-doc.md)
+- [Atividade Final Prática: A Biblioteca de Alexandria](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-A coroação definitiva de Soft-Skills Acadêmica. O **Marco de Maestria Documental N17**. Não importa o quão engenhoso foi o seu cluster de RAG, IaC, Kubernetes ou Node.JS no Petcare, tudo isso morre sem o repasse institucional de conhecimento. Crie o Manual Oficial da sua Startup:
+A coroação definitiva de Soft-Skills Acadêmica. O **marco de documentação técnica**. Não importa o quão engenhoso foi o seu cluster de RAG, IaC, Kubernetes ou Node.JS no Petcare, tudo isso morre sem o repasse institucional de conhecimento. Crie o Manual Oficial da sua Startup:
 
 1. Elabore o Repositório Onboarding (`README.md` Magistral): Gere o cartão de visitas. Especifique com rigor os comandos limpos de Inicialização do Container Docker (Dx de Fricção Zero) para novos Engenheiros na Clínica.
 2. Compile a Geometria do Sistema (C4 Model e HLD): Escreva as lógicas de conexões (Diagramas-as-Code via Mermaid) listando Front-ends, Filas RabbitMQ e Nuvem na Perspectiva Nível 2 (Containers). Mostre o Macro sem o ruído do Micro.

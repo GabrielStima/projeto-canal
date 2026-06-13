@@ -10,7 +10,7 @@ Seja visual em sua resposta. Liste em tópicos e defina 3 componentes estruturai
 Cenário: O Despertar da Complexidade (Maturidade de Arquitetura em System Design).
 
 Tarefa: Avalie os componentes arquiteturais avançados que escolhi citar e se minha analogia sobre o peso na borda ou banco de dados faz sentido técnico:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Pensei corretamente num DNS Geo-Roteado, CDNs na Borda, ou Load Balancers L7 distribuindo a carga HTTP?

@@ -14,6 +14,8 @@ Cenário: Refatoração com SOLID (SRP e OCP).
 Tarefa: Refatorei meu controller para:
 [COLE AQUI SEUS TRECHOS DE CODIGO REFATORADOS]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. O Controller ficou limpo de lógicas de negócio?
 2. A aplicação do OCP introduziu complexidade inútil ou de fato facilitou adições futuras?

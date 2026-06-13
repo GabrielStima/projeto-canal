@@ -10,7 +10,7 @@ Declare uma variável chamada `ambiente` (`variable "ambiente" {}`). Configure a
 Cenário: Parametrização Segura de Códigos Reutilizáveis.
 
 Tarefa: Segue o código da minha Validation:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A função `contains()` e o array base estão escritos na sintaxe pura de HCL v1.2+?

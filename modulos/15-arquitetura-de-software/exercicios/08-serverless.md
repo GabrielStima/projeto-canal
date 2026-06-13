@@ -10,7 +10,7 @@ Discuta o conceito de 'Cold Start' (partida fria) em Lambdas Serverless e como i
 Cenário: Avaliando trade-offs do FaaS (Serverless) em domínios críticos.
 
 Tarefa: Minha avaliação:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Compreendi o impacto no primeiro request do Cold Start?

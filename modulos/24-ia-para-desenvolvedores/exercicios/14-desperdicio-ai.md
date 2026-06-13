@@ -10,7 +10,7 @@ FinOps (Operações Financeiras na Nuvem). Num chatbot gigante de Loja. 30% dos 
 Cenário: Semantic Caching Layer, Token Cost Otimization e FinOps MLOps.
 
 Tarefa: A magia implacável do "Cache por Proximidade de Sentido" e não apenas Cache Restrito (Key String Bruta):
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Demonstrei o gargalo financeiro de rotear Prompts Típicos/Inócuos pra Redes Neurais Pesadas?

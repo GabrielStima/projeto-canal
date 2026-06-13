@@ -10,7 +10,7 @@ Explique como o uso de Pastas Separatistas (Isolamento Físico via diretórios) 
 Cenário: Compreendendo e ignorando Workspaces para Ambientes Produtivos.
 
 Tarefa: Segue meu entendimento:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A explicação ataca o risco invisível de rodar o comando na pasta `prod` imaginando estar em `dev` por puro erro no teclado?

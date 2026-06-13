@@ -44,17 +44,17 @@ Este módulo entra depois de system design porque IA deixa de ser apenas "um cha
 | --- | --- | --- | --- |
 | 24.00 | [IA para Desenvolvedores](24.00-ia-para-desenvolvedores.md) | Guarda-chuva | Rascunho |
 | 24.01 | [O Que É IA Generativa](24.01-o-que-e-ia-generativa.md) | Específica ampla | Rascunho |
-| 24.02 | [LLMs, Tokens, Contexto e Visão Geral de Embeddings](24.02-llms-tokens-contexto-e-visão-geral-de-embeddings.md) | Específica | Rascunho |
-| 24.03 | [Limitações, Alucinações e Validação](24.03-limitacoes-alucinacoes-e-validação.md) | Específica | Rascunho |
+| 24.02 | [LLMs, Tokens, Contexto e Visão Geral de Embeddings](24.02-llms-tokens-contexto-e-visao-geral-de-embeddings.md) | Específica | Rascunho |
+| 24.03 | [Limitações, Alucinações e Validação](24.03-limitacoes-alucinacoes-e-validacao.md) | Específica | Rascunho |
 | 24.04 | [Privacidade, Dados Sensíveis e Segredos em IA](24.04-privacidade-dados-sensiveis-e-segredos-em-ia.md) | Específica prática | Rascunho |
 | 24.05 | [Prompt Engineering](24.05-prompt-engineering.md) | Específica prática | Rascunho |
-| 24.06 | [Como Usar IA Para Escrever Código](24.06-como-usar-ia-para-escrever-código.md) | Específica prática | Rascunho |
-| 24.07 | [Como Revisar Código Gerado por IA](24.07-como-revisar-código-gerado-por-ia.md) | Específica prática | Rascunho |
-| 24.08 | [Segurança em Código Gerado por IA](24.08-segurança-em-código-gerado-por-ia.md) | Específica prática | Rascunho |
-| 24.09 | [Quality Gates Para Código Gerado por IA](24.09-quality-gates-para-código-gerado-por-ia.md) | Específica prática | Rascunho |
+| 24.06 | [Como Usar IA Para Escrever Código](24.06-como-usar-ia-para-escrever-codigo.md) | Específica prática | Rascunho |
+| 24.07 | [Como Revisar Código Gerado por IA](24.07-como-revisar-codigo-gerado-por-ia.md) | Específica prática | Rascunho |
+| 24.08 | [Segurança em Código Gerado por IA](24.08-seguranca-em-codigo-gerado-por-ia.md) | Específica prática | Rascunho |
+| 24.09 | [Quality Gates Para Código Gerado por IA](24.09-quality-gates-para-codigo-gerado-por-ia.md) | Específica prática | Rascunho |
 | 24.10 | [IA no Debug](24.10-ia-no-debug.md) | Específica prática | Rascunho |
 | 24.11 | [IA Para Testes](24.11-ia-para-testes.md) | Específica prática | Rascunho |
-| 24.12 | [IA Para Documentação](24.12-ia-para-documentação.md) | Específica prática | Rascunho |
+| 24.12 | [IA Para Documentação](24.12-ia-para-documentacao.md) | Específica prática | Rascunho |
 | 24.13 | [Coding Agents](24.13-coding-agents.md) | Específica ampla | Rascunho |
 | 24.14 | [Workflows com Agentes](24.14-workflows-com-agentes.md) | Específica prática | Rascunho |
 | 24.15 | [Function Calling e Tool Calling](24.15-function-calling-e-tool-calling.md) | Específica | Rascunho |
@@ -112,11 +112,11 @@ Pré-requisito: Bloco C (só faz sentido operar e medir o que você já sabe con
 - [Exercício 12 — A Prática de RAG](exercicios/12-rag-pratico.md)
 - [Exercício 13 — Criando seu Juiz](exercicios/13-criando-juiz-llm.md)
 - [Exercício 14 — O Desperdício Silencioso](exercicios/14-desperdicio-ai.md)
-- [Atividade Final Prática: O Assistente PetCare Blindado](exercicios/atividade-final-ai.md)
+- [Atividade Final Prática: O Assistente PetCare Blindado](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-O pináculo operacional final para integração de Inteligência. O **Marco de Inteligência Escalável N16**. Esqueça os tutoriais rasos de Chat. Você arquiteta fluxos (Agentic Workflows) pesados integrados aos bancos da Clínica limitando danos corporativos.
+O pináculo operacional final para integração de Inteligência. O **marco de inteligência artificial aplicada**. Esqueça os tutoriais rasos de Chat. Você arquiteta fluxos (Agentic Workflows) pesados integrados aos bancos da Clínica limitando danos corporativos.
 
 1. Modele o RAG Eficiente: Implemente Embeddings baseados em Manuais Públicos Clínicos submetidos a Vector DBs (Ex: Pinecone). Force os blocos contextuais limpos sem enviar informações tóxicas da LGPD pelo Token Pipeline limitando abusos (Data Redaction de Segurança).
 2. Agentes de Ferramentas (Tool-Calling Strict): Engendre o ecossistema conversacional autônomo, forneça `Schemas` rígidos do JSON (Restrições de Sistema) de Node.js a um Agente. Configure `Human-In-The-Loop` (HITL) impedindo as invenções (Alucinações) ou ordens estúpidas e danosas de Agentes não controlados sob `Jailbreak/Prompt Injections` externos.
@@ -131,7 +131,7 @@ O pináculo operacional final para integração de Inteligência. O **Marco de I
 - Privacidade, dados sensíveis, minimização, logs sensíveis e dados enviados para IA.
 - System design, custos, confiabilidade, segurança e trade-offs.
 
-## Prompt de Revisao do Módulo
+## Prompt de Revisão do Módulo
 
 ```text
 Estou finalizando o módulo IA para Desenvolvedores de uma formação fullstack JavaScript/TypeScript.

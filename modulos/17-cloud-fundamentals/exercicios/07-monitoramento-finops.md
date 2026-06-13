@@ -10,7 +10,7 @@ A fatura Cloud do PetCare chegou altíssima. Você sabe que o ambiente `prod` ex
 Cenário: Prática básica de Cloud Economics e FinOps.
 
 Tarefa: Minha resposta e proposta de tags financeiras e técnicas:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Foco em responsabilidade cruzada: as tags propostas dão poder aos gestores e contadores de "cobrar" o time específico que fez o overengineering?

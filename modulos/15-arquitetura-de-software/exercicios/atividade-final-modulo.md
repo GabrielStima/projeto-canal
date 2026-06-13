@@ -2,11 +2,11 @@
 
 ## O que você já tem
 
-Um monólito Modular testado, coeso (N5 de Design) operando a clínica perfeitamente de forma síncrona.
+Um monólito Modular testado, coeso de design operando a clínica perfeitamente de forma síncrona.
 
 ## A Tarefa
 
-Nesta atividade, você aplicará o **Marco Arquitetural N6**.
+Nesta atividade, você aplicará o **marco arquitetural**.
 
 1. Crie e registre uma **ADR (Architecture Decision Record)** na raiz do seu projeto ou repositório.
 2. Nela, documente a extração da funcionalidade mais instável (Ex: envio de laudos longos, notificações de vacina) do fluxo síncrono.
@@ -23,11 +23,13 @@ Nesta atividade, você aplicará o **Marco Arquitetural N6**.
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Finalização do Marco N6 Arquitetural e Event-Driven.
+Cenário: Finalização do marco arquitetural e Event-Driven.
 
 Tarefa: Eu escrevi minha ADR e configurei um Worker. Segue o texto da ADR:
 [COLE AQUI SUA ADR]
 
+
+[COLE SUA RESPOSTA AQUI]
 Critérios de correção:
 1. A ADR documenta bem o Contexto, a Decisão e as Consequências?
 2. A decisão resolve o bloqueio da clínica delegando à mensageria?

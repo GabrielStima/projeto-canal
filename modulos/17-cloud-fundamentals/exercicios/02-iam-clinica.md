@@ -10,7 +10,7 @@ Descreva quais privilégios o serviço (Worker Node.js) de Notificação de What
 Cenário: Aplicação do Princípio de Least Privilege (IAM).
 
 Tarefa: Segue meu escopo de permissões para o microserviço de Notificações:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu limitei o escopo dele a ler apenas da Fila (SQS/Rabbit) e rejeitei acesso total ao Banco de Dados?

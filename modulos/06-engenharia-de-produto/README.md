@@ -36,11 +36,11 @@ Em projetos reais, código quase nunca nasce de um enunciado perfeito. Ele nasce
 
 Este módulo também prepara o caminho para Frontend Moderno, Next.js, backend, bancos de dados e arquitetura. Quanto mais complexa a tecnologia, maior o custo de construir a coisa errada.
 
-## Artefato Recebido do Módulo Anterior
+## O que você já tem
 
 O módulo 05 deixou você com o repositório base do PetCare OS (`petcare-os-base`), com estrutura de pastas, `package.json`, scripts, `.env.example`, `.gitignore`, `README.md` e histórico Git organizado. Não altere a estrutura técnica aqui. O foco deste módulo é criar a camada de documentação de produto que vai guiar as próximas implementações.
 
-## Artefato Produzido Neste Módulo
+## O que você vai produzir
 
 Ao final, você terá uma pasta `docs/produto/` dentro do repositório do PetCare OS contendo:
 

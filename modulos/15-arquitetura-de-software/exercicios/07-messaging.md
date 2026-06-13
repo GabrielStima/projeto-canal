@@ -12,7 +12,7 @@ Qual seria a abordagem arquitetural para atualizar a UI do React do Tutor em cas
 Cenário: Solucionando a resposta ao cliente após um processamento Assíncrono.
 
 Tarefa: Proponho a seguinte solução:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A estratégia atende à experiência do usuário?

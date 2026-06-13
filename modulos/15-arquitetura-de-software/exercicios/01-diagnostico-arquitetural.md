@@ -12,7 +12,7 @@ Escreva três decisões arquiteturais que você tomou no passado sem perceber (e
 Cenário: Analisando decisões arquiteturais implícitas do PetCare OS.
 
 Tarefa: Avalie meu diagnóstico abaixo:
-[COLE SUAS RESPOSTAS AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu identifiquei corretamente a diferença entre uma escolha técnica (Express) e uma escolha arquitetural (Monólito / Comunicação Síncrona)?

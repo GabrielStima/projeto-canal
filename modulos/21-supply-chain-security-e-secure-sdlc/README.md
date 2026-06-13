@@ -51,17 +51,43 @@ Supply chain security existe para proteger a cadeia de produção do software. S
 | 21.03 | [Secrets Management](21.03-secrets-management.md) | Específica prática | Rascunho |
 | 21.04 | [Ambientes e Credenciais](21.04-ambientes-e-credenciais.md) | Específica | Rascunho |
 | 21.05 | [Permissões Mínimas](21.05-permissoes-minimas.md) | Específica | Rascunho |
-| 21.06 | [Segurança em CI/CD](21.06-segurança-em-ci-cd.md) | Específica ampla | Rascunho |
-| 21.07 | [Quality Gates de Segurança e Bloqueio de Merge](21.07-quality-gates-de-segurança-e-bloqueio-de-merge.md) | Específica prática | Rascunho |
+| 21.06 | [Segurança em CI/CD](21.06-seguranca-em-ci-cd.md) | Específica ampla | Rascunho |
+| 21.07 | [Quality Gates de Segurança e Bloqueio de Merge](21.07-quality-gates-de-seguranca-e-bloqueio-de-merge.md) | Específica prática | Rascunho |
 | 21.08 | [SAST](21.08-sast.md) | Específica prática | Rascunho |
 | 21.09 | [Dependency Scanning](21.09-dependency-scanning.md) | Específica prática | Rascunho |
 | 21.10 | [SCA](21.10-sca.md) | Específica ampla | Rascunho |
 | 21.11 | [SBOM](21.11-sbom.md) | Específica | Rascunho |
-| 21.12 | [Segurança de Pacotes npm](21.12-segurança-de-pacotes-npm.md) | Específica prática | Rascunho |
+| 21.12 | [Segurança de Pacotes npm](21.12-seguranca-de-pacotes-npm.md) | Específica prática | Rascunho |
 | 21.13 | [Assinatura de Artefatos](21.13-assinatura-de-artefatos.md) | Específica | Rascunho |
 | 21.14 | [DAST](21.14-dast.md) | Específica prática | Rascunho |
-| 21.15 | [Projeto Prático: Pipeline Seguro de Build, Validação e Entrega](21.15-projeto-prático-pipeline-seguro-de-build-validação-e-entrega.md) | Síntese prática | Rascunho |
+| 21.15 | [Projeto Prático: Pipeline Seguro de Build, Validação e Entrega](21.15-projeto-pratico-pipeline-seguro-de-build-validacao-e-entrega.md) | Síntese prática | Rascunho |
 
+
+## Trilha de Estudo
+
+Este módulo está organizado em 5 blocos. Siga a ordem dos blocos. Dentro de cada bloco, siga a sequência da tabela de aulas.
+
+**Bloco A — Fundamentos do Secure SDLC** · aulas [21.00–21.02]
+Visão geral, Secure SDLC e threat modeling.
+Pré-requisito: nenhum (ponto de entrada do módulo).
+
+**Bloco B — Secrets e ambientes** · aulas [21.03–21.05]
+Gerenciamento de segredos, ambientes, credenciais e permissões mínimas.
+Pré-requisito: Bloco A.
+
+**Bloco C — Pipeline e quality gates** · aulas [21.06–21.08]
+Segurança em CI/CD, quality gates, bloqueio de merge e SAST.
+Pré-requisito: Bloco B.
+
+**Bloco D — Dependências e artefatos** · aulas [21.09–21.14]
+Dependency scanning, SCA, SBOM, segurança de pacotes npm, assinatura de artefatos e DAST.
+Pré-requisito: Bloco C.
+
+**Bloco E — Síntese prática** · aula [21.15]
+Projeto prático de pipeline seguro de build, validação e entrega.
+Pré-requisito: Blocos A a D.
+
+> Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
 
 ## Exercícios
 
@@ -72,11 +98,11 @@ Supply chain security existe para proteger a cadeia de produção do software. S
 - [Exercício 05 — O Pesadelo das Dependências Transientes](exercicios/05-dependencias-transientes.md)
 - [Exercício 06 — Lendo um SBOM](exercicios/06-sbom.md)
 - [Exercício 07 — SAST vs DAST vs SCA](exercicios/07-sast-vs-dast.md)
-- [Atividade Final Prática: A Esteira Inquebrável](exercicios/atividade-final-devsecops.md)
+- [Atividade Final Prática: A Esteira Inquebrável](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-A evolução atinge a paranóia controlada no **Marco de Cyber-Security N13**. Transforme as esteiras passivas do PetCare OS em um Bunker digital impermeável:
+A evolução atinge a paranóia controlada no **marco de segurança da cadeia de suprimentos**. Transforme as esteiras passivas do PetCare OS em um Bunker digital impermeável:
 
 1. Modifique a rotina do `Github Actions`. Remova e trranque os `Hardcoded Secrets` da equipe consumindo Segredos temporários unicamente pelo *AWS Secrets Manager / Vault*.
 2. Introduza bloqueios radicais: Acople no PR verificações assíncronas do código usando heurística de auditoria SAST (Ex: SonarQube / Semgrep). Qualquer falha classificada como "Critical" deve apagar o botão de Merge (`Quality Gate`).

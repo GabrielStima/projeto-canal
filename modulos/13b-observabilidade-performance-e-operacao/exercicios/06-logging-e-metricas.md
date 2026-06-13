@@ -15,7 +15,7 @@ Cenário: Refatorando e modelando um Log Estruturado Operacional para o PetCare 
 
 Tarefa: Analise o log JSON abaixo focado em resolver um Timeout de uma API Externa:
 
-[COLE SEU JSON DE LOG AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. O objeto possui os campos mínimos para ser rastreado? (Correlação/TraceID, Timestamp, Nível, Nome do Evento)

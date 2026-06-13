@@ -10,7 +10,7 @@ O Diretor da clínica acessou manualmente o painel da AWS, alterou a capacidade 
 Cenário: Detectando Derivas (Drifts) no ecossistema e sua remediação.
 
 Tarefa: Segue minha análise de Console:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A explicação evidenciou que o Terraform prefere o Código Local e tratará a nuvem AWS como a parte "que está errada"?

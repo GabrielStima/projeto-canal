@@ -70,11 +70,11 @@ Observabilidade, performance e operação aparecem juntas porque se reforçam. O
 - [Exercício 06 — Logging e Métricas](exercicios/06-logging-e-metricas.md)
 - [Exercício 07 — Monitoramento e Alertas](exercicios/07-monitoramento-e-alertas.md)
 - [Exercício 08 — Failure Modes na Operação](exercicios/08-failure-modes-operacao.md)
-- [Atividade Final do Módulo](exercicios/atividade-final-operacao.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você continuará a evolução do PetCare OS implementando o **Marco Operacional N4**.
+Neste módulo, você continuará a evolução do PetCare OS implementando o **marco operacional**.
 O código não precisará mais ser alterado na sua regra de negócio; o foco agora será envelopá-lo com confiabilidade:
 
 1. Executar um Profiling local com Node Inspector / Clinic.js e encontrar o trecho mais custoso do Agendamento.

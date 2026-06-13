@@ -10,7 +10,7 @@ Faça uma Tabela ou uma Comparação Brutal entre o papel tático da trindade de
 Cenário: A Trindade Ferramental de Application Security Posture (AppSec).
 
 Tarefa: Minha resposta justificando:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Provei que SAST lê texto e regex no meu PR buscando falhas na lógica que EU programei antes de compilar?

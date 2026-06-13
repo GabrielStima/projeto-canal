@@ -42,18 +42,18 @@ Sem essa base, ferramentas como Terraform, Docker e Kubernetes viram uma pilha d
 | --- | --- | --- | --- |
 | 17.00 | [Cloud Fundamentals](17.00-cloud-fundamentals.md) | Guarda-chuva | Rascunho |
 | 17.01 | [Regiões, Zonas e Modelo Global de Cloud](17.01-regioes-zonas-e-modelo-global-de-cloud.md) | Específica | Rascunho |
-| 17.02 | [IAM: Identidade, Permissões e Princípio do Menor Privilégio](17.02-iam-identidade-permissoes-e-princípio-do-menor-privilegio.md) | Específica | Rascunho |
+| 17.02 | [IAM: Identidade, Permissões e Princípio do Menor Privilégio](17.02-iam-identidade-permissoes-e-principio-do-menor-privilegio.md) | Específica | Rascunho |
 | 17.03 | [VPC e Networking em Cloud](17.03-vpc-e-networking-em-cloud.md) | Específica ampla | Rascunho |
 | 17.04 | [Object Storage](17.04-object-storage.md) | Específica | Rascunho |
 | 17.05 | [CDN e Entrega de Conteúdo](17.05-cdn-e-entrega-de-conteudo.md) | Específica | Rascunho |
 | 17.06 | [Managed Databases](17.06-managed-databases.md) | Específica | Rascunho |
 | 17.07 | [Filas Gerenciadas](17.07-filas-gerenciadas.md) | Específica | Rascunho |
-| 17.08 | [Serverless na Prática](17.08-serverless-na-prática.md) | Específica prática | Rascunho |
-| 17.09 | [Secrets e Configuração Sensível](17.09-secrets-e-configuração-sensivel.md) | Específica | Rascunho |
+| 17.08 | [Serverless na Prática](17.08-serverless-na-pratica.md) | Específica prática | Rascunho |
+| 17.09 | [Secrets e Configuração Sensível](17.09-secrets-e-configuracao-sensivel.md) | Específica | Rascunho |
 | 17.10 | [Backup e Disaster Recovery](17.10-backup-e-disaster-recovery.md) | Específica | Rascunho |
 | 17.11 | [Custos em Cloud](17.11-custos-em-cloud.md) | Específica | Rascunho |
 | 17.12 | [Fundamentos de FinOps](17.12-fundamentos-de-finops.md) | Específica ampla | Rascunho |
-| 17.13 | [Projeto Prático: Desenhando a Infraestrutura Cloud de uma Aplicação](17.13-projeto-prático-desenhando-a-infraestrutura-cloud-de-uma-aplicação.md) | Síntese prática | Rascunho |
+| 17.13 | [Projeto Prático: Desenhando a Infraestrutura Cloud de uma Aplicação](17.13-projeto-pratico-desenhando-a-infraestrutura-cloud-de-uma-aplicacao.md) | Síntese prática | Rascunho |
 
 
 ## Exercícios
@@ -65,11 +65,11 @@ Sem essa base, ferramentas como Terraform, Docker e Kubernetes viram uma pilha d
 - [Exercício 05 — Casos Serverless](exercicios/05-casos-serverless.md)
 - [Exercício 06 — Injeção de Segredos](exercicios/06-injecao-segredos.md)
 - [Exercício 07 — Monitoramento e Tags](exercicios/07-monitoramento-finops.md)
-- [Atividade Final do Módulo](exercicios/atividade-final-cloud.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você aplicará o **Marco da Nuvem N8** arquitetando a topologia física e lógica em provedores como AWS/GCP/Azure para o PetCare OS:
+Neste módulo, você aplicará o **marco de cloud** arquitetando a topologia física e lógica em provedores como AWS/GCP/Azure para o PetCare OS:
 
 1. Elabore o Diagrama de Rede listando o isolamento via **VPC** (Subnets públicas para Balizadores de Carga e privadas para Bancos Relacionais).
 2. Modele a política base de **IAM**, usando o princípio do menor privilégio para a API do Node que consumirá os arquivos médicos armazenados no S3/Blob Storage.

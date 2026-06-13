@@ -10,7 +10,7 @@ Na Amazon AWS (Cloud). O Agente Autônomo (IAM Role da IA) ganha permissões amp
 Cenário: Blast Radius de Agentes GenAI Injetados em IAM corporativos. Proteção Base em Cloud.
 
 Tarefa: Minha resposta justificando a coleira apertada (Policies restritivas / AWS IAM) do Trabalhador Bot:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Constatei incisivamente que a Nuvem ignorará o Agente quando ele chamar o `S3.Delete()` simplesmente porque as chaves IAM dele NUNCA tiveram a tag "Delete"?

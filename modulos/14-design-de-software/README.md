@@ -116,11 +116,11 @@ Pré-requisito: Bloco C (padrões fazem mais sentido quando os princípios estã
 - [Exercício 09 — Composição VS Herança](exercicios/09-composicao-vs-heranca.md)
 - [Exercício 10 — Law of Demeter](exercicios/10-law-of-demeter.md)
 - [Exercício 11 — Mapeando Patterns](exercicios/11-mapeando-patterns.md)
-- [Atividade Final do Módulo](exercicios/atividade-final-refatoracao.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você aplicará o **Marco de Design N5** no PetCare OS. A aplicação que antes apenas "funcionava e era testada", passará por uma refatoração arquitetural tática:
+Neste módulo, você aplicará o **marco de design** no PetCare OS. A aplicação que antes apenas "funcionava e era testada", passará por uma refatoração arquitetural tática:
 
 1. Limpe Controllers pesados, extraindo Regras de Negócio para *UseCases* ou *Services*.
 2. Isole as chamadas de Banco de Dados aplicando o *Repository Pattern* acoplado à Injeção de Dependências.

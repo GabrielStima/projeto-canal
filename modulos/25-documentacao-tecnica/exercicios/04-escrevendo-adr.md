@@ -15,7 +15,7 @@ Escreva ativamente e tecnicamente a Estrutura Base de um micro-ADR (Architecture
 Cenário: Cimentando Trade-offs Arquiteturais Massivos na Memória do Repo.
 
 Tarefa: O meu template final preenchido provando por que a clínica injetou Buscas de Indexação em Memória/Elastic:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Avalie a minha lucidez em escrever o "Contexto (Dor original)" validando os Limits Computacionais da Busca Nativa Relacional (Postgres Like String)?

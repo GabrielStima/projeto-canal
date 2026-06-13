@@ -10,7 +10,7 @@ Se você abrir a base de treinamento livre da Internet (Github, StackOverflow at
 Cenário: Data Poisoning no Treinamento e Predileção por Padrões Viciados Perigosos.
 
 Tarefa: Eis a resposta sobre a repetição sistemática do LLM de buracos crônicos:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Provei que a IA busca o "Caminho mais provável" das sentenças lidas? Se a internet inteira postava código PHP e Node vulnerável por 15 anos nos blogs, o modelo assume a vunerabilidade estatística como 'O Padrão Ouro'?

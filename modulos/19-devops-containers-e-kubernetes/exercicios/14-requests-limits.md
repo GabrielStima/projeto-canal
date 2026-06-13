@@ -10,7 +10,7 @@ Se 3 sistemas num Servidor EC2 explodirem os picos físicos de Memória (`RAM`) 
 Cenário: Limites Físicos, Compressão de Ciclos em CPU, Cgroups do Linux.
 
 Tarefa: Segue a diferença exata entre RAM e CPU no orquestrador:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Mostrei como os ciclos incompressíveis e sufocantes de RAM forçam uma "Morte Prematura/Eject" e causam falhas abruptas do app?

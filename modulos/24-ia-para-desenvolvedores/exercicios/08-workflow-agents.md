@@ -10,7 +10,7 @@ Sistemas de Multi-Agentes (Ex: Biblioteca Autogen / CrewAI) podem gerar discuss�
 Cenário: Infinit Loops em Arquiteturas Baseadas em Agentes Conversacionais (Autonomy Deadlocks).
 
 Tarefa: Eis a resposta sobre a limitação do Ciclo Cognitivo de Redes Multi-Agentes e Max_Turns:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Eu sugeri forçar Arquiteturas rígidas como Grafos (LangGraph) que impõem ciclos de State-Machines limitadas e "Max-Iterations"?

@@ -6,7 +6,7 @@ Nos módulos anteriores, a API do PetCare OS foi desenhada usando frameworks mod
 
 ## A Tarefa
 
-Este é o **Marco de Integração N4** do Módulo 12. Sua tarefa é integrar todas as proteções em uma versão da sua aplicação. Você criará middlewares e fluxos de segurança que garantam que os dados dos pets fiquem acessíveis apenas àqueles que devem acessá-los.
+Este é o **marco de integração** do Módulo 12. Sua tarefa é integrar todas as proteções em uma versão da sua aplicação. Você criará middlewares e fluxos de segurança que garantam que os dados dos pets fiquem acessíveis apenas àqueles que devem acessá-los.
 
 Siga as etapas:
 1. Adicione a entidade de Usuário/Credencial à base de dados.
@@ -32,7 +32,7 @@ As camadas de segurança criadas agora serão os alicerces fundamentais da quali
 Ao finalizar a refatoração, copie as seções chaves de seus middlewares e rotas de login.
 
 ```text
-Cenário: Concluí o Marco N4 de Segurança do PetCare OS.
+Cenário: Concluí o marco de segurança do projeto.
 
 Tarefa: Estou compartilhando o código do meu "Auth Middleware" e as rotas de login/registro. Minha API agora responde com 401 para usuários não logados e 403 para usuários sem permissão adequada no RBAC.
 
@@ -42,7 +42,7 @@ Critérios de correção:
 3. A manipulação de requisições falhas envia um erro descritivo o suficiente pro desenvolvedor do Front-end mas discreto o suficiente pro Atacante?
 4. A query no banco está prevenida de SQL Injection, caso use query builders puros?
 
-[COLE SEU CÓDIGO AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Por favor, faça um code review de segurança. Destaque primeiro os acertos de arquitetura e depois os riscos que encontrou. Indique as falhas com clareza para eu corrigi-las.
 ```

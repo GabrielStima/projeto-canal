@@ -36,7 +36,7 @@ Use a seção `Corrija Sua Atividade Com IA` ao final deste arquivo.
 
 ## Onde esse trabalho será retomado
 
-Filas aparecem em vários pontos da formação: processamento de mensagens, backend, filas de prioridade e sistemas distribuídos. Este exercício prepara o terreno para a fila de prioridade de triagem, que é o desafio intermediário N3 deste módulo.
+Filas aparecem em vários pontos da formação: processamento de mensagens, backend, filas de prioridade e sistemas distribuídos. Este exercício prepara o terreno para a fila de prioridade de triagem, que é o desafio intermediário deste módulo.
 
 ## Corrija Sua Atividade Com IA
 

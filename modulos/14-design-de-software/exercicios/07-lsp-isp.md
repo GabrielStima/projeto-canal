@@ -11,7 +11,7 @@
 Cenário: Refatoração com SOLID (LSP e ISP).
 
 Tarefa: Veja minha explicação para Liskov e minha segregação de Interfaces.
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. A explicação do LSP focou no contrato comportamental esperado?

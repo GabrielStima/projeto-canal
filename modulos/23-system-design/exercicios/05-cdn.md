@@ -10,7 +10,7 @@ CDNs (Redes de Entrega de Conteúdo) distribuem lixo ou vídeos pesados instanta
 Cenário: Dinamismo Extremo de JSON API vs Edge Cache Static.
 
 Tarefa: Eis a resposta sobre o Cache Stale (Velho/Dado desatualizado) e PII Exposure:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Falei que o Saldo mudaria num Pix em tempo real, mas o CDN (Edge) entregaria o Cache desatualizado (Stale de 5 min) gerando danos catastróficos nas transferências?

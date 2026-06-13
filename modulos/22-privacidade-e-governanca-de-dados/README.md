@@ -67,11 +67,11 @@ Privacidade não é apenas uma camada jurídica depois que o sistema fica pronto
 - [Exercício 04 — Cron de Expurgo](exercicios/04-cron-expurgo.md)
 - [Exercício 05 — Máscara de Dados](exercicios/05-mascara-dados.md)
 - [Exercício 06 — Sanitização de Logs](exercicios/06-sanitizacao-logs.md)
-- [Atividade Final Prática: Governança do Petcare](exercicios/atividade-final-privacidade.md)
+- [Atividade Final Prática: Governança do Petcare](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-A governança implanta maturidade institucional através do **Marco de Governança de Dados N14**. A clínica PetCare passa por uma auditoria legal profunda. Transforme sua arquitetura base numa fortaleza limpa e ética:
+A governança implanta maturidade institucional através do **marco de governança de dados**. A clínica PetCare passa por uma auditoria legal profunda. Transforme sua arquitetura base numa fortaleza limpa e ética:
 
 1. Modifique a engine de Log (Observabilidade) nativa das APIs incorporando o filtro pesado `Redaction` que interceptará Textos e CPFs em `StdOut` transmutando-os em `***` antes de cruzarem a rede da Cloud (Evitando indexação ilegal pelo Datadog/Cloudwatch).
 2. Programe e descreva a arquitetura de uma *CronJob Noturna/Background Worker* focada na expurgação cirúrgica (*Hard Delete*) de registros frios em conformidade total com expirações estritas do seu SLA Retentivo.
@@ -86,7 +86,7 @@ A governança implanta maturidade institucional através do **Marco de Governan�
 - Threat modeling, incident response e Secure SDLC.
 - API governance, contratos e erros seguros.
 
-## Prompt de Revisao do Módulo
+## Prompt de Revisão do Módulo
 
 ```text
 Estou finalizando o módulo Privacidade e Governança de Dados de uma formação fullstack JavaScript/TypeScript.

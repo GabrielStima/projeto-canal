@@ -10,7 +10,7 @@ O Copilot e Cursor são deuses da automação local. Mas há a doença do *Trust
 Cenário: Viés de Automação, Blind Trust e Degradação de Habilidade.
 
 Tarefa: Minha tese sobre as armadilhas sistêmicas da geração autônoma de blocos maciços de código nas equipes Junior/Pleno:
-[COLE AQUI]
+[COLE SUA RESPOSTA AQUI]
 
 Critérios de correção:
 1. Descrevi ativamente o risco de vulnerabilidades injetadas ocultas que passam ilesas (Pois quem não escreve, não investiga)?
