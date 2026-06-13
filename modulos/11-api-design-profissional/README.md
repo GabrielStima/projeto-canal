@@ -6,7 +6,7 @@
 
 </div>
 
-Este módulo marca a passagem de "eu sei criar endpoints" para "eu sei desenhar APIs que outras pessoas conseguem consumir, manter e evoluir". Até aqui, você estudou HTTP, frontend consumindo APIs, bancos de dados, backend com Node.js, REST, JSON APIs, GraphQL e OpenAPI em nível introdutório.
+Este módulo marca a passagem de "eu sei criar endpoints" para "eu sei desenhar APIs que outras pessoas conseguem consumir, manter e evoluir". No módulo 10, você construiu a `petcare-api`: uma API Node.js que consulta pets e atendimentos e aprova orçamentos de forma persistente.
 
 Agora o foco muda para contrato, consistência e evolução. Uma API profissional não é apenas uma lista de rotas funcionando. Ela precisa ter nomes previsíveis, respostas claras, erros padronizados, regras de paginação, filtros, ordenação, compatibilidade, versionamento, documentação útil e formas de validar que o contrato não quebrou.
 
@@ -40,6 +40,7 @@ API design profissional aparece antes de autenticação, segurança, qualidade, 
 - Entender requisitos, critérios de aceite e comunicação entre produto e engenharia.
 - Entender modelagem de dados, integridade, transactions e indexes em nível introdutório.
 - Ter estudado APIs, JSON APIs, REST, GraphQL, SOAP, OpenAPI introdutório, logging e failure modes no módulo 10.
+- Ter construído ou acompanhado a `petcare-api` do módulo 10, com endpoints para pets, atendimentos e orçamentos.
 
 ## Aulas
 
@@ -61,21 +62,88 @@ API design profissional aparece antes de autenticação, segurança, qualidade, 
 | 11.13 | [Contract Testing](11.13-contract-testing.md) | Específica introdutória/prática | Rascunho |
 | 11.14 | [Projeto Prático: Design Profissional de uma API](11.14-projeto-pratico-design-profissional-de-uma-api.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos. Siga a ordem para evoluir a `petcare-api` sem concentrar toda a implementação no encerramento.
+
+**Bloco A — De endpoint para API de verdade** · aulas 11.00–11.03
+Design de APIs, contratos e OpenAPI na prática, usando os recursos já existentes da `petcare-api`.
+Pré-requisito: módulo 10 e a `petcare-api` funcional.
+
+Ao concluir OpenAPI, faça o [Exercício 01 — Contratos da PetCare API](exercicios/01-contratos-da-petcare-api.md).
+
+**Bloco B — Evolução e confiança no contrato** · aulas 11.04–11.06
+Backward compatibility, versionamento e erros padronizados. O objetivo é garantir que mudanças na API não quebrem os consumidores e que problemas sejam comunicados de forma previsível.
+Pré-requisito: Bloco A.
+
+Depois de erros padronizados, faça o [Exercício 02 — Erros da PetCare API](exercicios/02-erros-da-petcare-api.md).
+
+**Bloco C — Listagens e operações seguras** · aulas 11.07–11.11
+Paginação, filtros, ordenação, idempotência e webhooks. Aqui a API ganha padrões para listar dados e proteger operações sensíveis contra repetição e falha.
+Pré-requisito: Bloco B.
+
+Depois de ordenação, faça o [Exercício 03 — Listagens da PetCare API](exercicios/03-listagens-da-petcare-api.md). Ao concluir idempotência, faça o [Exercício 04 — Aprovação Idempotente](exercicios/04-aprovacao-idempotente.md). Depois de webhooks, faça o [Exercício 05 — Contrato de Webhook](exercicios/05-webhook-para-o-tutor.md) como prática exploratória.
+
+**Bloco D — Governança e validação** · aulas 11.12–11.13
+API governance e contract testing. O objetivo é criar regras para manter a API consistente e verificar que o contrato continua sendo respeitado.
+Pré-requisito: Bloco C.
+
+Ao concluir contract testing, faça o [Exercício 06 — Testes de Contrato](exercicios/06-testes-de-contrato.md).
+
+## Exercícios
+
+- [Exercício 01 — Contratos da PetCare API](exercicios/01-contratos-da-petcare-api.md)
+- [Exercício 02 — Erros da PetCare API](exercicios/02-erros-da-petcare-api.md)
+- [Exercício 03 — Listagens da PetCare API](exercicios/03-listagens-da-petcare-api.md)
+- [Exercício 04 — Aprovação Idempotente](exercicios/04-aprovacao-idempotente.md)
+- [Exercício 05 — Contrato de Webhook](exercicios/05-webhook-para-o-tutor.md)
+- [Exercício 06 — Testes de Contrato](exercicios/06-testes-de-contrato.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
+
 ## Projeto ou Prática do Módulo
 
-Evolua a API do painel de estudos criada no módulo 10 para uma API com design profissional:
+Evolua a `petcare-api` construída no módulo 10 para uma API com design profissional:
 
-1. Defina recursos principais, operações e convenções de nomes.
-2. Escreva contratos de request e response para aulas, tags, usuários e progresso.
+1. Defina recursos principais, operações e convenções de nomes para pets, atendimentos e orçamentos.
+2. Escreva contratos de request e response para cada recurso.
 3. Documente endpoints principais com OpenAPI.
-4. Padronize erros de validação, autenticação simulada, não encontrado e conflito.
-5. Adicione paginação, filtros e ordenação nas listagens.
-6. Defina uma regra de backward compatibility.
+4. Padronize erros de validação, não encontrado, conflito e falha interna.
+5. Adicione paginação, filtros e ordenação à listagem de atendimentos já existente.
+6. Defina uma regra de backward compatibility para a API.
 7. Decida se a API precisa ou não de versionamento.
-8. Torne uma operação crítica idempotente.
-9. Desenhe um webhook para mudança de progresso do aluno.
+8. Torne a aprovação de orçamento idempotente.
+9. Avalie e documente, como prática exploratória, um contrato de webhook para um serviço externo de notificações.
 10. Crie um checklist de API governance.
 11. Escreva testes de contrato introdutórios para validar respostas principais.
+
+A [Atividade Final do Módulo](exercicios/atividade-final-modulo.md) consolida essas melhorias e prepara a `petcare-api` para receber autenticação, autorização e segurança no módulo 12.
+
+## O Que Entra e O Que Sai Deste Módulo
+
+**O que entra do módulo anterior:**
+
+- `petcare-api` em Node.js e TypeScript, com endpoints para pets, atendimentos e orçamentos;
+- configuração, CLI, health check e logs estruturados;
+- schema, migrations e queries do diretório `database/`;
+- OpenAPI introdutória e transaction de aprovação de orçamento.
+
+**O que sai deste módulo:**
+
+- `petcare-api` com contratos refinados e documentação OpenAPI consistente;
+- formato de erros padronizado aplicado nos endpoints;
+- listagem de atendimentos paginada, filtrável e ordenável;
+- operação de aprovação de orçamento idempotente;
+- decisão e contrato exploratório de webhook, sem exigir sua implementação;
+- checklist de API governance;
+- testes de contrato introdutórios;
+- decisão documentada sobre backward compatibility e versionamento.
+
+**Onde isso será retomado:**
+
+- no módulo 12, a API receberá autenticação, autorização e controles de segurança sobre os contratos já definidos;
+- no módulo 13A, os testes de contrato ganharão profundidade junto com a estratégia de testes;
+- no módulo 13B, logs, métricas e tracing serão aplicados sobre os contratos e erros padronizados;
+- no módulo 16, webhooks e processamento assíncrono poderão ser implementados com maior profundidade.
 
 ## O Que Revisar Antes de Avançar
 
@@ -85,6 +153,7 @@ Evolua a API do painel de estudos criada no módulo 10 para uma API com design p
 - Validação no frontend e no backend.
 - Modelagem de dados, indexes e transactions.
 - Failure modes, retries, logs e operações assíncronas.
+- Funcionamento da `petcare-api` construída no módulo 10.
 
 ## Prompt de Revisão do Módulo
 
