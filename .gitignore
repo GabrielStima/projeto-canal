@@ -1,6 +1,6 @@
 interno/
 .github/
 .kimi-code/
-.hermes/
+.agents/
 ._*
 prompt.md

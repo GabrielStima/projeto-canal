@@ -52,40 +52,47 @@ Segurança aparece aqui porque depende de tudo que veio antes: HTTP, headers, co
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 12.00 | [Autenticação, Autorização e Segurança](12.00-autenticacao-autorizacao-e-seguranca.md) | Guarda-chuva | Rascunho |
-| 12.01 | [Segurança na Web](12.01-seguranca-na-web.md) | Guarda-chuva curta | Rascunho |
-| 12.02 | [Hashing de Senhas](12.02-hashing-de-senhas.md) | Específica | Rascunho |
-| 12.03 | [Algoritmos de Hashing](12.03-algoritmos-de-hashing.md) | Específica conceitual | Rascunho |
-| 12.04 | [Autenticação Básica](12.04-autenticacao-basica.md) | Específica prática | Rascunho |
-| 12.05 | [Sessões](12.05-sessoes.md) | Específica | Rascunho |
-| 12.06 | [Autenticação via Cookie](12.06-autenticacao-via-cookie.md) | Específica prática | Rascunho |
-| 12.07 | [CSRF](12.07-csrf.md) | Específica | Rascunho |
-| 12.08 | [Autenticação via Token](12.08-autenticacao-via-token.md) | Específica prática | Rascunho |
-| 12.09 | [JWT](12.09-jwt.md) | Específica | Rascunho |
-| 12.10 | [Autorização](12.10-autorizacao.md) | Específica prática | Rascunho |
-| 12.11 | [OAuth](12.11-oauth.md) | Específica conceitual/prática | Rascunho |
-| 12.12 | [CORS](12.12-cors.md) | Específica | Rascunho |
-| 12.13 | [XSS](12.13-xss.md) | Específica | Rascunho |
-| 12.14 | [SQL Injection](12.14-sql-injection.md) | Específica prática | Rascunho |
-| 12.15 | [Rate Limiting](12.15-rate-limiting.md) | Específica prática | Rascunho |
-| 12.16 | [Segurança em APIs](12.16-seguranca-em-apis.md) | Guarda-chuva curta | Rascunho |
-| 12.17 | [Projeto Prático: Autenticação, Autorização e Segurança em uma API](12.17-projeto-pratico-autenticacao-autorizacao-e-seguranca-em-uma-api.md) | Síntese prática | Rascunho |
+| 12.00 | [Autenticação, Autorização e Segurança](12.00-autenticacao-autorizacao-e-seguranca.md) | Guarda-chuva | Revisada |
+| 12.01 | [Segurança na Web](12.01-seguranca-na-web.md) | Guarda-chuva curta | Revisada |
+| 12.02 | [Hashing de Senhas](12.02-hashing-de-senhas.md) | Específica | Revisada |
+| 12.03 | [Algoritmos de Hashing](12.03-algoritmos-de-hashing.md) | Específica conceitual | Revisada |
+| 12.04 | [Autenticação Básica](12.04-autenticacao-basica.md) | Específica prática | Revisada |
+| 12.05 | [Sessões](12.05-sessoes.md) | Específica | Revisada |
+| 12.06 | [Autenticação via Cookie](12.06-autenticacao-via-cookie.md) | Específica prática | Revisada |
+| 12.07 | [CSRF](12.07-csrf.md) | Específica | Revisada |
+| 12.08 | [Autenticação via Token](12.08-autenticacao-via-token.md) | Específica prática | Revisada |
+| 12.09 | [JWT](12.09-jwt.md) | Específica | Revisada |
+| 12.10 | [Autorização](12.10-autorizacao.md) | Específica prática | Revisada |
+| 12.11 | [OAuth](12.11-oauth.md) | Específica conceitual/prática | Revisada |
+| 12.12 | [CORS](12.12-cors.md) | Específica | Revisada |
+| 12.13 | [XSS](12.13-xss.md) | Específica | Revisada |
+| 12.14 | [SQL Injection](12.14-sql-injection.md) | Específica prática | Revisada |
+| 12.15 | [Rate Limiting](12.15-rate-limiting.md) | Específica prática | Revisada |
+| 12.16 | [Segurança em APIs](12.16-seguranca-em-apis.md) | Guarda-chuva curta | Revisada |
+| 12.17 | [Projeto Prático: Autenticação, Autorização e Segurança em uma API](12.17-projeto-pratico-autenticacao-autorizacao-e-seguranca-em-uma-api.md) | Síntese prática | Revisada |
+
+## Exercícios
+
+- [Exercício 01 — Cadastro e Hashing](exercicios/01-cadastro-hashing.md)
+- [Exercício 02 — Sessão e Login](exercicios/02-sessao-login.md)
+- [Exercício 03 — Autorização e RBAC](exercicios/03-autorizacao-rbac.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Evolua a API do painel de estudos criada nos módulos anteriores para uma aplicação com controles básicos de segurança:
+Neste módulo, você evoluirá a API do **PetCare OS** para transformá-la em uma aplicação com controles reais de segurança (Marco de Integração N4).
 
-1. Modele usuários e credenciais.
-2. Implemente cadastro e login com hash de senha.
-3. Escolha uma estratégia de sessão, cookie ou token.
-4. Proteja rotas autenticadas.
-5. Crie pelo menos dois níveis de autorização.
-6. Configure cookies com atributos seguros quando usar cookie.
-7. Explique como mitigaria CSRF no fluxo escolhido.
-8. Corrija um exemplo vulnerável a XSS.
-9. Corrija uma query vulnerável a SQL injection.
-10. Adicione rate limiting no login e em um endpoint sensível.
-11. Escreva um checklist de segurança para a API.
+1. Modele usuários e credenciais para o Módulo Clínico e Portal do Tutor.
+2. Implemente cadastro e login com hash de senha seguro.
+3. Escolha uma estratégia de sessão (cookie ou token) e justifique.
+4. Proteja rotas de prontuário e orçamento, garantindo que apenas usuários autenticados acessem.
+5. Crie regras de autorização RBAC (Recepcionista, Clínico, Administrador e Tutor).
+6. Configure cookies com atributos seguros (`HttpOnly`, `Secure`, `SameSite`).
+7. Explique e mitigue possíveis ataques de CSRF no fluxo escolhido.
+8. Garanta que anotações clínicas não renderizem XSS.
+9. Utilize parâmetros no banco para evitar SQL injection na busca de pets.
+10. Adicione rate limiting no login do Portal do Tutor.
+11. Consolide tudo em um checklist de segurança para as próximas evoluções do PetCare OS.
 
 ## O Que Revisar Antes de Avançar
 
