@@ -56,20 +56,25 @@ SRE, operação e incidentes existem para transformar confiabilidade em prática
 | 20.12 | [Postmortems](20.12-postmortems.md) | Específica | Rascunho |
 | 20.13 | [Projeto Prático: Operando uma API em Produção](20.13-projeto-pratico-operando-uma-api-em-producao.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — O Impacto da Queda](exercicios/01-impacto-queda.md)
+- [Exercício 02 — SLI, SLO e SLA](exercicios/02-sli-slo-sla.md)
+- [Exercício 03 — Análise de Saturação](exercicios/03-saturacao.md)
+- [Exercício 04 — Arquitetura de Degradação](exercicios/04-degradacao.md)
+- [Exercício 05 — Rollback Letal de Banco](exercicios/05-rollback-banco.md)
+- [Exercício 06 — Papéis no Incidente](exercicios/06-papeis-incidente.md)
+- [Atividade Final Prática: Simulacro de Incidente](exercicios/atividade-final-sre.md)
+
 ## Projeto ou Prática do Módulo
 
-Operar uma API simples como se ela estivesse em produção:
+No ecossistema produtivo vivo da PetCare, você adotará o **Marco Operacional N12**. Não há mais novas 'Features'. É sobrevivência de infraestrutura em alta tensão:
 
-1. escolher uma API já usada na formação;
-2. definir SLIs de disponibilidade, latência, erros e saturação;
-3. propor SLOs realistas para os fluxos principais;
-4. desenhar alertas acionáveis;
-5. definir endpoints de saúde e critérios de readiness/liveness;
-6. simular um deploy com problema;
-7. decidir entre rollback, mitigação e degradação graciosa;
-8. escrever um runbook para investigação;
-9. simular uma resposta a incidente;
-10. escrever um postmortem com ações de melhoria.
+1. Adapte a API Node que você criou usando Endpoints mandatórios para o Cluster: `/health/liveness` e `/health/readiness`.
+2. Escreva o balanço matemático formal do "Error Budget" que o dono do hospital assinará sobre sua infra.
+3. Elabore e jogue em um Github Issue o seu primeiro `Postmortem Blameless`, narrando o apagão e a timeline (MTTR) de quando a UTI Pediátrica perdeu sinal de roteamento para a Nuvem AWS.
+4. Formalize os `Action Items` da resolução que consertam a Falha Estrutural do "Processo", eximindo engenheiros júniores de falhas decorrentes da automação precária (Culture Fit).
 
 ## O Que Revisar Antes de Avançar
 
