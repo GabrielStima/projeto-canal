@@ -65,17 +65,29 @@ Infrastructure as Code resolve parte desse problema ao tratar infraestrutura com
 | 18.20 | [Segurança e Segredos em IaC](18.20-segurança-e-segredos-em-iac.md) | Específica | Rascunho |
 | 18.21 | [Projeto Prático: Provisionando a Infraestrutura de uma Aplicação](18.21-projeto-prático-provisionando-a-infraestrutura-de-uma-aplicação.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — O Custo do ClickOps](exercicios/01-custo-do-clickops.md)
+- [Exercício 02 — O Valor da Idempotência](exercicios/02-valor-idempotencia.md)
+- [Exercício 03 — Lendo HCL Básico](exercicios/03-lendo-hcl.md)
+- [Exercício 04 — Criar vs Ler](exercicios/04-resource-vs-data.md)
+- [Exercício 05 — Variables, Locals e Outputs](exercicios/05-variables-locals-outputs.md)
+- [Exercício 06 — O Perigo do Git no State](exercicios/06-state-no-git.md)
+- [Exercício 07 — Resolvendo Drifts no Terraform](exercicios/07-drifts.md)
+- [Exercício 08 — Modularizando a Clínica](exercicios/08-modulos-terraform.md)
+- [Exercício 09 — Isolamento Físico x Lógico](exercicios/09-workspaces-limitacoes.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-iac.md)
+
 ## Projeto ou Prática do Módulo
 
-Provisionar a infraestrutura de uma aplicação fullstack simples:
+Neste módulo, você atinge o **Marco de IaC N9**. A arquitetura da clínica não mais pertencerá à AWS de forma cega; ela passará a ser propriedade versionada em seu Github através de HCL (HashiCorp Configuration Language):
 
-1. definir uma arquitetura com rede, banco, storage e permissões;
-2. escrever configuração Terraform com providers, resources, variables e outputs;
-3. executar `init`, revisar `plan` e aplicar mudanças de forma controlada;
-4. configurar state remoto e evitar aplicação concorrente;
-5. separar ambientes com uma estratégia explícita;
-6. lidar com segredos sem colocá-los no código;
-7. documentar o que foi criado, como destruir e quais riscos permanecem.
+1. Crie os arquivos mestres (`main.tf`, `variables.tf`, `outputs.tf`) estabelecendo a malha base do PetCare OS.
+2. Defina os Providers e estabeleça Segurança Máxima transferindo o "State" de sua máquina para um bucket S3/Blob Remoto, com proteção contra concorrência e Lock via DB.
+3. Desenvolva Módulos paramétricos (`DRY`) para abstrair os padrões da infraestrutura (VPC e Filas/S3), possibilitando o spawn massivo de ambientes ("Dev", "Prod", "Staging") usando exatamente o mesmo código.
+4. Execute rodadas de detecção de 'Drift' (deslizamentos) nas reuniões fictícias de SysAdmin e comprove que seu código reverte invasões indesejadas no painel da Cloud.
+5. Efetive as estratégias de FinOps (Módulo 17) disparando comandos robustos de `terraform destroy` que pouparão recursos durante feriados e pausas da equipe nos clones dev/staging.
 
 ## O Que Revisar Antes de Avançar
 

@@ -55,19 +55,27 @@ Sem essa base, ferramentas como Terraform, Docker e Kubernetes viram uma pilha d
 | 17.12 | [Fundamentos de FinOps](17.12-fundamentos-de-finops.md) | Específica ampla | Rascunho |
 | 17.13 | [Projeto Prático: Desenhando a Infraestrutura Cloud de uma Aplicação](17.13-projeto-prático-desenhando-a-infraestrutura-cloud-de-uma-aplicação.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — O Fim do Localhost](exercicios/01-fim-do-localhost.md)
+- [Exercício 02 — Desenhando o IAM da Clínica](exercicios/02-iam-clinica.md)
+- [Exercício 03 — Isolamento via VPC](exercicios/03-isolamento-vpc.md)
+- [Exercício 04 — CDN no Frontend](exercicios/04-cdn.md)
+- [Exercício 05 — Casos Serverless](exercicios/05-casos-serverless.md)
+- [Exercício 06 — Injeção de Segredos](exercicios/06-injecao-segredos.md)
+- [Exercício 07 — Monitoramento e Tags](exercicios/07-monitoramento-finops.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-cloud.md)
+
 ## Projeto ou Prática do Módulo
 
-Desenhe a infraestrutura cloud de uma aplicação fullstack já estudada na formação:
+Neste módulo, você aplicará o **Marco da Nuvem N8** arquitetando a topologia física e lógica em provedores como AWS/GCP/Azure para o PetCare OS:
 
-1. escolha uma aplicação com frontend, API, banco e uploads;
-2. defina região e estratégia básica de disponibilidade;
-3. modele IAM mínimo para aplicação, deploy e operação;
-4. desenhe rede pública e privada;
-5. escolha object storage, CDN, banco gerenciado e fila gerenciada;
-6. indique onde serverless faria sentido e onde não faria;
-7. defina segredos, backups, restauração e riscos;
-8. estime os principais motores de custo;
-9. proponha ações simples de FinOps.
+1. Elabore o Diagrama de Rede listando o isolamento via **VPC** (Subnets públicas para Balizadores de Carga e privadas para Bancos Relacionais).
+2. Modele a política base de **IAM**, usando o princípio do menor privilégio para a API do Node que consumirá os arquivos médicos armazenados no S3/Blob Storage.
+3. Determine a viabilidade de alocar o histórico morto do PetCare em classes frias de Storage (Glacier) para práticas eficientes de **FinOps**.
+4. Escreva as proteções básicas de **Segredos e Variáveis de Ambiente**, banindo hardcodings da aplicação rumo ao Cloud Secrets Manager.
+5. Defina e justifique o **RPO/RTO** que a clínica veterinária deve adotar caso ocorra um desastre massivo num datacenter no meio da tarde.
 
 ## O Que Revisar Antes de Avançar
 
