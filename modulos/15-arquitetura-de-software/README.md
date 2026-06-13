@@ -69,17 +69,29 @@ Arquitetura de software existe para tornar essas decisões explícitas. Ela ajud
 | 15.24 | [Microkernel](15.24-microkernel.md) | Específica conceitual | Rascunho |
 | 15.25 | [Projeto Prático: Arquitetando uma API para Evolução](15.25-projeto-pratico-arquitetando-uma-api-para-evolucao.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — Diagnóstico Arquitetural](exercicios/01-diagnostico-arquitetural.md)
+- [Exercício 02 — Coesão e Acoplamento em Larga Escala](exercicios/02-coesao-arquitetural.md)
+- [Exercício 03 — Policy vs Detail](exercicios/03-policy-vs-detail.md)
+- [Exercício 04 — Mapeando MVC e Camadas](exercicios/04-mvc-e-camadas.md)
+- [Exercício 05 — Clean Architecture e DDD](exercicios/05-clean-architecture-ddd.md)
+- [Exercício 06 — Microsserviços na Prática](exercicios/06-microsservicos.md)
+- [Exercício 07 — Messaging no Módulo Clínico](exercicios/07-messaging.md)
+- [Exercício 08 — Estilos Serverless vs Containers](exercicios/08-serverless.md)
+- [Exercício 09 — Arquitetura Orientada a Eventos e Microkernel](exercicios/09-event-driven-microkernel.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-arquitetura.md)
+
 ## Projeto ou Prática do Módulo
 
-Arquitete a evolução de uma API criada em módulos anteriores:
+Neste módulo, você aplicará o **Marco Arquitetural N6** no PetCare OS. Agora que o código interno tem bom design (N5), o foco expande para a resiliência e escala do ambiente em nuvem:
 
-1. escolha um fluxo com regras reais;
-2. identifique limites, componentes e dependências;
-3. separe política de negócio de detalhes técnicos;
-4. escolha um estilo arquitetural simples para o contexto;
-5. avalie se messaging, CQRS ou eventos fazem sentido;
-6. descreva trade-offs e riscos;
-7. proponha uma evolução incremental sem reescrever tudo.
+1. Elabore e crie seu primeiro **ADR** (Architecture Decision Record) detalhando o porquê adotar arquiteturas baseadas em Mensageria na clínica.
+2. Isole as rotinas pesadas (Disparos em Massa, Relatórios e Processamento em Background) tirando do Loop do Controller/Express.
+3. Configure a injeção simples de Filas (RabbitMQ ou Redis/BullMQ) dividindo o Monólito em Produtores (API) e Consumidores (Workers).
+4. Aplique a barreira severa entre a Política (Regras do Hospital) e os Detalhes de entrega.
+5. Registre e preveja como a Consistência Eventual mudará as exibições na interface do usuário (ex: Mensagens de "Processando...").
 
 ## O Que Revisar Antes de Avançar
 
