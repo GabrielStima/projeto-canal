@@ -58,20 +58,24 @@ Privacidade não é apenas uma camada jurídica depois que o sistema fica pronto
 | 22.10 | [Dados Enviados Para IA](22.10-dados-enviados-para-ia.md) | Específica atual/prática | Rascunho |
 | 22.11 | [Projeto Prático: Revisão de Privacidade de uma Aplicação Fullstack](22.11-projeto-pratico-revisao-de-privacidade-de-uma-aplicacao-fullstack.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — A Bomba Relógio](exercicios/01-bomba-relogio.md)
+- [Exercício 02 — O Direito do Titular](exercicios/02-direito-titular.md)
+- [Exercício 03 — Inventário PetCare](exercicios/03-inventario-petcare.md)
+- [Exercício 04 — Cron de Expurgo](exercicios/04-cron-expurgo.md)
+- [Exercício 05 — Máscara de Dados](exercicios/05-mascara-dados.md)
+- [Exercício 06 — Sanitização de Logs](exercicios/06-sanitizacao-logs.md)
+- [Atividade Final Prática: Governança do Petcare](exercicios/atividade-final-privacidade.md)
+
 ## Projeto ou Prática do Módulo
 
-Revise uma aplicação fullstack já usada na formação:
+A governança implanta maturidade institucional através do **Marco de Governança de Dados N14**. A clínica PetCare passa por uma auditoria legal profunda. Transforme sua arquitetura base numa fortaleza limpa e ética:
 
-1. liste dados coletados no frontend, API, banco, logs, analytics, suporte e IA;
-2. classifique dados pessoais, sensíveis, técnicos, públicos e anonimizados;
-3. descreva a finalidade de cada coleta;
-4. reduza campos desnecessários em formulários, tabelas, respostas e logs;
-5. defina política de acesso por papel, recurso e necessidade;
-6. proponha retenção e descarte para contas, pedidos, logs, backups e exports;
-7. aplique uma estratégia simples de pseudonimização ou anonimização quando fizer sentido;
-8. revise eventos de auditoria;
-9. revise prompts e integrações de IA para evitar envio indevido de dados;
-10. documente riscos aceitos e próximas melhorias.
+1. Modifique a engine de Log (Observabilidade) nativa das APIs incorporando o filtro pesado `Redaction` que interceptará Textos e CPFs em `StdOut` transmutando-os em `***` antes de cruzarem a rede da Cloud (Evitando indexação ilegal pelo Datadog/Cloudwatch).
+2. Programe e descreva a arquitetura de uma *CronJob Noturna/Background Worker* focada na expurgação cirúrgica (*Hard Delete*) de registros frios em conformidade total com expirações estritas do seu SLA Retentivo.
+3. Configure Modelagens de Dados em bancos Paralelos (Data Warehouse ou Data Lake via Views Materializadas) forçando a Pseudo-anonimização dos Dados Tóxicos, blindando-os de Cientistas de Dados ou de uso irrestrito do Marketing do hospital.
 
 ## O Que Revisar Antes de Avançar
 
