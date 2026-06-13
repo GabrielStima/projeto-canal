@@ -95,18 +95,32 @@ Pré-requisito: Bloco C (só faz sentido operar e medir o que você já sabe con
 > As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
 
 
+
+## Exercícios
+
+- [Exercício 01 — A Máquina Probabilística](exercicios/01-maquina-probabilistica.md)
+- [Exercício 02 — A Matemática do Token](exercicios/02-matematica-tokens.md)
+- [Exercício 03 — Redação Antes do Prompt](exercicios/03-redacao-prompt.md)
+- [Exercício 04 — O Co-piloto Controlado](exercicios/04-copiloto-controlado.md)
+- [Exercício 05 — O Perigo de Segurança](exercicios/05-seguranca-ai-code.md)
+- [Exercício 06 — Debug Eficiente](exercicios/06-debug-ai.md)
+- [Exercício 07 — Documentação Instantânea](exercicios/07-doc-ai.md)
+- [Exercício 08 — Workflow Agentic](exercicios/08-workflow-agents.md)
+- [Exercício 09 — Agentes Destrutivos](exercicios/09-agentes-destrutivos.md)
+- [Exercício 10 — Segurança em Autonomia](exercicios/10-sec-agentic.md)
+- [Exercício 11 — Banco de Vetores](exercicios/11-banco-vetores.md)
+- [Exercício 12 — A Prática de RAG](exercicios/12-rag-pratico.md)
+- [Exercício 13 — Criando seu Juiz](exercicios/13-criando-juiz-llm.md)
+- [Exercício 14 — O Desperdício Silencioso](exercicios/14-desperdicio-ai.md)
+- [Atividade Final Prática: O Assistente PetCare Blindado](exercicios/atividade-final-ai.md)
+
 ## Projeto ou Prática do Módulo
 
-Construa um assistente técnico para consultar materiais da formação ou ajudar na manutenção de um projeto TypeScript:
+O pináculo operacional final para integração de Inteligência. O **Marco de Inteligência Escalável N16**. Esqueça os tutoriais rasos de Chat. Você arquiteta fluxos (Agentic Workflows) pesados integrados aos bancos da Clínica limitando danos corporativos.
 
-1. defina o problema, o usuário e os limites do assistente;
-2. classifique os dados que podem ou não entrar no contexto;
-3. escreva prompts base com critérios de resposta;
-4. implemente uma versão com RAG ou um agente simples com ferramentas controladas;
-5. registre custo, latência, tokens, erros, recusas e fontes usadas;
-6. crie critérios de avaliação e alguns casos de teste;
-7. defina guardrails para dados sensíveis, instruções maliciosas e ações perigosas;
-8. documente trade-offs, riscos aceitos e próximas melhorias.
+1. Modele o RAG Eficiente: Implemente Embeddings baseados em Manuais Públicos Clínicos submetidos a Vector DBs (Ex: Pinecone). Force os blocos contextuais limpos sem enviar informações tóxicas da LGPD pelo Token Pipeline limitando abusos (Data Redaction de Segurança).
+2. Agentes de Ferramentas (Tool-Calling Strict): Engendre o ecossistema conversacional autônomo, forneça `Schemas` rígidos do JSON (Restrições de Sistema) de Node.js a um Agente. Configure `Human-In-The-Loop` (HITL) impedindo as invenções (Alucinações) ou ordens estúpidas e danosas de Agentes não controlados sob `Jailbreak/Prompt Injections` externos.
+3. Observabilidade e Guardrails (LLMOps/FinOps): Imponha os censores pré-API (Guardiões Semânticos - Ex: NeMo, LLM-as-a-judge Pipeline de Avaliação) cortando palavrões e protegendo as chaves contra o uso massivo de Tokens e roteando dinamicamente perguntas fúteis aos Modelos gratuitos locais na Cloud, derrubando o Budget da nuvem AWS em 90%.
 
 ## O Que Revisar Antes de Avançar
 
