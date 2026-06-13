@@ -50,55 +50,46 @@ Observabilidade, performance e operação aparecem juntas porque se reforçam. O
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 13.14 | [Análise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Rascunho |
-| 13.15 | [Profiling](13.15-profiling.md) | Específica prática | Rascunho |
-| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Específica prática | Rascunho |
-| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Específica prática | Rascunho |
-| 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Rascunho |
-| 13.19 | [Instrumentação](13.19-instrumentacao.md) | Específica prática | Rascunho |
-| 13.20 | [Telemetria](13.20-telemetria.md) | Específica | Rascunho |
-| 13.21 | [Métricas](13.21-metricas.md) | Específica prática | Rascunho |
-| 13.22 | [Tracing](13.22-tracing.md) | Específica prática | Rascunho |
-| 13.23 | [Monitoramento](13.23-monitoramento.md) | Específica | Rascunho |
-| 13.24 | [Alertas](13.24-alertas.md) | Específica | Rascunho |
-| 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Rascunho |
-| 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Rascunho |
+| 13.14 | [Análise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Revisada |
+| 13.15 | [Profiling](13.15-profiling.md) | Específica prática | Revisada |
+| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Específica prática | Revisada |
+| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Específica prática | Revisada |
+| 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Revisada |
+| 13.19 | [Instrumentação](13.19-instrumentacao.md) | Específica prática | Revisada |
+| 13.20 | [Telemetria](13.20-telemetria.md) | Específica | Revisada |
+| 13.21 | [Métricas](13.21-metricas.md) | Específica prática | Revisada |
+| 13.22 | [Tracing](13.22-tracing.md) | Específica prática | Revisada |
+| 13.23 | [Monitoramento](13.23-monitoramento.md) | Específica | Revisada |
+| 13.24 | [Alertas](13.24-alertas.md) | Específica | Revisada |
+| 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Revisada |
+| 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Revisada |
 
-## Trilha de Estudo
+## Exercícios
 
-Este módulo está organizado em três blocos progressivos:
-
-**Bloco A — Performance e Análise** · aulas 13.14–13.16
-Análise de performance, profiling e testes de carga. Estabelece como medir antes de observar.
-Pré-requisito: qualidade e testes (módulo 13A).
-
-**Bloco B — Observabilidade** · aulas 13.17–13.25
-Logging, observabilidade, instrumentação, telemetria, métricas, tracing, monitoramento, alertas e failure modes na prática.
-Pré-requisito: Bloco A (entender o que medir exige saber o que é importante).
-
-> **✦ Projeto Prático — aula 13.26:** ao final do módulo, complete o [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md). O projeto integra performance, observabilidade e operação em um fluxo real do PetCare OS.
-
-> As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
+- [Exercício 05 — Análise e Profiling](exercicios/05-analise-e-profiling.md)
+- [Exercício 06 — Logging e Métricas](exercicios/06-logging-e-metricas.md)
+- [Exercício 07 — Monitoramento e Alertas](exercicios/07-monitoramento-e-alertas.md)
+- [Exercício 08 — Failure Modes na Operação](exercicios/08-failure-modes-operacao.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-operacao.md)
 
 ## Projeto ou Prática do Módulo
 
-Evolua a API do PetCare OS para uma aplicação observável e mensurável:
+Neste módulo, você continuará a evolução do PetCare OS implementando o **Marco Operacional N4**.
+O código não precisará mais ser alterado na sua regra de negócio; o foco agora será envelopá-lo com confiabilidade:
 
-1. Investigue um gargalo simples com profiling.
-2. Crie logs estruturados com contexto de requisição.
-3. Defina métricas de latência, erros e volume.
-4. Desenhe traces para uma requisição importante.
-5. Defina monitoramento e alertas para failure modes relevantes.
-6. Execute testes de carga e interprete os resultados.
+1. Executar um Profiling local com Node Inspector / Clinic.js e encontrar o trecho mais custoso do Agendamento.
+2. Trocar todos os `console.log` puros por `pino` ou `winston`, garantindo injeção de ID único.
+3. Criar e aplicar um Teste de Carga de pico matinal usando K6 para provar a robustez em altas requisições.
+4. Definir Alertas e documentar um plano de Mitigação (Fail-Open vs Fail-Closed) para dependências externas.
+5. Criar Traces hipotéticos da jornada completa de Faturamento, incluindo chamadas ao Redis, Banco e API Externa.
 
 ## O Que Revisar Antes de Avançar
 
-- Testes em frontend e comportamento observável.
-- Performance no frontend, performance em SQL e profiling no backend.
-- Logging, failure modes, idempotência e rate limiting.
-- Contratos de API, OpenAPI, erros padronizados e contract testing.
-- Autenticação, autorização e segurança em APIs.
-- Qualidade, estratégia de testes e testabilidade.
+- Testes de integração e E2E, para não confundir comportamento de tela com comportamento e saúde da API.
+- Performance em SQL e Node.js.
+- Logging estruturado.
+- Contratos de API, middlewares e injeção de Headers (correlation ID).
+- Autenticação e Rate Limiting, essenciais durante os testes de estresse.
 
 ## Prompt de Revisão do Módulo
 
@@ -123,6 +114,7 @@ Não entregue respostas completas antes de eu tentar responder.
 ## Referências Gerais
 
 - Documentação oficial do framework backend escolhido para prática.
-- Documentação oficial do banco de dados e ORM escolhidos para prática.
-- Guias conceituais sobre observabilidade, métricas, logs e tracing.
-- Materiais de boas práticas sobre CI, testes e engenharia de confiabilidade.
+- Documentação de Profiling do Node.js (Node Inspector).
+- Documentação do K6 ou Artillery para Load Tests.
+- OpenTelemetry Documentation para Instrumentação moderna.
+- The RED Method e The USE Method para definição arquitetural de Métricas.
