@@ -62,21 +62,26 @@ Supply chain security existe para proteger a cadeia de produção do software. S
 | 21.14 | [DAST](21.14-dast.md) | Específica prática | Rascunho |
 | 21.15 | [Projeto Prático: Pipeline Seguro de Build, Validação e Entrega](21.15-projeto-prático-pipeline-seguro-de-build-validação-e-entrega.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — O Cavalo de Troia NPM](exercicios/01-troia-npm.md)
+- [Exercício 02 — Modelando o Raio-X](exercicios/02-threat-modeling.md)
+- [Exercício 03 — A Falsidade do .env](exercicios/03-cofre-vs-env.md)
+- [Exercício 04 — O Roubo no Pipeline](exercicios/04-roubo-pipeline.md)
+- [Exercício 05 — O Pesadelo das Dependências Transientes](exercicios/05-dependencias-transientes.md)
+- [Exercício 06 — Lendo um SBOM](exercicios/06-sbom.md)
+- [Exercício 07 — SAST vs DAST vs SCA](exercicios/07-sast-vs-dast.md)
+- [Atividade Final Prática: A Esteira Inquebrável](exercicios/atividade-final-devsecops.md)
+
 ## Projeto ou Prática do Módulo
 
-Evolua um projeto Node.js/TypeScript usado nos módulos anteriores para um fluxo de entrega mais seguro:
+A evolução atinge a paranóia controlada no **Marco de Cyber-Security N13**. Transforme as esteiras passivas do PetCare OS em um Bunker digital impermeável:
 
-1. modele ameaças do repositório, pipeline, dependências e deploy;
-2. revise secrets, credenciais e permissões do projeto;
-3. defina ambientes e acesso mínimo para automação;
-4. configure validações de segurança no fluxo de CI/CD;
-5. defina quality gates proporcionais ao risco;
-6. gere e análise sinais de SAST, dependency scanning e SCA;
-7. gere um SBOM do projeto;
-8. revise riscos do ecossistema npm no projeto;
-9. defina uma estratégia para assinatura ou proveniência de artefatos;
-10. rode uma validação dinâmica em ambiente de teste;
-11. documente exceções, riscos aceitos e próximos controles.
+1. Modifique a rotina do `Github Actions`. Remova e trranque os `Hardcoded Secrets` da equipe consumindo Segredos temporários unicamente pelo *AWS Secrets Manager / Vault*.
+2. Introduza bloqueios radicais: Acople no PR verificações assíncronas do código usando heurística de auditoria SAST (Ex: SonarQube / Semgrep). Qualquer falha classificada como "Critical" deve apagar o botão de Merge (`Quality Gate`).
+3. Adicione um scanner de composição SCA (`npm audit` ou `Trivy`) para vasculhar CVEs destrutivos dentro das suas dependências NPM profundas de Terceiros e emita relatórios automáticos SBOM.
+4. (Opcional Tático): Efetue a assinatura da Imagem Docker na saída do Registry (`Sigstore/Cosign`), e estabeleça políticas rígidas no K8s Operacional para negar execuções de pacotes que não contenham o carimbo/hash original da clínica aprovado na esteira.
 
 ## O Que Revisar Antes de Avançar
 
