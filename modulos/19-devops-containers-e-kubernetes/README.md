@@ -96,19 +96,38 @@ Pré-requisito: Bloco B + Desafio 19.20 (Kubernetes orquestra containers; sem en
 
 > As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
 
+
+## Exercícios
+
+- [Exercício 01 — A Dor do Deploy Manual](exercicios/01-dor-deploy-manual.md)
+- [Exercício 02 — Desenhando o CI/CD](exercicios/02-desenho-cicd.md)
+- [Exercício 03 — Terraform em Pipelines](exercicios/03-terraform-pipelines.md)
+- [Exercício 04 — Segurança OIDC](exercicios/04-seguranca-oidc.md)
+- [Exercício 05 — Alarme de Drift](exercicios/05-alarme-drift.md)
+- [Exercício 06 — Namespace vs Cgroups](exercicios/06-namespace-cgroup.md)
+- [Exercício 07 — Operando o CLI](exercicios/07-docker-cli.md)
+- [Exercício 08 — Bind Mounts vs Volumes Nativos](exercicios/08-bind-mount-vs-volumes.md)
+- [Exercício 09 — Conexões de Rede](exercicios/09-docker-networks.md)
+- [Exercício 10 — Segurança em Containers](exercicios/10-seguranca-containers.md)
+- [Exercício 11 — A Ferramenta Kubectl](exercicios/11-ferramenta-kubectl.md)
+- [Exercício 12 — Pods e Deployments](exercicios/12-pods-deployments.md)
+- [Exercício 13 — Tipos de Services](exercicios/13-tipos-services.md)
+- [Exercício 14 — Requests e Limits](exercicios/14-requests-limits.md)
+- [Exercício 15 — Logs Descentralizados](exercicios/15-logging-k8s.md)
+- [Exercício 16 — DaemonSets e Taints](exercicios/16-daemonset-taints.md)
+
+**Atividades Formativas Intermediárias e de Fim de Ciclo:**
+- [Atividade Final de Bloco: Dockerização Prática](exercicios/atividade-docker-petcare.md)
+- [Atividade Final Completa: O Sistema Inteiro](exercicios/atividade-final-devops-k8s.md)
+
 ## Projeto ou Prática do Módulo
 
-Construir um fluxo pequeno de entrega para uma aplicação já estudada na formação:
+Neste módulo magistral de **Marco N10 e N11 de DevOps e K8s**, você finaliza o controle da Infraestrutura Nuvem injetando código auto-gerenciável num pipeline industrial corporativo para o PetCare OS:
 
-1. escolher uma API Node.js simples com endpoint de saúde;
-2. definir pipeline com validação, testes e build;
-3. criar imagem de container versionada;
-4. publicar a imagem em um registry;
-5. escrever manifestos Kubernetes para Deployment, Service, ConfigMap e Secret;
-6. configurar recursos mínimos e probes;
-7. aplicar em um cluster de laboratório;
-8. verificar logs, eventos, saúde da aplicação e estratégia de rollback;
-9. documentar riscos, permissões, custos e próximos passos.
+1. Elabore o Workflow Inteiriço `.yml` para Github Actions e configure as credenciais efêmeras blindadas `OIDC/Vault`. O Deploy falha nativamente se Testes de Qualidade Code Coverage caírem no Linter.
+2. Redija a fundação hermética de imagens (Dockerfile Limpo de Caching `node:alpine`) travando os limites `USER` Linux não-root escapando contra ataques nativos O.S. Cve's Scans.
+3. Descreva em HCL as chamadas na "Automação DevOps" do Terraform (Sem cliques, zero manual) revisando via Git Pull-Request os `plan` e bloqueando Drifts (Com robôs atirando alertas ao menor ruído do ambiente fora de compliance da AWS/GCP).
+4. Elabore os manifestos e suba para Produção da Orquestração K8s. Escreva os arquivos estéreis (YAMLs - Deployments, StatefulSets, e Services ClusterIP) governando Autoscaling e Limits CPU/RAM imutáveis de orquestração sob o conceito mágico *Scale To Zero*, esbanjando Economia Operacional a Zero Cliques nos Hospitais Veterínários PetCare OS.
 
 ## O Que Revisar Antes de Avançar
 
