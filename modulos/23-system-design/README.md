@@ -67,20 +67,29 @@ System design existe para organizar esse raciocínio. Ele não é uma lista de r
 | 23.22 | [Segurança em System Design](23.22-segurança-em-system-design.md) | Específica ampla | Rascunho |
 | 23.23 | [Projeto Prático: Desenhando um Sistema Escalável e Confiável](23.23-projeto-prático-desenhando-um-sistema-escalavel-e-confiavel.md) | Síntese prática | Rascunho |
 
+
+## Exercícios
+
+- [Exercício 01 — A Lousa Branca](exercicios/01-lousa-branca.md)
+- [Exercício 02 — Estimativa de Dados](exercicios/02-estimativa-dados.md)
+- [Exercício 03 — O Teorema CAP](exercicios/03-teorema-cap.md)
+- [Exercício 04 — Calculando Noves](exercicios/04-noves-uptime.md)
+- [Exercício 05 — O Poder do CDN](exercicios/05-cdn.md)
+- [Exercício 06 — Escalonamento Horizontal](exercicios/06-scale-out.md)
+- [Exercício 07 — Sharding e Replicas](exercicios/07-sharding-replicas.md)
+- [Exercício 08 — Caching Strategies](exercicios/08-caching-strategies.md)
+- [Exercício 09 — Fila ou Tópico?](exercicios/09-fila-vs-topico.md)
+- [Exercício 10 — Os Quatro Sinais Dourados](exercicios/10-four-golden-signals.md)
+- [Exercício 11 — Segurança na Arquitetura](exercicios/11-sec-design.md)
+- [Atividade Final Teórica: A Lousa da Escala Massiva](exercicios/atividade-final-systemdesign.md)
+
 ## Projeto ou Prática do Módulo
 
-Desenhar um sistema escalável e confiável para um produto conhecido, como uma plataforma de aulas, uma loja online, um encurtador de URLs, um feed de publicações ou um sistema de notificações:
+Elevação final para Senioridade Executiva: O **Marco de System Design N15**. Esqueça as IDEs. Use blocos conceituais (LucidChart / Excalidraw) para projetar uma rede descentralizada mundial do ecossistema PetCare absorvendo picos da "Black Friday Vet" lidando com milhões de Writes/Reads sem ruir.
 
-1. definir requisitos funcionais e não funcionais;
-2. declarar suposições de carga, crescimento e disponibilidade;
-3. desenhar fluxo de leitura e escrita;
-4. escolher DNS, CDN, load balancer e camada de aplicação;
-5. escolher banco, modelo de dados, cache e estratégia de consistência;
-6. decidir onde usar filas, jobs, pub/sub e idempotência;
-7. mapear falhas, gargalos, riscos de segurança e riscos de dados;
-8. definir métricas, alertas e sinais de saúde;
-9. propor uma versão inicial simples e uma evolução para maior escala;
-10. justificar trade-offs em uma apresentação curta.
+1. Modele o Tráfego na Borda da Internet: Integre Load Balancers HTTP Dinâmicos com Redes Estáticas Geograficamente roteáveis (DNS e CDNs) e blinde via WAF L7 mitigando DDoS e descargas prematuras.
+2. Esmague o Gargalo Relacional com Segregação (Polyglot e CQRS): Adicione Componentes Intermediários In-Memory velozes (Caches/Redis) interceptando Read/Queries e envie Writes pesadas para Tópicos Massivos e Filas Paralelas (Kafka e SQS), preservando as Entidades Rígidas de Concorrência sem Travar Bloqueios de Tabela SQL.
+3. Demonstre Alta Disponibilidade: Quebre o Monolito Horizontalmente, garanta Imutabilidade de Contêiner e elabore como o Orquestrador K8S auto-cicatriza picos usando a tríade do Event-Driven para Resiliência, assumindo Quedas Naturais (Teorema CAP) sem falir o UX Global.
 
 ## O Que Revisar Antes de Avançar
 
