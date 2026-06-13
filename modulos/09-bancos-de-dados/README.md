@@ -23,6 +23,7 @@ Ao final deste módulo, você deve ser capaz de:
 - entender o papel de migrations na evolução de schema;
 - usar MongoDB em nível conceitual e prático inicial;
 - comparar decisões de modelagem entre SQL e NoSQL;
+- produzir schema, dados iniciais, migrations e consultas que possam ser executados e verificados;
 - chegar ao módulo de backend preparado para conectar aplicações a bancos reais.
 
 ## Por Que Este Módulo Existe
@@ -75,36 +76,86 @@ Este módulo prepara o caminho para backend com Node.js, ORMs, autenticação, a
 
 ## Trilha de Estudo
 
-Este módulo está organizado em dois blocos principais precedidos por uma aula de contexto. Estude o Bloco A primeiro; o Bloco B pode começar após 09.01.
+Este módulo está organizado em três blocos, além da introdução e da atividade final. Siga a ordem para construir a camada de dados sem concentrar toda a prática no encerramento.
 
-**Aula de Contexto** · 09.01
-SQL e NoSQL: panorama comparativo dos dois mundos. Leia antes de entrar em qualquer bloco.
-Pré-requisito: nenhum (ponto de entrada do módulo).
+**Introdução — Decisões de persistência** · aulas 09.00–09.01
+Panorama do módulo e comparação inicial entre modelos relacionais e não relacionais.
+Pré-requisito: aplicação Next.js com dados simulados.
 
-**Bloco A — SQL e Bancos Relacionais** · aulas 09.02–09.16
-Modelagem relacional, SQL básico, integridade, JOINs, subqueries, funções avançadas, views, transactions, indexes, performance, SQL avançado, stored procedures, migrations, backup e segurança.
-Pré-requisito: 09.01.
+**Bloco A — Modelo e consultas relacionais** · aulas 09.02–09.08
+Modelagem, SQL básico, integridade, JOINs, subqueries, agregações e views.
+Pré-requisito: Introdução.
 
-**Bloco B — NoSQL e MongoDB** · aulas 09.17–09.24
-Fundamentos de NoSQL, MongoDB, conceitos essenciais, operadores de query, aggregation, transactions no MongoDB, scaling e segurança em NoSQL.
-Pré-requisito: 09.01. Pode ser estudado em paralelo com o Bloco A, mas ter base em modelagem de dados (09.02) ajuda.
+Ao concluir a modelagem, faça o [Exercício 01 — Modelo Relacional do PetCare OS](exercicios/01-modelo-relacional.md). Depois de estudar views, faça o [Exercício 02 — Schema, Dados Iniciais e Consultas](exercicios/02-schema-e-consultas.md).
+
+**Bloco B — Consistência, evolução e proteção** · aulas 09.09–09.16
+Transactions, indexes, performance, recursos avançados, migrations, backup, restore e segurança.
+Pré-requisito: Bloco A.
+
+Após performance, faça o [Exercício 03 — Consistência e Performance](exercicios/03-consistencia-e-performance.md). Depois de segurança em bancos relacionais, faça o [Exercício 04 — Evolução, Recuperação e Acesso](exercicios/04-evolucao-e-recuperacao.md).
+
+**Bloco C — Modelos não relacionais e decisão técnica** · aulas 09.17–09.24
+NoSQL, MongoDB, modelagem documental, consultas, aggregation, transactions, escala e segurança.
+Pré-requisito: 09.01 e 09.02. O Bloco A completo torna a comparação mais concreta.
+
+Após aggregation, faça o [Exercício 05 — Modelo Documental para Auditoria](exercicios/05-modelo-documental.md). Ele é recomendado e não obriga o projeto a usar um segundo banco. Ao terminar o bloco, faça o [Exercício 06 — Decisão de Persistência](exercicios/06-decisao-de-persistencia.md).
 
 > As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
 
+## Exercícios
+
+- [Exercício 01 — Modelo Relacional do PetCare OS](exercicios/01-modelo-relacional.md)
+- [Exercício 02 — Schema, Dados Iniciais e Consultas](exercicios/02-schema-e-consultas.md)
+- [Exercício 03 — Consistência e Performance](exercicios/03-consistencia-e-performance.md)
+- [Exercício 04 — Evolução, Recuperação e Acesso](exercicios/04-evolucao-e-recuperacao.md)
+- [Exercício 05 — Modelo Documental para Auditoria](exercicios/05-modelo-documental.md)
+- [Exercício 06 — Decisão de Persistência](exercicios/06-decisao-de-persistencia.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Construa a camada de dados de uma pequena aplicação de estudos:
+Evolua o Portal do Tutor construído no módulo 08 para que seus dados simulados tenham uma camada de persistência planejada e verificável.
 
-1. Modele usuários, materiais de estudo, tags e progresso.
-2. Crie uma versão relacional do modelo.
-3. Escreva consultas para listar, filtrar, relacionar e resumir dados.
-4. Adicione constraints para proteger integridade.
-5. Planeje uma migration simples.
-6. Discuta quais índices fariam sentido.
-7. Modele uma versão documental em MongoDB.
-8. Compare o que ficou melhor em SQL e o que ficou mais natural em documento.
-9. Liste riscos de segurança, backup, restore e crescimento.
+Ao longo dos exercícios, você produzirá:
+
+1. modelo relacional de tutores, pets, atendimentos, orçamentos, itens e serviços;
+2. schema SQL e dados iniciais;
+3. consultas e uma view para o Portal do Tutor;
+4. transaction para aprovação de orçamento;
+5. índices justificados por consultas;
+6. migrations versionadas;
+7. plano de backup e restore;
+8. regras de acesso e proteção de credenciais;
+9. estudo comparativo de um modelo documental para auditoria;
+10. decisão de persistência para a primeira versão.
+
+A [Atividade Final do Módulo](exercicios/atividade-final-modulo.md) organiza e verifica esses arquivos. O resultado será retomado no módulo 10, quando uma API Node.js passará a acessar o banco.
+
+## O Que Entra e O Que Sai Deste Módulo
+
+**O que entra do módulo anterior:**
+
+- Portal do Tutor em Next.js com rotas, formulários e dados simulados;
+- tipos e regras das entidades construídos nos módulos de TypeScript e algoritmos;
+- jornadas e requisitos definidos no módulo de produto;
+- repositório com scripts, lint e fluxo de trabalho.
+
+**O que sai deste módulo:**
+
+- modelo relacional documentado;
+- schema e seed executáveis;
+- consultas SQL verificáveis e uma view de leitura;
+- transaction e índices justificados;
+- migrations ordenadas;
+- orientações de recuperação e acesso;
+- comparação SQL/NoSQL sem obrigar uma arquitetura com dois bancos;
+- decisão registrada para orientar o backend.
+
+**Onde isso será retomado:**
+
+- no módulo 10, a API Node.js usará o schema, as regras e as consultas produzidas aqui;
+- no módulo 11, as consultas ajudarão a definir recursos, filtros e contratos da API;
+- no módulo 12, as regras de acesso serão aprofundadas em autenticação e autorização.
 
 ## O Que Revisar Antes de Avançar
 
