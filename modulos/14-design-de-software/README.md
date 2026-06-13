@@ -102,18 +102,32 @@ Pré-requisito: Bloco C (padrões fazem mais sentido quando os princípios estã
 > As dependências entre aulas dentro de um bloco estão documentadas no campo "Onde Esta Aula Entra na Formação" de cada arquivo.
 
 
+
+## Exercícios
+
+- [Exercício 01 — Diagnóstico de Design](exercicios/01-diagnostico-de-design.md)
+- [Exercício 02 — Praticando Clean Code](exercicios/02-praticando-clean-code.md)
+- [Exercício 03 — Paradigmas Híbridos](exercicios/03-paradigmas-hibridos.md)
+- [Exercício 04 — Protegendo Invariantes](exercicios/04-protegendo-invariantes.md)
+- [Exercício 05 — Entendendo Princípios Mapeados](exercicios/05-entendendo-principios-mapeados.md)
+- [Exercício 06 — Aplicando SRP e OCP](exercicios/06-srp-ocp.md)
+- [Exercício 07 — LSP e ISP](exercicios/07-lsp-isp.md)
+- [Exercício 08 — Inversão de Dependência](exercicios/08-dip-injecao.md)
+- [Exercício 09 — Composição VS Herança](exercicios/09-composicao-vs-heranca.md)
+- [Exercício 10 — Law of Demeter](exercicios/10-law-of-demeter.md)
+- [Exercício 11 — Mapeando Patterns](exercicios/11-mapeando-patterns.md)
+- [Atividade Final do Módulo](exercicios/atividade-final-refatoracao.md)
+
 ## Projeto ou Prática do Módulo
 
-Refatore uma pequena API criada nos módulos anteriores:
+Neste módulo, você aplicará o **Marco de Design N5** no PetCare OS. A aplicação que antes apenas "funcionava e era testada", passará por uma refatoração arquitetural tática:
 
-1. Escolha um fluxo com regra de negócio real.
-2. Identifique responsabilidades misturadas.
-3. Melhore nomes e funções.
-4. Separe regra, validação, persistência e apresentação quando fizer sentido.
-5. Reduza acoplamento com dependências externas.
-6. Use composição e abstrações pequenas.
-7. Escreva ou ajuste testes para proteger a refatoração.
-8. Registre trade-offs e decisões de design.
+1. Limpe Controllers pesados, extraindo Regras de Negócio para *UseCases* ou *Services*.
+2. Isole as chamadas de Banco de Dados aplicando o *Repository Pattern* acoplado à Injeção de Dependências.
+3. Troque nomes genéricos (`data`, `process`) pela Linguagem Ubíqua do Domínio (Ex: `FinalizarConsulta`, `EmitirAlta`).
+4. Remova heranças tóxicas (`extends User`) e substitua por Composição.
+5. Escreva/adapte Testes Unitários ultrarrápidos, usando mocks de memória em vez do ORM, comprovando o isolamento do SRP e DIP.
+6. Avalie aplicar o Padrão *Observer* ou *Strategy* caso hajam fluxos de envio massivo de alertas de e-mail e sms pós-agendamento.
 
 ## O Que Revisar Antes de Avançar
 
