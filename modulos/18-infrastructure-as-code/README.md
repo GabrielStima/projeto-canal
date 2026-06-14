@@ -94,26 +94,28 @@ Pré-requisito: Bloco D.
 
 ## Exercícios
 
-- [Exercício 01 — O Custo do ClickOps](exercicios/01-custo-do-clickops.md)
-- [Exercício 02 — O Valor da Idempotência](exercicios/02-valor-idempotencia.md)
-- [Exercício 03 — Lendo HCL Básico](exercicios/03-lendo-hcl.md)
-- [Exercício 04 — Criar vs Ler](exercicios/04-resource-vs-data.md)
-- [Exercício 05 — Variables, Locals e Outputs](exercicios/05-variables-locals-outputs.md)
-- [Exercício 06 — O Perigo do Git no State](exercicios/06-state-no-git.md)
-- [Exercício 07 — Resolvendo Drifts no Terraform](exercicios/07-drifts.md)
-- [Exercício 08 — Modularizando a Clínica](exercicios/08-modulos-terraform.md)
-- [Exercício 09 — Isolamento Físico x Lógico](exercicios/09-workspaces-limitacoes.md)
+- [Exercício 01 — Escopo e Estado Desejado](exercicios/01-escopo-e-estado-desejado.md)
+- [Exercício 02 — Primeira Configuração Validável](exercicios/02-primeira-configuracao-validavel.md)
+- [Exercício 03 — Workflow, Plano e State Local](exercicios/03-workflow-plano-e-state-local.md)
+- [Exercício 04 — State Remoto, Drift e Ciclo de Vida](exercicios/04-state-remoto-drift-e-ciclo-de-vida.md)
+- [Exercício 05 — Módulos e Ambientes](exercicios/05-modulos-e-ambientes.md)
+- [Exercício 06 — Revisão de Segurança e Operação](exercicios/06-revisao-de-seguranca-e-operacao.md)
 - [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você atinge o **marco de IaC**. A arquitetura da clínica não mais pertencerá à AWS de forma cega; ela passará a ser propriedade versionada em seu Github através de HCL (HashiCorp Configuration Language):
+Neste módulo, você converterá a arquitetura cloud do módulo 17 em um laboratório Terraform reproduzível.
 
-1. Crie os arquivos mestres (`main.tf`, `variables.tf`, `outputs.tf`) estabelecendo a malha base do PetCare OS.
-2. Defina os Providers e estabeleça Segurança Máxima transferindo o "State" de sua máquina para um bucket S3/Blob Remoto, com proteção contra concorrência e Lock via DB.
-3. Desenvolva Módulos paramétricos (`DRY`) para abstrair os padrões da infraestrutura (VPC e Filas/S3), possibilitando o spawn massivo de ambientes ("Dev", "Prod", "Staging") usando exatamente o mesmo código.
-4. Execute rodadas de detecção de 'Drift' (deslizamentos) nas reuniões fictícias de SysAdmin e comprove que seu código reverte invasões indesejadas no painel da Cloud.
-5. Efetive as estratégias de FinOps (Módulo 17) disparando comandos robustos de `terraform destroy` que pouparão recursos durante feriados e pausas da equipe nos clones dev/staging.
+Os exercícios evoluem uma mesma pasta:
+
+1. delimitam o que será gerenciado ou apenas consultado;
+2. criam HCL validável com recursos locais;
+3. praticam `plan`, `apply`, state, convergência e `destroy`;
+4. planejam remote state, locking, drift e lifecycle;
+5. organizam módulos e ambientes;
+6. executam uma revisão de segurança e operação.
+
+A atividade final funciona sem conta cloud e sem custos, usando `terraform_data` para representar a arquitetura. Recursos reais de um provedor são uma extensão opcional. Para novos backends S3, o locking deve usar `use_lockfile`; locking por DynamoDB está descontinuado.
 
 ## O Que Revisar Antes de Avançar
 

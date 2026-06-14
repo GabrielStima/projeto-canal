@@ -89,7 +89,13 @@ Pré-requisito: nenhum (ponto de entrada do módulo).
 O que é TypeScript, inferência, anotações, compatibilidade de tipos, narrowing, aliases, interfaces, módulos, classes, generics, utility types, tipos avançados e decorators.
 Pré-requisito: Bloco A consolidado.
 
-> **✦ Desafio intermediário — aula 03.21:** ao terminar o Bloco B, complete o [Exercício 02 — Modelando Tipos do PetCare OS](exercicios/02-modelando-tipos-do-petcare-os.md). Ele consolida modelagem de entidades, unions, narrowing e organização em módulos.
+> **✦ Desafio intermediário — aula 03.12:** após estudar anotações de tipos em funções, complete o [Exercício 02 — Funções Tipadas no PetCare OS](exercicios/02-funcoes-tipadas-no-petcare-os.md). Ele consolida parâmetros e retornos tipados.
+>
+> **✦ Desafio intermediário — aula 03.14:** após estudar narrowing, complete o [Exercício 03 — Narrowing no PetCare OS](exercicios/03-narrowing-no-petcare-os.md). Ele consolida unions discriminadas e type guards.
+>
+> **✦ Desafio intermediário — aula 03.16:** após estudar módulos, complete o [Exercício 04 — Organizando com Módulos](exercicios/04-organizando-com-modulos.md). Ele consolida divisão de responsabilidades entre arquivos.
+>
+> **✦ Desafio intermediário — aula 03.21:** ao terminar o Bloco B, complete o [Exercício 05 — Modelando Tipos do PetCare OS](exercicios/05-modelando-tipos-do-petcare-os.md). Ele consolida modelagem de entidades, unions, narrowing e organização em módulos.
 
 > **✦ Projeto de síntese — aula 03.22:** ao final do módulo, complete a [Atividade Final do Módulo — Núcleo TypeScript do PetCare OS](exercicios/atividade-final-modulo.md). O projeto integra JavaScript moderno e TypeScript em um único programa: você precisará de assincronismo, tratamento de erros, funções, tipos, narrowing e organização em módulos.
 
@@ -99,9 +105,12 @@ Pré-requisito: Bloco A consolidado.
 
 Use os exercícios para praticar habilidades isoladas antes de juntar tudo na atividade final:
 
-- [Exercício 01 — Consulta Assíncrona de Dados](exercicios/01-consulta-assincrona-de-dados.md)
-- [Exercício 02 — Modelando Tipos do PetCare OS](exercicios/02-modelando-tipos-do-petcare-os.md)
-- [Atividade Final do Módulo — Núcleo TypeScript do PetCare OS](exercicios/atividade-final-modulo.md)
+- [Exercício 01 — Consulta Assíncrona de Dados](exercicios/01-consulta-assincrona-de-dados.md) · consolida Promises, `async/await` e tratamento de erros.
+- [Exercício 02 — Funções Tipadas no PetCare OS](exercicios/02-funcoes-tipadas-no-petcare-os.md) · consolida anotações de tipos em parâmetros e retornos.
+- [Exercício 03 — Narrowing no PetCare OS](exercicios/03-narrowing-no-petcare-os.md) · consolida unions discriminadas e type guards.
+- [Exercício 04 — Organizando com Módulos](exercicios/04-organizando-com-modulos.md) · consolida `export`, `import` e divisão de responsabilidades.
+- [Exercício 05 — Modelando Tipos do PetCare OS](exercicios/05-modelando-tipos-do-petcare-os.md) · consolida `type aliases`, `interfaces`, `unions`, `narrowing` e módulos.
+- [Atividade Final do Módulo — Núcleo TypeScript do PetCare OS](exercicios/atividade-final-modulo.md) · integra todo o módulo em um programa coeso.
 
 ## Projeto ou Prática do Módulo
 

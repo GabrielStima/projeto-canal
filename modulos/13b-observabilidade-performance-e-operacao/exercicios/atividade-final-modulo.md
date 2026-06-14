@@ -2,37 +2,87 @@
 
 ## O que você já tem
 
-Uma API de PetCare OS conectada ao banco, com regras de negócio, contratos e suíte de testes passando verde no GitHub Actions. Porém, ela ainda é uma "caixa preta" quando executa.
+Ao longo do módulo, você acompanhou um endpoint desde a baseline até a resposta a uma falha:
 
-## A Tarefa
+- diagnóstico e profiling;
+- teste de carga;
+- logs e instrumentação;
+- fluxo de telemetria;
+- métricas e trace;
+- dashboard e alerta;
+- failure mode e mitigação.
 
-Nesta atividade, você aplicará o **marco operacional**.
+Agora você consolidará essas partes em uma demonstração operacional pequena e reproduzível.
 
-Siga as etapas práticas na sua API local:
-1. **Instrumentação Básica:** Crie um Middleware que envolva todas as requisições, calculando os milissegundos desde a entrada até a saída da rota.
-2. **Logging Estruturado:** Instale e configure o `Pino.js` (ou `Winston`). Use a lib de uuid ou `crypto.randomUUID()` para injetar um `requestId` ou `traceId` nos headers, passando esse valor para todo objeto logado da requisição.
-3. **Carga e Saturação:** Baixe o **K6** (k6.io). Crie o script `loadtest.js` que bate em `GET /api/pets` simulando 50 usuários simultâneos por 30s. Observe o output, verifique sua taxa de R/s e se houve erros HTTP.
-4. **Profiling (Opcional Prático):** Rode sua API Node usando `--inspect`. Vá na aba Memory do Chrome ou aba Performance e dispare o script do K6 para visualizar o Flamechart sob estresse.
+## Sua tarefa
+
+Use o mesmo endpoint e entregue:
+
+1. baseline de latência e comportamento;
+2. hipótese investigada com profiling;
+3. cenário de carga versionado;
+4. logs estruturados com correlação, duração e status;
+5. catálogo de métricas;
+6. trace desenhado ou instrumentado;
+7. dashboard especificado;
+8. alerta acionável;
+9. failure mode com simulação ou plano reproduzível;
+10. comparação antes e depois, caso tenha realizado otimização.
+
+Não é necessário instalar uma plataforma completa, contratar serviço externo ou demonstrar escala de produção. Use ferramentas locais ou documentos verificáveis para as partes que dependem de infraestrutura ainda não estudada.
 
 ## O que você vai produzir
 
-- Configuração de Logs na inicialização do servidor.
-- Um arquivo `loadtest.js` na raiz ou subpasta `scripts/`.
-- Logs printados num JSON organizado no seu terminal quando navega pelo app.
+- `docs/operational-baseline.md`;
+- script de carga;
+- instrumentação e exemplos de logs;
+- catálogo de métricas e trace;
+- dashboard e regra de alerta;
+- procedimento de mitigação;
+- evidências e limitações da demonstração.
+
+## Demonstração mínima
+
+Mostre:
+
+- uma requisição com identificador correlacionado;
+- duração observada no log;
+- resultado do cenário de carga;
+- caminho de investigação de métrica para trace e log;
+- sinal esperado durante o failure mode;
+- ação indicada pelo alerta.
+
+## Critérios de conclusão
+
+- A comparação usa medições, não percepção.
+- O teste de carga possui cenário e limites claros.
+- Dados sensíveis não aparecem nos sinais.
+- Logs, métricas e trace possuem funções diferentes.
+- O alerta representa impacto e leva a uma ação.
+- O failure mode inclui mitigação e recuperação.
+- Limitações do ambiente local estão documentadas.
+
+## Como este trabalho continuará
+
+Nos módulos seguintes, esses sinais ajudarão a avaliar refatorações, decisões arquiteturais e implantação. Em cloud e SRE, o desenho local poderá ser conectado a ferramentas operacionais reais.
 
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Finalização do marco operacional no projeto.
+Cenário: Concluí uma demonstração operacional para um endpoint de uma API Node.js. Registrei baseline, profiling, carga, logs, correlação, métricas, trace, dashboard, alerta e um failure mode.
 
-Tarefa: Eu implementei Instrumentação simples de tempo, injeção de TraceID (Correlação), log estruturado JSON e criei meu script K6. Segue o output gerado por um Log de erro simulado e as métricas reportadas no terminal pelo K6:
-
-[COLE SUA RESPOSTA AQUI]
+Tarefa: Revise a coerência entre medição, sinais, investigação e resposta.
 
 Critérios de correção:
-1. Avalie meu Log: Ele contem as chaves essenciais para ser exportado a um indexador?
-2. Avalie meu K6 Report: O número de requisições sustentadas foi bom? Há presença alarmante de Requests Quebradas ou Latências altas de P95?
-3. O que falta (num ambiente Cloud real) para que essas duas métricas andem de mãos dadas em um painel do grafana?
+1. Baseline e carga são reproduzíveis?
+2. A conclusão de performance usa evidência?
+3. Logs estruturados evitam dados sensíveis?
+4. Métricas, trace e logs se complementam?
+5. O dashboard e o alerta representam impacto acionável?
+6. O failure mode possui mitigação, recuperação e sinais suficientes?
+7. As limitações do ambiente foram reconhecidas?
 
-Me traga recomendações de nível Pleno/Senior sobre o que fazer agora que tenho "olhos de águia" no backend.
+Organize a resposta em acertos, riscos críticos, imprecisões e dicas priorizadas. Não reescreva toda a solução antes da minha tentativa de correção.
+
+[COLE SUA RESPOSTA AQUI]
 ```

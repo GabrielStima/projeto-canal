@@ -100,26 +100,27 @@ Pré-requisito: Bloco E.
 
 ## Exercícios
 
-- [Exercício 01 — A Lousa Branca](exercicios/01-lousa-branca.md)
-- [Exercício 02 — Estimativa de Dados](exercicios/02-estimativa-dados.md)
-- [Exercício 03 — O Teorema CAP](exercicios/03-teorema-cap.md)
-- [Exercício 04 — Calculando Noves](exercicios/04-noves-uptime.md)
-- [Exercício 05 — O Poder do CDN](exercicios/05-cdn.md)
-- [Exercício 06 — Escalonamento Horizontal](exercicios/06-scale-out.md)
-- [Exercício 07 — Sharding e Replicas](exercicios/07-sharding-replicas.md)
-- [Exercício 08 — Caching Strategies](exercicios/08-caching-strategies.md)
-- [Exercício 09 — Fila ou Tópico?](exercicios/09-fila-vs-topico.md)
-- [Exercício 10 — Os Quatro Sinais Dourados](exercicios/10-four-golden-signals.md)
-- [Exercício 11 — Segurança na Arquitetura](exercicios/11-sec-design.md)
-- [Atividade Final Teórica: A Lousa da Escala Massiva](exercicios/atividade-final-modulo.md)
+- [Exercício 01 — Requisitos e Estimativas](exercicios/01-requisitos-estimativas.md)
+- [Exercício 02 — Consistência e Disponibilidade](exercicios/02-consistencia-disponibilidade.md)
+- [Exercício 03 — Borda e Camada de Aplicação](exercicios/03-borda-aplicacao.md)
+- [Exercício 04 — Dados, Cache e Mensageria](exercicios/04-dados-cache-mensageria.md)
+- [Exercício 05 — Confiabilidade e Observabilidade](exercicios/05-confiabilidade-observabilidade.md)
+- [Exercício 06 — Segurança, Custo e Evolução](exercicios/06-seguranca-custo-evolucao.md)
+- [Atividade Final Prática — Revisão de System Design do PetCare OS](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Elevação final para Senioridade Executiva: O **marco de system design**. Esqueça as IDEs. Use blocos conceituais (LucidChart / Excalidraw) para projetar uma rede descentralizada mundial do ecossistema PetCare absorvendo picos da "Black Friday Vet" lidando com milhões de Writes/Reads sem ruir.
+Neste módulo você desenvolve `docs/system-design.md` em etapas:
 
-1. Modele o Tráfego na Borda da Internet: Integre Load Balancers HTTP Dinâmicos com Redes Estáticas Geograficamente roteáveis (DNS e CDNs) e blinde via WAF L7 mitigando DDoS e descargas prematuras.
-2. Esmague o Gargalo Relacional com Segregação (Polyglot e CQRS): Adicione Componentes Intermediários In-Memory velozes (Caches/Redis) interceptando Read/Queries e envie Writes pesadas para Tópicos Massivos e Filas Paralelas (Kafka e SQS), preservando as Entidades Rígidas de Concorrência sem Travar Bloqueios de Tabela SQL.
-3. Demonstre Alta Disponibilidade: Quebre o Monolito Horizontalmente, garanta Imutabilidade de Contêiner e elabore como o Orquestrador K8S auto-cicatriza picos usando a tríade do Event-Driven para Resiliência, assumindo Quedas Naturais (Teorema CAP) sem falir o UX Global.
+1. Define requisitos, restrições, estimativas e gargalos.
+2. Escolhe consistência e disponibilidade por operação.
+3. Desenha borda e aplicação com evolução incremental.
+4. Integra banco, cache, mensageria e idempotência.
+5. Avalia falhas, observabilidade, degradação e recuperação.
+6. Inclui segurança, custos e sinais para evolução.
+7. Consolida o desenho e o apresenta em uma revisão arquitetural.
+
+Componentes como CDN, cache, filas, réplicas, sharding ou multi-região só entram quando um requisito, gargalo ou risco justificar sua complexidade.
 
 ## O Que Revisar Antes de Avançar
 

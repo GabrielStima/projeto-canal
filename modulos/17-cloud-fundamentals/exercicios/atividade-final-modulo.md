@@ -2,39 +2,59 @@
 
 ## O que você já tem
 
-Um sistema assíncrono bem montado rodando em containers no seu computador. Mas você foi promovido a Arquiteto Cloud.
+Você construiu `docs/arquitetura-cloud.md` com requisitos, região, rede, IAM, dados, processamento, segredos, recuperação e custos.
 
 ## A Tarefa
 
-O **marco de cloud** formaliza seu ingresso no mundo enterprise de nuvem.
+Revise esse material e produza a arquitetura cloud mínima do PetCare OS.
 
-1. Escolha a sua plataforma provedora imaginária (AWS, Azure ou GCP).
-2. Você deve redigir a Documentação de Topologia da rede.
-3. Descreva a organização das Subnets dentro da VPC (onde vai a sua API? Onde vai o PostgreSQL? Por quê?).
-4. Documente as Roles de Acesso (IAM) que serão permitidas para a Rota de Upload do Node mandar os raios-X ao S3/Blob.
-5. Estabeleça uma regra de descarte (Lifecycle Policy do S3) ou um arquivamento frio (Glacier) para prontuários de 5 anos atrás para fins de FinOps e redução de R$.
-6. Determine o RPO e RTO do banco de dados perante um incêndio grave no datacenter.
+1. Desenhe os componentes e os fluxos de tráfego.
+2. Identifique fronteiras públicas e privadas.
+3. Relacione cada componente a uma categoria de serviço cloud, sem depender de um único provedor.
+4. Registre identidades e permissões mínimas.
+5. Defina onde ficam banco, objetos, frontend, fila e consumidor.
+6. Documente backup, restauração, RPO, RTO e cenário de desastre.
+7. Inclua estimativa mensal, premissas, tags, orçamento e alertas.
+8. Liste cinco riscos, com probabilidade, impacto e mitigação.
+9. Separe decisões obrigatórias de melhorias futuras.
+10. Crie uma tabela que indique quais componentes serão descritos em Terraform no módulo 18.
 
 ## O que você vai produzir
 
-- Uma folha de arquitetura em formato texto ou `.drawio`.
-- Você deixará de pensar em classes e funções, e provará raciocínio arquitetural físico/lógico em nuvem.
+- `docs/arquitetura-cloud.md` consolidado;
+- um diagrama textual ou visual;
+- uma estimativa de custos;
+- uma matriz de riscos;
+- uma lista priorizada para conversão em Infrastructure as Code.
+
+Esse documento será a especificação de entrada do módulo 18. Não provisione recursos pagos nesta atividade.
+
+## Critérios de conclusão
+
+- a arquitetura atende aos requisitos declarados;
+- somente componentes necessários foram incluídos;
+- rede, IAM e dados não dependem de acesso público irrestrito;
+- recuperação possui objetivos e procedimento verificáveis;
+- custos possuem premissas e alertas;
+- a próxima etapa de IaC está delimitada.
 
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Revisão Profissional Cloud Architecture (marco de cloud).
+Cenário: Desenhei uma arquitetura cloud mínima para uma aplicação existente. O material contém requisitos, componentes, fluxos públicos e privados, IAM, dados, processamento assíncrono, segredos, recuperação, custos, riscos e uma lista de componentes que serão convertidos em Terraform.
 
-Tarefa: Entreguei abaixo a topologia, as regras de IAM, minha estratégia de VPC e o ciclo de vida FinOps do PetCare.
+Tarefa: Faça uma revisão crítica da arquitetura e de sua prontidão para virar Infrastructure as Code.
 
-[COLE AQUI SUA REDAÇÃO ARQUITETURAL]
+Critérios de correção:
+1. Os componentes atendem aos requisitos sem complexidade desnecessária?
+2. Rede, identidades e permissões seguem exposição mínima?
+3. Banco, objetos, frontend, fila e consumidor foram posicionados coerentemente?
+4. Backup, restauração, RPO e RTO são verificáveis?
+5. Estimativa, tags, orçamento e alertas tornam o custo governável?
+6. A matriz de riscos prioriza problemas reais?
+7. A lista para Terraform separa o que será gerenciado, apenas consultado ou mantido fora do código?
 
+Comece pelos acertos. Depois aponte imprecisões, riscos e lacunas por prioridade. Dê dicas antes de apresentar uma arquitetura completa.
 
 [COLE SUA RESPOSTA AQUI]
-Critérios de correção:
-1. O banco está perigosamente exposto na Web ou elegantemente isolado em Subnet Privada?
-2. O princípio do Menor Privilégio (IAM) está coeso e a escolha do gerenciamento DaaS/PaaS do Cloud confere economia contra operações do time?
-3. O Lifecycle reduz custos de prontuários antigos, alinhado à LGPD e à prática cirúrgica?
-
-Aja como um Lead Cloud Architect validando meu projeto antes de assinar o plano corporativo anual da AWS de U$ 5.000. Seja rigoroso.
 ```

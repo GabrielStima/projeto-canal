@@ -88,7 +88,7 @@ Este módulo não possui exercícios técnicos separados. A prática acontece na
 
 A prática deste módulo é pessoal e organizacional:
 
-1. Configure o seu ambiente de estudos (editor de texto, navegador, ferramentas de anotação).
+1. Configure o seu ambiente de estudos básico (editor de texto e navegador). Ferramentas como Node.js, Git e terminal serão vistas no módulo 05.
 2. Decida onde você vai registrar dúvidas, resumos e exercícios ao longo da formação.
 3. Estabeleça uma rotina mínima semanal de estudo e revisão.
 4. Use o prompt de revisão do módulo para construir, com a IA, um plano de estudos realista para a sua situação.

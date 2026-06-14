@@ -1,37 +1,69 @@
-# Atividade Final Prática: A Biblioteca de Alexandria
+# Atividade Final Prática — Portal Documental do PetCare OS
 
-## O que você já tem
+## O Que Você Já Possui
 
-1. Uma formação Completa em Backend TypeScript / Nuvem / IA.
-2. Domínio Absoluto do "Como Fazer".
-3. Domínio Abstrato da Arquitetura (Módulo System Design).
+Você construiu progressivamente a documentação técnica do PetCare OS:
+
+- `docs/README.md` com instruções de setup e navegação;
+- `docs/adr/001-<decisao>.md` registrando uma decisão arquitetural;
+- `docs/arquitetura/hld.md` com C4 nível 1 e nível 2;
+- `docs/arquitetura/lld-<fluxo>.md` detalhando um fluxo;
+- `docs/runbooks/<cenario>.md` para um incidente operacional;
+- `docs/rfcs/<mudanca>.md` propondo uma mudança futura.
 
 ## A Tarefa
 
-O **marco de documentação técnica**. A Clínica Petcare será comprada pelo conglomerado Friboi e precisa passar pela *Technical Due Diligence*. Reúna em um texto Mestre os 3 pilares da auditoria do seu Repo Mestre:
-1. **Pilar 1 (Contexto C4):** Descreva textualmente como seria desenhado o Diagrama C4 "Nível 2 (Container)" do seu aplicativo, focando nas grandes peças (Front React, API Rest Node, Database Postgres, Redis Cache). O que chama O Quê?
-2. **Pilar 2 (ADR de Orquestração):** Escreva o ADR da Virada de Chave Justificando pro Auditor por que você conteinerizou (`Docker`) tudo e botou num Orquestrador do Módulo 19 (`K8s`) em vez de deixar num EC2 Solto na unha. (Especifique os ganhos de Escalabilidade).
-3. **Pilar 3 (README Operacional SRE):** Escreva a "Runbook Section" que fica no final do seu README alertando: "Em caso do Banco Caiu às 3 da Madrugada, siga os passos X e Y no Datadog/AWS".
+Crie `docs/portal-documental.md`, um índice consolidado que organize toda a documentação do PetCare OS para diferentes públicos.
 
-## O que você vai produzir
+O portal deve conter:
 
-- O atestado que separa Programadores Medianos de *Líderes Técnicos (Tech Leads/Staffs)*. O Documento final que garante que as 50 ferramentas tecnológicas estudadas na sua Formação Gratuita inteira não sumam no esquecimento, perpetuando o software e garantindo um Valuations bilionário da sua Stack na vida real.
+1. **Propósito:** em uma ou duas frases, para que serve esse portal e quando atualizá-lo.
+2. **Mapa de públicos:** uma tabela com pelo menos quatro perfis (ex: novo desenvolvedor, engenheiro backend, pessoa de operações, auditor externo, product manager) e, para cada um:
+   - onde começar;
+   - quais documentos ler;
+   - qual é o objetivo após a leitura.
+3. **Inventário de documentos:** liste cada arquivo produzido com:
+   - nome e caminho;
+   - tipo (README, ADR, HLD, LLD, runbook, RFC);
+   - público principal;
+   - uma linha sobre o conteúdo;
+   - data de última revisão sugerida.
+4. **Navegação por jornada:** escolha duas jornadas do sistema e indique a sequência de documentos que uma pessoa deve ler para entender e operar cada uma. Exemplo:
+   - jornada de agendamento: README → HLD → LLD do fluxo → runbook;
+   - jornada de decisão arquitetural: HLD → ADR → RFC proposta.
+5. **Checklist de qualidade:** crie critérios para revisar se a documentação continua confiável, como:
+   - comandos testados a cada alteração de dependência;
+   - diagramas atualizados quando a arquitetura muda;
+   - runbooks revisados após incidentes;
+   - ADRs e RFCs vinculados a pull requests relevantes.
+6. **Revisão cruzada:** identifique pelo menos duas inconsistências entre os documentos que você criou e proponha correções. Exemplos: um comando no README que não corresponde ao LLD; uma decisão no ADR que não aparece no HLD; um runbook que menciona um fluxo não detalhado.
+7. **Próximos passos:** liste três documentos ou revisões que ainda faltam para considerar o portal completo.
+
+## O Que Você Vai Produzir
+
+- `docs/portal-documental.md` consolidado;
+- uma estrutura de pastas organizada para `docs/`;
+- um conjunto de documentos que conversam entre si;
+- um plano de manutenção da documentação.
 
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Desafio Master de Auditoria M&A, DevX (Developer Experience), C4 Model Teórico e Technical Alignment.
+Cenário: Criei o portal documental do PetCare OS consolidando README, ADR, HLD, LLD, runbook e RFC.
 
-Tarefa: Aqui vai meu dossiê final. O Esqueleto do C4 Container, O ADR histórico da Era Kubernetes do PetCare, e a seção crua e direta do Runbook de Observabilidade SRE noturna!
+Tarefa: Revise se o portal organiza a documentação para diferentes públicos e mantém consistência entre os documentos.
 
-[COLE AQUI A SUA OBRA DE ARTE FINAL ESCRITA COM SEÇÕES BEM DEFINIDAS]
+Critérios de correção:
+1. O propósito do portal é claro e a regra de atualização é objetiva.
+2. O mapa de públicos indica onde começar, o que ler e o objetivo de cada leitura.
+3. O inventário lista todos os documentos com tipo, público, resumo e ciclo de revisão.
+4. A navegação por jornada liga documentos em sequência lógica.
+5. O checklist de qualidade contém critérios verificáveis.
+6. A revisão cruzada aponta inconsistências reais entre os documentos anteriores.
+7. Os próximos passos priorizam documentos ainda ausentes.
+8. A linguagem é direta e o portal é navegável sem explicações adicionais.
 
+Primeiro destaque meus acertos. Depois aponte inconsistências, navegação confusa ou falta de critérios de manutenção e ofereça dicas. Só apresente um portal completo depois que eu revisar minha tentativa.
 
 [COLE SUA RESPOSTA AQUI]
-Critérios de correção:
-1. O Modelo C4 escrito foi respeitoso ignorando Micro-Classes internas e focando nos Componentes independentes interagindo entre si?
-2. O ADR do Docker/K8s conteve 'Decisão', e as 'Consequências Cruéis' (Ex: Aumento da Barreira de Entrada de Juniores em K8s)?
-3. O Runbook do README foi Sênior e Operacional (Alert-Driven Resolution) servindo como manual de extintor de Incêndio?
-
-Atue como o CTO da Empresa Compradora. Avalie de forma magistral se esse time que documentou tem Maturidade Corporativa ou se é uma brincadeira de Startup de Garagem. Seja um Avaliador de Silicon Valley com extrema barra de Qualidade da Documentação Técnica!
 ```

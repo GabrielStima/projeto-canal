@@ -55,27 +55,50 @@ Sem essa base, ferramentas como Terraform, Docker e Kubernetes viram uma pilha d
 | 17.12 | [Fundamentos de FinOps](17.12-fundamentos-de-finops.md) | Específica ampla | Rascunho |
 | 17.13 | [Projeto Prático: Desenhando a Infraestrutura Cloud de uma Aplicação](17.13-projeto-pratico-desenhando-a-infraestrutura-cloud-de-uma-aplicacao.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em 4 blocos. Siga a ordem dos blocos e preserve o mesmo documento de arquitetura ao longo dos exercícios.
+
+**Bloco A — Requisitos, identidade e rede** · aulas [17.00–17.03]
+Define região, disponibilidade, responsabilidades, IAM e caminhos de tráfego.
+Pré-requisito: arquitetura e segurança de aplicações.
+
+**Bloco B — Dados e entrega** · aulas [17.04–17.06]
+Escolhe storage, CDN e banco gerenciado conforme o tipo de dado e sua operação.
+Pré-requisito: Bloco A.
+
+**Bloco C — Processamento, segredos e recuperação** · aulas [17.07–17.10]
+Leva o fluxo assíncrono para serviços cloud e define segredos, backup, RPO e RTO.
+Pré-requisito: Bloco B e o fluxo produzido no módulo 16.
+
+**Bloco D — Custos e síntese** · aulas [17.11–17.13]
+Explicita motores de custo, ownership, orçamento, riscos e a arquitetura cloud mínima.
+Pré-requisito: Bloco C.
 
 ## Exercícios
 
-- [Exercício 01 — O Fim do Localhost](exercicios/01-fim-do-localhost.md)
-- [Exercício 02 — Desenhando o IAM da Clínica](exercicios/02-iam-clinica.md)
-- [Exercício 03 — Isolamento via VPC](exercicios/03-isolamento-vpc.md)
-- [Exercício 04 — CDN no Frontend](exercicios/04-cdn.md)
-- [Exercício 05 — Casos Serverless](exercicios/05-casos-serverless.md)
-- [Exercício 06 — Injeção de Segredos](exercicios/06-injecao-segredos.md)
-- [Exercício 07 — Monitoramento e Tags](exercicios/07-monitoramento-finops.md)
+- [Exercício 01 — Requisitos e Responsabilidades Cloud](exercicios/01-requisitos-e-responsabilidades-cloud.md)
+- [Exercício 02 — Identidade, Rede e Fluxo](exercicios/02-identidade-rede-e-fluxo.md)
+- [Exercício 03 — Dados, Storage e Entrega](exercicios/03-dados-storage-e-entrega.md)
+- [Exercício 04 — Processamento e Serviços Gerenciados](exercicios/04-processamento-e-servicos-gerenciados.md)
+- [Exercício 05 — Segredos, Backup e Recuperação](exercicios/05-segredos-backup-e-recuperacao.md)
+- [Exercício 06 — Custos, Tags e Orçamento](exercicios/06-custos-tags-e-orcamento.md)
 - [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você aplicará o **marco de cloud** arquitetando a topologia física e lógica em provedores como AWS/GCP/Azure para o PetCare OS:
+Neste módulo, você transformará os requisitos e fluxos já construídos em `docs/arquitetura-cloud.md`.
 
-1. Elabore o Diagrama de Rede listando o isolamento via **VPC** (Subnets públicas para Balizadores de Carga e privadas para Bancos Relacionais).
-2. Modele a política base de **IAM**, usando o princípio do menor privilégio para a API do Node que consumirá os arquivos médicos armazenados no S3/Blob Storage.
-3. Determine a viabilidade de alocar o histórico morto do PetCare em classes frias de Storage (Glacier) para práticas eficientes de **FinOps**.
-4. Escreva as proteções básicas de **Segredos e Variáveis de Ambiente**, banindo hardcodings da aplicação rumo ao Cloud Secrets Manager.
-5. Defina e justifique o **RPO/RTO** que a clínica veterinária deve adotar caso ocorra um desastre massivo num datacenter no meio da tarde.
+Os exercícios acrescentam progressivamente:
+
+1. requisitos, região e divisão de responsabilidades;
+2. topologia de rede e permissões mínimas;
+3. decisões para banco, objetos, frontend, logs e backups;
+4. mapeamento do fluxo assíncrono para serviços gerenciados;
+5. segredos, restauração, RPO e RTO;
+6. estimativa de custos, tags, orçamento e alertas.
+
+A atividade final consolida uma arquitetura cloud mínima, independente de provedor e pronta para ser convertida em Terraform. Nenhum recurso pago precisa ser provisionado.
 
 ## O Que Revisar Antes de Avançar
 

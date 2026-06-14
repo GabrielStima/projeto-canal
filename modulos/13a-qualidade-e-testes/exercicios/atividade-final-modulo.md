@@ -2,43 +2,77 @@
 
 ## O que você já tem
 
-Sua API do PetCare OS funciona, possui regras de autenticação e contratos. Mas ela era manual e não inspirava confiança automática: toda vez que você mexia em algo, precisava abrir o Insomnia/Postman e clicar repetidamente nos botões para garantir que não havia quebrado algo.
+Ao longo do módulo, você produziu estratégia, testes unitários, integração, contrato, regressão, jornada end-to-end, pipeline e quality gate.
 
-## A Tarefa
+Agora consolidará uma rede de segurança para **um fluxo crítico**, sem tentar testar toda a aplicação.
 
-O **marco de integração** exige o estabelecimento de uma rede de segurança de software contínua.
-Nesta atividade prática, você integrará ferramentas de teste na API.
+## Sua tarefa
 
-Siga as etapas:
-1. Configure o framework de Testes Unitários e Integração (ex: Jest ou Vitest).
-2. Escreva testes Unitários focados nos domínios lógicos que você possui (cálculos ou formatações), atingindo cobertura (Coverage) clara nestes arquivos.
-3. Integre a ferramenta de supertest. Crie 1 Suíte de Integração cobrindo 3 endpoints completos (caminho feliz e de falha).
-4. Em vez de mocks do Prisma/TypeORM, aponte seus testes de integração para um banco de dados de Teste (local ou container Docker).
-5. Opcionalmente (se já construiu Frontend): crie um fluxo mínimo no Cypress/Playwright que abre seu Portal do Tutor e testa o click do "Log In".
-6. Crie o pipeline CI (ex: `.github/workflows/ci.yml`) configurado para barrar Push/Merge se os testes rodarem e quebrarem.
+Escolha um dos fluxos usados nos exercícios e entregue:
+
+1. estratégia de risco atualizada;
+2. testes unitários para ao menos uma regra;
+3. testes de integração com um cenário de sucesso e um de falha;
+4. proteção de contrato;
+5. teste de regressão para um bug;
+6. jornada E2E implementada, quando houver frontend, ou especificada de forma reproduzível;
+7. pipeline de CI com os checks escolhidos;
+8. quality gate proporcional ao código novo;
+9. registro de uma fonte de flakiness evitada ou corrigida.
+
+Use as ferramentas já adotadas no projeto. Não é necessário trocar framework de testes, banco ou provedor de CI.
 
 ## O que você vai produzir
 
-- Uma pasta `tests` na raiz do seu projeto contendo pastas `unit` e `integration`.
-- Relatório de Cobertura de Testes sendo gerado no seu terminal.
-- Um badge `passing` / `failing` de CI acoplado ao GitHub (se optar por publicá-lo).
-- Feedback loop imediato para qualquer alteração na sua aplicação.
+- `docs/test-strategy.md`;
+- suítes organizadas conforme a convenção do projeto;
+- configuração de ambiente de integração;
+- pipeline de CI;
+- evidência de execução com resultados;
+- breve registro das limitações da cobertura.
+
+## Demonstração mínima
+
+Mostre:
+
+- teste unitário falhando quando a regra é quebrada;
+- integração confirmando resposta e banco;
+- contrato rejeitando uma mudança incompatível;
+- regressão impedindo o retorno do bug;
+- pipeline bloqueando uma alteração com falha.
+
+Não é necessário buscar uma porcentagem arbitrária de cobertura. A evidência deve mostrar proteção dos riscos selecionados.
+
+## Critérios de conclusão
+
+- Cada teste está ligado a um risco da estratégia.
+- Unidade, integração, contrato e E2E não se confundem.
+- O ambiente de integração é isolado.
+- O pipeline apresenta feedback em ordem eficiente.
+- O quality gate combina automação e revisão humana.
+- Limitações e riscos ainda não cobertos estão documentados.
+
+## Como este trabalho continuará
+
+No módulo 13B, o mesmo fluxo será medido e instrumentado. A suíte criada aqui servirá como referência para verificar se otimizações e instrumentação preservam o comportamento.
 
 ## Corrija Sua Atividade Com IA
 
-Com as pipelines configuradas e os testes rodando com sucesso, peça um Code Review. Copie seu pipeline de CI e um trecho do teste de integração que se comunica com o banco de dados.
-
 ```text
-Cenário: Atividade Final do Módulo de Qualidade e Testes no PetCare OS.
+Cenário: Concluí uma rede de segurança para um fluxo crítico de uma aplicação fullstack. Tenho estratégia, testes unitários, integração, contrato, regressão, E2E implementado ou especificado, CI e quality gate.
 
-Tarefa: Montei a infraestrutura de CI e as rotinas de Teste de Integração (em anexo).
+Tarefa: Revise a coerência entre riscos, testes, pipeline e política de qualidade.
 
 Critérios de correção:
-1. A técnica de isolamento entre suítes está madura (o banco é populado e zerado corretamente)?
-2. A configuração de CI está aproveitando o cache para ser rápida? O tempo esperado parece ideal para o padrão da ferramenta (ex: Github Actions)?
-3. O limite da asserção garante segurança do software ou as asserções estão triviais?
+1. Cada teste reduz um risco declarado?
+2. Os níveis de teste estão bem separados?
+3. O banco e o estado dos testes são isolados?
+4. Contrato e regressão protegem comportamentos relevantes?
+5. O pipeline oferece feedback rápido e bloqueia falhas importantes?
+6. O quality gate é proporcional e não depende apenas de cobertura?
+7. Limitações e possíveis fontes de flakiness foram registradas?
+
+Organize a resposta em acertos, riscos críticos, imprecisões e dicas priorizadas. Não reescreva toda a solução antes da minha tentativa de correção.
 
 [COLE SUA RESPOSTA AQUI]
-
-Por favor, atue como um Engenheiro Sênior de Qualidade: o que falta para meus testes brilharem mais, ficarem mais estáveis (menos flaky) e aprovarem a qualidade total?
 ```

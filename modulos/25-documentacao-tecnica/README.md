@@ -58,21 +58,26 @@ Depois de system design e IA para desenvolvedores, o aluno já tem repertório p
 
 ## Exercícios
 
-- [Exercício 01 — O Cemitério de Projetos](exercicios/01-cemiterio-projetos.md)
-- [Exercício 02 — O Documento Certo](exercicios/02-documento-certo.md)
-- [Exercício 03 — A Base de Conhecimento](exercicios/03-base-conhecimento.md)
-- [Exercício 04 — Escrevendo um ADR](exercicios/04-escrevendo-adr.md)
-- [Exercício 05 — O Desenho Macro](exercicios/05-hld-macro.md)
-- [Exercício 06 — O Código Renderizado](exercicios/06-diagramas-code.md)
-- [Atividade Final Prática: A Biblioteca de Alexandria](exercicios/atividade-final-modulo.md)
+- [Exercício 01 — README do PetCare OS](exercicios/01-readme-do-petcare-os.md)
+- [Exercício 02 — ADR de Decisão Arquitetural](exercicios/02-adr-de-decisao-arquitetural.md)
+- [Exercício 03 — HLD e C4 Nível 2](exercicios/03-hld-e-c4-nivel-2.md)
+- [Exercício 04 — Diagrama de Fluxo e LLD](exercicios/04-diagrama-de-fluxo-e-lld.md)
+- [Exercício 05 — Runbook Operacional](exercicios/05-runbook-operacional.md)
+- [Exercício 06 — RFC para Mudança Futura](exercicios/06-rfc-para-mudanca-futura.md)
+- [Atividade Final Prática: Portal Documental do PetCare OS](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-A coroação definitiva de Soft-Skills Acadêmica. O **marco de documentação técnica**. Não importa o quão engenhoso foi o seu cluster de RAG, IaC, Kubernetes ou Node.JS no Petcare, tudo isso morre sem o repasse institucional de conhecimento. Crie o Manual Oficial da sua Startup:
+Neste módulo você constrói progressivamente um portal documental do PetCare OS. Cada exercício gera um artefato que será reutilizado na atividade final:
 
-1. Elabore o Repositório Onboarding (`README.md` Magistral): Gere o cartão de visitas. Especifique com rigor os comandos limpos de Inicialização do Container Docker (Dx de Fricção Zero) para novos Engenheiros na Clínica.
-2. Compile a Geometria do Sistema (C4 Model e HLD): Escreva as lógicas de conexões (Diagramas-as-Code via Mermaid) listando Front-ends, Filas RabbitMQ e Nuvem na Perspectiva Nível 2 (Containers). Mostre o Macro sem o ruído do Micro.
-3. Imortalize os Registros Mágicos (ADR e Comunicação): Elabore Textos de Decisão (ADRs) validando as dores das escolhas tomadas ao longo do curso inteiro e Runbooks de Incêndios SRE, provando aos Auditores e Investidores que seu ecossistema não é código espaguete de 1 programador, mas sim um Projeto Enterprise auditável.
+1. Escreva o README principal do repositório com instruções claras para rodar o projeto localmente.
+2. Registre uma decisão arquitetural importante em um ADR com contexto, alternativas e consequências.
+3. Desenhe o HLD e o C4 Model nível 2, mostrando frontend, APIs, filas, banco, cache e integrações externas.
+4. Detalhe um fluxo específico em um LLD com diagrama de sequência e contratos.
+5. Crie um runbook operacional para um incidente realista.
+6. Proponha uma mudança futura em uma RFC com impacto, riscos e plano de migração.
+
+Na atividade final, você consolida tudo em `docs/portal-documental.md`, organizando a documentação por público, jornada, qualidade e manutenção.
 
 ## O Que Revisar Antes de Avançar
 

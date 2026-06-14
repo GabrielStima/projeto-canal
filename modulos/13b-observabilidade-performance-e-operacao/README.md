@@ -50,38 +50,92 @@ Observabilidade, performance e operação aparecem juntas porque se reforçam. O
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 13.14 | [Análise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Revisada |
-| 13.15 | [Profiling](13.15-profiling.md) | Específica prática | Revisada |
-| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Específica prática | Revisada |
-| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Específica prática | Revisada |
-| 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Revisada |
-| 13.19 | [Instrumentação](13.19-instrumentacao.md) | Específica prática | Revisada |
-| 13.20 | [Telemetria](13.20-telemetria.md) | Específica | Revisada |
-| 13.21 | [Métricas](13.21-metricas.md) | Específica prática | Revisada |
-| 13.22 | [Tracing](13.22-tracing.md) | Específica prática | Revisada |
-| 13.23 | [Monitoramento](13.23-monitoramento.md) | Específica | Revisada |
-| 13.24 | [Alertas](13.24-alertas.md) | Específica | Revisada |
-| 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Revisada |
-| 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Revisada |
+| 13.14 | [Análise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Rascunho |
+| 13.15 | [Profiling](13.15-profiling.md) | Específica prática | Rascunho |
+| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Específica prática | Rascunho |
+| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Específica prática | Rascunho |
+| 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Rascunho |
+| 13.19 | [Instrumentação](13.19-instrumentacao.md) | Específica prática | Rascunho |
+| 13.20 | [Telemetria](13.20-telemetria.md) | Específica | Rascunho |
+| 13.21 | [Métricas](13.21-metricas.md) | Específica prática | Rascunho |
+| 13.22 | [Tracing](13.22-tracing.md) | Específica prática | Rascunho |
+| 13.23 | [Monitoramento](13.23-monitoramento.md) | Específica | Rascunho |
+| 13.24 | [Alertas](13.24-alertas.md) | Específica | Rascunho |
+| 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Rascunho |
+| 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Rascunho |
+
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos. Os exercícios partem de uma medição inicial e terminam em uma investigação reproduzível, sem exigir uma plataforma de observabilidade em nuvem.
+
+**Bloco A — Medir antes de otimizar** · aulas 13.14–13.16
+Hipóteses, profiling, baseline e testes de carga.
+
+Faça o [Exercício 01 — Diagnóstico e Profiling](exercicios/01-diagnostico-e-profiling.md) e depois o [Exercício 02 — Teste de Carga e Baseline](exercicios/02-teste-de-carga-e-baseline.md).
+
+**Bloco B — Emitir e transportar sinais** · aulas 13.17–13.20
+Logs estruturados, instrumentação, correlação e fluxo de telemetria.
+
+Faça o [Exercício 03 — Logs, Instrumentação e Telemetria](exercicios/03-logs-instrumentacao-e-telemetria.md).
+
+**Bloco C — Investigar com sinais** · aulas 13.21–13.22
+Métricas, percentis, traces e correlação de uma operação.
+
+Faça o [Exercício 04 — Métricas e Tracing](exercicios/04-metricas-e-tracing.md).
+
+**Bloco D — Operar e responder** · aulas 13.23–13.26
+Monitoramento, alertas e failure modes.
+
+Faça o [Exercício 05 — Monitoramento e Alertas](exercicios/05-monitoramento-e-alertas.md) e o [Exercício 06 — Failure Modes e Mitigação](exercicios/06-failure-modes-e-mitigacao.md). Finalize com a [Atividade Final do Módulo](exercicios/atividade-final-modulo.md).
 
 ## Exercícios
 
-- [Exercício 05 — Análise e Profiling](exercicios/05-analise-e-profiling.md)
-- [Exercício 06 — Logging e Métricas](exercicios/06-logging-e-metricas.md)
-- [Exercício 07 — Monitoramento e Alertas](exercicios/07-monitoramento-e-alertas.md)
-- [Exercício 08 — Failure Modes na Operação](exercicios/08-failure-modes-operacao.md)
+- [Exercício 01 — Diagnóstico e Profiling](exercicios/01-diagnostico-e-profiling.md)
+- [Exercício 02 — Teste de Carga e Baseline](exercicios/02-teste-de-carga-e-baseline.md)
+- [Exercício 03 — Logs, Instrumentação e Telemetria](exercicios/03-logs-instrumentacao-e-telemetria.md)
+- [Exercício 04 — Métricas e Tracing](exercicios/04-metricas-e-tracing.md)
+- [Exercício 05 — Monitoramento e Alertas](exercicios/05-monitoramento-e-alertas.md)
+- [Exercício 06 — Failure Modes e Mitigação](exercicios/06-failure-modes-e-mitigacao.md)
 - [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você continuará a evolução do PetCare OS implementando o **marco operacional**.
-O código não precisará mais ser alterado na sua regra de negócio; o foco agora será envelopá-lo com confiabilidade:
+Neste módulo, você continuará a evolução do PetCare OS tornando um fluxo crítico mensurável e investigável. O foco está em adicionar sinais e evidências, sem reescrever a regra de negócio:
 
-1. Executar um Profiling local com Node Inspector / Clinic.js e encontrar o trecho mais custoso do Agendamento.
-2. Trocar todos os `console.log` puros por `pino` ou `winston`, garantindo injeção de ID único.
-3. Criar e aplicar um Teste de Carga de pico matinal usando K6 para provar a robustez em altas requisições.
-4. Definir Alertas e documentar um plano de Mitigação (Fail-Open vs Fail-Closed) para dependências externas.
-5. Criar Traces hipotéticos da jornada completa de Faturamento, incluindo chamadas ao Redis, Banco e API Externa.
+1. Medir um endpoint e registrar uma baseline antes de otimizar.
+2. Usar profiling para investigar uma hipótese de gargalo.
+3. Criar um teste de carga pequeno e interpretar latência, throughput e erros.
+4. Adicionar logs estruturados, duração e um identificador de correlação.
+5. Definir métricas e desenhar o trace de uma operação importante.
+6. Criar uma visão de monitoramento e um alerta acionável.
+7. Documentar um failure mode, sua mitigação e os sinais que permitem investigá-lo.
+
+Você pode usar ferramentas equivalentes às apresentadas nas aulas. Não é necessário contratar serviço externo, instalar uma pilha completa de observabilidade ou provar capacidade de produção a partir de um teste local.
+
+## O Que Entra e O Que Sai Deste Módulo
+
+**O que entra dos módulos anteriores:**
+
+- API com suíte de testes e pipeline de CI;
+- fluxos críticos e riscos já identificados;
+- logs básicos, erros padronizados, autenticação e rate limiting;
+- ambiente local capaz de executar a aplicação e seus testes.
+
+**O que sai deste módulo:**
+
+- baseline de performance de um endpoint;
+- evidência de profiling e comparação antes/depois, quando houver otimização;
+- cenário de carga reproduzível;
+- logs estruturados com correlação e duração;
+- mapa de métricas e trace de uma operação;
+- dashboard e alerta especificados;
+- failure mode com mitigação e sinais de investigação.
+
+**Onde isso será retomado:**
+
+- no módulo 14, medições e sinais ajudarão a avaliar o efeito de refatorações;
+- nos módulos de cloud e SRE, os sinais locais serão conectados a infraestrutura, monitoramento e resposta a incidentes;
+- os failure modes documentados orientarão decisões arquiteturais posteriores.
 
 ## O Que Revisar Antes de Avançar
 

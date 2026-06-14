@@ -60,7 +60,8 @@ Abaixo está o mapa detalhado de cada módulo técnico da formação. Cada diret
 | **16** | [📡 Tempo Real e Filas](modulos/16-tempo-real-e-comunicacao-assincrona/) | WebSocket, SSE, Message Brokers (RabbitMQ/Kafka), BullMQ e processamento assíncrono. | `Rascunho` |
 | **17** | [☁️ Cloud Fundamentals](modulos/17-cloud-fundamentals/) | VPCs, redes, IAM, storages, bancos gerenciados, CDNs, FinOps e disaster recovery. | `Rascunho` |
 | **18** | [⚙️ IaC (Terraform)](modulos/18-infrastructure-as-code/) | Infraestrutura declarativa, gerência de estado no Terraform, drift e variáveis. | `Rascunho` |
-| **19** | [🐳 DevOps & Kubernetes](modulos/19-devops-containers-e-kubernetes/) | Pipelines de CI/CD, Docker, conteinerização segura e orquestração com Kubernetes. | `Rascunho` |
+| **19A** | [🐳 DevOps & Containers](modulos/19a-devops-ci-cd-e-containers/) | Pipelines de CI/CD, Docker, conteinerização segura e publicação em registries. | `Rascunho` |
+| **19B** | [☸️ Kubernetes](modulos/19b-kubernetes/) | Orquestração de containers, workloads, Services, ConfigMaps, Secrets e padrões de deployment. | `Rascunho` |
 | **20** | [🚨 SRE & Operação](modulos/20-sre-operacao-incidentes/) | Monitoramento, SLI/SLO/SLA, incident response, postmortems, runbooks e rollbacks. | `Rascunho` |
 | **21** | [🛡️ Supply Chain Security](modulos/21-supply-chain-security-e-secure-sdlc/) | Varreduras SAST/DAST, auditoria de dependências, SBOM e assinaturas de artefatos. | `Rascunho` |
 | **22** | [🔐 Privacidade & LGPD](modulos/22-privacidade-e-governanca-de-dados/) | LGPD/GDPR para desenvolvedores, anonimização, logs de auditoria e exclusão de dados. | `Rascunho` |

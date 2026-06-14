@@ -454,22 +454,20 @@ A aula guarda-chuva prepara o terreno. As aulas específicas viram material de c
 <details>
 <summary>🔍 Ver Grade de Assuntos Detalhados</summary>
 
-- Princípios do Clean Code
-- Paradigmas da programação
-- POO
-- Princípios primários de POO
-- Paradigm features
+- Clean Code, nomes, funções e clareza de intenção
+- Paradigmas e recursos de linguagem
+- POO, encapsulamento, abstração e polimorfismo
+- Estado e invariantes
+- Acoplamento e coesão
 - Model-driven design
-- Princípios de design
+- Princípios de design e decisões de refatoração
 - SOLID
-- DRY
-- YAGNI
-- Law of Demeter
-- Tell, don't ask
-- Princípio de Hollywood
+- DRY, YAGNI e abstrações prematuras
+- Tell, don't ask e Law of Demeter
+- Princípio de Hollywood e inversão de controle
 - Composition over inheritance
 - Encapsulate what varies
-- Program against abstractions
+- Dependency inversion e program against abstractions
 - Padrões de design
 - GoF
 - PoSA
@@ -602,9 +600,9 @@ A aula guarda-chuva prepara o terreno. As aulas específicas viram material de c
 </details>
 
 
-### 19. DevOps, Containers e Kubernetes
+### 19A. DevOps, CI/CD e Containers
 
-> **Objetivo:** entender como aplicações rodam, escalam e são entregues em ambientes modernos.
+> **Objetivo:** entender como aplicações são validadas, empacotadas e publicadas em ambientes modernos.
 
 
 <details>
@@ -628,6 +626,18 @@ A aula guarda-chuva prepara o terreno. As aulas específicas viram material de c
 - Docker CLI
 - Networking
 - Segurança em containers
+
+</details>
+
+
+### 19B. Kubernetes
+
+> **Objetivo:** entender como orquestrar containers em um cluster Kubernetes.
+
+
+<details>
+<summary>🔍 Ver Grade de Assuntos Detalhados</summary>
+
 - Kubernetes
 - Configurando Kubernetes
 - Rodando aplicações

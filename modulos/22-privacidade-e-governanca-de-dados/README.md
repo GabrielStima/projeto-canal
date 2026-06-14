@@ -61,21 +61,27 @@ Privacidade não é apenas uma camada jurídica depois que o sistema fica pronto
 
 ## Exercícios
 
-- [Exercício 01 — A Bomba Relógio](exercicios/01-bomba-relogio.md)
-- [Exercício 02 — O Direito do Titular](exercicios/02-direito-titular.md)
-- [Exercício 03 — Inventário PetCare](exercicios/03-inventario-petcare.md)
-- [Exercício 04 — Cron de Expurgo](exercicios/04-cron-expurgo.md)
-- [Exercício 05 — Máscara de Dados](exercicios/05-mascara-dados.md)
-- [Exercício 06 — Sanitização de Logs](exercicios/06-sanitizacao-logs.md)
-- [Atividade Final Prática: Governança do Petcare](exercicios/atividade-final-modulo.md)
+- [Exercício 01 — Inventário, Classificação e Finalidade](exercicios/01-inventario-finalidade-dados.md)
+- [Exercício 02 — Solicitação do Titular e Política de Acesso](exercicios/02-solicitacao-titular-acesso.md)
+- [Exercício 03 — Retenção, Descarte e Backups](exercicios/03-retencao-descarte-backups.md)
+- [Exercício 04 — Dataset Pseudonimizado](exercicios/04-dataset-pseudonimizado.md)
+- [Exercício 05 — Logs Seguros e Auditoria](exercicios/05-logs-auditoria.md)
+- [Exercício 06 — Dados Enviados para IA](exercicios/06-dados-enviados-ia.md)
+- [Atividade Final Prática — Revisão de Privacidade do PetCare OS](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-A governança implanta maturidade institucional através do **marco de governança de dados**. A clínica PetCare passa por uma auditoria legal profunda. Transforme sua arquitetura base numa fortaleza limpa e ética:
+Neste módulo você revisa um fluxo do PetCare OS em etapas:
 
-1. Modifique a engine de Log (Observabilidade) nativa das APIs incorporando o filtro pesado `Redaction` que interceptará Textos e CPFs em `StdOut` transmutando-os em `***` antes de cruzarem a rede da Cloud (Evitando indexação ilegal pelo Datadog/Cloudwatch).
-2. Programe e descreva a arquitetura de uma *CronJob Noturna/Background Worker* focada na expurgação cirúrgica (*Hard Delete*) de registros frios em conformidade total com expirações estritas do seu SLA Retentivo.
-3. Configure Modelagens de Dados em bancos Paralelos (Data Warehouse ou Data Lake via Views Materializadas) forçando a Pseudo-anonimização dos Dados Tóxicos, blindando-os de Cientistas de Dados ou de uso irrestrito do Marketing do hospital.
+1. Cria um inventário com classificação, finalidade, necessidade e localizações.
+2. Modela solicitações do titular e políticas de acesso.
+3. Define retenção, descarte, backups e evidências de execução.
+4. Desenha um dataset pseudonimizado para analytics.
+5. Separa logs operacionais de eventos de auditoria.
+6. Cria critérios para dados enviados a ferramentas de IA.
+7. Consolida riscos e um plano de melhoria em `docs/governanca-dados.md`.
+
+O trabalho é uma revisão técnica de privacidade. Bases legais, prazos regulatórios e declarações de conformidade devem ser validados com profissionais responsáveis pelo contexto jurídico e de privacidade.
 
 ## O Que Revisar Antes de Avançar
 

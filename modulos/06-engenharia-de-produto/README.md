@@ -69,6 +69,7 @@ Esse pacote de documentos será retomado nos próximos módulos para construir i
 | 06.03 | [Critérios de aceite](06.03-criterios-de-aceite.md) | Específica prática | Rascunho |
 | 06.04 | [Feature flags](06.04-feature-flags.md) | Específica conceitual/prática | Rascunho |
 | 06.05 | [Experimentos e A/B testing](06.05-experimentos-e-ab-testing.md) | Específica introdutória | Rascunho |
+| 06.06 | [Conectando a Fase 2 ao Frontend e Backend](06.06-conectando-a-fase-2-ao-frontend-e-backend.md) | Específica de transição | Rascunho |
 | 06.07 | [Product Discovery](06.07-product-discovery.md) | Específica | Rascunho |
 | 06.08 | [Priorização](06.08-priorizacao.md) | Específica | Rascunho |
 | 06.09 | [Métricas de Produto](06.09-metricas-de-produto.md) | Específica | Rascunho |
@@ -87,13 +88,17 @@ Pré-requisito: nenhum (ponto de entrada do módulo).
 Reduzir risco com feature flags e aprender com experimentos controlados.
 Pré-requisito: Bloco A.
 
-**Bloco C — Decisão e comunicação** · aulas 06.07–06.10
-Descobrir o problema antes de construir, priorizar funcionalidades, definir métricas e comunicar decisões para stakeholders.
+**Bloco C — Transição para implementação** · aula 06.06
+Conectar os conceitos da fase 2 (TypeScript, estruturas de dados, ferramentas e produto) com os módulos de frontend moderno, Next.js, backend e banco de dados.
 Pré-requisito: Bloco B.
+
+**Bloco D — Decisão e comunicação** · aulas 06.07–06.10
+Descobrir o problema antes de construir, priorizar funcionalidades, definir métricas e comunicar decisões para stakeholders.
+Pré-requisito: Bloco C.
 
 **Síntese prática** · aula 06.11
 Consolidar tudo em um pacote de documentos de produto versionado no repositório do PetCare OS.
-Pré-requisito: Blocos A, B e C.
+Pré-requisito: Blocos A, B, C e D.
 
 Aulas dentro de um mesmo bloco podem ter dependências entre si — consulte o campo "Onde Esta Aula Entra na Formação" em cada arquivo para detalhes.
 

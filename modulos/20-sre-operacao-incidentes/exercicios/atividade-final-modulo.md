@@ -1,37 +1,69 @@
-# Atividade Final Prática: Simulacro de Incidente
+# Atividade Final Prática — Exercício de Mesa de um Incidente
 
-## O que você já tem
+## O Que Você Já Possui
 
-Sua API com banco tem endpoints. Você aprendeu a diferença dolorosa entre estar fora do ar vs estar operante degradado.
+Você construiu em etapas:
+
+- uma jornada crítica e sua análise de impacto;
+- SLIs, SLO e error budget;
+- sinais, verificações de saúde e degradação;
+- um runbook;
+- um plano de resposta;
+- um postmortem inicial.
 
 ## A Tarefa
 
-Neste **marco operacional**, redija a vida real SRE:
-1. Descreva a Rota `GET /health/liveness` e explique na folha como seu Node responde `200` apenas checando sua sanidade própria.
-2. Descreva a Rota `GET /health/readiness` provando na folha que ela falha (retorna `503`) se o banco principal MySQL estiver fora (Não serve pro LoadBalancer!).
-3. Escolha uma crise fatal fictícia e desenhe um **Postmortem Blameless**.
-4. O Postmortem DEVE ter: Contexto, Timeline of Events (14:00 erro, 14:05 pagers, 14:30 rollback), Root Cause Analysis (Ação do sistema, NUNCA culpa o operador humano), e os *Action Items* práticos pro JIRA da Sprint que vem.
+Conduza sozinho ou com colegas um exercício de mesa. Ninguém precisa derrubar a aplicação: use os eventos abaixo como informações reveladas em sequência.
 
-## O que você vai produzir
+1. **10:00:** um deploy termina sem erro aparente.
+2. **10:04:** a taxa de sucesso da jornada crítica cai e o alerta dispara.
+3. **10:08:** a readiness oscila; CPU da API está normal e a latência do banco aumentou.
+4. **10:12:** a equipe descobre que o deploy incluiu uma mudança compatível na aplicação, mas uma migration elevou o custo de uma consulta.
+5. **10:18:** o rollback da aplicação não reduz a latência.
+6. **10:24:** a degradação planejada reduz a pressão e recupera a jornada principal.
+7. **10:35:** uma correção segura é aplicada e os SLIs permanecem estáveis.
 
-- Uma rota express limpa blindando roteadores do K8S.
-- E o seu primeiro documento corporativo de Autópsia Livre de Culpas de um Desastre Digital Bilionário.
+Para cada evento:
+
+- registre horário, fato conhecido, decisão, responsável e resultado esperado;
+- atualize severidade e comunicação quando necessário;
+- use o runbook, justificando qualquer desvio;
+- separe mitigação de correção definitiva;
+- defina quando declarar recuperação.
+
+Depois do exercício:
+
+1. atualize o postmortem com a timeline real da simulação;
+2. revise as ações de melhoria por impacto e esforço;
+3. confirme que liveness, readiness, alertas e runbook continuam coerentes;
+4. registre uma melhoria que deverá ser considerada no pipeline seguro do próximo módulo.
+
+## O Que Você Vai Produzir
+
+- `docs/operacao.md` revisado;
+- um runbook em `docs/runbooks/`;
+- um postmortem final em `docs/postmortems/`;
+- um registro de decisões do exercício de mesa.
+
+O próximo módulo retomará o deploy e a migration como partes da cadeia de entrega que também precisam de controles preventivos.
 
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: O Exame Final SRE. Liveness Probes Node + Documento Executivo Postmortem Blameless.
+Cenário: Conduzi um exercício de mesa de um incidente no PetCare OS, usando uma sequência de eventos após um deploy com migration de banco.
 
-Tarefa: Segue meu Pseudo-código de Healthchecks de K8S, e meu texto do Postmortem Blameless sobre o incidente fatal da Clínica.
+Tarefa: Revise minhas decisões, comunicações, uso do runbook, critérios de recuperação, postmortem e ações de melhoria.
 
-[COLE AQUI SEU CÓDIGO HEALTH E SEU POSTMORTEM (RESUMIDO) MOLDADOS NA CLÍNICA PETCARE]
+Critérios de correção:
+1. As decisões evoluem conforme novas evidências aparecem, sem tratar hipóteses como fatos.
+2. Papéis, severidade e comunicação permanecem claros durante o incidente.
+3. Rollback, degradação e correção definitiva são usados com justificativas coerentes.
+4. A recuperação é confirmada pelos SLIs durante um período estável.
+5. O postmortem explica fatores técnicos e de processo sem atribuir culpa individual.
+6. As ações possuem responsável, prazo, prioridade e evidência de conclusão.
+7. O conjunto de documentos permite que outra pessoa entenda e repita o processo.
 
+Primeiro destaque meus acertos. Depois aponte inconsistências e ofereça perguntas ou dicas para eu melhorar. Só apresente um exemplo completo depois que eu revisar minha própria solução.
 
 [COLE SUA RESPOSTA AQUI]
-Critérios de correção:
-1. O readiness probe prova consultar dependências pesadas externas (Banco)? (O liveness ficou leve pra evitar reinícios burros de contêineres)?
-2. A análise do PostMortem cometeu o anti-pattern tóxico e imperdoável de culpar o nome de uma pessoa, ou assumiu as defesas como falhas do Processo?
-3. Há *Action Items* práticos (Ex: Adicionar trava Terraform, Melhorar alerta do Datadog) propostos contra o acontecimento do erro na autópsia técnica?
-
-Faça o papel de VP of Engineering revisando meu trabalho corporativo. Requeira melhoria contínua dos processos.
 ```

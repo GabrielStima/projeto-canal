@@ -91,23 +91,27 @@ Pré-requisito: Blocos A a D.
 
 ## Exercícios
 
-- [Exercício 01 — O Cavalo de Troia NPM](exercicios/01-troia-npm.md)
-- [Exercício 02 — Modelando o Raio-X](exercicios/02-threat-modeling.md)
-- [Exercício 03 — A Falsidade do .env](exercicios/03-cofre-vs-env.md)
-- [Exercício 04 — O Roubo no Pipeline](exercicios/04-roubo-pipeline.md)
-- [Exercício 05 — O Pesadelo das Dependências Transientes](exercicios/05-dependencias-transientes.md)
-- [Exercício 06 — Lendo um SBOM](exercicios/06-sbom.md)
-- [Exercício 07 — SAST vs DAST vs SCA](exercicios/07-sast-vs-dast.md)
-- [Atividade Final Prática: A Esteira Inquebrável](exercicios/atividade-final-modulo.md)
+- [Exercício 01 — Mapa da Cadeia e Ameaças](exercicios/01-mapa-cadeia-ameacas.md)
+- [Exercício 02 — Segredos, Identidades e Permissões](exercicios/02-segredos-identidades-permissoes.md)
+- [Exercício 03 — Pipeline e Quality Gates](exercicios/03-pipeline-quality-gates.md)
+- [Exercício 04 — Dependências, SCA e npm](exercicios/04-dependencias-sca-npm.md)
+- [Exercício 05 — SBOM, Proveniência e Artefatos](exercicios/05-sbom-proveniencia-artefatos.md)
+- [Exercício 06 — Verificação Dinâmica e Triagem](exercicios/06-verificacao-dinamica-triagem.md)
+- [Atividade Final Prática — Revisão de uma Entrega Segura](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-A evolução atinge a paranóia controlada no **marco de segurança da cadeia de suprimentos**. Transforme as esteiras passivas do PetCare OS em um Bunker digital impermeável:
+Neste módulo você protege a cadeia de entrega do PetCare OS em etapas:
 
-1. Modifique a rotina do `Github Actions`. Remova e trranque os `Hardcoded Secrets` da equipe consumindo Segredos temporários unicamente pelo *AWS Secrets Manager / Vault*.
-2. Introduza bloqueios radicais: Acople no PR verificações assíncronas do código usando heurística de auditoria SAST (Ex: SonarQube / Semgrep). Qualquer falha classificada como "Critical" deve apagar o botão de Merge (`Quality Gate`).
-3. Adicione um scanner de composição SCA (`npm audit` ou `Trivy`) para vasculhar CVEs destrutivos dentro das suas dependências NPM profundas de Terceiros e emita relatórios automáticos SBOM.
-4. (Opcional Tático): Efetue a assinatura da Imagem Docker na saída do Registry (`Sigstore/Cosign`), e estabeleça políticas rígidas no K8s Operacional para negar execuções de pacotes que não contenham o carimbo/hash original da clínica aprovado na esteira.
+1. Mapeia ativos, limites de confiança, ameaças e prioridades.
+2. Reduz o alcance de identidades, segredos e permissões.
+3. Segmenta o pipeline e define quality gates e exceções.
+4. Cria uma política para dependências diretas, transitivas e scripts npm.
+5. Relaciona commit, build, SBOM, identidade e digest do artefato.
+6. Combina SAST, SCA e DAST com triagem e ambientes adequados.
+7. Reúne as evidências para decidir se uma entrega pode ser promovida.
+
+Ferramentas específicas são opções de implementação. O resultado obrigatório é uma cadeia verificável, com controles ligados a ameaças e decisões que possam ser auditadas.
 
 ## O Que Revisar Antes de Avançar
 

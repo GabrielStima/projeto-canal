@@ -1,35 +1,60 @@
-# Atividade Final Prática: A Esteira Inquebrável
+# Atividade Final Prática — Revisão de uma Entrega Segura
 
-## O que você já tem
+## O Que Você Já Possui
 
-O código da PetCare fluindo rápido em PRs pro Kubernetes graças ao DevOps do módulo passado. Mas com buracos severos para a invasão da máfia digital.
+Ao longo do módulo, você construiu:
+
+- um mapa da cadeia e de suas ameaças;
+- uma matriz de identidades, segredos e permissões;
+- uma proposta de pipeline e quality gates;
+- uma política de dependências;
+- uma cadeia de evidências do artefato;
+- uma estratégia de SAST, SCA e DAST.
 
 ## A Tarefa
 
-Neste **marco de segurança da cadeia de suprimentos**, redija o Manifesto Arquitetural DevSecOps da nova e brutal Esteira CI/CD que você aprovará:
-1. Modele: No arquivo do Github Actions, o PR precisa disparar imediatamente o Linter e uma checagem `Trivy` (SCA/SAST).
-2. O Scanner reporta um bug CRÍTICO no React. Descreva a ação implacável e inegociável do Quality Gate (Block).
-3. Após resolver os CVEs, justifique tecnicamente no texto a sua injeção obrigatória do projeto *Sigstore/Cosign* assinando a sua Imagem Docker, e explique como a nuvem da AWS/GCP barrará sumariamente um Deploy onde um Hacker no meio do caminho consiga corromper a Hash do Imagem do PetCare.
+Revise uma entrega candidata do PetCare OS e decida se ela pode ser promovida.
 
-## O que você vai produzir
+1. Escolha um commit e relacione-o ao build e ao artefato candidato.
+2. Verifique se os eventos e jobs do pipeline respeitam os limites de confiança.
+3. Confirme que apenas as identidades necessárias acessam secrets e publicação.
+4. Reúna resultados de lint, testes, SAST e SCA.
+5. Associe um SBOM ao digest do artefato.
+6. Registre a evidência de origem e integridade disponível.
+7. Planeje ou analise o resultado de DAST em ambiente controlado.
+8. Classifique achados como bloqueio, correção posterior ou exceção temporária.
+9. Para cada exceção, defina justificativa, responsável, prazo e controle compensatório.
+10. Emita uma decisão final: promover, corrigir e repetir, ou rejeitar.
 
-- Uma esteira paranóica. Segurança não mais delegada para consultorias ao fim de um ano. Mas sim a barreira instransponível imposta ativamente a cada commit feito pelos programadores juniores ou seniores do seu time.
+Você não precisa adotar todas as ferramentas citadas nas aulas. Escolha opções compatíveis com o projeto e justifique como cada controle reduz uma ameaça. Assinatura de artefatos é opcional, mas a rastreabilidade entre código, build e digest é obrigatória.
+
+## O Que Você Vai Produzir
+
+- `docs/seguranca-cadeia.md` consolidado;
+- workflow revisado ou uma proposta detalhada de alteração;
+- registro dos gates e de suas evidências;
+- SBOM ou exemplo representativo associado ao artefato;
+- decisão de promoção com riscos e exceções.
+
+Esse conjunto poderá ser retomado em futuras mudanças do pipeline e em incidentes envolvendo dependências, credenciais ou artefatos.
 
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Cume da Barreira de Supply Chain Security no PetCare OS.
+Cenário: Revisei uma entrega candidata do PetCare OS usando ameaça, acesso, pipeline, dependências, SBOM, proveniência e testes de segurança.
 
-Tarefa: Segue meu Manifesto/Descrição Teórica sobre as travas arquitetônicas de DevSecOps para barrar ataques avançados.
+Tarefa: Avalie minha decisão de promover, corrigir ou rejeitar o artefato e a qualidade das evidências usadas.
 
-[COLE AQUI A SUA ESTRUTURA DOS STEPS DO PIPELINE SEGURO + JUSTIFICATIVAS]
+Critérios de correção:
+1. Cada controle está ligado a uma ameaça relevante.
+2. Código não confiável não acessa secrets ou permissões de publicação.
+3. Quality gates possuem critérios objetivos, e exceções têm responsável e prazo.
+4. Dependências são avaliadas por severidade, explorabilidade e alcance.
+5. Commit, build, SBOM e digest do artefato podem ser relacionados.
+6. SAST, SCA e DAST são usados de forma complementar e dentro de seus limites.
+7. A decisão final explicita riscos residuais e evidências suficientes para ser auditada.
 
+Primeiro destaque meus acertos. Depois aponte lacunas e ofereça perguntas ou dicas para eu melhorar. Só apresente uma revisão completa depois que eu ajustar minha própria solução.
 
 [COLE SUA RESPOSTA AQUI]
-Critérios de correção:
-1. Provei que Gates de Qualidade são leis físicas (E não opiniões ou aprovações bypassáveis) no pipeline?
-2. Eu compreendi o poder surreal da assinatura digital Imutável do "Cosign" forçando o K8S da Produção a recusar Imagens Hackeadas na prateleira?
-3. Mostrei o poder destrutivo de injetar SAST + SCA na pipeline e resolver tudo antes da AWS?
-
-Faça o papel de Arquiteto/CISO de Nuvem, seja rigoroso na varredura da minha esteira de proteção corporativa, e julgue se ela tem lacunas ou não.
 ```

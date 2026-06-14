@@ -98,26 +98,26 @@ Pré-requisito: Bloco D.
 
 ## Exercícios
 
-- [Exercício 01 — Diagnóstico Arquitetural](exercicios/01-diagnostico-arquitetural.md)
-- [Exercício 02 — Coesão e Acoplamento em Larga Escala](exercicios/02-coesao-arquitetural.md)
-- [Exercício 03 — Policy vs Detail](exercicios/03-policy-vs-detail.md)
-- [Exercício 04 — Mapeando MVC e Camadas](exercicios/04-mvc-e-camadas.md)
-- [Exercício 05 — Clean Architecture e DDD](exercicios/05-clean-architecture-ddd.md)
-- [Exercício 06 — Microsserviços na Prática](exercicios/06-microsservicos.md)
-- [Exercício 07 — Messaging no Módulo Clínico](exercicios/07-messaging.md)
-- [Exercício 08 — Estilos Serverless vs Containers](exercicios/08-serverless.md)
-- [Exercício 09 — Arquitetura Orientada a Eventos e Microkernel](exercicios/09-event-driven-microkernel.md)
+- [Exercício 01 — Diagnóstico e Forças Arquiteturais](exercicios/01-diagnostico-e-forcas-arquiteturais.md)
+- [Exercício 02 — Componentes, Limites e Políticas](exercicios/02-componentes-limites-e-politicas.md)
+- [Exercício 03 — Comparando Estilos Arquiteturais](exercicios/03-comparando-estilos-arquiteturais.md)
+- [Exercício 04 — Distribuição e Consistência](exercicios/04-distribuicao-e-consistencia.md)
+- [Exercício 05 — Messaging, CQRS e Eventos](exercicios/05-messaging-cqrs-e-eventos.md)
+- [Exercício 06 — Operação e Alternativas Arquiteturais](exercicios/06-operacao-e-alternativas-arquiteturais.md)
 - [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você aplicará o **marco arquitetural** no PetCare OS. Agora que o código interno tem bom design de design, o foco expande para a resiliência e escala do ambiente em nuvem:
+Neste módulo, você revisará a arquitetura atual do PetCare OS antes de adicionar infraestrutura. Os exercícios constroem progressivamente `docs/revisao-arquitetural.md`: primeiro registram forças e decisões implícitas, depois refinam componentes, limites, estilos e custos de distribuição.
 
-1. Elabore e crie seu primeiro **ADR** (Architecture Decision Record) detalhando o porquê adotar arquiteturas baseadas em Mensageria na clínica.
-2. Isole as rotinas pesadas (Disparos em Massa, Relatórios e Processamento em Background) tirando do Loop do Controller/Express.
-3. Configure a injeção simples de Filas (RabbitMQ ou Redis/BullMQ) dividindo o Monólito em Produtores (API) e Consumidores (Workers).
-4. Aplique a barreira severa entre a Política (Regras do Hospital) e os Detalhes de entrega.
-5. Registre e preveja como a Consistência Eventual mudará as exibições na interface do usuário (ex: Mensagens de "Processando...").
+Na atividade final, você produzirá:
+
+1. um mapa dos módulos e de suas dependências;
+2. uma arquitetura-base proporcional, preferencialmente um monólito modular enquanto não houver evidência para distribuir;
+3. uma ADR com contexto, alternativas, decisão e consequências;
+4. a especificação de um fluxo candidato a processamento assíncrono.
+
+A fila e o worker não são implementados neste módulo. Essa especificação será retomada no módulo 16, depois que jobs, retentativas e idempotência forem estudados na prática.
 
 ## O Que Revisar Antes de Avançar
 
@@ -147,4 +147,3 @@ Não entregue respostas completas antes de eu tentar responder.
 - Materiais internos do próprio projeto.
 - Livros e materiais conceituais sobre arquitetura de software, Clean Architecture, DDD, sistemas distribuídos e padrões arquiteturais.
 - Documentação oficial de ferramentas específicas somente quando uma aula exigir detalhes de ferramenta.
-```

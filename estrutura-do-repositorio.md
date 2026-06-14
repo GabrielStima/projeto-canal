@@ -36,7 +36,8 @@ Este documento descreve a estrutura definitiva do repositório.
     ├── 16-tempo-real-e-comunicacao-assincrona/
     ├── 17-cloud-fundamentals/
     ├── 18-infrastructure-as-code/
-    ├── 19-devops-containers-e-kubernetes/
+    ├── 19a-devops-ci-cd-e-containers/
+    ├── 19b-kubernetes/
     ├── 20-sre-operacao-incidentes/
     ├── 21-supply-chain-security-e-secure-sdlc/
     ├── 22-privacidade-e-governanca-de-dados/

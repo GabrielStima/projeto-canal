@@ -59,22 +59,25 @@ SRE, operação e incidentes existem para transformar confiabilidade em prática
 
 ## Exercícios
 
-- [Exercício 01 — O Impacto da Queda](exercicios/01-impacto-queda.md)
-- [Exercício 02 — SLI, SLO e SLA](exercicios/02-sli-slo-sla.md)
-- [Exercício 03 — Análise de Saturação](exercicios/03-saturacao.md)
-- [Exercício 04 — Arquitetura de Degradação](exercicios/04-degradacao.md)
-- [Exercício 05 — Rollback Letal de Banco](exercicios/05-rollback-banco.md)
-- [Exercício 06 — Papéis no Incidente](exercicios/06-papeis-incidente.md)
-- [Atividade Final Prática: Simulacro de Incidente](exercicios/atividade-final-modulo.md)
+- [Exercício 01 — Impacto e Jornada Crítica](exercicios/01-impacto-jornada-critica.md)
+- [Exercício 02 — SLIs, SLOs e Error Budget](exercicios/02-slis-slos-error-budget.md)
+- [Exercício 03 — Capacidade, Saúde e Degradação](exercicios/03-capacidade-saude-degradacao.md)
+- [Exercício 04 — Rollback e Runbook](exercicios/04-rollback-runbook.md)
+- [Exercício 05 — On-call e Resposta a Incidente](exercicios/05-on-call-resposta-incidente.md)
+- [Exercício 06 — Postmortem e Ações de Melhoria](exercicios/06-postmortem-acoes.md)
+- [Atividade Final Prática — Exercício de Mesa de um Incidente](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-No ecossistema produtivo vivo da PetCare, você adotará o **marco operacional**. Não há mais novas 'Features'. É sobrevivência de infraestrutura em alta tensão:
+Neste módulo você prepara a operação de uma jornada crítica do PetCare OS em etapas:
 
-1. Adapte a API Node que você criou usando Endpoints mandatórios para o Cluster: `/health/liveness` e `/health/readiness`.
-2. Escreva o balanço matemático formal do "Error Budget" que o dono do hospital assinará sobre sua infra.
-3. Elabore e jogue em um Github Issue o seu primeiro `Postmortem Blameless`, narrando o apagão e a timeline (MTTR) de quando a UTI Pediátrica perdeu sinal de roteamento para a Nuvem AWS.
-4. Formalize os `Action Items` da resolução que consertam a Falha Estrutural do "Processo", eximindo engenheiros júniores de falhas decorrentes da automação precária (Culture Fit).
+1. Mapeia impacto, dependências e prioridade de recuperação.
+2. Define SLIs, SLO, error budget e regras de decisão.
+3. Planeja sinais, endpoints de saúde e degradação graciosa.
+4. Escreve um runbook com critérios de rollback, mitigação e escalonamento.
+5. Organiza papéis, severidade e comunicação de um incidente.
+6. Produz um postmortem blameless com ações verificáveis.
+7. Integra os documentos em um exercício de mesa, sem precisar causar uma indisponibilidade real.
 
 ## O Que Revisar Antes de Avançar
 

@@ -98,29 +98,26 @@ Pré-requisito: Bloco C (só faz sentido operar e medir o que você já sabe con
 
 ## Exercícios
 
-- [Exercício 01 — A Máquina Probabilística](exercicios/01-maquina-probabilistica.md)
-- [Exercício 02 — A Matemática do Token](exercicios/02-matematica-tokens.md)
-- [Exercício 03 — Redação Antes do Prompt](exercicios/03-redacao-prompt.md)
-- [Exercício 04 — O Co-piloto Controlado](exercicios/04-copiloto-controlado.md)
-- [Exercício 05 — O Perigo de Segurança](exercicios/05-seguranca-ai-code.md)
-- [Exercício 06 — Debug Eficiente](exercicios/06-debug-ai.md)
-- [Exercício 07 — Documentação Instantânea](exercicios/07-doc-ai.md)
-- [Exercício 08 — Workflow Agentic](exercicios/08-workflow-agents.md)
-- [Exercício 09 — Agentes Destrutivos](exercicios/09-agentes-destrutivos.md)
-- [Exercício 10 — Segurança em Autonomia](exercicios/10-sec-agentic.md)
-- [Exercício 11 — Banco de Vetores](exercicios/11-banco-vetores.md)
-- [Exercício 12 — A Prática de RAG](exercicios/12-rag-pratico.md)
-- [Exercício 13 — Criando seu Juiz](exercicios/13-criando-juiz-llm.md)
-- [Exercício 14 — O Desperdício Silencioso](exercicios/14-desperdicio-ai.md)
-- [Atividade Final Prática: O Assistente PetCare Blindado](exercicios/atividade-final-modulo.md)
+- [Exercício 01 — Escopo, Limites e Dados](exercicios/01-escopo-limites-dados.md)
+- [Exercício 02 — Workflow de Desenvolvimento](exercicios/02-workflow-desenvolvimento.md)
+- [Exercício 03 — Ferramentas e Autonomia](exercicios/03-ferramentas-autonomia.md)
+- [Exercício 04 — RAG e Recuperação](exercicios/04-rag-recuperacao.md)
+- [Exercício 05 — Evals e Guardrails](exercicios/05-evals-guardrails.md)
+- [Exercício 06 — Operação e Custos](exercicios/06-operacao-custos.md)
+- [Atividade Final Prática — Assistente Controlado do PetCare OS](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-O pináculo operacional final para integração de Inteligência. O **marco de inteligência artificial aplicada**. Esqueça os tutoriais rasos de Chat. Você arquiteta fluxos (Agentic Workflows) pesados integrados aos bancos da Clínica limitando danos corporativos.
+Neste módulo você evolui um assistente controlado do PetCare OS em seis entregas:
 
-1. Modele o RAG Eficiente: Implemente Embeddings baseados em Manuais Públicos Clínicos submetidos a Vector DBs (Ex: Pinecone). Force os blocos contextuais limpos sem enviar informações tóxicas da LGPD pelo Token Pipeline limitando abusos (Data Redaction de Segurança).
-2. Agentes de Ferramentas (Tool-Calling Strict): Engendre o ecossistema conversacional autônomo, forneça `Schemas` rígidos do JSON (Restrições de Sistema) de Node.js a um Agente. Configure `Human-In-The-Loop` (HITL) impedindo as invenções (Alucinações) ou ordens estúpidas e danosas de Agentes não controlados sob `Jailbreak/Prompt Injections` externos.
-3. Observabilidade e Guardrails (LLMOps/FinOps): Imponha os censores pré-API (Guardiões Semânticos - Ex: NeMo, LLM-as-a-judge Pipeline de Avaliação) cortando palavrões e protegendo as chaves contra o uso massivo de Tokens e roteando dinamicamente perguntas fúteis aos Modelos gratuitos locais na Cloud, derrubando o Budget da nuvem AWS em 90%.
+1. Especifica problema, limites, dados, riscos e métricas antes de escolher uma tecnologia.
+2. Usa IA em uma mudança pequena de código com critérios de aceite, revisão e quality gates.
+3. Projeta ferramentas com menor privilégio, confirmação humana, limites e auditoria.
+4. Constrói uma recuperação simples sobre documentos públicos ou fictícios, com fontes e recusa quando falta evidência.
+5. Cria evals e guardrails para comportamentos esperados, casos adversariais e regressões.
+6. Define versionamento, rollout, rollback, observabilidade, orçamento e critérios de interrupção.
+
+A atividade final reúne essas decisões em um protótipo pequeno. O uso de API paga, banco vetorial ou modelo hospedado não é obrigatório: uma implementação local ou um test double é suficiente quando preserva os contratos e permite demonstrar o comportamento. O assistente usa somente conteúdo aprovado e não atua como autoridade clínica.
 
 ## O Que Revisar Antes de Avançar
 

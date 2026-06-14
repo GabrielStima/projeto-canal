@@ -59,26 +59,44 @@ Este módulo existe para ensinar essas escolhas sem transformar toda aplicação
 | 16.12 | [Operações Idempotentes em Fluxos Assíncronos](16.12-operacoes-idempotentes-em-fluxos-assincronos.md) | Específica | Rascunho |
 | 16.13 | [Projeto Prático: Notificações e Jobs Assíncronos em uma API](16.13-projeto-pratico-notificacoes-e-jobs-assincronos-em-uma-api.md) | Síntese prática | Rascunho |
 
+## Trilha de Estudo
+
+Este módulo está organizado em 3 blocos. Siga a ordem dos blocos e preserve o mesmo fluxo prático entre os exercícios.
+
+**Bloco A — Escolha de comunicação e recuperação** · aulas [16.00–16.06]
+Compara request/response, polling, SSE e WebSocket, incluindo estado, autorização e reconexão.
+Pré-requisito: arquitetura de APIs e comunicação HTTP.
+
+**Bloco B — Processamento em background** · aulas [16.07–16.10]
+Transforma uma operação demorada em job, fila e consumidor com estados, retentativas e capacidade limitada.
+Pré-requisito: Bloco A e a especificação produzida no módulo 15.
+
+**Bloco C — Eventos, idempotência e integração** · aulas [16.11–16.13]
+Diferencia filas de pub/sub, protege efeitos contra duplicidade e integra o fluxo completo.
+Pré-requisito: Bloco B.
 
 ## Exercícios
 
-- [Exercício 01 — Mapeando a Necessidade de Tempo Real](exercicios/01-necessidade-tempo-real.md)
-- [Exercício 02 — Desenhando o Short Polling](exercicios/02-short-polling.md)
-- [Exercício 03 — A Diferença do Protocolo WS](exercicios/03-diferenca-websocket.md)
-- [Exercício 04 — Sincronismo de Desconexões](exercicios/04-reconexao-estado.md)
-- [Exercício 05 — Modelando uma Fila de Workers](exercicios/05-filas-workers.md)
-- [Exercício 06 — Pub/Sub e Broadcast de Eventos](exercicios/06-pub-sub.md)
-- [Exercício 07 — Chaves de Idempotência](exercicios/07-idempotencia.md)
+- [Exercício 01 — Escolha de Comunicação](exercicios/01-escolha-de-comunicacao.md)
+- [Exercício 02 — Tempo Real, Reconexão e Estado](exercicios/02-tempo-real-reconexao-e-estado.md)
+- [Exercício 03 — Job Assíncrono e Status](exercicios/03-job-assincrono-e-status.md)
+- [Exercício 04 — Fila, Retentativas e Backpressure](exercicios/04-fila-retries-e-backpressure.md)
+- [Exercício 05 — Pub/Sub e Contratos de Evento](exercicios/05-pub-sub-e-contratos-de-evento.md)
+- [Exercício 06 — Idempotência e Recuperação](exercicios/06-idempotencia-e-recuperacao.md)
 - [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você aplicará o **marco de comunicação assíncrona** no PetCare OS. Essa etapa desconecta as operações dependentes e acelera drasticamente a percepção de performance para o usuário final:
+Neste módulo, você implementará o fluxo assíncrono especificado no módulo 15. A evolução ocorre em etapas:
 
-1. Transforme o fluxo de Cadastro Massivo (Lotes) para uma rota de resposta imediata HTTP `202 Accepted`.
-2. Encaminhe o Payload pesado para uma Fila (Message Broker/Queue local) que será consumida num processo isolado.
-3. Elabore e proteja a persistência bancária do PetCare com Chaves de Idempotência, blindando seu banco contra *retries* suicidas do servidor de mensageria.
-4. Crie uma linha unidirecional (`SSE` ou `Short Polling` com cache forte) ou Bidirecional (`WebSockets` via Socket.io) para avisar os Médicos em tempo real sem precisar forçar "F5" no frontend de acompanhamento.
+1. escolha uma técnica de atualização compatível com a direção, a latência e o custo do problema;
+2. crie uma operação que responda `202 Accepted` e exponha o estado do job;
+3. separe produtor e consumidor, limitando retentativas e concorrência;
+4. diferencie uma fila de trabalho de um evento com múltiplos assinantes;
+5. torne o efeito do consumidor idempotente;
+6. integre atualização do cliente, recuperação após desconexão, observabilidade e testes.
+
+O caminho mínimo usa short polling e uma fila local ou simulada. Brokers, SSE e WebSocket são escolhas possíveis, não requisitos. O resultado será retomado nos módulos de cloud e operação.
 
 ## O Que Revisar Antes de Avançar
 

@@ -48,41 +48,95 @@ Qualidade e testes são a base da confiança. Sem eles, observabilidade e perfor
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 13.00 | [Qualidade, Testes, Observabilidade e Performance](13.00-qualidade-testes-observabilidade-e-performance.md) | Guarda-chuva | Revisada |
-| 13.01 | [Qualidade de Software](13.01-qualidade-de-software.md) | Guarda-chuva curta | Revisada |
-| 13.02 | [Estratégia de Testes](13.02-estrategia-de-testes.md) | Específica ampla | Revisada |
-| 13.03 | [Pirâmide de Testes](13.03-piramide-de-testes.md) | Específica | Revisada |
-| 13.04 | [Testes Unitários](13.04-testes-unitarios.md) | Específica prática | Revisada |
-| 13.05 | [Mocks, Stubs e Fakes](13.05-mocks-stubs-e-fakes.md) | Específica | Revisada |
-| 13.06 | [Testes de Integração](13.06-testes-de-integracao.md) | Específica prática | Revisada |
-| 13.07 | [Contract Tests](13.07-contract-tests.md) | Específica prática | Revisada |
-| 13.08 | [Testes End-to-End](13.08-testes-end-to-end.md) | Específica prática | Revisada |
-| 13.09 | [Testes de Regressão](13.09-testes-de-regressao.md) | Específica | Revisada |
-| 13.10 | [Testes em CI](13.10-testes-em-ci.md) | Específica prática | Revisada |
-| 13.11 | [Flaky Tests](13.11-flaky-tests.md) | Específica | Revisada |
-| 13.12 | [Testabilidade de Arquitetura](13.12-testabilidade-de-arquitetura.md) | Guarda-chuva curta | Revisada |
-| 13.13 | [Análise Estática, Métricas e Quality Gates](13.13-analise-estatica-metricas-e-quality-gates.md) | Específica ampla | Revisada |
+| 13.00 | [Qualidade, Testes, Observabilidade e Performance](13.00-qualidade-testes-observabilidade-e-performance.md) | Guarda-chuva | Rascunho |
+| 13.01 | [Qualidade de Software](13.01-qualidade-de-software.md) | Guarda-chuva curta | Rascunho |
+| 13.02 | [Estratégia de Testes](13.02-estrategia-de-testes.md) | Específica ampla | Rascunho |
+| 13.03 | [Pirâmide de Testes](13.03-piramide-de-testes.md) | Específica | Rascunho |
+| 13.04 | [Testes Unitários](13.04-testes-unitarios.md) | Específica prática | Rascunho |
+| 13.05 | [Mocks, Stubs e Fakes](13.05-mocks-stubs-e-fakes.md) | Específica | Rascunho |
+| 13.06 | [Testes de Integração](13.06-testes-de-integracao.md) | Específica prática | Rascunho |
+| 13.07 | [Contract Tests](13.07-contract-tests.md) | Específica prática | Rascunho |
+| 13.08 | [Testes End-to-End](13.08-testes-end-to-end.md) | Específica prática | Rascunho |
+| 13.09 | [Testes de Regressão](13.09-testes-de-regressao.md) | Específica | Rascunho |
+| 13.10 | [Testes em CI](13.10-testes-em-ci.md) | Específica prática | Rascunho |
+| 13.11 | [Flaky Tests](13.11-flaky-tests.md) | Específica | Rascunho |
+| 13.12 | [Testabilidade de Arquitetura](13.12-testabilidade-de-arquitetura.md) | Guarda-chuva curta | Rascunho |
+| 13.13 | [Análise Estática, Métricas e Quality Gates](13.13-analise-estatica-metricas-e-quality-gates.md) | Específica ampla | Rascunho |
+
+## Trilha de Estudo
+
+Este módulo está organizado em quatro blocos. Os exercícios evoluem uma estratégia de qualidade única, em vez de criar suítes independentes a cada aula.
+
+**Bloco A — Risco e estratégia** · aulas 13.00–13.03
+Qualidade, risco, estratégia e escolha do nível de teste.
+
+Ao concluir o bloco, faça o [Exercício 01 — Estratégia de Qualidade e Testes](exercicios/01-estrategia-de-qualidade-e-testes.md).
+
+**Bloco B — Unidade e integração** · aulas 13.04–13.06
+Testes unitários, doubles e integração com infraestrutura real.
+
+Faça o [Exercício 02 — Testes Unitários e Doubles](exercicios/02-testes-unitarios-e-doubles.md) e depois o [Exercício 03 — Testes de Integração](exercicios/03-testes-de-integracao.md).
+
+**Bloco C — Contratos, jornadas e regressões** · aulas 13.07–13.09
+Proteção de contratos, fluxos end-to-end e bugs que não podem voltar.
+
+Faça o [Exercício 04 — Contrato e Regressão](exercicios/04-contrato-e-regressao.md). O [Exercício 05 — Jornada End-to-End](exercicios/05-jornada-end-to-end.md) pode ser implementado quando houver frontend executável ou entregue como plano verificável.
+
+**Bloco D — Automação e sustentabilidade** · aulas 13.10–13.13
+CI, testes instáveis, testabilidade, análise estática e quality gates.
+
+Faça o [Exercício 06 — Testes no CI e Flakiness](exercicios/06-testes-no-ci-e-flakiness.md) e o [Exercício 07 — Testabilidade e Quality Gate](exercicios/07-testabilidade-e-quality-gate.md). Finalize com a [Atividade Final do Módulo](exercicios/atividade-final-modulo.md).
 
 ## Exercícios
 
-- [Exercício 01 — Qualidade e Riscos](exercicios/01-qualidade-e-riscos.md)
-- [Exercício 02 — Casos de Teste e a Pirâmide](exercicios/02-piramide-de-testes.md)
-- [Exercício 03 — Testes Unitários de Domínio](exercicios/03-testes-unitarios.md)
-- [Exercício 04 — Teste de Integração na API](exercicios/04-testes-de-integracao.md)
+- [Exercício 01 — Estratégia de Qualidade e Testes](exercicios/01-estrategia-de-qualidade-e-testes.md)
+- [Exercício 02 — Testes Unitários e Doubles](exercicios/02-testes-unitarios-e-doubles.md)
+- [Exercício 03 — Testes de Integração](exercicios/03-testes-de-integracao.md)
+- [Exercício 04 — Contrato e Regressão](exercicios/04-contrato-e-regressao.md)
+- [Exercício 05 — Jornada End-to-End](exercicios/05-jornada-end-to-end.md)
+- [Exercício 06 — Testes no CI e Flakiness](exercicios/06-testes-no-ci-e-flakiness.md)
+- [Exercício 07 — Testabilidade e Quality Gate](exercicios/07-testabilidade-e-quality-gate.md)
 - [Atividade Final do Módulo](exercicios/atividade-final-modulo.md)
 
 ## Projeto ou Prática do Módulo
 
-Neste módulo, você evoluirá a API do **PetCare OS** criando a sua rede de segurança (marco de integração).
+Neste módulo, você evoluirá a API do **PetCare OS** criando uma rede de segurança automatizada.
 
 1. Escolha fluxos críticos da API (ex: Cadastro de Pet, Agendamento de Consulta).
 2. Escreva uma estratégia de testes para esses fluxos.
 3. Crie testes unitários para regras matemáticas (ex: faturamento e descontos).
-4. Crie testes de integração plugando a API a um banco de testes (via Testcontainers ou local).
+4. Crie testes de integração usando um banco de testes isolado, local ou efêmero.
 5. Valide os contratos principais JSON devolvidos pela sua API (Contract Testing).
-6. Defina pelo menos um fluxo crítico End-to-End no seu front-end (Cypress/Playwright).
-7. Rode os testes em um fluxo de CI (ex: Github Actions) impedindo merges quebrados.
-8. Configure ferramentas de Análise Estática (SonarQube/ESLint) para exigir cobertura mínima.
+6. Defina pelo menos um fluxo crítico end-to-end no frontend, implementando-o quando o projeto já possuir uma interface executável.
+7. Rode os testes em um fluxo de CI, impedindo que mudanças com falhas sejam aprovadas.
+8. Configure análise estática e um quality gate proporcional ao risco do projeto.
+
+As práticas usam o framework de teste, o banco e o provedor de CI já escolhidos no projeto. Ferramentas citadas nas aulas são exemplos, não requisitos.
+
+## O Que Entra e O Que Sai Deste Módulo
+
+**O que entra dos módulos anteriores:**
+
+- API com banco, contratos, autenticação, autorização e controles de segurança;
+- critérios de aceite, erros padronizados e documentação OpenAPI;
+- frontend navegável, quando disponível;
+- mapa de riscos e cenários de sucesso e rejeição produzidos no módulo 12.
+
+**O que sai deste módulo:**
+
+- estratégia de testes orientada a risco;
+- testes unitários de regras de domínio;
+- testes de integração com estado isolado;
+- proteção de contrato e regressões conhecidas;
+- jornada end-to-end implementada ou especificada;
+- pipeline de CI com ordem de feedback clara;
+- análise de flakiness, testabilidade e quality gate documentado.
+
+**Onde isso será retomado:**
+
+- no módulo 13B, a suíte fornecerá uma referência de comportamento para medições e investigações;
+- no módulo 14, dificuldades de teste ajudarão a identificar problemas de design;
+- nos módulos de entrega, o pipeline será ampliado sem redefinir a estratégia do zero.
 
 ## O Que Revisar Antes de Avançar
 

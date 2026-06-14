@@ -2,47 +2,103 @@
 
 ## O que você já tem
 
-Nos módulos anteriores, a API do PetCare OS foi desenhada usando frameworks modernos e padrões REST, conectando-se a um banco de dados. No entanto, ela estava aberta: qualquer cliente HTTP poderia invocar mutações nas consultas e no estoque.
+Ao longo do módulo, você:
 
-## A Tarefa
+- mapeou riscos da API;
+- criou cadastro com hashing de senha;
+- praticou login, sessão, cookie e proteção contra CSRF;
+- comparou sessão, token opaco e JWT;
+- definiu autorização por papel e por recurso;
+- analisou OAuth como alternativa exploratória;
+- revisou CORS, XSS e SQL injection;
+- aplicou rate limiting e concluiu um checklist por endpoint.
 
-Este é o **marco de integração** do Módulo 12. Sua tarefa é integrar todas as proteções em uma versão da sua aplicação. Você criará middlewares e fluxos de segurança que garantam que os dados dos pets fiquem acessíveis apenas àqueles que devem acessá-los.
+Agora você integrará somente as decisões necessárias para demonstrar um fluxo seguro. Não é necessário implementar OAuth nem trocar a estratégia de autenticação escolhida.
 
-Siga as etapas:
-1. Adicione a entidade de Usuário/Credencial à base de dados.
-2. Construa a rota genérica `POST /api/auth/register` (para novos tutores) garantindo hashing seguro (bcrypt/argon2).
-3. Construa a rota `POST /api/auth/login`, definindo as sessões ou tokens.
-4. Aplique Rate Limiting de forma simples nessa rota de login.
-5. Crie um middleware de Autenticação (`requireAuth`) que verifica a existência de credenciais ativas na requisição (bearer token ou cookie).
-6. Mapeie todas as rotas atuais da sua API e proteja-as.
-7. Crie o middleware de Autorização (`requireRole(['CLINICO', 'ADMIN'])`) e use-o para trancar a rota de exclusão de cadastros.
+## Sua tarefa
+
+Prepare uma versão demonstrável da `petcare-api` com o seguinte fluxo:
+
+1. Um tutor cria uma conta sem que a senha original seja armazenada.
+2. O tutor realiza login e recebe a credencial definida na sua decisão técnica.
+3. Uma requisição sem credencial válida recebe `401 Unauthorized`.
+4. Um tutor tenta acessar um recurso pertencente a outro tutor e recebe `403 Forbidden` ou uma resposta equivalente definida pelo contrato da API.
+5. Um ator com papel permitido executa a mesma operação com sucesso.
+6. Tentativas excessivas de login recebem `429 Too Many Requests`.
+7. Uma consulta ao banco usa parametrização ou API segura do ORM.
+8. Um campo controlado pelo usuário é exibido como texto, sem execução de código.
+9. A configuração de CORS aceita somente as origens necessárias ao projeto.
+10. Se a autenticação usar cookie, uma operação de mutação possui proteção contra CSRF coerente com o cenário.
+
+Use os endpoints e recursos que já existem no seu projeto. Não crie um novo domínio apenas para esta atividade.
 
 ## O que você vai produzir
 
-- Rotas de Autenticação funcionais no seu projeto Node.js.
-- Middlewares de segurança acoplados aos endpoints existentes.
-- Um "Checklist de Segurança" preenchido no seu `README` ou `SECURITY.md` (auditando endpoints principais e revisando possíveis Injeções SQL na sua camada de dados).
+- implementação do cadastro e login;
+- mecanismo de autenticação escolhido;
+- regras de autorização por papel e recurso;
+- rate limiting no login;
+- evidências das correções contra SQL injection e XSS;
+- configuração de CORS;
+- proteção contra CSRF, quando aplicável;
+- `docs/security-review.md` ou `SECURITY.md` com decisões, checklist e riscos residuais.
+
+## Demonstração mínima
+
+Registre requests e responses, testes manuais ou outra evidência reproduzível para:
+
+| Cenário | Resultado esperado |
+| --- | --- |
+| Cadastro válido | Usuário criado sem senha ou hash na resposta |
+| Login válido | Credencial criada conforme a estratégia escolhida |
+| Login inválido | Erro genérico, sem confirmar se a conta existe |
+| Requisição sem autenticação | `401 Unauthorized` |
+| Usuário sem permissão | `403 Forbidden` ou resposta equivalente documentada |
+| Usuário autorizado | Operação concluída |
+| Excesso de tentativas | `429 Too Many Requests` |
+
+Não é necessário criar uma suíte automatizada neste momento. Esses cenários serão transformados em testes no módulo 13A.
+
+## Critérios de conclusão
+
+- Todas as exigências foram praticadas em exercícios anteriores.
+- Senhas, hashes, tokens e identificadores de sessão não aparecem em logs ou responses indevidos.
+- A estratégia de autenticação corresponde à decisão registrada.
+- Autenticação e autorização estão separadas.
+- As regras consideram papel e propriedade ou vínculo com o recurso.
+- CORS, CSRF, XSS e SQL injection são tratados como problemas diferentes.
+- Rate limiting corresponde ao risco do endpoint.
+- A documentação explica controles aplicados, decisões e riscos que permanecem.
+- A demonstração pode ser repetida por outra pessoa.
 
 ## Como este trabalho continuará
 
-As camadas de segurança criadas agora serão os alicerces fundamentais da qualidade no próximo módulo, quando escreveremos Testes Automatizados (E2E e Unitários) não apenas para fluxos de sucesso, mas também para os casos onde as requisições devem retornar exatamente erros `401 Unauthorized` ou `403 Forbidden`.
+No módulo 13A, os cenários desta demonstração serão convertidos em testes unitários, de integração, contrato e, quando fizer sentido, end-to-end. O documento de segurança continuará como referência para escolher os casos de maior risco.
 
 ## Corrija Sua Atividade Com IA
 
-Ao finalizar a refatoração, copie as seções chaves de seus middlewares e rotas de login.
-
 ```text
-Cenário: Concluí o marco de segurança do projeto.
+Cenário: Concluí a revisão de segurança de uma API Node.js/TypeScript. Implementei cadastro com hashing, login, uma estratégia de autenticação, autorização por papel e recurso, rate limiting, configuração de CORS e correções contra XSS e SQL injection. Quando uso cookie, também apliquei proteção contra CSRF.
 
-Tarefa: Estou compartilhando o código do meu "Auth Middleware" e as rotas de login/registro. Minha API agora responde com 401 para usuários não logados e 403 para usuários sem permissão adequada no RBAC.
+Tarefa: Faça uma revisão pedagógica e técnica dos trechos de código, decisões e evidências abaixo.
 
 Critérios de correção:
-1. Os dados sensíveis (senhas) foram processados de forma correta e assíncrona?
-2. A recuperação dos tokens ou sessão respeita a semântica HTTP? (ex: ler Header `Authorization` corretamente).
-3. A manipulação de requisições falhas envia um erro descritivo o suficiente pro desenvolvedor do Front-end mas discreto o suficiente pro Atacante?
-4. A query no banco está prevenida de SQL Injection, caso use query builders puros?
+1. Senhas, hashes, tokens e sessões são tratados sem vazamento em logs ou responses?
+2. A estratégia de autenticação está coerente com a decisão documentada?
+3. 401 e 403 representam situações diferentes?
+4. A autorização verifica papel e propriedade ou vínculo com o recurso?
+5. CORS, CSRF, XSS e SQL injection receberam controles adequados e distintos?
+6. O rate limiting corresponde ao risco do login?
+7. As evidências demonstram os cenários de sucesso e rejeição?
+8. O documento registra decisões, alternativas e riscos residuais?
+
+Organize a resposta assim:
+- acertos;
+- riscos críticos;
+- imprecisões ou lacunas;
+- dicas de correção em ordem de prioridade.
+
+Não reescreva toda a solução imediatamente. Dê dicas para que eu tente corrigir os problemas antes de apresentar código completo.
 
 [COLE SUA RESPOSTA AQUI]
-
-Por favor, faça um code review de segurança. Destaque primeiro os acertos de arquitetura e depois os riscos que encontrou. Indique as falhas com clareza para eu corrigi-las.
 ```
