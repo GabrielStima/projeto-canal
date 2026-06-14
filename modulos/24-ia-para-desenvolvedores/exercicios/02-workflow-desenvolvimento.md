@@ -1,52 +1,57 @@
-# Exercício 02 — Workflow de Desenvolvimento com IA
+# Exercício 02 — Integração e Resiliência
 
 ## O Que Você Já Possui
 
-Você definiu o que o sistema de IA pode fazer e já estudou prompts, geração de código, revisão, segurança, testes, debug, documentação e coding agents.
+Você definiu escopo, dados permitidos, alternativa sem IA e critérios para selecionar um modelo.
 
 ## A Tarefa
 
-Escolha uma mudança pequena e reversível no projeto. Use IA como colaboradora, mantendo você como responsável pela decisão.
+Projete e, se possível, implemente a fronteira de integração do assistente. Você pode usar uma API real, um modelo local ou um test double.
 
 Registre em `docs/sistema-ia.md`:
 
-1. requisito e critérios de aceite escritos antes do prompt;
-2. contexto mínimo e sanitizado fornecido;
-3. prompt utilizado e suposições pedidas ao modelo;
-4. plano criado antes das alterações;
-5. diff produzido;
-6. trechos rejeitados ou corrigidos e os motivos;
-7. testes, tipos, lint e verificações de segurança executados;
-8. documentação atualizada apenas com fatos confirmados;
-9. comandos e arquivos permitidos para um agente;
-10. limites de iteração, tempo e escopo;
-11. aprovação humana necessária antes da integração.
+1. interface TypeScript independente de provedor;
+2. entrada mínima e sanitizada;
+3. schema da saída, incluindo recusa e falta de evidência;
+4. validação estrutural e regras de negócio fora do modelo;
+5. adapter real ou fake;
+6. versão de modelo e prompt registrada;
+7. timeout e cancelamento;
+8. política limitada de retry e backoff;
+9. fallback determinístico ou mensagem de indisponibilidade;
+10. tratamento de rate limit e resposta inválida;
+11. estado efêmero necessário para a sessão;
+12. dados que não serão persistidos;
+13. isolamento por usuário ou tenant;
+14. testes de sucesso, timeout, recusa e saída inválida;
+15. métrica de latência e custo estimado sem conteúdo sensível.
 
-O exercício não é medir quanto código a IA gera. É provar que a mudança continua compreensível, revisável e verificável.
+Não repita automaticamente operações com efeito. Streaming pode melhorar a percepção de latência, mas a interface não deve tratar conteúdo parcial como resultado validado.
 
 ## O Que Você Vai Produzir
 
-Um registro de trabalho com IA que liga requisito, prompt, diff, verificação e decisão humana.
+Um contrato de integração testável e resiliente, desacoplado do provedor.
 
-Esse padrão será reutilizado ao projetar agentes com ferramentas.
+Esse contrato será reutilizado por RAG, ferramentas, evals e pelo protótipo final.
 
 ## Corrija Sua Atividade Com IA
 
 ```text
-Cenário: Usei IA para realizar uma mudança pequena no PetCare OS e registrei o workflow completo.
+Cenário: Projetei a integração de IA do PetCare OS com interface TypeScript, schema, estado e tratamento de falhas.
 
-Tarefa: Revise meu requisito, prompt, diff, verificações e limites de autonomia.
+Tarefa: Revise meu contrato, validação, resiliência, privacidade e testes.
 
 Critérios de correção:
-1. Critérios de aceite foram definidos antes da geração.
-2. O contexto foi minimizado e não contém segredos ou dados pessoais.
-3. O diff foi compreendido e revisado, não apenas aceito.
-4. Testes e gates verificam comportamento, segurança e regressões.
-5. A documentação contém apenas fatos sustentados pelo código.
-6. Arquivos, comandos, iterações e escopo do agente possuem limites.
-7. A integração depende de evidência e aprovação humana.
+1. O domínio não depende diretamente de um SDK específico.
+2. Entrada e contexto são mínimos e autorizados.
+3. A saída possui schema e validação de negócio.
+4. Timeout, cancelamento, rate limit e retry possuem limites.
+5. Existe fallback sem duplicar ações.
+6. Estado e memória têm finalidade, isolamento e retenção definidos.
+7. Testes simulam sucesso e falhas sem depender da API real.
+8. Métricas não armazenam conteúdo sensível por padrão.
 
-Primeiro destaque meus acertos. Depois aponte sinais de confiança cega e ofereça dicas. Só apresente um workflow completo depois que eu revisar minha tentativa.
+Primeiro destaque meus acertos. Depois aponte acoplamento, falhas perigosas ou persistência excessiva e ofereça dicas. Só apresente um desenho completo depois que eu revisar minha tentativa.
 
 [COLE SUA RESPOSTA AQUI]
 ```

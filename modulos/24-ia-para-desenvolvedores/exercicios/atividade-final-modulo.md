@@ -5,7 +5,8 @@
 Você construiu em `docs/sistema-ia.md`:
 
 - escopo, limites, dados e métricas;
-- workflow de desenvolvimento com IA;
+- seleção de modelo e alternativa sem IA;
+- contrato TypeScript, schema, estado e resiliência;
 - contratos de ferramentas e autonomia;
 - recuperação com fontes;
 - evals e guardrails;
@@ -17,18 +18,21 @@ Implemente um protótipo mínimo do caso de uso escolhido. Ele pode usar uma API
 
 O protótipo deve:
 
-1. receber uma pergunta dentro do escopo;
-2. minimizar e validar a entrada;
-3. recuperar fontes ou chamar uma ferramenta controlada;
-4. produzir resposta com indicação de fontes ou evidências;
-5. recusar ou encaminhar quando não houver suporte;
-6. impedir uma ação sensível sem confirmação;
-7. registrar métricas sem conteúdo sensível;
-8. executar a suíte mínima de evals;
-9. aplicar pelo menos um guardrail fora do prompt;
-10. estimar custo normal e de pico;
-11. permitir trocar modelo, prompt ou corpus de forma rastreável;
-12. demonstrar um caminho de fallback quando a IA estiver indisponível.
+1. receber e minimizar uma pergunta dentro do escopo;
+2. chamar o modelo por uma interface substituível;
+3. validar uma saída estruturada antes do uso;
+4. limitar estado de sessão e evitar persistência desnecessária;
+5. aplicar timeout, cancelamento e retry limitado;
+6. demonstrar fallback quando a IA estiver indisponível;
+7. recuperar fontes ou chamar uma ferramenta controlada;
+8. produzir resposta com fontes ou evidências;
+9. recusar ou encaminhar quando não houver suporte;
+10. impedir ação sensível sem confirmação;
+11. registrar métricas sem conteúdo sensível;
+12. executar a suíte mínima de evals;
+13. aplicar pelo menos um guardrail fora do prompt;
+14. estimar custo normal e de pico;
+15. permitir trocar modelo, prompt ou corpus de forma rastreável.
 
 Apresente:
 
@@ -59,14 +63,15 @@ Tarefa: Revise minha arquitetura, demonstrações, resultados e decisão de lan�
 
 Critérios de correção:
 1. O protótipo resolve um problema delimitado e possui alternativa sem IA.
-2. Entrada, dados e contexto são minimizados e validados.
-3. Fontes ou ferramentas têm permissões e evidências claras.
-4. Recusas, encaminhamento e confirmação de ações funcionam.
-5. Evals cobrem sucesso, ausência de fonte, privacidade, injection e autonomia.
-6. Guardrails não dependem apenas do prompt.
-7. Métricas e logs evitam conteúdo sensível.
-8. Custos, versões, fallback e rollback estão definidos.
-9. A decisão de lançamento reconhece riscos residuais e limitações.
+2. Entrada, dados, contexto, estado e retenção são minimizados.
+3. Adapter, schema e validações isolam o domínio do provedor.
+4. Timeout, cancelamento, retry e fallback são controlados.
+5. Fontes ou ferramentas têm permissões e evidências claras.
+6. Recusas, encaminhamento e confirmação de ações funcionam.
+7. Evals cobrem sucesso, ausência de fonte, privacidade, injection e autonomia.
+8. Guardrails não dependem apenas do prompt.
+9. Métricas, custos, versões e rollback estão definidos sem conteúdo sensível.
+10. A decisão de lançamento reconhece riscos residuais e limitações.
 
 Primeiro destaque meus acertos. Depois aponte falhas, questione evidências e ofereça dicas. Só apresente uma solução completa depois que eu revisar minha própria implementação.
 

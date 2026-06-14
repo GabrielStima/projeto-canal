@@ -22,6 +22,9 @@ Defina:
 10. métricas de qualidade, segurança, latência e custo;
 11. volume estimado de interações e tokens;
 12. critérios para decidir que IA não é adequada.
+13. matriz de decisão comparando pelo menos duas opções de modelo;
+14. alternativa determinística ou manual;
+15. critérios de eliminação por privacidade, latência, qualidade e custo.
 
 Não escolha um fluxo que permita diagnóstico, prescrição ou alteração irreversível sem validação especializada e controle humano.
 
@@ -44,8 +47,8 @@ Critérios de correção:
 3. Entradas, saídas, assuntos proibidos e encaminhamento estão definidos.
 4. Dados pessoais, sensíveis e secretos são minimizados antes do envio.
 5. Riscos de erro possuem controles proporcionais.
-6. Métricas de qualidade, segurança, latência e custo são mensuráveis.
-7. Existem critérios explícitos para abandonar ou limitar a solução.
+6. A seleção de modelo compara capacidade, privacidade, latência e custo total.
+7. Existe alternativa sem IA e critérios explícitos para abandonar ou limitar a solução.
 
 Primeiro destaque meus acertos. Depois aponte riscos ou ambiguidades e ofereça dicas. Só apresente uma especificação completa depois que eu revisar minha tentativa.
 

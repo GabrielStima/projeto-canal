@@ -28,6 +28,11 @@ Para cada grupo, defina:
 8. guardrail de entrada, recuperação, saída ou ferramenta;
 9. evidência armazenada sem dados sensíveis;
 10. condição que bloqueia uma nova versão.
+11. mensagem de recusa útil e próximo passo;
+12. ação que exige confirmação explícita;
+13. mecanismo de feedback ou contestação;
+14. critério de escalonamento humano;
+15. métrica de falso bloqueio e abandono.
 
 Compare o avaliador automatizado com uma pequena amostra revisada por você. O avaliador não deve ser tratado como fonte infalível.
 
@@ -51,7 +56,8 @@ Critérios de correção:
 4. Avaliação humana e LLM-as-a-judge possuem papéis e limites claros.
 5. O avaliador automatizado foi calibrado contra exemplos revisados.
 6. Guardrails existem em mais de uma camada e são testados.
-7. Existe condição objetiva para bloquear uma versão.
+7. Recusa, confirmação, feedback e escalonamento são compreensíveis para o usuário.
+8. Existe condição objetiva para bloquear uma versão.
 
 Primeiro destaque meus acertos. Depois aponte lacunas ou métricas frágeis e ofereça dicas. Só apresente uma suíte completa depois que eu revisar minha tentativa.
 

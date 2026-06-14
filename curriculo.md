@@ -770,29 +770,30 @@ A aula guarda-chuva prepara o terreno. As aulas específicas viram material de c
 
 - O que é IA generativa
 - LLMs, tokens, contexto e embeddings
-- Prompt engineering
-- Como usar IA para escrever código
-- Como revisar código gerado por IA
-- Quality gates para código gerado por IA
-- IA no debug
-- IA para testes
-- IA para documentação
+- Seleção de modelos e roteamento
+- Prompt e context engineering
+- Saídas estruturadas, schemas e validação
+- Integração com APIs de IA em TypeScript
+- Streaming, timeout, retry, rate limits e fallback
+- Estado, histórico e memória conversacional
+- IA para planejar e escrever código
+- Revisão, segurança e quality gates
+- Debug, testes e documentação com IA
 - Coding agents
 - Workflows com agentes
 - Limitações, alucinações e validação
 - Segurança em código gerado por IA
 - OWASP Top 10 para LLM Applications
 - OWASP Agentic AI Top 10
-- RAG
-- Embeddings
-- Vector databases
+- Embeddings e recuperação semântica
+- Ingestão, chunking e ciclo de vida de documentos
+- RAG, busca híbrida, citações e fidelidade
 - Function calling / tool calling
 - Agentes com ferramentas
 - Avaliação de respostas de IA
-- Evals
-- Guardrails
-- LLMOps
-- FinOps para IA
+- Evals e datasets de avaliação
+- Guardrails, UX e escalonamento humano
+- LLMOps, FinOps, versionamento e rollback
 - Privacidade, dados sensíveis e segredos
 - Custos e observabilidade em apps com IA
 - Projeto prático: assistente técnico com RAG ou agente simples
