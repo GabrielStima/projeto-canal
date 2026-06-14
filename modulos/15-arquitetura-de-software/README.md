@@ -42,32 +42,32 @@ Arquitetura de software existe para tornar essas decisões explícitas. Ela ajud
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 15.00 | [Arquitetura de Software](15.00-arquitetura-de-software.md) | Guarda-chuva | Rascunho |
-| 15.01 | [Do Design de Software à Arquitetura](15.01-do-design-de-software-a-arquitetura.md) | Específica ampla | Rascunho |
-| 15.02 | [Princípios Arquiteturais](15.02-principios-arquiteturais.md) | Guarda-chuva curta | Rascunho |
-| 15.03 | [Acoplamento e Coesão em Nível Arquitetural](15.03-acoplamento-e-coesao-em-nivel-arquitetural.md) | Específica | Rascunho |
-| 15.04 | [Princípios de Componentes](15.04-principios-de-componentes.md) | Específica ampla | Rascunho |
-| 15.05 | [Boundaries](15.05-boundaries.md) | Específica | Rascunho |
-| 15.06 | [Policy vs Detail](15.06-policy-vs-detail.md) | Específica | Rascunho |
-| 15.07 | [Estilos Arquiteturais](15.07-estilos-arquiteturais.md) | Guarda-chuva | Rascunho |
-| 15.08 | [Arquitetura em Camadas e Estrutura do Sistema](15.08-arquitetura-em-camadas-e-estrutura-do-sistema.md) | Específica | Rascunho |
-| 15.09 | [MVC](15.09-mvc.md) | Específica | Rascunho |
-| 15.10 | [Monolito](15.10-monolito.md) | Específica | Rascunho |
-| 15.11 | [Clean Architecture](15.11-clean-architecture.md) | Específica ampla | Rascunho |
-| 15.12 | [DDD](15.12-ddd.md) | Específica ampla | Rascunho |
-| 15.13 | [Padrões Arquiteturais](15.13-padroes-arquiteturais.md) | Guarda-chuva | Rascunho |
-| 15.14 | [SOA](15.14-soa.md) | Específica | Rascunho |
-| 15.15 | [Microsserviços](15.15-microservicos.md) | Específica ampla | Rascunho |
-| 15.16 | [Sistemas Distribuídos](15.16-sistemas-distribuidos.md) | Guarda-chuva curta | Rascunho |
-| 15.17 | [Messaging e Filas de Mensagens](15.17-messaging-e-filas-de-mensagens.md) | Específica | Rascunho |
-| 15.18 | [CQRS](15.18-cqrs.md) | Específica | Rascunho |
-| 15.19 | [Event Sourcing](15.19-event-sourcing.md) | Específica | Rascunho |
-| 15.20 | [Serverless](15.20-serverless.md) | Específica | Rascunho |
-| 15.21 | [Twelve-Factor Apps](15.21-twelve-factor-apps.md) | Específica prática | Rascunho |
-| 15.22 | [Service Mesh](15.22-service-mesh.md) | Específica conceitual | Rascunho |
-| 15.23 | [Blackboard](15.23-blackboard.md) | Específica conceitual | Rascunho |
-| 15.24 | [Microkernel](15.24-microkernel.md) | Específica conceitual | Rascunho |
-| 15.25 | [Projeto Prático: Arquitetando uma API para Evolução](15.25-projeto-pratico-arquitetando-uma-api-para-evolucao.md) | Síntese prática | Rascunho |
+| 15.00 | [Arquitetura de Software](15.00-arquitetura-de-software.md) | Guarda-chuva | Auditada |
+| 15.01 | [Do Design de Software à Arquitetura](15.01-do-design-de-software-a-arquitetura.md) | Específica ampla | Auditada |
+| 15.02 | [Princípios Arquiteturais](15.02-principios-arquiteturais.md) | Guarda-chuva curta | Auditada |
+| 15.03 | [Acoplamento e Coesão em Nível Arquitetural](15.03-acoplamento-e-coesao-em-nivel-arquitetural.md) | Específica | Auditada |
+| 15.04 | [Princípios de Componentes](15.04-principios-de-componentes.md) | Específica ampla | Auditada |
+| 15.05 | [Boundaries](15.05-boundaries.md) | Específica | Auditada |
+| 15.06 | [Policy vs Detail](15.06-policy-vs-detail.md) | Específica | Auditada |
+| 15.07 | [Estilos Arquiteturais](15.07-estilos-arquiteturais.md) | Guarda-chuva | Auditada |
+| 15.08 | [Arquitetura em Camadas e Estrutura do Sistema](15.08-arquitetura-em-camadas-e-estrutura-do-sistema.md) | Específica | Auditada |
+| 15.09 | [MVC](15.09-mvc.md) | Específica | Auditada |
+| 15.10 | [Monolito](15.10-monolito.md) | Específica | Auditada |
+| 15.11 | [Clean Architecture](15.11-clean-architecture.md) | Específica ampla | Auditada |
+| 15.12 | [DDD](15.12-ddd.md) | Específica ampla | Auditada |
+| 15.13 | [Padrões Arquiteturais](15.13-padroes-arquiteturais.md) | Guarda-chuva | Auditada |
+| 15.14 | [SOA](15.14-soa.md) | Específica | Auditada |
+| 15.15 | [Microsserviços](15.15-microservicos.md) | Específica ampla | Auditada |
+| 15.16 | [Sistemas Distribuídos](15.16-sistemas-distribuidos.md) | Guarda-chuva curta | Auditada |
+| 15.17 | [Messaging e Filas de Mensagens](15.17-messaging-e-filas-de-mensagens.md) | Específica | Auditada |
+| 15.18 | [CQRS](15.18-cqrs.md) | Específica | Auditada |
+| 15.19 | [Event Sourcing](15.19-event-sourcing.md) | Específica | Auditada |
+| 15.20 | [Serverless](15.20-serverless.md) | Específica | Auditada |
+| 15.21 | [Twelve-Factor Apps](15.21-twelve-factor-apps.md) | Específica prática | Auditada |
+| 15.22 | [Service Mesh](15.22-service-mesh.md) | Específica conceitual | Auditada |
+| 15.23 | [Blackboard](15.23-blackboard.md) | Específica conceitual | Auditada |
+| 15.24 | [Microkernel](15.24-microkernel.md) | Específica conceitual | Auditada |
+| 15.25 | [Projeto Prático: Arquitetando uma API para Evolução](15.25-projeto-pratico-arquitetando-uma-api-para-evolucao.md) | Síntese prática | Auditada |
 
 
 ## Trilha de Estudo

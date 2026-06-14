@@ -42,31 +42,31 @@ Design de software existe para lidar com esse crescimento sem depender apenas de
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 14.00 | [Design de Software: Código Simples e Sustentável](14.00-design-de-software-codigo-simples-e-sustentavel.md) | Guarda-chuva | Rascunho |
-| 14.01 | [Clean Code: Nomes, Funções e Clareza de Intenção](14.01-clean-code-nomes-funcoes-e-clareza-de-intencao.md) | Específica prática | Rascunho |
-| 14.02 | [Paradigmas e Recursos de Linguagem em TypeScript](14.02-paradigmas-e-recursos-de-linguagem-em-typescript.md) | Guarda-chuva curta | Rascunho |
-| 14.03 | [POO no Design: Encapsulamento, Abstração e Polimorfismo](14.03-poo-no-design-encapsulamento-abstracao-e-polimorfismo.md) | Específica ampla | Rascunho |
-| 14.04 | [Encapsulamento, Estado e Invariantes](14.04-encapsulamento-estado-e-invariantes.md) | Específica prática | Rascunho |
-| 14.05 | [Acoplamento e Coesão no Código](14.05-acoplamento-e-coesao-no-codigo.md) | Específica | Rascunho |
-| 14.06 | [Model-Driven Design](14.06-model-driven-design.md) | Específica ampla | Rascunho |
-| 14.07 | [Princípios de Design e Decisões de Refatoração](14.07-principios-de-design-e-decisoes-de-refatoracao.md) | Guarda-chuva curta | Rascunho |
-| 14.08 | [DRY, YAGNI e Abstrações Prematuras](14.08-dry-yagni-e-abstracoes-prematuras.md) | Específica | Rascunho |
-| 14.09 | [SOLID](14.09-solid.md) | Guarda-chuva curta | Rascunho |
-| 14.10 | [Single Responsibility Principle](14.10-single-responsibility-principle.md) | Específica | Rascunho |
-| 14.11 | [Open Closed Principle](14.11-open-closed-principle.md) | Específica | Rascunho |
-| 14.12 | [Liskov Substitution Principle](14.12-liskov-substitution-principle.md) | Específica | Rascunho |
-| 14.13 | [Interface Segregation Principle](14.13-interface-segregation-principle.md) | Específica | Rascunho |
-| 14.14 | [Dependency Inversion e Programação Contra Abstrações](14.14-dependency-inversion-e-programacao-contra-abstracoes.md) | Específica prática | Rascunho |
-| 14.15 | [Desafio: Aplicando SOLID no PetCare OS](14.15-desafio-aplicando-solid-no-petcare-os.md) | Desafio intermediário | Rascunho |
-| 14.16 | [Composition Over Inheritance](14.16-composition-over-inheritance.md) | Específica prática | Rascunho |
-| 14.17 | [Encapsulate What Varies](14.17-encapsulate-what-varies.md) | Específica prática | Rascunho |
-| 14.18 | [Tell, Don't Ask e Law of Demeter](14.18-tell-dont-ask-e-law-of-demeter.md) | Específica | Rascunho |
-| 14.19 | [Princípio de Hollywood e Inversão de Controle](14.19-principio-de-hollywood-e-inversao-de-controle.md) | Específica | Rascunho |
-| 14.20 | [Padrões de Design](14.20-padroes-de-design.md) | Guarda-chuva | Rascunho |
-| 14.21 | [GoF: Padrões Criacionais, Estruturais e Comportamentais](14.21-gof-padroes-criacionais-estruturais-e-comportamentais.md) | Guarda-chuva curta | Rascunho |
-| 14.22 | [POSA e Padrões Além do GoF](14.22-posa-e-padroes-alem-do-gof.md) | Específica conceitual | Rascunho |
-| 14.23 | [Desafio: Escolhendo Padrões de Design](14.23-desafio-escolhendo-padroes-de-design.md) | Desafio intermediário | Rascunho |
-| 14.24 | [Projeto Prático: Refatorando uma API para Melhor Design](14.24-projeto-pratico-refatorando-uma-api-para-melhor-design.md) | Síntese prática | Rascunho |
+| 14.00 | [Design de Software: Código Simples e Sustentável](14.00-design-de-software-codigo-simples-e-sustentavel.md) | Guarda-chuva | Auditada |
+| 14.01 | [Clean Code: Nomes, Funções e Clareza de Intenção](14.01-clean-code-nomes-funcoes-e-clareza-de-intencao.md) | Específica prática | Auditada |
+| 14.02 | [Paradigmas e Recursos de Linguagem em TypeScript](14.02-paradigmas-e-recursos-de-linguagem-em-typescript.md) | Guarda-chuva curta | Auditada |
+| 14.03 | [POO no Design: Encapsulamento, Abstração e Polimorfismo](14.03-poo-no-design-encapsulamento-abstracao-e-polimorfismo.md) | Específica ampla | Auditada |
+| 14.04 | [Encapsulamento, Estado e Invariantes](14.04-encapsulamento-estado-e-invariantes.md) | Específica prática | Auditada |
+| 14.05 | [Acoplamento e Coesão no Código](14.05-acoplamento-e-coesao-no-codigo.md) | Específica | Auditada |
+| 14.06 | [Model-Driven Design](14.06-model-driven-design.md) | Específica ampla | Auditada |
+| 14.07 | [Princípios de Design e Decisões de Refatoração](14.07-principios-de-design-e-decisoes-de-refatoracao.md) | Guarda-chuva curta | Auditada |
+| 14.08 | [DRY, YAGNI e Abstrações Prematuras](14.08-dry-yagni-e-abstracoes-prematuras.md) | Específica | Auditada |
+| 14.09 | [SOLID](14.09-solid.md) | Guarda-chuva curta | Auditada |
+| 14.10 | [Single Responsibility Principle](14.10-single-responsibility-principle.md) | Específica | Auditada |
+| 14.11 | [Open Closed Principle](14.11-open-closed-principle.md) | Específica | Auditada |
+| 14.12 | [Liskov Substitution Principle](14.12-liskov-substitution-principle.md) | Específica | Auditada |
+| 14.13 | [Interface Segregation Principle](14.13-interface-segregation-principle.md) | Específica | Auditada |
+| 14.14 | [Dependency Inversion e Programação Contra Abstrações](14.14-dependency-inversion-e-programacao-contra-abstracoes.md) | Específica prática | Auditada |
+| 14.15 | [Desafio: Aplicando SOLID no PetCare OS](14.15-desafio-aplicando-solid-no-petcare-os.md) | Desafio intermediário | Auditada |
+| 14.16 | [Composition Over Inheritance](14.16-composition-over-inheritance.md) | Específica prática | Auditada |
+| 14.17 | [Encapsulate What Varies](14.17-encapsulate-what-varies.md) | Específica prática | Auditada |
+| 14.18 | [Tell, Don't Ask e Law of Demeter](14.18-tell-dont-ask-e-law-of-demeter.md) | Específica | Auditada |
+| 14.19 | [Princípio de Hollywood e Inversão de Controle](14.19-principio-de-hollywood-e-inversao-de-controle.md) | Específica | Auditada |
+| 14.20 | [Padrões de Design](14.20-padroes-de-design.md) | Guarda-chuva | Auditada |
+| 14.21 | [GoF: Padrões Criacionais, Estruturais e Comportamentais](14.21-gof-padroes-criacionais-estruturais-e-comportamentais.md) | Guarda-chuva curta | Auditada |
+| 14.22 | [POSA e Padrões Além do GoF](14.22-posa-e-padroes-alem-do-gof.md) | Específica conceitual | Auditada |
+| 14.23 | [Desafio: Escolhendo Padrões de Design](14.23-desafio-escolhendo-padroes-de-design.md) | Desafio intermediário | Auditada |
+| 14.24 | [Projeto Prático: Refatorando uma API para Melhor Design](14.24-projeto-pratico-refatorando-uma-api-para-melhor-design.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

@@ -48,20 +48,20 @@ Qualidade e testes são a base da confiança. Sem eles, observabilidade e perfor
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 13.00 | [Qualidade, Testes, Observabilidade e Performance](13.00-qualidade-testes-observabilidade-e-performance.md) | Guarda-chuva | Rascunho |
-| 13.01 | [Qualidade de Software](13.01-qualidade-de-software.md) | Guarda-chuva curta | Rascunho |
-| 13.02 | [Estratégia de Testes](13.02-estrategia-de-testes.md) | Específica ampla | Rascunho |
-| 13.03 | [Pirâmide de Testes](13.03-piramide-de-testes.md) | Específica | Rascunho |
-| 13.04 | [Testes Unitários](13.04-testes-unitarios.md) | Específica prática | Rascunho |
-| 13.05 | [Mocks, Stubs e Fakes](13.05-mocks-stubs-e-fakes.md) | Específica | Rascunho |
-| 13.06 | [Testes de Integração](13.06-testes-de-integracao.md) | Específica prática | Rascunho |
-| 13.07 | [Contract Tests](13.07-contract-tests.md) | Específica prática | Rascunho |
-| 13.08 | [Testes End-to-End](13.08-testes-end-to-end.md) | Específica prática | Rascunho |
-| 13.09 | [Testes de Regressão](13.09-testes-de-regressao.md) | Específica | Rascunho |
-| 13.10 | [Testes em CI](13.10-testes-em-ci.md) | Específica prática | Rascunho |
-| 13.11 | [Flaky Tests](13.11-flaky-tests.md) | Específica | Rascunho |
-| 13.12 | [Testabilidade de Arquitetura](13.12-testabilidade-de-arquitetura.md) | Guarda-chuva curta | Rascunho |
-| 13.13 | [Análise Estática, Métricas e Quality Gates](13.13-analise-estatica-metricas-e-quality-gates.md) | Específica ampla | Rascunho |
+| 13.00 | [Qualidade, Testes, Observabilidade e Performance](13.00-qualidade-testes-observabilidade-e-performance.md) | Guarda-chuva | Auditada |
+| 13.01 | [Qualidade de Software](13.01-qualidade-de-software.md) | Guarda-chuva curta | Auditada |
+| 13.02 | [Estratégia de Testes](13.02-estrategia-de-testes.md) | Específica ampla | Auditada |
+| 13.03 | [Pirâmide de Testes](13.03-piramide-de-testes.md) | Específica | Auditada |
+| 13.04 | [Testes Unitários](13.04-testes-unitarios.md) | Específica prática | Auditada |
+| 13.05 | [Mocks, Stubs e Fakes](13.05-mocks-stubs-e-fakes.md) | Específica | Auditada |
+| 13.06 | [Testes de Integração](13.06-testes-de-integracao.md) | Específica prática | Auditada |
+| 13.07 | [Contract Tests](13.07-contract-tests.md) | Específica prática | Auditada |
+| 13.08 | [Testes End-to-End](13.08-testes-end-to-end.md) | Específica prática | Auditada |
+| 13.09 | [Testes de Regressão](13.09-testes-de-regressao.md) | Específica | Auditada |
+| 13.10 | [Testes em CI](13.10-testes-em-ci.md) | Específica prática | Auditada |
+| 13.11 | [Flaky Tests](13.11-flaky-tests.md) | Específica | Auditada |
+| 13.12 | [Testabilidade de Arquitetura](13.12-testabilidade-de-arquitetura.md) | Guarda-chuva curta | Auditada |
+| 13.13 | [Análise Estática, Métricas e Quality Gates](13.13-analise-estatica-metricas-e-quality-gates.md) | Específica ampla | Auditada |
 
 ## Trilha de Estudo
 

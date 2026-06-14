@@ -49,29 +49,29 @@ Este módulo cria a base de linguagem para todo o restante da formação.
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 03.00 | [Programação com TypeScript](03.00-programacao-com-typescript.md) | Guarda-chuva | Rascunho |
-| 03.01 | [JavaScript moderno](03.01-javascript-moderno.md) | Específica ampla | Rascunho |
-| 03.02 | [Sintaxe, valores e variáveis](03.02-sintaxe-valores-e-variaveis.md) | Específica | Rascunho |
-| 03.03 | [Tipos primitivos e estruturas básicas](03.03-tipos-primitivos-e-estruturas-basicas.md) | Específica | Rascunho |
-| 03.04 | [Estruturas de controle](03.04-estruturas-de-controle.md) | Específica | Rascunho |
-| 03.05 | [Funções](03.05-funcoes.md) | Específica | Rascunho |
-| 03.06 | [Tratamento de erros](03.06-tratamento-de-erros.md) | Específica | Rascunho |
-| 03.07 | [Assincronismo em JavaScript](03.07-assincronismo-em-javascript.md) | Específica ampla | Rascunho |
-| 03.08 | [Event loop](03.08-event-loop.md) | Específica conceitual | Rascunho |
-| 03.09 | [Promises e async/await](03.09-promises-e-async-await.md) | Específica | Rascunho |
-| 03.10 | [TypeScript: o que é e como pensar em tipos](03.10-typescript-o-que-e-e-como-pensar-em-tipos.md) | Guarda-chuva curta | Rascunho |
-| 03.11 | [Inferência de tipos](03.11-inferencia-de-tipos.md) | Específica | Rascunho |
-| 03.12 | [Anotações de tipos e tipos em funções](03.12-anotacoes-de-tipos-e-tipos-em-funcoes.md) | Específica | Rascunho |
-| 03.13 | [Compatibilidade de tipos](03.13-compatibilidade-de-tipos.md) | Específica | Rascunho |
-| 03.14 | [Narrowing](03.14-narrowing.md) | Específica | Rascunho |
-| 03.15 | [Type aliases e interfaces](03.15-type-aliases-e-interfaces.md) | Específica comparativa | Rascunho |
-| 03.16 | [Módulos](03.16-modulos.md) | Específica | Rascunho |
-| 03.17 | [Classes e POO básica](03.17-classes-e-poo-basica.md) | Específica ampla | Rascunho |
-| 03.18 | [Generics](03.18-generics.md) | Específica | Rascunho |
-| 03.19 | [Utility types](03.19-utility-types.md) | Específica | Rascunho |
-| 03.20 | [Tipos avançados](03.20-tipos-avancados.md) | Específica ampla | Rascunho |
-| 03.21 | [Decorators](03.21-decorators.md) | Específica introdutória | Rascunho |
-| 03.22 | [Projeto prático: núcleo TypeScript do PetCare OS](03.22-projeto-pratico-mini-aplicacao-tipada.md) | Síntese prática | Rascunho |
+| 03.00 | [Programação com TypeScript](03.00-programacao-com-typescript.md) | Guarda-chuva | Auditada |
+| 03.01 | [JavaScript moderno](03.01-javascript-moderno.md) | Específica ampla | Auditada |
+| 03.02 | [Sintaxe, valores e variáveis](03.02-sintaxe-valores-e-variaveis.md) | Específica | Auditada |
+| 03.03 | [Tipos primitivos e estruturas básicas](03.03-tipos-primitivos-e-estruturas-basicas.md) | Específica | Auditada |
+| 03.04 | [Estruturas de controle](03.04-estruturas-de-controle.md) | Específica | Auditada |
+| 03.05 | [Funções](03.05-funcoes.md) | Específica | Auditada |
+| 03.06 | [Tratamento de erros](03.06-tratamento-de-erros.md) | Específica | Auditada |
+| 03.07 | [Assincronismo em JavaScript](03.07-assincronismo-em-javascript.md) | Específica ampla | Auditada |
+| 03.08 | [Event loop](03.08-event-loop.md) | Específica conceitual | Auditada |
+| 03.09 | [Promises e async/await](03.09-promises-e-async-await.md) | Específica | Auditada |
+| 03.10 | [TypeScript: o que é e como pensar em tipos](03.10-typescript-o-que-e-e-como-pensar-em-tipos.md) | Guarda-chuva curta | Auditada |
+| 03.11 | [Inferência de tipos](03.11-inferencia-de-tipos.md) | Específica | Auditada |
+| 03.12 | [Anotações de tipos e tipos em funções](03.12-anotacoes-de-tipos-e-tipos-em-funcoes.md) | Específica | Auditada |
+| 03.13 | [Compatibilidade de tipos](03.13-compatibilidade-de-tipos.md) | Específica | Auditada |
+| 03.14 | [Narrowing](03.14-narrowing.md) | Específica | Auditada |
+| 03.15 | [Type aliases e interfaces](03.15-type-aliases-e-interfaces.md) | Específica comparativa | Auditada |
+| 03.16 | [Módulos](03.16-modulos.md) | Específica | Auditada |
+| 03.17 | [Classes e POO básica](03.17-classes-e-poo-basica.md) | Específica ampla | Auditada |
+| 03.18 | [Generics](03.18-generics.md) | Específica | Auditada |
+| 03.19 | [Utility types](03.19-utility-types.md) | Específica | Auditada |
+| 03.20 | [Tipos avançados](03.20-tipos-avancados.md) | Específica ampla | Auditada |
+| 03.21 | [Decorators](03.21-decorators.md) | Específica introdutória | Auditada |
+| 03.22 | [Projeto prático: núcleo TypeScript do PetCare OS](03.22-projeto-pratico-mini-aplicacao-tipada.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

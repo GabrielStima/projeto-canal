@@ -47,32 +47,32 @@ Este módulo prepara o caminho para backend com Node.js, ORMs, autenticação, a
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 09.00 | [Bancos de Dados](09.00-bancos-de-dados.md) | Guarda-chuva | Rascunho |
-| 09.01 | [SQL e NoSQL](09.01-sql-e-nosql.md) | Guarda-chuva curta | Rascunho |
-| 09.02 | [Modelagem de Dados](09.02-modelagem-de-dados.md) | Específica ampla | Rascunho |
-| 09.03 | [SQL Básico](09.03-sql-basico.md) | Específica | Rascunho |
-| 09.04 | [Integridade de Dados](09.04-integridade-de-dados.md) | Específica | Rascunho |
-| 09.05 | [JOIN Queries](09.05-join-queries.md) | Específica | Rascunho |
-| 09.06 | [Subqueries](09.06-subqueries.md) | Específica | Rascunho |
-| 09.07 | [Funções Avançadas em SQL](09.07-funcoes-avancadas-em-sql.md) | Específica | Rascunho |
-| 09.08 | [Views](09.08-views.md) | Específica | Rascunho |
-| 09.09 | [Transactions](09.09-transactions.md) | Específica | Rascunho |
-| 09.10 | [Indexes](09.10-indexes.md) | Específica | Rascunho |
-| 09.11 | [Performance Optimization em SQL](09.11-performance-optimization-em-sql.md) | Específica ampla | Rascunho |
-| 09.12 | [SQL Avançado](09.12-sql-avancado.md) | Guarda-chuva curta | Rascunho |
-| 09.13 | [Stored Procedures e Functions](09.13-stored-procedures-e-functions.md) | Específica | Rascunho |
-| 09.14 | [Migrations](09.14-migrations.md) | Específica prática | Rascunho |
-| 09.15 | [Backup e Restore](09.15-backup-e-restore.md) | Específica | Rascunho |
-| 09.16 | [Segurança em Bancos Relacionais](09.16-seguranca-em-bancos-relacionais.md) | Específica | Rascunho |
-| 09.17 | [NoSQL Básico](09.17-nosql-basico.md) | Guarda-chuva curta | Rascunho |
-| 09.18 | [MongoDB](09.18-mongodb.md) | Específica ampla | Rascunho |
-| 09.19 | [Conceitos Úteis no MongoDB](09.19-conceitos-uteis-no-mongodb.md) | Específica | Rascunho |
-| 09.20 | [Operadores de Query no MongoDB](09.20-operadores-de-query-no-mongodb.md) | Específica prática | Rascunho |
-| 09.21 | [Aggregation no MongoDB](09.21-aggregation-no-mongodb.md) | Específica | Rascunho |
-| 09.22 | [Transactions no MongoDB](09.22-transactions-no-mongodb.md) | Específica | Rascunho |
-| 09.23 | [Scaling em Bancos de Dados](09.23-scaling-em-bancos-de-dados.md) | Guarda-chuva curta | Rascunho |
-| 09.24 | [Security em NoSQL e MongoDB](09.24-security-em-nosql-e-mongodb.md) | Específica | Rascunho |
-| 09.25 | [Projeto Prático: Persistência de Dados em uma Aplicação Fullstack](09.25-projeto-pratico-persistencia-de-dados-em-uma-aplicacao-fullstack.md) | Síntese prática | Rascunho |
+| 09.00 | [Bancos de Dados](09.00-bancos-de-dados.md) | Guarda-chuva | Auditada |
+| 09.01 | [SQL e NoSQL](09.01-sql-e-nosql.md) | Guarda-chuva curta | Auditada |
+| 09.02 | [Modelagem de Dados](09.02-modelagem-de-dados.md) | Específica ampla | Auditada |
+| 09.03 | [SQL Básico](09.03-sql-basico.md) | Específica | Auditada |
+| 09.04 | [Integridade de Dados](09.04-integridade-de-dados.md) | Específica | Auditada |
+| 09.05 | [JOIN Queries](09.05-join-queries.md) | Específica | Auditada |
+| 09.06 | [Subqueries](09.06-subqueries.md) | Específica | Auditada |
+| 09.07 | [Funções Avançadas em SQL](09.07-funcoes-avancadas-em-sql.md) | Específica | Auditada |
+| 09.08 | [Views](09.08-views.md) | Específica | Auditada |
+| 09.09 | [Transactions](09.09-transactions.md) | Específica | Auditada |
+| 09.10 | [Indexes](09.10-indexes.md) | Específica | Auditada |
+| 09.11 | [Performance Optimization em SQL](09.11-performance-optimization-em-sql.md) | Específica ampla | Auditada |
+| 09.12 | [SQL Avançado](09.12-sql-avancado.md) | Guarda-chuva curta | Auditada |
+| 09.13 | [Stored Procedures e Functions](09.13-stored-procedures-e-functions.md) | Específica | Auditada |
+| 09.14 | [Migrations](09.14-migrations.md) | Específica prática | Auditada |
+| 09.15 | [Backup e Restore](09.15-backup-e-restore.md) | Específica | Auditada |
+| 09.16 | [Segurança em Bancos Relacionais](09.16-seguranca-em-bancos-relacionais.md) | Específica | Auditada |
+| 09.17 | [NoSQL Básico](09.17-nosql-basico.md) | Guarda-chuva curta | Auditada |
+| 09.18 | [MongoDB](09.18-mongodb.md) | Específica ampla | Auditada |
+| 09.19 | [Conceitos Úteis no MongoDB](09.19-conceitos-uteis-no-mongodb.md) | Específica | Auditada |
+| 09.20 | [Operadores de Query no MongoDB](09.20-operadores-de-query-no-mongodb.md) | Específica prática | Auditada |
+| 09.21 | [Aggregation no MongoDB](09.21-aggregation-no-mongodb.md) | Específica | Auditada |
+| 09.22 | [Transactions no MongoDB](09.22-transactions-no-mongodb.md) | Específica | Auditada |
+| 09.23 | [Scaling em Bancos de Dados](09.23-scaling-em-bancos-de-dados.md) | Guarda-chuva curta | Auditada |
+| 09.24 | [Security em NoSQL e MongoDB](09.24-security-em-nosql-e-mongodb.md) | Específica | Auditada |
+| 09.25 | [Projeto Prático: Persistência de Dados em uma Aplicação Fullstack](09.25-projeto-pratico-persistencia-de-dados-em-uma-aplicacao-fullstack.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

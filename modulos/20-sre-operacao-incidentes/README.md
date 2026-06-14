@@ -41,20 +41,20 @@ SRE, operação e incidentes existem para transformar confiabilidade em prática
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 20.00 | [SRE, Operação e Incidentes](20.00-sre-operacao-e-incidentes.md) | Guarda-chuva | Rascunho |
-| 20.01 | [O que é SRE na Prática](20.01-o-que-e-sre-na-pratica.md) | Específica ampla | Rascunho |
-| 20.02 | [Confiabilidade, Risco e Sistemas em Produção](20.02-confiabilidade-risco-e-sistemas-em-producao.md) | Específica | Rascunho |
-| 20.03 | [SLI, SLO e SLA](20.03-sli-slo-e-sla.md) | Específica | Rascunho |
-| 20.04 | [Error Budgets](20.04-error-budgets.md) | Específica | Rascunho |
-| 20.05 | [Capacidade e Saturação](20.05-capacidade-e-saturacao.md) | Específica | Rascunho |
-| 20.06 | [Readiness e Liveness](20.06-readiness-e-liveness.md) | Específica prática | Rascunho |
-| 20.07 | [Degradação Graciosa](20.07-degradacao-graciosa.md) | Específica | Rascunho |
-| 20.08 | [Rollback](20.08-rollback.md) | Específica prática | Rascunho |
-| 20.09 | [Runbooks](20.09-runbooks.md) | Específica prática | Rascunho |
-| 20.10 | [On-call](20.10-on-call.md) | Específica | Rascunho |
-| 20.11 | [Incident Response](20.11-incident-response.md) | Específica ampla | Rascunho |
-| 20.12 | [Postmortems](20.12-postmortems.md) | Específica | Rascunho |
-| 20.13 | [Projeto Prático: Operando uma API em Produção](20.13-projeto-pratico-operando-uma-api-em-producao.md) | Síntese prática | Rascunho |
+| 20.00 | [SRE, Operação e Incidentes](20.00-sre-operacao-e-incidentes.md) | Guarda-chuva | Auditada |
+| 20.01 | [O que é SRE na Prática](20.01-o-que-e-sre-na-pratica.md) | Específica ampla | Auditada |
+| 20.02 | [Confiabilidade, Risco e Sistemas em Produção](20.02-confiabilidade-risco-e-sistemas-em-producao.md) | Específica | Auditada |
+| 20.03 | [SLI, SLO e SLA](20.03-sli-slo-e-sla.md) | Específica | Auditada |
+| 20.04 | [Error Budgets](20.04-error-budgets.md) | Específica | Auditada |
+| 20.05 | [Capacidade e Saturação](20.05-capacidade-e-saturacao.md) | Específica | Auditada |
+| 20.06 | [Readiness e Liveness](20.06-readiness-e-liveness.md) | Específica prática | Auditada |
+| 20.07 | [Degradação Graciosa](20.07-degradacao-graciosa.md) | Específica | Auditada |
+| 20.08 | [Rollback](20.08-rollback.md) | Específica prática | Auditada |
+| 20.09 | [Runbooks](20.09-runbooks.md) | Específica prática | Auditada |
+| 20.10 | [On-call](20.10-on-call.md) | Específica | Auditada |
+| 20.11 | [Incident Response](20.11-incident-response.md) | Específica ampla | Auditada |
+| 20.12 | [Postmortems](20.12-postmortems.md) | Específica | Auditada |
+| 20.13 | [Projeto Prático: Operando uma API em Produção](20.13-projeto-pratico-operando-uma-api-em-producao.md) | Síntese prática | Auditada |
 
 
 ## Exercícios

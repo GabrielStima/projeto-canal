@@ -44,20 +44,20 @@ Este módulo existe para ensinar essas escolhas sem transformar toda aplicação
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 16.00 | [Dados em Tempo Real e Comunicação Assíncrona](16.00-dados-em-tempo-real-e-comunicacao-assincrona.md) | Guarda-chuva | Rascunho |
-| 16.01 | [Do Request/Response ao Tempo Real](16.01-do-request-response-ao-tempo-real.md) | Específica ampla | Rascunho |
-| 16.02 | [Short Polling](16.02-short-polling.md) | Específica | Rascunho |
-| 16.03 | [Long Polling](16.03-long-polling.md) | Específica | Rascunho |
-| 16.04 | [Server-Sent Events](16.04-server-sent-events.md) | Específica | Rascunho |
-| 16.05 | [WebSocket](16.05-websocket.md) | Específica | Rascunho |
-| 16.06 | [Tempo Real na Prática: Estado, Reconexão e Falhas](16.06-tempo-real-na-pratica-estado-reconexao-e-falhas.md) | Específica prática | Rascunho |
-| 16.07 | [Processamento Assíncrono](16.07-processamento-assincrono.md) | Guarda-chuva curta | Rascunho |
-| 16.08 | [Background Jobs](16.08-background-jobs.md) | Específica | Rascunho |
-| 16.09 | [Filas](16.09-filas.md) | Específica | Rascunho |
-| 16.10 | [Message Brokers](16.10-message-brokers.md) | Específica | Rascunho |
-| 16.11 | [Pub/Sub](16.11-pub-sub.md) | Específica | Rascunho |
-| 16.12 | [Operações Idempotentes em Fluxos Assíncronos](16.12-operacoes-idempotentes-em-fluxos-assincronos.md) | Específica | Rascunho |
-| 16.13 | [Projeto Prático: Notificações e Jobs Assíncronos em uma API](16.13-projeto-pratico-notificacoes-e-jobs-assincronos-em-uma-api.md) | Síntese prática | Rascunho |
+| 16.00 | [Dados em Tempo Real e Comunicação Assíncrona](16.00-dados-em-tempo-real-e-comunicacao-assincrona.md) | Guarda-chuva | Auditada |
+| 16.01 | [Do Request/Response ao Tempo Real](16.01-do-request-response-ao-tempo-real.md) | Específica ampla | Auditada |
+| 16.02 | [Short Polling](16.02-short-polling.md) | Específica | Auditada |
+| 16.03 | [Long Polling](16.03-long-polling.md) | Específica | Auditada |
+| 16.04 | [Server-Sent Events](16.04-server-sent-events.md) | Específica | Auditada |
+| 16.05 | [WebSocket](16.05-websocket.md) | Específica | Auditada |
+| 16.06 | [Tempo Real na Prática: Estado, Reconexão e Falhas](16.06-tempo-real-na-pratica-estado-reconexao-e-falhas.md) | Específica prática | Auditada |
+| 16.07 | [Processamento Assíncrono](16.07-processamento-assincrono.md) | Guarda-chuva curta | Auditada |
+| 16.08 | [Background Jobs](16.08-background-jobs.md) | Específica | Auditada |
+| 16.09 | [Filas](16.09-filas.md) | Específica | Auditada |
+| 16.10 | [Message Brokers](16.10-message-brokers.md) | Específica | Auditada |
+| 16.11 | [Pub/Sub](16.11-pub-sub.md) | Específica | Auditada |
+| 16.12 | [Operações Idempotentes em Fluxos Assíncronos](16.12-operacoes-idempotentes-em-fluxos-assincronos.md) | Específica | Auditada |
+| 16.13 | [Projeto Prático: Notificações e Jobs Assíncronos em uma API](16.13-projeto-pratico-notificacoes-e-jobs-assincronos-em-uma-api.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

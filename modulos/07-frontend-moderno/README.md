@@ -47,24 +47,24 @@ Este módulo prepara o caminho para Next.js e aplicações fullstack no frontend
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 07.00 | [Frontend Moderno](07.00-frontend-moderno.md) | Guarda-chuva | Rascunho |
-| 07.01 | [Frameworks e libs frontend](07.01-frameworks-e-libs-frontend.md) | Guarda-chuva curta | Rascunho |
-| 07.02 | [React](07.02-react.md) | Específica ampla | Rascunho |
-| 07.03 | [Componentes](07.03-componentes.md) | Específica | Rascunho |
-| 07.04 | [Renderização](07.04-renderizacao.md) | Específica conceitual | Rascunho |
-| 07.05 | [Hooks](07.05-hooks.md) | Específica | Rascunho |
-| 07.06 | [Gerenciamento de estado](07.06-gerenciamento-de-estado.md) | Específica ampla | Rascunho |
-| 07.07 | [Rotas](07.07-rotas.md) | Específica | Rascunho |
-| 07.08 | [SPA vs PWA](07.08-spa-vs-pwa.md) | Específica conceitual | Rascunho |
-| 07.09 | [Chamadas de API](07.09-chamadas-de-api.md) | Específica prática | Rascunho |
-| 07.10 | [Formulários no frontend moderno](07.10-formularios-no-frontend-moderno.md) | Específica | Rascunho |
-| 07.11 | [Validação](07.11-validacao.md) | Específica | Rascunho |
-| 07.12 | [Testes em frontend](07.12-testes-em-frontend.md) | Específica ampla | Rascunho |
-| 07.13 | [Performance no frontend](07.13-performance-no-frontend.md) | Específica ampla | Rascunho |
-| 07.14 | [Web Components](07.14-web-components.md) | Específica comparativa | Rascunho |
-| 07.15 | [Module Federation](07.15-module-federation.md) | Específica avançada introdutória | Rascunho |
-| 07.16 | [Micro-frontends](07.16-micro-frontends.md) | Guarda-chuva curta | Rascunho |
-| 07.17 | [Projeto prático: aplicação frontend moderna](07.17-projeto-pratico-aplicacao-frontend-moderna.md) | Síntese prática | Rascunho |
+| 07.00 | [Frontend Moderno](07.00-frontend-moderno.md) | Guarda-chuva | Auditada |
+| 07.01 | [Frameworks e libs frontend](07.01-frameworks-e-libs-frontend.md) | Guarda-chuva curta | Auditada |
+| 07.02 | [React](07.02-react.md) | Específica ampla | Auditada |
+| 07.03 | [Componentes](07.03-componentes.md) | Específica | Auditada |
+| 07.04 | [Renderização](07.04-renderizacao.md) | Específica conceitual | Auditada |
+| 07.05 | [Hooks](07.05-hooks.md) | Específica | Auditada |
+| 07.06 | [Gerenciamento de estado](07.06-gerenciamento-de-estado.md) | Específica ampla | Auditada |
+| 07.07 | [Rotas](07.07-rotas.md) | Específica | Auditada |
+| 07.08 | [SPA vs PWA](07.08-spa-vs-pwa.md) | Específica conceitual | Auditada |
+| 07.09 | [Chamadas de API](07.09-chamadas-de-api.md) | Específica prática | Auditada |
+| 07.10 | [Formulários no frontend moderno](07.10-formularios-no-frontend-moderno.md) | Específica | Auditada |
+| 07.11 | [Validação](07.11-validacao.md) | Específica | Auditada |
+| 07.12 | [Testes em frontend](07.12-testes-em-frontend.md) | Específica ampla | Auditada |
+| 07.13 | [Performance no frontend](07.13-performance-no-frontend.md) | Específica ampla | Auditada |
+| 07.14 | [Web Components](07.14-web-components.md) | Específica comparativa | Auditada |
+| 07.15 | [Module Federation](07.15-module-federation.md) | Específica avançada introdutória | Auditada |
+| 07.16 | [Micro-frontends](07.16-micro-frontends.md) | Guarda-chuva curta | Auditada |
+| 07.17 | [Projeto prático: aplicação frontend moderna](07.17-projeto-pratico-aplicacao-frontend-moderna.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

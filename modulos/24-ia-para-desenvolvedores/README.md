@@ -42,35 +42,35 @@ Este módulo entra depois de system design porque IA deixa de ser apenas "um cha
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 24.00 | [IA para Desenvolvedores](24.00-ia-para-desenvolvedores.md) | Guarda-chuva | Rascunho |
-| 24.01 | [O Que É IA Generativa](24.01-o-que-e-ia-generativa.md) | Específica ampla | Rascunho |
-| 24.02 | [LLMs, Tokens, Contexto e Visão Geral de Embeddings](24.02-llms-tokens-contexto-e-visao-geral-de-embeddings.md) | Específica | Rascunho |
-| 24.03 | [Limitações, Alucinações e Validação](24.03-limitacoes-alucinacoes-e-validacao.md) | Específica | Rascunho |
-| 24.04 | [Privacidade, Dados Sensíveis e Segredos em IA](24.04-privacidade-dados-sensiveis-e-segredos-em-ia.md) | Específica prática | Rascunho |
-| 24.05 | [Prompt Engineering](24.05-prompt-engineering.md) | Específica prática | Rascunho |
-| 24.06 | [Como Usar IA Para Escrever Código](24.06-como-usar-ia-para-escrever-codigo.md) | Específica prática | Rascunho |
-| 24.07 | [Como Revisar Código Gerado por IA](24.07-como-revisar-codigo-gerado-por-ia.md) | Específica prática | Rascunho |
-| 24.08 | [Segurança em Código Gerado por IA](24.08-seguranca-em-codigo-gerado-por-ia.md) | Específica prática | Rascunho |
-| 24.09 | [Quality Gates Para Código Gerado por IA](24.09-quality-gates-para-codigo-gerado-por-ia.md) | Específica prática | Rascunho |
-| 24.10 | [IA no Debug](24.10-ia-no-debug.md) | Específica prática | Rascunho |
-| 24.11 | [IA Para Testes](24.11-ia-para-testes.md) | Específica prática | Rascunho |
-| 24.12 | [IA Para Documentação](24.12-ia-para-documentacao.md) | Específica prática | Rascunho |
-| 24.13 | [Coding Agents](24.13-coding-agents.md) | Específica ampla | Rascunho |
-| 24.14 | [Workflows com Agentes](24.14-workflows-com-agentes.md) | Específica prática | Rascunho |
-| 24.15 | [Function Calling e Tool Calling](24.15-function-calling-e-tool-calling.md) | Específica | Rascunho |
-| 24.16 | [Agentes com Ferramentas](24.16-agentes-com-ferramentas.md) | Específica prática | Rascunho |
-| 24.17 | [OWASP Top 10 para LLM Applications](24.17-owasp-top-10-para-llm-applications.md) | Específica ampla | Rascunho |
-| 24.18 | [OWASP Agentic AI Top 10](24.18-owasp-agentic-ai-top-10.md) | Específica ampla | Rascunho |
-| 24.19 | [Embeddings](24.19-embeddings.md) | Específica | Rascunho |
-| 24.20 | [Vector Databases](24.20-vector-databases.md) | Específica | Rascunho |
-| 24.21 | [RAG](24.21-rag.md) | Específica prática | Rascunho |
-| 24.22 | [Avaliação de Respostas de IA](24.22-avaliacao-de-respostas-de-ia.md) | Específica | Rascunho |
-| 24.23 | [Evals](24.23-evals.md) | Específica prática | Rascunho |
-| 24.24 | [Guardrails](24.24-guardrails.md) | Específica prática | Rascunho |
-| 24.25 | [Custos e Observabilidade em Apps com IA](24.25-custos-e-observabilidade-em-apps-com-ia.md) | Específica prática | Rascunho |
-| 24.26 | [LLMOps](24.26-llmops.md) | Específica ampla | Rascunho |
-| 24.27 | [FinOps Para IA](24.27-finops-para-ia.md) | Específica prática | Rascunho |
-| 24.28 | [Projeto Prático: Assistente Técnico com RAG ou Agente Simples](24.28-projeto-pratico-assistente-tecnico-com-rag-ou-agente-simples.md) | Síntese prática | Rascunho |
+| 24.00 | [IA para Desenvolvedores](24.00-ia-para-desenvolvedores.md) | Guarda-chuva | Auditada |
+| 24.01 | [O Que É IA Generativa](24.01-o-que-e-ia-generativa.md) | Específica ampla | Auditada |
+| 24.02 | [LLMs, Tokens, Contexto e Visão Geral de Embeddings](24.02-llms-tokens-contexto-e-visao-geral-de-embeddings.md) | Específica | Auditada |
+| 24.03 | [Limitações, Alucinações e Validação](24.03-limitacoes-alucinacoes-e-validacao.md) | Específica | Auditada |
+| 24.04 | [Privacidade, Dados Sensíveis e Segredos em IA](24.04-privacidade-dados-sensiveis-e-segredos-em-ia.md) | Específica prática | Auditada |
+| 24.05 | [Prompt Engineering](24.05-prompt-engineering.md) | Específica prática | Auditada |
+| 24.06 | [Como Usar IA Para Escrever Código](24.06-como-usar-ia-para-escrever-codigo.md) | Específica prática | Auditada |
+| 24.07 | [Como Revisar Código Gerado por IA](24.07-como-revisar-codigo-gerado-por-ia.md) | Específica prática | Auditada |
+| 24.08 | [Segurança em Código Gerado por IA](24.08-seguranca-em-codigo-gerado-por-ia.md) | Específica prática | Auditada |
+| 24.09 | [Quality Gates Para Código Gerado por IA](24.09-quality-gates-para-codigo-gerado-por-ia.md) | Específica prática | Auditada |
+| 24.10 | [IA no Debug](24.10-ia-no-debug.md) | Específica prática | Auditada |
+| 24.11 | [IA Para Testes](24.11-ia-para-testes.md) | Específica prática | Auditada |
+| 24.12 | [IA Para Documentação](24.12-ia-para-documentacao.md) | Específica prática | Auditada |
+| 24.13 | [Coding Agents](24.13-coding-agents.md) | Específica ampla | Auditada |
+| 24.14 | [Workflows com Agentes](24.14-workflows-com-agentes.md) | Específica prática | Auditada |
+| 24.15 | [Function Calling e Tool Calling](24.15-function-calling-e-tool-calling.md) | Específica | Auditada |
+| 24.16 | [Agentes com Ferramentas](24.16-agentes-com-ferramentas.md) | Específica prática | Auditada |
+| 24.17 | [OWASP Top 10 para LLM Applications](24.17-owasp-top-10-para-llm-applications.md) | Específica ampla | Auditada |
+| 24.18 | [OWASP Agentic AI Top 10](24.18-owasp-agentic-ai-top-10.md) | Específica ampla | Auditada |
+| 24.19 | [Embeddings](24.19-embeddings.md) | Específica | Auditada |
+| 24.20 | [Vector Databases](24.20-vector-databases.md) | Específica | Auditada |
+| 24.21 | [RAG](24.21-rag.md) | Específica prática | Auditada |
+| 24.22 | [Avaliação de Respostas de IA](24.22-avaliacao-de-respostas-de-ia.md) | Específica | Auditada |
+| 24.23 | [Evals](24.23-evals.md) | Específica prática | Auditada |
+| 24.24 | [Guardrails](24.24-guardrails.md) | Específica prática | Auditada |
+| 24.25 | [Custos e Observabilidade em Apps com IA](24.25-custos-e-observabilidade-em-apps-com-ia.md) | Específica prática | Auditada |
+| 24.26 | [LLMOps](24.26-llmops.md) | Específica ampla | Auditada |
+| 24.27 | [FinOps Para IA](24.27-finops-para-ia.md) | Específica prática | Auditada |
+| 24.28 | [Projeto Prático: Assistente Técnico com RAG ou Agente Simples](24.28-projeto-pratico-assistente-tecnico-com-rag-ou-agente-simples.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

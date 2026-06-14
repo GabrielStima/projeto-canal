@@ -2,7 +2,7 @@
 
 Este currículo organiza a mega formação em uma sequência única, indo do absoluto zero até tópicos avançados de desenvolvimento fullstack, arquitetura, infraestrutura, system design e IA para desenvolvedores.
 
-A organização abaixo é uma matriz macro. Cada módulo tem uma pasta própria no repositório e poderá receber aulas, exercícios e prompts de estudo conforme a formação avançar.
+A formação possui **28 unidades curriculares**, numeradas de 00 a 25, com os desdobramentos 13A/13B e 19A/19B. A organização abaixo é uma matriz macro. Cada unidade tem uma pasta própria no repositório e poderá receber aulas, exercícios e prompts de estudo conforme a formação avançar.
 
 ## Modelo Pedagógico
 

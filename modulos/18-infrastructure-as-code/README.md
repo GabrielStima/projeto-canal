@@ -42,28 +42,28 @@ Infrastructure as Code resolve parte desse problema ao tratar infraestrutura com
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 18.00 | [Infrastructure as Code](18.00-infrastructure-as-code.md) | Guarda-chuva | Rascunho |
-| 18.01 | [Infraestrutura Declarativa vs Imperativa](18.01-infraestrutura-declarativa-vs-imperativa.md) | Específica | Rascunho |
-| 18.02 | [Idempotência em Infraestrutura](18.02-idempotencia-em-infraestrutura.md) | Específica | Rascunho |
-| 18.03 | [Benefícios e Trade-offs de IaC](18.03-beneficios-e-trade-offs-de-iac.md) | Específica | Rascunho |
-| 18.04 | [Terraform e Panorama de Ferramentas IaC](18.04-terraform-e-panorama-de-ferramentas-iac.md) | Específica ampla | Rascunho |
-| 18.05 | [HCL: A Linguagem de Configuração do Terraform](18.05-hcl-a-linguagem-de-configuracao-do-terraform.md) | Específica | Rascunho |
-| 18.06 | [Providers](18.06-providers.md) | Específica | Rascunho |
-| 18.07 | [Resources e Data Sources](18.07-resources-e-data-sources.md) | Específica | Rascunho |
-| 18.08 | [Dependências e Grafo de Recursos](18.08-dependencias-e-grafo-de-recursos.md) | Específica | Rascunho |
-| 18.09 | [Variables, Local Values e Outputs](18.09-variables-local-values-e-outputs.md) | Específica | Rascunho |
-| 18.10 | [Workflow do Terraform: Init, Plan, Apply e Destroy](18.10-workflow-do-terraform-init-plan-apply-e-destroy.md) | Específica prática | Rascunho |
-| 18.11 | [State no Terraform](18.11-state-no-terraform.md) | Específica | Rascunho |
-| 18.12 | [Remote State e Locking de State](18.12-remote-state-e-locking-de-state.md) | Específica | Rascunho |
-| 18.13 | [Dados Sensíveis no State](18.13-dados-sensiveis-no-state.md) | Específica | Rascunho |
-| 18.14 | [Drift e Importação de Recursos Existentes](18.14-drift-e-importacao-de-recursos-existentes.md) | Específica prática | Rascunho |
-| 18.15 | [Ciclo de Vida dos Recursos](18.15-ciclo-de-vida-dos-recursos.md) | Específica | Rascunho |
-| 18.16 | [Modules](18.16-modules.md) | Específica | Rascunho |
-| 18.17 | [Composição e Reutilização de Módulos](18.17-composicao-e-reutilizacao-de-modulos.md) | Específica prática | Rascunho |
-| 18.18 | [Organização por Ambientes](18.18-organizacao-por-ambientes.md) | Específica ampla | Rascunho |
-| 18.19 | [Workspaces e Suas Limitações](18.19-workspaces-e-suas-limitacoes.md) | Específica | Rascunho |
-| 18.20 | [Segurança e Segredos em IaC](18.20-seguranca-e-segredos-em-iac.md) | Específica | Rascunho |
-| 18.21 | [Projeto Prático: Provisionando a Infraestrutura de uma Aplicação](18.21-projeto-pratico-provisionando-a-infraestrutura-de-uma-aplicacao.md) | Síntese prática | Rascunho |
+| 18.00 | [Infrastructure as Code](18.00-infrastructure-as-code.md) | Guarda-chuva | Auditada |
+| 18.01 | [Infraestrutura Declarativa vs Imperativa](18.01-infraestrutura-declarativa-vs-imperativa.md) | Específica | Auditada |
+| 18.02 | [Idempotência em Infraestrutura](18.02-idempotencia-em-infraestrutura.md) | Específica | Auditada |
+| 18.03 | [Benefícios e Trade-offs de IaC](18.03-beneficios-e-trade-offs-de-iac.md) | Específica | Auditada |
+| 18.04 | [Terraform e Panorama de Ferramentas IaC](18.04-terraform-e-panorama-de-ferramentas-iac.md) | Específica ampla | Auditada |
+| 18.05 | [HCL: A Linguagem de Configuração do Terraform](18.05-hcl-a-linguagem-de-configuracao-do-terraform.md) | Específica | Auditada |
+| 18.06 | [Providers](18.06-providers.md) | Específica | Auditada |
+| 18.07 | [Resources e Data Sources](18.07-resources-e-data-sources.md) | Específica | Auditada |
+| 18.08 | [Dependências e Grafo de Recursos](18.08-dependencias-e-grafo-de-recursos.md) | Específica | Auditada |
+| 18.09 | [Variables, Local Values e Outputs](18.09-variables-local-values-e-outputs.md) | Específica | Auditada |
+| 18.10 | [Workflow do Terraform: Init, Plan, Apply e Destroy](18.10-workflow-do-terraform-init-plan-apply-e-destroy.md) | Específica prática | Auditada |
+| 18.11 | [State no Terraform](18.11-state-no-terraform.md) | Específica | Auditada |
+| 18.12 | [Remote State e Locking de State](18.12-remote-state-e-locking-de-state.md) | Específica | Auditada |
+| 18.13 | [Dados Sensíveis no State](18.13-dados-sensiveis-no-state.md) | Específica | Auditada |
+| 18.14 | [Drift e Importação de Recursos Existentes](18.14-drift-e-importacao-de-recursos-existentes.md) | Específica prática | Auditada |
+| 18.15 | [Ciclo de Vida dos Recursos](18.15-ciclo-de-vida-dos-recursos.md) | Específica | Auditada |
+| 18.16 | [Modules](18.16-modules.md) | Específica | Auditada |
+| 18.17 | [Composição e Reutilização de Módulos](18.17-composicao-e-reutilizacao-de-modulos.md) | Específica prática | Auditada |
+| 18.18 | [Organização por Ambientes](18.18-organizacao-por-ambientes.md) | Específica ampla | Auditada |
+| 18.19 | [Workspaces e Suas Limitações](18.19-workspaces-e-suas-limitacoes.md) | Específica | Auditada |
+| 18.20 | [Segurança e Segredos em IaC](18.20-seguranca-e-segredos-em-iac.md) | Específica | Auditada |
+| 18.21 | [Projeto Prático: Provisionando a Infraestrutura de uma Aplicação](18.21-projeto-pratico-provisionando-a-infraestrutura-de-uma-aplicacao.md) | Síntese prática | Auditada |
 
 
 ## Trilha de Estudo

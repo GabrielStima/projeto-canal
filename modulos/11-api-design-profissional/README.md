@@ -46,21 +46,21 @@ API design profissional aparece antes de autenticação, segurança, qualidade, 
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 11.00 | [API Design Profissional](11.00-api-design-profissional.md) | Guarda-chuva | Rascunho |
-| 11.01 | [Design de APIs](11.01-design-de-apis.md) | Específica ampla | Rascunho |
-| 11.02 | [Contratos de API](11.02-contratos-de-api.md) | Específica | Rascunho |
-| 11.03 | [OpenAPI na Prática](11.03-openapi-na-pratica.md) | Específica prática | Rascunho |
-| 11.04 | [Backward Compatibility](11.04-backward-compatibility.md) | Específica | Rascunho |
-| 11.05 | [Versionamento de API](11.05-versionamento-de-api.md) | Específica | Rascunho |
-| 11.06 | [Erros Padronizados](11.06-erros-padronizados.md) | Específica prática | Rascunho |
-| 11.07 | [Paginação](11.07-paginacao.md) | Específica prática | Rascunho |
-| 11.08 | [Filtros](11.08-filtros.md) | Específica prática | Rascunho |
-| 11.09 | [Ordenação](11.09-ordenacao.md) | Específica prática | Rascunho |
-| 11.10 | [Idempotência](11.10-idempotencia.md) | Específica | Rascunho |
-| 11.11 | [Webhooks](11.11-webhooks.md) | Específica prática | Rascunho |
-| 11.12 | [API Governance](11.12-api-governance.md) | Guarda-chuva curta | Rascunho |
-| 11.13 | [Contract Testing](11.13-contract-testing.md) | Específica introdutória/prática | Rascunho |
-| 11.14 | [Projeto Prático: Design Profissional de uma API](11.14-projeto-pratico-design-profissional-de-uma-api.md) | Síntese prática | Rascunho |
+| 11.00 | [API Design Profissional](11.00-api-design-profissional.md) | Guarda-chuva | Auditada |
+| 11.01 | [Design de APIs](11.01-design-de-apis.md) | Específica ampla | Auditada |
+| 11.02 | [Contratos de API](11.02-contratos-de-api.md) | Específica | Auditada |
+| 11.03 | [OpenAPI na Prática](11.03-openapi-na-pratica.md) | Específica prática | Auditada |
+| 11.04 | [Backward Compatibility](11.04-backward-compatibility.md) | Específica | Auditada |
+| 11.05 | [Versionamento de API](11.05-versionamento-de-api.md) | Específica | Auditada |
+| 11.06 | [Erros Padronizados](11.06-erros-padronizados.md) | Específica prática | Auditada |
+| 11.07 | [Paginação](11.07-paginacao.md) | Específica prática | Auditada |
+| 11.08 | [Filtros](11.08-filtros.md) | Específica prática | Auditada |
+| 11.09 | [Ordenação](11.09-ordenacao.md) | Específica prática | Auditada |
+| 11.10 | [Idempotência](11.10-idempotencia.md) | Específica | Auditada |
+| 11.11 | [Webhooks](11.11-webhooks.md) | Específica prática | Auditada |
+| 11.12 | [API Governance](11.12-api-governance.md) | Guarda-chuva curta | Auditada |
+| 11.13 | [Contract Testing](11.13-contract-testing.md) | Específica introdutória/prática | Auditada |
+| 11.14 | [Projeto Prático: Design Profissional de uma API](11.14-projeto-pratico-design-profissional-de-uma-api.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

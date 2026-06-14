@@ -71,7 +71,7 @@ graph TD
 
 ## 🗺️ O Fio Condutor: Mapa de Evolução do Projeto
 
-Ao longo dos **26 módulos da formação**, você construirá o PetCare OS passo a passo. Abaixo está o mapeamento de como cada parte do currículo se conecta ao projeto prático:
+Ao longo das **28 unidades curriculares da formação**, numeradas de 00 a 25 e organizadas com os desdobramentos 13A/13B e 19A/19B, você construirá o PetCare OS passo a passo. Abaixo está o mapeamento de como cada parte do currículo se conecta ao projeto prático:
 
 | Módulos | Tema do Módulo | O Que Você Implementará no PetCare OS |
 | :---: | :--- | :--- |
@@ -83,7 +83,8 @@ Ao longo dos **26 módulos da formação**, você construirá o PetCare OS passo
 | **09 e 10** | Bancos de Dados & Node.js Backend | Modelagem relacional no **PostgreSQL** com **Prisma ORM** (para persistir Tutores, Pets, Atendimentos e Financeiro) e uso do **MongoDB** para armazenar logs de telemetria dos pets e histórico bruto de auditorias clínicas. |
 | **11** | API Design Profissional | Criação da API RESTful do backend (utilizando Fastify ou Express) documentada com **Open OpenAPI/Swagger**, filtros de busca avançados, paginação no catálogo de produtos e **chaves de idempotência** para evitar cobranças duplicadas em orçamentos. |
 | **12** | Autenticação, Autorização e Segurança | Controle de acesso via **JWT** e regras de **RBAC (Role-Based Access Control)** diferenciando Clínicos, Recepcionistas e Administradores. Implementação de proteção contra XSS, CSRF, CORS e sanitização contra SQL Injection. |
-| **13** | Qualidade, Testes e Observabilidade | Cobertura de testes unitários e de integração com Jest/Vitest. Criação de testes de carga com **k6** para simular picos de acessos no portal dos tutores. Instrumentação com Winston (logs), Prometheus (métricas) e OpenTelemetry. |
+| **13A** | Qualidade e Testes | Cobertura de testes unitários, de integração, de contrato e end-to-end. Automação dos testes no pipeline e definição de métricas e quality gates proporcionais aos riscos do PetCare OS. |
+| **13B** | Observabilidade, Performance e Operação | Criação de testes de carga para simular picos de acesso no Portal do Tutor e instrumentação da aplicação com logs, métricas e tracing para investigar falhas e gargalos. |
 | **14 e 15** | Design e Arquitetura de Software | Refatoração do backend aplicando **SOLID, Clean Architecture** (camadas de Entidades, Casos de Uso, Gateways e Controladores) e **DDD (Domain-Driven Design)**, desenhando fronteiras lógicas explícitas entre os domínios. |
 | **16** | Tempo Real & Comunicação Assíncrona | Atualização em tempo real do progresso do pet no Portal do Tutor usando **WebSockets (Socket.io)** ou **SSE**. Processamento em segundo plano com **BullMQ / Redis** para geração de PDFs de prontuários e envio de e-mails automáticos. |
 | **17 e 18** | Cloud Fundamentals & IaC (Terraform) | Arquitetura de implantação na nuvem (AWS/GCP). Criação dos scripts em **Terraform** para provisionar de forma declarativa a rede (VPC), banco de dados (RDS PostgreSQL) e armazenamento de exames (S3). |
@@ -93,7 +94,7 @@ Ao longo dos **26 módulos da formação**, você construirá o PetCare OS passo
 | **21** | Supply Chain Security e Secure SDLC | Integração de varreduras SAST/DAST no pipeline de entrega contínua, auditoria de dependências NPM vulneráveis e geração automática de SBOM (Software Bill of Materials) da aplicação. |
 | **22** | Privacidade e Governança de Dados | Aplicação de conformidade com a **LGPD**: logs de auditoria imutáveis para acesso a prontuários médicos, fluxo de consentimento explícito dos tutores, e fluxo de anonimização de dados pessoais para geração de relatórios administrativos. |
 | **23** | System Design | Escalabilidade avançada da plataforma aplicando cache distribuído em **Redis** para a listagem de serviços da clínica, e desenho de uma arquitetura resiliente com padrões de disjuntor (*Circuit Breaker*) e fila de mensagens. |
-| **24** | IA para Desenvolvedores | Integração de Inteligência Artificial Generativa: um **Assistente Clínico IA** (com RAG baseado em manuais veterinários públicos) para sugerir diagnósticos e contraindicações de medicamentos a partir dos sintomas triados, e um gerador de receitas médicas pré-formatadas. |
+| **24** | IA para Desenvolvedores | Construção de um **assistente informacional controlado** com RAG sobre conteúdo público, fictício ou previamente aprovado. O sistema apresenta fontes, recusa respostas sem evidência, encaminha dúvidas clínicas para profissionais responsáveis e exige confirmação humana antes de ações sensíveis. Não realiza diagnóstico nem prescrição. |
 | **25** | Documentação Técnica | Escrita da documentação arquitetural completa do ecossistema: diagramas no padrão **C4 Model** (Contexto, Contêineres e Componentes) e escrita de **ADRs (Architecture Decision Records)** para fundamentar as principais decisões técnicas do projeto. |
 
 ---
@@ -104,6 +105,6 @@ Ao apresentar o **PetCare OS** para recrutadores ou em discussões de entrevista
 
 1. **Raciocínio de Negócio Real:** A aplicação resolve dores reais de logística, triagem de saúde, controle de estoque e conformidade jurídica (LGPD).
 2. **Profundidade de Engenharia:** O portfólio comprova que você sabe construir testes de carga, projetar infraestrutura em nuvem via código (IaC), monitorar SLOs operacionais de produção e desenhar arquiteturas limpas desacopladas.
-3. **Maturidade Tecnológica:** Em vez de usar IA apenas para gerar código de forma cega, você integrou modelos de linguagem (LLMs) como uma funcionalidade produtiva do sistema (RAG, validação clínica e automação inteligente).
+3. **Maturidade Tecnológica:** Em vez de usar IA apenas para gerar código de forma cega, você integrou modelos de linguagem (LLMs) como uma funcionalidade controlada do sistema, com RAG, fontes, avaliações, limites de autonomia, observabilidade e encaminhamento seguro.
 
 *Prepare-se para construir um sistema robusto, elegante e profissional!*

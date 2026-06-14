@@ -52,24 +52,24 @@ Segurança aparece aqui porque depende de tudo que veio antes: HTTP, headers, co
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 12.00 | [Autenticação, Autorização e Segurança](12.00-autenticacao-autorizacao-e-seguranca.md) | Guarda-chuva | Rascunho |
-| 12.01 | [Segurança na Web](12.01-seguranca-na-web.md) | Guarda-chuva curta | Rascunho |
-| 12.02 | [Hashing de Senhas](12.02-hashing-de-senhas.md) | Específica | Rascunho |
-| 12.03 | [Algoritmos de Hashing](12.03-algoritmos-de-hashing.md) | Específica conceitual | Rascunho |
-| 12.04 | [Autenticação Básica](12.04-autenticacao-basica.md) | Específica prática | Rascunho |
-| 12.05 | [Sessões](12.05-sessoes.md) | Específica | Rascunho |
-| 12.06 | [Autenticação via Cookie](12.06-autenticacao-via-cookie.md) | Específica prática | Rascunho |
-| 12.07 | [CSRF](12.07-csrf.md) | Específica | Rascunho |
-| 12.08 | [Autenticação via Token](12.08-autenticacao-via-token.md) | Específica prática | Rascunho |
-| 12.09 | [JWT](12.09-jwt.md) | Específica | Rascunho |
-| 12.10 | [Autorização](12.10-autorizacao.md) | Específica prática | Rascunho |
-| 12.11 | [OAuth](12.11-oauth.md) | Específica conceitual/prática | Rascunho |
-| 12.12 | [CORS](12.12-cors.md) | Específica | Rascunho |
-| 12.13 | [XSS](12.13-xss.md) | Específica | Rascunho |
-| 12.14 | [SQL Injection](12.14-sql-injection.md) | Específica prática | Rascunho |
-| 12.15 | [Rate Limiting](12.15-rate-limiting.md) | Específica prática | Rascunho |
-| 12.16 | [Segurança em APIs](12.16-seguranca-em-apis.md) | Guarda-chuva curta | Rascunho |
-| 12.17 | [Projeto Prático: Autenticação, Autorização e Segurança em uma API](12.17-projeto-pratico-autenticacao-autorizacao-e-seguranca-em-uma-api.md) | Síntese prática | Rascunho |
+| 12.00 | [Autenticação, Autorização e Segurança](12.00-autenticacao-autorizacao-e-seguranca.md) | Guarda-chuva | Auditada |
+| 12.01 | [Segurança na Web](12.01-seguranca-na-web.md) | Guarda-chuva curta | Auditada |
+| 12.02 | [Hashing de Senhas](12.02-hashing-de-senhas.md) | Específica | Auditada |
+| 12.03 | [Algoritmos de Hashing](12.03-algoritmos-de-hashing.md) | Específica conceitual | Auditada |
+| 12.04 | [Autenticação Básica](12.04-autenticacao-basica.md) | Específica prática | Auditada |
+| 12.05 | [Sessões](12.05-sessoes.md) | Específica | Auditada |
+| 12.06 | [Autenticação via Cookie](12.06-autenticacao-via-cookie.md) | Específica prática | Auditada |
+| 12.07 | [CSRF](12.07-csrf.md) | Específica | Auditada |
+| 12.08 | [Autenticação via Token](12.08-autenticacao-via-token.md) | Específica prática | Auditada |
+| 12.09 | [JWT](12.09-jwt.md) | Específica | Auditada |
+| 12.10 | [Autorização](12.10-autorizacao.md) | Específica prática | Auditada |
+| 12.11 | [OAuth](12.11-oauth.md) | Específica conceitual/prática | Auditada |
+| 12.12 | [CORS](12.12-cors.md) | Específica | Auditada |
+| 12.13 | [XSS](12.13-xss.md) | Específica | Auditada |
+| 12.14 | [SQL Injection](12.14-sql-injection.md) | Específica prática | Auditada |
+| 12.15 | [Rate Limiting](12.15-rate-limiting.md) | Específica prática | Auditada |
+| 12.16 | [Segurança em APIs](12.16-seguranca-em-apis.md) | Guarda-chuva curta | Auditada |
+| 12.17 | [Projeto Prático: Autenticação, Autorização e Segurança em uma API](12.17-projeto-pratico-autenticacao-autorizacao-e-seguranca-em-uma-api.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

@@ -47,32 +47,32 @@ Este módulo também prepara assuntos futuros como bancos de dados, performance,
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 04.00 | [Algoritmos e Estruturas de Dados](04.00-algoritmos-e-estruturas-de-dados.md) | Guarda-chuva | Rascunho |
-| 04.01 | [Estruturas de dados: dados, operações e escolhas](04.01-estruturas-de-dados-dados-operacoes-e-escolhas.md) | Guarda-chuva curta | Rascunho |
-| 04.02 | [Arrays](04.02-arrays.md) | Específica | Rascunho |
-| 04.03 | [Complexidade de algoritmos](04.03-complexidade-de-algoritmos.md) | Guarda-chuva conceitual | Rascunho |
-| 04.04 | [Tempo vs espaço](04.04-tempo-vs-espaco.md) | Específica | Rascunho |
-| 04.05 | [Como calcular complexidade](04.05-como-calcular-complexidade.md) | Específica prática | Rascunho |
-| 04.06 | [Linked lists](04.06-linked-lists.md) | Específica | Rascunho |
-| 04.07 | [Stacks](04.07-stacks.md) | Específica | Rascunho |
-| 04.08 | [Queues](04.08-queues.md) | Específica | Rascunho |
-| 04.09 | [Hash tables](04.09-hash-tables.md) | Específica | Rascunho |
-| 04.10 | [Algoritmos de busca](04.10-algoritmos-de-busca.md) | Guarda-chuva curta | Rascunho |
-| 04.11 | [Busca linear](04.11-busca-linear.md) | Específica | Rascunho |
-| 04.12 | [Busca binária](04.12-busca-binaria.md) | Específica | Rascunho |
-| 04.13 | [Algoritmos de ordenação](04.13-algoritmos-de-ordenacao.md) | Guarda-chuva | Rascunho |
-| 04.14 | [Bubble Sort](04.14-bubble-sort.md) | Específica | Rascunho |
-| 04.15 | [Selection Sort](04.15-selection-sort.md) | Específica | Rascunho |
-| 04.16 | [Insertion Sort](04.16-insertion-sort.md) | Específica | Rascunho |
-| 04.17 | [Recursão e divisão e conquista](04.17-recursao-e-divisao-e-conquista.md) | Aula de suporte | Rascunho |
-| 04.18 | [Merge Sort](04.18-merge-sort.md) | Específica | Rascunho |
-| 04.19 | [Quick Sort](04.19-quick-sort.md) | Específica | Rascunho |
-| 04.20 | [Árvores](04.20-arvores.md) | Guarda-chuva | Rascunho |
-| 04.21 | [Árvore binária](04.21-arvore-binaria.md) | Específica | Rascunho |
-| 04.22 | [Árvore de busca binária](04.22-arvore-de-busca-binaria.md) | Específica | Rascunho |
-| 04.23 | [Heaps](04.23-heaps.md) | Aula de suporte | Rascunho |
-| 04.24 | [Heap Sort](04.24-heap-sort.md) | Específica | Rascunho |
-| 04.25 | [Projeto prático: analisador de estruturas e algoritmos](04.25-projeto-pratico-analisador-de-estruturas-e-algoritmos.md) | Síntese prática | Rascunho |
+| 04.00 | [Algoritmos e Estruturas de Dados](04.00-algoritmos-e-estruturas-de-dados.md) | Guarda-chuva | Auditada |
+| 04.01 | [Estruturas de dados: dados, operações e escolhas](04.01-estruturas-de-dados-dados-operacoes-e-escolhas.md) | Guarda-chuva curta | Auditada |
+| 04.02 | [Arrays](04.02-arrays.md) | Específica | Auditada |
+| 04.03 | [Complexidade de algoritmos](04.03-complexidade-de-algoritmos.md) | Guarda-chuva conceitual | Auditada |
+| 04.04 | [Tempo vs espaço](04.04-tempo-vs-espaco.md) | Específica | Auditada |
+| 04.05 | [Como calcular complexidade](04.05-como-calcular-complexidade.md) | Específica prática | Auditada |
+| 04.06 | [Linked lists](04.06-linked-lists.md) | Específica | Auditada |
+| 04.07 | [Stacks](04.07-stacks.md) | Específica | Auditada |
+| 04.08 | [Queues](04.08-queues.md) | Específica | Auditada |
+| 04.09 | [Hash tables](04.09-hash-tables.md) | Específica | Auditada |
+| 04.10 | [Algoritmos de busca](04.10-algoritmos-de-busca.md) | Guarda-chuva curta | Auditada |
+| 04.11 | [Busca linear](04.11-busca-linear.md) | Específica | Auditada |
+| 04.12 | [Busca binária](04.12-busca-binaria.md) | Específica | Auditada |
+| 04.13 | [Algoritmos de ordenação](04.13-algoritmos-de-ordenacao.md) | Guarda-chuva | Auditada |
+| 04.14 | [Bubble Sort](04.14-bubble-sort.md) | Específica | Auditada |
+| 04.15 | [Selection Sort](04.15-selection-sort.md) | Específica | Auditada |
+| 04.16 | [Insertion Sort](04.16-insertion-sort.md) | Específica | Auditada |
+| 04.17 | [Recursão e divisão e conquista](04.17-recursao-e-divisao-e-conquista.md) | Aula de suporte | Auditada |
+| 04.18 | [Merge Sort](04.18-merge-sort.md) | Específica | Auditada |
+| 04.19 | [Quick Sort](04.19-quick-sort.md) | Específica | Auditada |
+| 04.20 | [Árvores](04.20-arvores.md) | Guarda-chuva | Auditada |
+| 04.21 | [Árvore binária](04.21-arvore-binaria.md) | Específica | Auditada |
+| 04.22 | [Árvore de busca binária](04.22-arvore-de-busca-binaria.md) | Específica | Auditada |
+| 04.23 | [Heaps](04.23-heaps.md) | Aula de suporte | Auditada |
+| 04.24 | [Heap Sort](04.24-heap-sort.md) | Específica | Auditada |
+| 04.25 | [Projeto prático: analisador de estruturas e algoritmos](04.25-projeto-pratico-analisador-de-estruturas-e-algoritmos.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

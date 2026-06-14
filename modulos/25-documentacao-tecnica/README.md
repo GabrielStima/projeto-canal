@@ -41,19 +41,19 @@ Depois de system design e IA para desenvolvedores, o aluno já tem repertório p
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 25.00 | [Documentação Técnica](25.00-documentacao-tecnica.md) | Guarda-chuva | Rascunho |
-| 25.01 | [Comunicação Técnica](25.01-comunicacao-tecnica.md) | Específica ampla | Rascunho |
-| 25.02 | [Tipos de Documentação Técnica](25.02-tipos-de-documentacao-tecnica.md) | Específica ampla | Rascunho |
-| 25.03 | [README Profissional](25.03-readme-profissional.md) | Específica prática | Rascunho |
-| 25.04 | [Documentação para Times](25.04-documentacao-para-times.md) | Específica prática | Rascunho |
-| 25.05 | [Documentação para Público Externo](25.05-documentacao-para-publico-externo.md) | Específica prática | Rascunho |
-| 25.06 | [ADR](25.06-adr.md) | Específica prática | Rascunho |
-| 25.07 | [RFC](25.07-rfc.md) | Específica prática | Rascunho |
-| 25.08 | [HLD](25.08-hld.md) | Específica prática | Rascunho |
-| 25.09 | [C4 Model](25.09-c4-model.md) | Específica prática | Rascunho |
-| 25.10 | [Diagramas](25.10-diagramas.md) | Específica prática | Rascunho |
-| 25.11 | [LLD](25.11-lld.md) | Específica prática | Rascunho |
-| 25.12 | [Projeto Prático: Documentando uma Arquitetura Técnica](25.12-projeto-pratico-documentando-uma-arquitetura-tecnica.md) | Síntese prática | Rascunho |
+| 25.00 | [Documentação Técnica](25.00-documentacao-tecnica.md) | Guarda-chuva | Auditada |
+| 25.01 | [Comunicação Técnica](25.01-comunicacao-tecnica.md) | Específica ampla | Auditada |
+| 25.02 | [Tipos de Documentação Técnica](25.02-tipos-de-documentacao-tecnica.md) | Específica ampla | Auditada |
+| 25.03 | [README Profissional](25.03-readme-profissional.md) | Específica prática | Auditada |
+| 25.04 | [Documentação para Times](25.04-documentacao-para-times.md) | Específica prática | Auditada |
+| 25.05 | [Documentação para Público Externo](25.05-documentacao-para-publico-externo.md) | Específica prática | Auditada |
+| 25.06 | [ADR](25.06-adr.md) | Específica prática | Auditada |
+| 25.07 | [RFC](25.07-rfc.md) | Específica prática | Auditada |
+| 25.08 | [HLD](25.08-hld.md) | Específica prática | Auditada |
+| 25.09 | [C4 Model](25.09-c4-model.md) | Específica prática | Auditada |
+| 25.10 | [Diagramas](25.10-diagramas.md) | Específica prática | Auditada |
+| 25.11 | [LLD](25.11-lld.md) | Específica prática | Auditada |
+| 25.12 | [Projeto Prático: Documentando uma Arquitetura Técnica](25.12-projeto-pratico-documentando-uma-arquitetura-tecnica.md) | Síntese prática | Auditada |
 
 
 ## Exercícios

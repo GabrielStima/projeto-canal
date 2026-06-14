@@ -38,19 +38,19 @@ Este módulo assume que você já sabe construir e publicar imagens. O foco aqui
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 19b.00 | [Kubernetes](19b.00-kubernetes.md) | Guarda-chuva curta | Rascunho |
-| 19b.01 | [Configurando Kubernetes](19b.01-configurando-kubernetes.md) | Específica prática | Rascunho |
-| 19b.02 | [Rodando Aplicações no Kubernetes](19b.02-rodando-aplicacoes-no-kubernetes.md) | Específica prática | Rascunho |
-| 19b.03 | [Serviços e Conectividade](19b.03-servicos-e-conectividade.md) | Específica | Rascunho |
-| 19b.04 | [Configuração e Gerenciamento](19b.04-configuracao-e-gerenciamento.md) | Específica | Rascunho |
-| 19b.05 | [Gerenciamento de Recursos](19b.05-gerenciamento-de-recursos.md) | Específica | Rascunho |
-| 19b.06 | [Storage and Volumes](19b.06-storage-and-volumes.md) | Específica | Rascunho |
-| 19b.07 | [Segurança no Kubernetes](19b.07-seguranca-no-kubernetes.md) | Específica ampla | Rascunho |
-| 19b.08 | [Monitoramento e Logging no Kubernetes](19b.08-monitoramento-e-logging-no-kubernetes.md) | Específica | Rascunho |
-| 19b.09 | [Autoscaling](19b.09-autoscaling.md) | Específica | Rascunho |
-| 19b.10 | [Padrões de Deployment](19b.10-padroes-de-deployment.md) | Específica | Rascunho |
-| 19b.11 | [Tópicos Avançados de Kubernetes](19b.11-topicos-avancados-de-kubernetes.md) | Guarda-chuva de fechamento | Rascunho |
-| 19b.12 | [Projeto Prático: Deploy em Kubernetes](19b.12-projeto-pratico-deploy-em-kubernetes.md) | Síntese prática | Rascunho |
+| 19b.00 | [Kubernetes](19b.00-kubernetes.md) | Guarda-chuva curta | Auditada |
+| 19b.01 | [Configurando Kubernetes](19b.01-configurando-kubernetes.md) | Específica prática | Auditada |
+| 19b.02 | [Rodando Aplicações no Kubernetes](19b.02-rodando-aplicacoes-no-kubernetes.md) | Específica prática | Auditada |
+| 19b.03 | [Serviços e Conectividade](19b.03-servicos-e-conectividade.md) | Específica | Auditada |
+| 19b.04 | [Configuração e Gerenciamento](19b.04-configuracao-e-gerenciamento.md) | Específica | Auditada |
+| 19b.05 | [Gerenciamento de Recursos](19b.05-gerenciamento-de-recursos.md) | Específica | Auditada |
+| 19b.06 | [Storage and Volumes](19b.06-storage-and-volumes.md) | Específica | Auditada |
+| 19b.07 | [Segurança no Kubernetes](19b.07-seguranca-no-kubernetes.md) | Específica ampla | Auditada |
+| 19b.08 | [Monitoramento e Logging no Kubernetes](19b.08-monitoramento-e-logging-no-kubernetes.md) | Específica | Auditada |
+| 19b.09 | [Autoscaling](19b.09-autoscaling.md) | Específica | Auditada |
+| 19b.10 | [Padrões de Deployment](19b.10-padroes-de-deployment.md) | Específica | Auditada |
+| 19b.11 | [Tópicos Avançados de Kubernetes](19b.11-topicos-avancados-de-kubernetes.md) | Guarda-chuva de fechamento | Auditada |
+| 19b.12 | [Projeto Prático: Deploy em Kubernetes](19b.12-projeto-pratico-deploy-em-kubernetes.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

@@ -45,18 +45,18 @@ Privacidade não é apenas uma camada jurídica depois que o sistema fica pronto
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 22.00 | [Privacidade e Governança de Dados](22.00-privacidade-e-governanca-de-dados.md) | Guarda-chuva | Rascunho |
-| 22.01 | [Dados Pessoais, Dados Sensíveis e Ciclo de Vida do Dado](22.01-dados-pessoais-dados-sensiveis-e-ciclo-de-vida-do-dado.md) | Específica ampla | Rascunho |
-| 22.02 | [LGPD/GDPR Básico Para Devs](22.02-lgpd-gdpr-basico-para-devs.md) | Específica ampla | Rascunho |
-| 22.03 | [Inventário, Classificação e Governança de Dados](22.03-inventario-classificacao-e-governanca-de-dados.md) | Específica | Rascunho |
-| 22.04 | [Consentimento e Finalidade de Uso](22.04-consentimento-e-finalidade-de-uso.md) | Específica | Rascunho |
-| 22.05 | [Políticas de Acesso a Dados](22.05-politicas-de-acesso-a-dados.md) | Específica prática | Rascunho |
-| 22.06 | [Retenção, Descarte e Minimização de Dados](22.06-retencao-descarte-e-minimizacao-de-dados.md) | Específica | Rascunho |
-| 22.07 | [Anonimização e Pseudonimização](22.07-anonimizacao-e-pseudonimizacao.md) | Específica | Rascunho |
-| 22.08 | [Logs com Dados Sensíveis](22.08-logs-com-dados-sensiveis.md) | Específica prática | Rascunho |
-| 22.09 | [Auditoria e Rastreabilidade de Acesso a Dados](22.09-auditoria-e-rastreabilidade-de-acesso-a-dados.md) | Específica prática | Rascunho |
-| 22.10 | [Dados Enviados Para IA](22.10-dados-enviados-para-ia.md) | Específica atual/prática | Rascunho |
-| 22.11 | [Projeto Prático: Revisão de Privacidade de uma Aplicação Fullstack](22.11-projeto-pratico-revisao-de-privacidade-de-uma-aplicacao-fullstack.md) | Síntese prática | Rascunho |
+| 22.00 | [Privacidade e Governança de Dados](22.00-privacidade-e-governanca-de-dados.md) | Guarda-chuva | Auditada |
+| 22.01 | [Dados Pessoais, Dados Sensíveis e Ciclo de Vida do Dado](22.01-dados-pessoais-dados-sensiveis-e-ciclo-de-vida-do-dado.md) | Específica ampla | Auditada |
+| 22.02 | [LGPD/GDPR Básico Para Devs](22.02-lgpd-gdpr-basico-para-devs.md) | Específica ampla | Auditada |
+| 22.03 | [Inventário, Classificação e Governança de Dados](22.03-inventario-classificacao-e-governanca-de-dados.md) | Específica | Auditada |
+| 22.04 | [Consentimento e Finalidade de Uso](22.04-consentimento-e-finalidade-de-uso.md) | Específica | Auditada |
+| 22.05 | [Políticas de Acesso a Dados](22.05-politicas-de-acesso-a-dados.md) | Específica prática | Auditada |
+| 22.06 | [Retenção, Descarte e Minimização de Dados](22.06-retencao-descarte-e-minimizacao-de-dados.md) | Específica | Auditada |
+| 22.07 | [Anonimização e Pseudonimização](22.07-anonimizacao-e-pseudonimizacao.md) | Específica | Auditada |
+| 22.08 | [Logs com Dados Sensíveis](22.08-logs-com-dados-sensiveis.md) | Específica prática | Auditada |
+| 22.09 | [Auditoria e Rastreabilidade de Acesso a Dados](22.09-auditoria-e-rastreabilidade-de-acesso-a-dados.md) | Específica prática | Auditada |
+| 22.10 | [Dados Enviados Para IA](22.10-dados-enviados-para-ia.md) | Específica atual/prática | Auditada |
+| 22.11 | [Projeto Prático: Revisão de Privacidade de uma Aplicação Fullstack](22.11-projeto-pratico-revisao-de-privacidade-de-uma-aplicacao-fullstack.md) | Síntese prática | Auditada |
 
 
 ## Exercícios

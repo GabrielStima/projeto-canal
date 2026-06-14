@@ -39,28 +39,28 @@ DevOps, CI/CD e containers entram para reduzir essa distância entre código e e
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 19a.00 | [DevOps, CI/CD e Containers](19a.00-devops-ci-cd-e-containers.md) | Guarda-chuva | Rascunho |
-| 19a.01 | [O que é DevOps na Prática](19a.01-o-que-e-devops-na-pratica.md) | Específica ampla | Rascunho |
-| 19a.02 | [CI/CD](19a.02-ci-cd.md) | Específica | Rascunho |
-| 19a.03 | [Deploy](19a.03-deploy.md) | Específica | Rascunho |
-| 19a.04 | [Infrastructure as Code em CI/CD](19a.04-infrastructure-as-code-em-ci-cd.md) | Específica | Rascunho |
-| 19a.05 | [Geração e Revisão de Planos de Infraestrutura](19a.05-geracao-e-revisao-de-planos-de-infraestrutura.md) | Específica prática | Rascunho |
-| 19a.06 | [Aprovação e Aplicação Automatizada de Mudanças](19a.06-aprovacao-e-aplicacao-automatizada-de-mudancas.md) | Específica prática | Rascunho |
-| 19a.07 | [Credenciais Temporárias para Automação](19a.07-credenciais-temporarias-para-automacao.md) | Específica | Rascunho |
-| 19a.08 | [Policy as Code](19a.08-policy-as-code.md) | Específica ampla | Rascunho |
-| 19a.09 | [Detecção Automatizada de Drift](19a.09-deteccao-automatizada-de-drift.md) | Específica | Rascunho |
-| 19a.10 | [Docker e Containers](19a.10-docker-e-containers.md) | Guarda-chuva curta | Rascunho |
-| 19a.11 | [Básico de Containers](19a.11-basico-de-containers.md) | Específica | Rascunho |
-| 19a.12 | [Building Container Images](19a.12-building-container-images.md) | Específica prática | Rascunho |
-| 19a.13 | [Docker CLI](19a.13-docker-cli.md) | Específica prática | Rascunho |
-| 19a.14 | [Running Containers](19a.14-running-containers.md) | Específica prática | Rascunho |
-| 19a.15 | [Persistência de Dados](19a.15-persistencia-de-dados.md) | Específica | Rascunho |
-| 19a.16 | [Bancos em Containers](19a.16-bancos-em-containers.md) | Específica prática | Rascunho |
-| 19a.17 | [Networking em Containers](19a.17-networking-em-containers.md) | Específica | Rascunho |
-| 19a.18 | [Container Registries](19a.18-container-registries.md) | Específica | Rascunho |
-| 19a.19 | [Segurança em Containers](19a.19-seguranca-em-containers.md) | Específica ampla | Rascunho |
-| 19a.20 | [Desafio: Containerizando o PetCare OS](19a.20-desafio-containerizando-o-petcare-os.md) | Desafio intermediário | Rascunho |
-| 19a.21 | [Projeto Prático: Pipeline de Build e Registry](19a.21-projeto-pratico-pipeline-de-build-e-registry.md) | Síntese prática | Rascunho |
+| 19a.00 | [DevOps, CI/CD e Containers](19a.00-devops-ci-cd-e-containers.md) | Guarda-chuva | Auditada |
+| 19a.01 | [O que é DevOps na Prática](19a.01-o-que-e-devops-na-pratica.md) | Específica ampla | Auditada |
+| 19a.02 | [CI/CD](19a.02-ci-cd.md) | Específica | Auditada |
+| 19a.03 | [Deploy](19a.03-deploy.md) | Específica | Auditada |
+| 19a.04 | [Infrastructure as Code em CI/CD](19a.04-infrastructure-as-code-em-ci-cd.md) | Específica | Auditada |
+| 19a.05 | [Geração e Revisão de Planos de Infraestrutura](19a.05-geracao-e-revisao-de-planos-de-infraestrutura.md) | Específica prática | Auditada |
+| 19a.06 | [Aprovação e Aplicação Automatizada de Mudanças](19a.06-aprovacao-e-aplicacao-automatizada-de-mudancas.md) | Específica prática | Auditada |
+| 19a.07 | [Credenciais Temporárias para Automação](19a.07-credenciais-temporarias-para-automacao.md) | Específica | Auditada |
+| 19a.08 | [Policy as Code](19a.08-policy-as-code.md) | Específica ampla | Auditada |
+| 19a.09 | [Detecção Automatizada de Drift](19a.09-deteccao-automatizada-de-drift.md) | Específica | Auditada |
+| 19a.10 | [Docker e Containers](19a.10-docker-e-containers.md) | Guarda-chuva curta | Auditada |
+| 19a.11 | [Básico de Containers](19a.11-basico-de-containers.md) | Específica | Auditada |
+| 19a.12 | [Building Container Images](19a.12-building-container-images.md) | Específica prática | Auditada |
+| 19a.13 | [Docker CLI](19a.13-docker-cli.md) | Específica prática | Auditada |
+| 19a.14 | [Running Containers](19a.14-running-containers.md) | Específica prática | Auditada |
+| 19a.15 | [Persistência de Dados](19a.15-persistencia-de-dados.md) | Específica | Auditada |
+| 19a.16 | [Bancos em Containers](19a.16-bancos-em-containers.md) | Específica prática | Auditada |
+| 19a.17 | [Networking em Containers](19a.17-networking-em-containers.md) | Específica | Auditada |
+| 19a.18 | [Container Registries](19a.18-container-registries.md) | Específica | Auditada |
+| 19a.19 | [Segurança em Containers](19a.19-seguranca-em-containers.md) | Específica ampla | Auditada |
+| 19a.20 | [Desafio: Containerizando o PetCare OS](19a.20-desafio-containerizando-o-petcare-os.md) | Desafio intermediário | Auditada |
+| 19a.21 | [Projeto Prático: Pipeline de Build e Registry](19a.21-projeto-pratico-pipeline-de-build-e-registry.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

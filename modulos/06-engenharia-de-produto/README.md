@@ -63,18 +63,18 @@ Esse pacote de documentos será retomado nos próximos módulos para construir i
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 06.00 | [Engenharia de Produto](06.00-engenharia-de-produto.md) | Guarda-chuva | Rascunho |
-| 06.01 | [Requisitos](06.01-requisitos.md) | Específica ampla | Rascunho |
-| 06.02 | [Histórias de usuário](06.02-historias-de-usuario.md) | Específica | Rascunho |
-| 06.03 | [Critérios de aceite](06.03-criterios-de-aceite.md) | Específica prática | Rascunho |
-| 06.04 | [Feature flags](06.04-feature-flags.md) | Específica conceitual/prática | Rascunho |
-| 06.05 | [Experimentos e A/B testing](06.05-experimentos-e-ab-testing.md) | Específica introdutória | Rascunho |
-| 06.06 | [Conectando a Fase 2 ao Frontend e Backend](06.06-conectando-a-fase-2-ao-frontend-e-backend.md) | Específica de transição | Rascunho |
-| 06.07 | [Product Discovery](06.07-product-discovery.md) | Específica | Rascunho |
-| 06.08 | [Priorização](06.08-priorizacao.md) | Específica | Rascunho |
-| 06.09 | [Métricas de Produto](06.09-metricas-de-produto.md) | Específica | Rascunho |
-| 06.10 | [Comunicação com Stakeholders](06.10-comunicacao-com-stakeholders.md) | Específica | Rascunho |
-| 06.11 | [Projeto prático: da ideia à entrega controlada](06.11-projeto-pratico-da-ideia-a-entrega-controlada.md) | Síntese prática | Rascunho |
+| 06.00 | [Engenharia de Produto](06.00-engenharia-de-produto.md) | Guarda-chuva | Auditada |
+| 06.01 | [Requisitos](06.01-requisitos.md) | Específica ampla | Auditada |
+| 06.02 | [Histórias de usuário](06.02-historias-de-usuario.md) | Específica | Auditada |
+| 06.03 | [Critérios de aceite](06.03-criterios-de-aceite.md) | Específica prática | Auditada |
+| 06.04 | [Feature flags](06.04-feature-flags.md) | Específica conceitual/prática | Auditada |
+| 06.05 | [Experimentos e A/B testing](06.05-experimentos-e-ab-testing.md) | Específica introdutória | Auditada |
+| 06.06 | [Conectando a Fase 2 ao Frontend e Backend](06.06-conectando-a-fase-2-ao-frontend-e-backend.md) | Específica de transição | Auditada |
+| 06.07 | [Product Discovery](06.07-product-discovery.md) | Específica | Auditada |
+| 06.08 | [Priorização](06.08-priorizacao.md) | Específica | Auditada |
+| 06.09 | [Métricas de Produto](06.09-metricas-de-produto.md) | Específica | Auditada |
+| 06.10 | [Comunicação com Stakeholders](06.10-comunicacao-com-stakeholders.md) | Específica | Auditada |
+| 06.11 | [Projeto prático: da ideia à entrega controlada](06.11-projeto-pratico-da-ideia-a-entrega-controlada.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

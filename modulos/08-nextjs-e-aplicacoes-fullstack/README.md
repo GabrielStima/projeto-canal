@@ -43,26 +43,26 @@ Next.js aparece nessa transição. Ele continua usando React, mas adiciona conve
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 08.00 | [Next.js e Aplicações Fullstack](08.00-nextjs-e-aplicacoes-fullstack.md) | Guarda-chuva | Rascunho |
-| 08.01 | [Next.js](08.01-nextjs.md) | Específica ampla | Rascunho |
-| 08.02 | [Configurando o Ambiente Next.js](08.02-configurando-o-ambiente-nextjs.md) | Específica prática | Rascunho |
-| 08.03 | [Rotas no App Router](08.03-rotas-no-app-router.md) | Específica | Rascunho |
-| 08.04 | [Layouts](08.04-layouts.md) | Específica | Rascunho |
-| 08.05 | [Estratégias de renderização](08.05-estrategias-de-renderizacao.md) | Guarda-chuva curta | Rascunho |
-| 08.06 | [Server Components](08.06-server-components.md) | Específica | Rascunho |
-| 08.07 | [Client Components](08.07-client-components.md) | Específica | Rascunho |
-| 08.08 | [Composição entre Server e Client Components](08.08-composicao-entre-server-e-client-components.md) | Específica prática | Rascunho |
-| 08.09 | [Loading states e streaming](08.09-loading-states-e-streaming.md) | Específica | Rascunho |
-| 08.10 | [Error boundaries](08.10-error-boundaries.md) | Específica | Rascunho |
-| 08.11 | [Suspense no contexto do Next.js](08.11-suspense-no-contexto-do-nextjs.md) | Específica conceitual | Rascunho |
-| 08.12 | [Chamadas de API e busca de dados](08.12-chamadas-de-api-e-busca-de-dados.md) | Específica prática | Rascunho |
-| 08.13 | [Route Handlers e APIs no Next.js](08.13-route-handlers-e-apis-no-nextjs.md) | Específica prática | Rascunho |
-| 08.14 | [Formulários em Next.js](08.14-formularios-em-nextjs.md) | Específica | Rascunho |
-| 08.15 | [Tipos e validação](08.15-tipos-e-validacao.md) | Específica | Rascunho |
-| 08.16 | [Autenticação no contexto frontend](08.16-autenticacao-no-contexto-frontend.md) | Específica introdutória | Rascunho |
-| 08.17 | [Animações em aplicações Next.js](08.17-animacoes-em-aplicacoes-nextjs.md) | Específica | Rascunho |
-| 08.18 | [Deploy de aplicações Next.js](08.18-deploy-de-aplicacoes-nextjs.md) | Específica prática | Rascunho |
-| 08.19 | [Projeto prático: aplicação fullstack com Next.js](08.19-projeto-pratico-aplicacao-fullstack-com-nextjs.md) | Síntese prática | Rascunho |
+| 08.00 | [Next.js e Aplicações Fullstack](08.00-nextjs-e-aplicacoes-fullstack.md) | Guarda-chuva | Auditada |
+| 08.01 | [Next.js](08.01-nextjs.md) | Específica ampla | Auditada |
+| 08.02 | [Configurando o Ambiente Next.js](08.02-configurando-o-ambiente-nextjs.md) | Específica prática | Auditada |
+| 08.03 | [Rotas no App Router](08.03-rotas-no-app-router.md) | Específica | Auditada |
+| 08.04 | [Layouts](08.04-layouts.md) | Específica | Auditada |
+| 08.05 | [Estratégias de renderização](08.05-estrategias-de-renderizacao.md) | Guarda-chuva curta | Auditada |
+| 08.06 | [Server Components](08.06-server-components.md) | Específica | Auditada |
+| 08.07 | [Client Components](08.07-client-components.md) | Específica | Auditada |
+| 08.08 | [Composição entre Server e Client Components](08.08-composicao-entre-server-e-client-components.md) | Específica prática | Auditada |
+| 08.09 | [Loading states e streaming](08.09-loading-states-e-streaming.md) | Específica | Auditada |
+| 08.10 | [Error boundaries](08.10-error-boundaries.md) | Específica | Auditada |
+| 08.11 | [Suspense no contexto do Next.js](08.11-suspense-no-contexto-do-nextjs.md) | Específica conceitual | Auditada |
+| 08.12 | [Chamadas de API e busca de dados](08.12-chamadas-de-api-e-busca-de-dados.md) | Específica prática | Auditada |
+| 08.13 | [Route Handlers e APIs no Next.js](08.13-route-handlers-e-apis-no-nextjs.md) | Específica prática | Auditada |
+| 08.14 | [Formulários em Next.js](08.14-formularios-em-nextjs.md) | Específica | Auditada |
+| 08.15 | [Tipos e validação](08.15-tipos-e-validacao.md) | Específica | Auditada |
+| 08.16 | [Autenticação no contexto frontend](08.16-autenticacao-no-contexto-frontend.md) | Específica introdutória | Auditada |
+| 08.17 | [Animações em aplicações Next.js](08.17-animacoes-em-aplicacoes-nextjs.md) | Específica | Auditada |
+| 08.18 | [Deploy de aplicações Next.js](08.18-deploy-de-aplicacoes-nextjs.md) | Específica prática | Auditada |
+| 08.19 | [Projeto prático: aplicação fullstack com Next.js](08.19-projeto-pratico-aplicacao-fullstack-com-nextjs.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

@@ -50,19 +50,19 @@ Observabilidade, performance e operação aparecem juntas porque se reforçam. O
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 13.14 | [Análise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Rascunho |
-| 13.15 | [Profiling](13.15-profiling.md) | Específica prática | Rascunho |
-| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Específica prática | Rascunho |
-| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Específica prática | Rascunho |
-| 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Rascunho |
-| 13.19 | [Instrumentação](13.19-instrumentacao.md) | Específica prática | Rascunho |
-| 13.20 | [Telemetria](13.20-telemetria.md) | Específica | Rascunho |
-| 13.21 | [Métricas](13.21-metricas.md) | Específica prática | Rascunho |
-| 13.22 | [Tracing](13.22-tracing.md) | Específica prática | Rascunho |
-| 13.23 | [Monitoramento](13.23-monitoramento.md) | Específica | Rascunho |
-| 13.24 | [Alertas](13.24-alertas.md) | Específica | Rascunho |
-| 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Rascunho |
-| 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Rascunho |
+| 13.14 | [Análise e Performance](13.14-analise-e-performance.md) | Guarda-chuva curta | Auditada |
+| 13.15 | [Profiling](13.15-profiling.md) | Específica prática | Auditada |
+| 13.16 | [Testes de Carga](13.16-testes-de-carga.md) | Específica prática | Auditada |
+| 13.17 | [Logging para Observabilidade](13.17-logging-para-observabilidade.md) | Específica prática | Auditada |
+| 13.18 | [Observabilidade](13.18-observabilidade.md) | Guarda-chuva curta | Auditada |
+| 13.19 | [Instrumentação](13.19-instrumentacao.md) | Específica prática | Auditada |
+| 13.20 | [Telemetria](13.20-telemetria.md) | Específica | Auditada |
+| 13.21 | [Métricas](13.21-metricas.md) | Específica prática | Auditada |
+| 13.22 | [Tracing](13.22-tracing.md) | Específica prática | Auditada |
+| 13.23 | [Monitoramento](13.23-monitoramento.md) | Específica | Auditada |
+| 13.24 | [Alertas](13.24-alertas.md) | Específica | Auditada |
+| 13.25 | [Failure Modes na Prática](13.25-failure-modes-na-pratica.md) | Síntese conceitual/prática | Auditada |
+| 13.26 | [Projeto Prático: Tornando uma API Testável, Observável e Mensurável](13.26-projeto-pratico-tornando-uma-api-testavel-observavel-e-mensuravel.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

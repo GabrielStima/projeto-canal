@@ -49,21 +49,21 @@ No contexto do PetCare OS, este módulo produz a primeira versão navegável do 
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 02.00 | [Frontend Essencial](02.00-frontend-essencial.md) | Guarda-chuva | Rascunho |
-| 02.01 | [HTML](02.01-html.md) | Específica ampla | Rascunho |
-| 02.02 | [Semântica HTML](02.02-semantica-html.md) | Específica | Rascunho |
-| 02.03 | [Formulários HTML](02.03-formularios-html.md) | Específica | Rascunho |
-| 02.04 | [CSS](02.04-css.md) | Específica ampla | Rascunho |
-| 02.05 | [Cascata, Especificidade e Herança](02.05-cascata-especificidade-e-heranca.md) | Específica | Rascunho |
-| 02.06 | [Convenções de Nomenclatura](02.06-convencoes-de-nomenclatura.md) | Específica | Rascunho |
-| 02.07 | [Layout com CSS](02.07-layout-com-css.md) | Específica | Rascunho |
-| 02.08 | [Responsividade](02.08-responsividade.md) | Específica | Rascunho |
-| 02.09 | [JavaScript no Browser](02.09-javascript-no-browser.md) | Específica ampla | Rascunho |
-| 02.10 | [DOM](02.10-dom.md) | Específica | Rascunho |
-| 02.11 | [Eventos](02.11-eventos.md) | Específica | Rascunho |
-| 02.12 | [Acessibilidade](02.12-acessibilidade.md) | Específica transversal | Rascunho |
-| 02.13 | [Browsers e Compatibilidade](02.13-browsers-e-compatibilidade.md) | Síntese | Rascunho |
-| 02.14 | [Projeto Prático: Portal do Tutor Navegável](02.14-projeto-pratico-portal-do-tutor-navegavel.md) | Síntese prática | Rascunho |
+| 02.00 | [Frontend Essencial](02.00-frontend-essencial.md) | Guarda-chuva | Auditada |
+| 02.01 | [HTML](02.01-html.md) | Específica ampla | Auditada |
+| 02.02 | [Semântica HTML](02.02-semantica-html.md) | Específica | Auditada |
+| 02.03 | [Formulários HTML](02.03-formularios-html.md) | Específica | Auditada |
+| 02.04 | [CSS](02.04-css.md) | Específica ampla | Auditada |
+| 02.05 | [Cascata, Especificidade e Herança](02.05-cascata-especificidade-e-heranca.md) | Específica | Auditada |
+| 02.06 | [Convenções de Nomenclatura](02.06-convencoes-de-nomenclatura.md) | Específica | Auditada |
+| 02.07 | [Layout com CSS](02.07-layout-com-css.md) | Específica | Auditada |
+| 02.08 | [Responsividade](02.08-responsividade.md) | Específica | Auditada |
+| 02.09 | [JavaScript no Browser](02.09-javascript-no-browser.md) | Específica ampla | Auditada |
+| 02.10 | [DOM](02.10-dom.md) | Específica | Auditada |
+| 02.11 | [Eventos](02.11-eventos.md) | Específica | Auditada |
+| 02.12 | [Acessibilidade](02.12-acessibilidade.md) | Específica transversal | Auditada |
+| 02.13 | [Browsers e Compatibilidade](02.13-browsers-e-compatibilidade.md) | Síntese | Auditada |
+| 02.14 | [Projeto Prático: Portal do Tutor Navegável](02.14-projeto-pratico-portal-do-tutor-navegavel.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

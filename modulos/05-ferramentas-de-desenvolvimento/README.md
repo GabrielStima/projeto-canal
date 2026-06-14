@@ -64,24 +64,24 @@ Esse repositório será retomado nos próximos módulos.
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 05.00 | [Ferramentas de Desenvolvimento](05.00-ferramentas-de-desenvolvimento.md) | Guarda-chuva | Rascunho |
-| 05.01 | [Editor/IDE e produtividade](05.01-editor-ide-e-produtividade.md) | Específica ampla | Rascunho |
-| 05.02 | [Terminal e linha de comando](05.02-terminal-e-linha-de-comando.md) | Guarda-chuva curta | Rascunho |
-| 05.03 | [Shell básico](05.03-shell-basico.md) | Específica prática | Rascunho |
-| 05.04 | [Ambientes de desenvolvimento](05.04-ambientes-de-desenvolvimento.md) | Específica ampla | Rascunho |
-| 05.05 | [Variáveis de ambiente](05.05-variaveis-de-ambiente.md) | Específica | Rascunho |
-| 05.06 | [Versionamento semântico](05.06-versionamento-semantico.md) | Específica conceitual | Rascunho |
-| 05.07 | [Gerenciadores de pacote](05.07-gerenciadores-de-pacote.md) | Guarda-chuva curta | Rascunho |
-| 05.08 | [npm, pnpm e yarn](05.08-npm-pnpm-e-yarn.md) | Específica comparativa | Rascunho |
-| 05.09 | [VCS: controle de versão](05.09-vcs-controle-de-versao.md) | Guarda-chuva | Rascunho |
-| 05.10 | [Git](05.10-git.md) | Específica prática | Rascunho |
-| 05.11 | [VCS hosting](05.11-vcs-hosting.md) | Guarda-chuva curta | Rascunho |
-| 05.12 | [GitHub](05.12-github.md) | Específica prática | Rascunho |
-| 05.13 | [Linter e formatters](05.13-linter-e-formatters.md) | Específica | Rascunho |
-| 05.14 | [Module bundlers](05.14-module-bundlers.md) | Guarda-chuva curta | Rascunho |
-| 05.15 | [Documentação mínima de projeto](05.15-documentacao-minima-de-projeto.md) | Específica prática | Rascunho |
-| 05.16 | [Code review](05.16-code-review.md) | Específica prática | Rascunho |
-| 05.17 | [Projeto prático: fluxo profissional de desenvolvimento](05.17-projeto-pratico-fluxo-profissional-de-desenvolvimento.md) | Síntese prática | Rascunho |
+| 05.00 | [Ferramentas de Desenvolvimento](05.00-ferramentas-de-desenvolvimento.md) | Guarda-chuva | Auditada |
+| 05.01 | [Editor/IDE e produtividade](05.01-editor-ide-e-produtividade.md) | Específica ampla | Auditada |
+| 05.02 | [Terminal e linha de comando](05.02-terminal-e-linha-de-comando.md) | Guarda-chuva curta | Auditada |
+| 05.03 | [Shell básico](05.03-shell-basico.md) | Específica prática | Auditada |
+| 05.04 | [Ambientes de desenvolvimento](05.04-ambientes-de-desenvolvimento.md) | Específica ampla | Auditada |
+| 05.05 | [Variáveis de ambiente](05.05-variaveis-de-ambiente.md) | Específica | Auditada |
+| 05.06 | [Versionamento semântico](05.06-versionamento-semantico.md) | Específica conceitual | Auditada |
+| 05.07 | [Gerenciadores de pacote](05.07-gerenciadores-de-pacote.md) | Guarda-chuva curta | Auditada |
+| 05.08 | [npm, pnpm e yarn](05.08-npm-pnpm-e-yarn.md) | Específica comparativa | Auditada |
+| 05.09 | [VCS: controle de versão](05.09-vcs-controle-de-versao.md) | Guarda-chuva | Auditada |
+| 05.10 | [Git](05.10-git.md) | Específica prática | Auditada |
+| 05.11 | [VCS hosting](05.11-vcs-hosting.md) | Guarda-chuva curta | Auditada |
+| 05.12 | [GitHub](05.12-github.md) | Específica prática | Auditada |
+| 05.13 | [Linter e formatters](05.13-linter-e-formatters.md) | Específica | Auditada |
+| 05.14 | [Module bundlers](05.14-module-bundlers.md) | Guarda-chuva curta | Auditada |
+| 05.15 | [Documentação mínima de projeto](05.15-documentacao-minima-de-projeto.md) | Específica prática | Auditada |
+| 05.16 | [Code review](05.16-code-review.md) | Específica prática | Auditada |
+| 05.17 | [Projeto prático: fluxo profissional de desenvolvimento](05.17-projeto-pratico-fluxo-profissional-de-desenvolvimento.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 

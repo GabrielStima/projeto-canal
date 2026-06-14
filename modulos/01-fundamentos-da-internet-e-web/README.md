@@ -51,17 +51,17 @@ Este módulo prepara a base para responder essas perguntas sem depender de decor
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 01.00 | [Fundamentos da Internet e da Web](01.00-fundamentos-da-internet-e-da-web.md) | Guarda-chuva | Rascunho |
-| 01.01 | [Internet vs Web](01.01-internet-vs-web.md) | Específica | Rascunho |
-| 01.02 | [Cliente, servidor, request, response e estado](01.02-cliente-servidor-request-response-e-estado.md) | Específica | Rascunho |
-| 01.03 | [Protocolos](01.03-protocolos.md) | Específica ampla | Rascunho |
-| 01.04 | [DNS](01.04-dns.md) | Específica | Rascunho |
-| 01.05 | [Servidores](01.05-servidores.md) | Específica | Rascunho |
-| 01.06 | [Browsers](01.06-browsers.md) | Específica | Rascunho |
-| 01.07 | [HTTP](01.07-http.md) | Específica | Rascunho |
-| 01.08 | [Cache HTTP](01.08-cache-http.md) | Específica | Rascunho |
-| 01.09 | [Frontend e backend como papéis na Web](01.09-frontend-e-backend-como-papeis-na-web.md) | Específica | Rascunho |
-| 01.10 | [O caminho completo de uma requisição Web](01.10-caminho-completo-de-uma-requisicao-web.md) | Síntese | Rascunho |
+| 01.00 | [Fundamentos da Internet e da Web](01.00-fundamentos-da-internet-e-da-web.md) | Guarda-chuva | Auditada |
+| 01.01 | [Internet vs Web](01.01-internet-vs-web.md) | Específica | Auditada |
+| 01.02 | [Cliente, servidor, request, response e estado](01.02-cliente-servidor-request-response-e-estado.md) | Específica | Auditada |
+| 01.03 | [Protocolos](01.03-protocolos.md) | Específica ampla | Auditada |
+| 01.04 | [DNS](01.04-dns.md) | Específica | Auditada |
+| 01.05 | [Servidores](01.05-servidores.md) | Específica | Auditada |
+| 01.06 | [Browsers](01.06-browsers.md) | Específica | Auditada |
+| 01.07 | [HTTP](01.07-http.md) | Específica | Auditada |
+| 01.08 | [Cache HTTP](01.08-cache-http.md) | Específica | Auditada |
+| 01.09 | [Frontend e backend como papéis na Web](01.09-frontend-e-backend-como-papeis-na-web.md) | Específica | Auditada |
+| 01.10 | [O caminho completo de uma requisição Web](01.10-caminho-completo-de-uma-requisicao-web.md) | Síntese | Auditada |
 
 ## Trilha de Estudo
 

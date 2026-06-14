@@ -46,31 +46,31 @@ Backend com Node.js aparece aqui para consolidar fundamentos antes de entrar em 
 
 | Ordem | Aula | Tipo | Status |
 | --- | --- | --- | --- |
-| 10.00 | [Backend com Node.js](10.00-backend-com-nodejs.md) | Guarda-chuva | Rascunho |
-| 10.01 | [Node.js](10.01-nodejs.md) | Específica ampla | Rascunho |
-| 10.02 | [Runtime](10.02-runtime.md) | Específica conceitual | Rascunho |
-| 10.03 | [Event Loop no Node.js](10.03-event-loop-no-nodejs.md) | Específica | Rascunho |
-| 10.04 | [Módulos no Node.js](10.04-modulos-no-nodejs.md) | Específica prática | Rascunho |
-| 10.05 | [CLI com Node.js](10.05-cli-com-nodejs.md) | Específica prática | Rascunho |
-| 10.06 | [Servidor HTTP com Node.js Puro](10.06-servidor-http-com-nodejs-puro.md) | Específica prática | Rascunho |
-| 10.07 | [Frameworks Backend](10.07-frameworks-backend.md) | Guarda-chuva curta | Rascunho |
-| 10.08 | [APIs](10.08-apis.md) | Guarda-chuva curta | Rascunho |
-| 10.09 | [JSON APIs](10.09-json-apis.md) | Específica prática | Rascunho |
-| 10.10 | [REST](10.10-rest.md) | Específica ampla | Rascunho |
-| 10.11 | [SOAP](10.11-soap.md) | Específica comparativa | Rascunho |
-| 10.12 | [GraphQL](10.12-graphql.md) | Específica comparativa | Rascunho |
-| 10.13 | [OpenAPI Specs](10.13-openapi-specs.md) | Específica introdutória | Rascunho |
-| 10.14 | [Logging](10.14-logging.md) | Específica prática | Rascunho |
-| 10.15 | [Working with DB](10.15-working-with-db.md) | Específica prática | Rascunho |
-| 10.16 | [ACID no Backend](10.16-acid-no-backend.md) | Específica conceitual | Rascunho |
-| 10.17 | [Normalization no Backend](10.17-normalization-no-backend.md) | Específica conceitual | Rascunho |
-| 10.18 | [ORMs](10.18-orms.md) | Específica prática | Rascunho |
-| 10.19 | [Failure Modes](10.19-failure-modes.md) | Guarda-chuva curta | Rascunho |
-| 10.20 | [Threads e Workers](10.20-threads-e-workers.md) | Específica conceitual/prática | Rascunho |
-| 10.21 | [Profiling Performance](10.21-profiling-performance.md) | Específica prática | Rascunho |
-| 10.22 | [Message Brokers](10.22-message-brokers.md) | Guarda-chuva curta | Rascunho |
-| 10.23 | [Motores de Busca](10.23-motores-de-busca.md) | Específica introdutória | Rascunho |
-| 10.24 | [Projeto Prático: API Backend com Node.js](10.24-projeto-pratico-api-backend-com-nodejs.md) | Síntese prática | Rascunho |
+| 10.00 | [Backend com Node.js](10.00-backend-com-nodejs.md) | Guarda-chuva | Auditada |
+| 10.01 | [Node.js](10.01-nodejs.md) | Específica ampla | Auditada |
+| 10.02 | [Runtime](10.02-runtime.md) | Específica conceitual | Auditada |
+| 10.03 | [Event Loop no Node.js](10.03-event-loop-no-nodejs.md) | Específica | Auditada |
+| 10.04 | [Módulos no Node.js](10.04-modulos-no-nodejs.md) | Específica prática | Auditada |
+| 10.05 | [CLI com Node.js](10.05-cli-com-nodejs.md) | Específica prática | Auditada |
+| 10.06 | [Servidor HTTP com Node.js Puro](10.06-servidor-http-com-nodejs-puro.md) | Específica prática | Auditada |
+| 10.07 | [Frameworks Backend](10.07-frameworks-backend.md) | Guarda-chuva curta | Auditada |
+| 10.08 | [APIs](10.08-apis.md) | Guarda-chuva curta | Auditada |
+| 10.09 | [JSON APIs](10.09-json-apis.md) | Específica prática | Auditada |
+| 10.10 | [REST](10.10-rest.md) | Específica ampla | Auditada |
+| 10.11 | [SOAP](10.11-soap.md) | Específica comparativa | Auditada |
+| 10.12 | [GraphQL](10.12-graphql.md) | Específica comparativa | Auditada |
+| 10.13 | [OpenAPI Specs](10.13-openapi-specs.md) | Específica introdutória | Auditada |
+| 10.14 | [Logging](10.14-logging.md) | Específica prática | Auditada |
+| 10.15 | [Working with DB](10.15-working-with-db.md) | Específica prática | Auditada |
+| 10.16 | [ACID no Backend](10.16-acid-no-backend.md) | Específica conceitual | Auditada |
+| 10.17 | [Normalization no Backend](10.17-normalization-no-backend.md) | Específica conceitual | Auditada |
+| 10.18 | [ORMs](10.18-orms.md) | Específica prática | Auditada |
+| 10.19 | [Failure Modes](10.19-failure-modes.md) | Guarda-chuva curta | Auditada |
+| 10.20 | [Threads e Workers](10.20-threads-e-workers.md) | Específica conceitual/prática | Auditada |
+| 10.21 | [Profiling Performance](10.21-profiling-performance.md) | Específica prática | Auditada |
+| 10.22 | [Message Brokers](10.22-message-brokers.md) | Guarda-chuva curta | Auditada |
+| 10.23 | [Motores de Busca](10.23-motores-de-busca.md) | Específica introdutória | Auditada |
+| 10.24 | [Projeto Prático: API Backend com Node.js](10.24-projeto-pratico-api-backend-com-nodejs.md) | Síntese prática | Auditada |
 
 ## Trilha de Estudo
 
